@@ -1,0 +1,57 @@
+<root>
+    <metadata>
+        <artist>The Band</artist>
+        <nationality>Bandland</nationality>
+        <subgenre>Band Rock</subgenre>
+    </metadata>
+
+    <album name="The Band" date="1971">
+        <title>
+            <w pos="DET">The</w>
+            <w pos="NOUN">Band</w>
+        </title>
+        <track-1 style="SIMPLE">
+            <w pos="DET">The</w>
+            <w pos="ADJ">Band</w>
+            <w pos="NOUN">Song</w>
+        </track-1>
+        <track-2 style="ECLECTIC">
+            <w pos="ADJ">Colorless</w>
+            <w pos="ADJ">Green</w>
+            <w pos="NOUN">Ideas</w>
+            <w pos="VERB">Sleep</w>
+            <w pos="ADV">Furiously</w>
+        </track-2>
+        <track-3 style="SIMPLE" title_track="TRUE">
+            <w pos="DET">The</w>
+            <w pos="NOUN">Band</w>
+        </track-3>
+        <track-4 style="SIMPLE" classics_ref="TRUE">
+            <w pos="NOUN">Campfire</w>
+            <w pos="PREP">of</w>
+            <w pos="PROP">Promethius</w>
+        </track-4>
+        <track-5 style="SIMPLE" contemparary_ref="TRUE">
+            <w pos="PROP">Biden</w>
+            <w pos="VERB">Plays</w>
+            <w pos="DET">the</w>
+            <w pos="NOUN">Blues</w>
+        </track-5>
+        <track-6 style="COMPLEX">
+            <w pos="PRO">I</w>
+            <w pos="VERB">Call</w>
+            <w pos="PREP">to</w>
+            <w pos="DET">the</w>
+            <w pos="NOUN">Void</w>
+            <w pos="PUN">,</w>
+            <w pos="CONJ">and</w>
+            <w pos="DET">the</w>
+            <w pos="NOUN">Void</w>
+            <w pos="VERB">Responds</w>
+            <w pos="PREP">With</w>
+            <w pos="NOUN">Jazz</w>
+            <w pos="PUNC">!</w>
+        </track-6>
+    </album>
+
+</root>
