@@ -1,7 +1,8 @@
 import re
 
-
-input_file = open("album_piper_at_the_gates_of_dawn.html", "r")
+path1 = "Albums/album_piper_at_the_gates_of_dawn.html"
+path2 = "Albums/album_foxtrot.html"
+input_file = open(path2, "r")
 
 has_tracks = False
 has_title = False
@@ -34,23 +35,37 @@ for i in range(0, 400):
         #   [track number, time, [array, of, words]]
         j = 0
         for i in line_array:
-            r = re.compile(r'([0-9]+)(.*?)(\([^)]*\))')
-            #print(r.sub(r'\1 \3\2', i))
-            
+
             data_array.append([])
 
-            data_array[j].append(r.sub(r'\1 ', i))
-            data_array[j].append(r.sub(r'\3', i))
-            data_array[j].append(r.sub(r'\2', i))
+            i = re.sub(r':$',"", i)
+
+            if i[0] == "-":
+                r = re.compile(r'(-)( .*? )(.*?)$')
+                #data_array[j].append(r.sub(r'\1 ', i))
+                #data_array[j].append("-")
+                data_array[j].append("-")
+                data_array[j].append("-:-")
+                data_array[j].append(r.sub(r'\3', i))
+            else:
+                r = re.compile(r'([0-9]+.)(.*?)(\([^)]*\))')
+                data_array[j].append(r.sub(r'\1 ', i))
+                data_array[j].append(r.sub(r'\3', i))
+                data_array[j].append(r.sub(r'\2', i))
+
+            #print(r.sub(r'\1 |\3|\2', i))
+            
+            
 
             data_array[j][0] = data_array[j][0].replace(" ", "")
-            data_array[j][1] = data_array[j][1].replace("(", "").replace(")", "")
+            data_array[j][0] = re.sub(r'\.$', '', data_array[j][0])
+            data_array[j][1] = data_array[j][1].replace("(", "").replace(")", "").replace(" ", "")
 
             data_array[j][2] = re.sub(r'^.\s', '', data_array[j][2])
             data_array[j][2] = re.sub(r' $', '', data_array[j][2])
             data_array[j][2] = data_array[j][2].split(" ")
 
-            print(data_array[j])
+            print(data_array[j]) # DEBUG
 
             j += 1
 
@@ -65,7 +80,7 @@ for i in range(0, 400):
             xml_string += "</tr>\n"
 
 
-        print(xml_string)
+        #print(xml_string) # DEBUG
 
     if (re.search("Songs / Tracks Listing", input_line)):
         has_tracks = True
