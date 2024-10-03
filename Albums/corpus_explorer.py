@@ -9,7 +9,7 @@ class MainUI(QMainWindow):
 
         loadUi("corpus_gui.ui", self)
 
-        self.pushButton.clicked.connect(self.clickhandler)
+        #self.pushButton.clicked.connect(self.clickhandler)
 
     def clickhandler(self):
         print("Hello World")
