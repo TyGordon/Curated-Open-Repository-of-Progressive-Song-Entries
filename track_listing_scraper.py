@@ -92,20 +92,19 @@ for i in os.listdir("Albums"):
                     i = re.sub(r':$',"", i)
 
                     if i != "" and i[0]== "-":
-                        r = re.compile(r'(-)( .*? )(.*?)$')
+                        r = re.compile(r'(-)(.*?)(.*?)$')
                         #data_array[j].append(r.sub(r'\1 ', i))
                         #data_array[j].append("-")
                         data_array[j].append("-")
                         data_array[j].append("-")
                         data_array[j].append(r.sub(r'\3', i))
                     else:
-                        r = re.compile(r'([0-9]+.)(.*?)(\([^)]*\))')
+                        r = re.compile(r'([0-9]+.)(.*?)(\([^)]*\))$')
                         data_array[j].append(r.sub(r'\1 ', i))
                         data_array[j].append(r.sub(r'\3', i))
                         data_array[j].append(r.sub(r'\2', i))
 
                     #print(r.sub(r'\1 |\3|\2', i))
-                    
                     
 
                     data_array[j][0] = data_array[j][0].replace(" ", "")
