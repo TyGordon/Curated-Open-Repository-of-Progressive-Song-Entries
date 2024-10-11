@@ -19,6 +19,15 @@
     2. corpus_gui.ui - A QT ui file used for render the explorer GUI.
     3. reasources.qrc- a qrc file used by QT to load images, etc.
 
+## WHAT'S NEEDED
+    These resources are nessessary for re-assembling the corpus:
+    - Microsoft Windows 10/11 OS (linux/mac are untested)
+    - curl for Windows (for curl_maker.py to work)
+    - Python, pip (for .py programs)
+    - NTLK (use pip) (used for POS tagging)
+    - QT and pyqt (use pip) (used for GUI)
+
+    Otherwise, just running the CORPSE_Explorer.exe should work with no added software
 
 ## ARTISTS TO INCLUDE:
 
@@ -97,12 +106,12 @@ Jethro Tull (14)
 + [A Passion Play](https://www.progarchives.com/album.asp?id=2022)
 + [War Child](https://www.progarchives.com/album.asp?id=2021)
 + [Minstrl in the Gallery](https://www.progarchives.com/album.asp?id=2023)
-+ [Too Old To Rock 'n' Roll: Too Young to Die!](https://www.progarchives.com/album.asp?id=2025)
++ [Too Old To Rock 'n' Roll Too Young to Die!](https://www.progarchives.com/album.asp?id=2025)
 + [Songs from the Wood](https://www.progarchives.com/album.asp?id=2027)
 + [Heavy Horses](https://www.progarchives.com/album.asp?id=2028)
 + [Stormwatch](https://www.progarchives.com/album.asp?id=2030)
 + [A](https://www.progarchives.com/album.asp?id=2031)
-+ [The Broadsword And the Beast](https://www.progarchives.com/album.asp?id=2032)
++ [The Broadsword and the Beast](https://www.progarchives.com/album.asp?id=2032)
 
 
 Emerson Lake and Palmer (7)
@@ -137,7 +146,7 @@ Van Der Graaf Generator (8)
 + [Godbluff](https://www.progarchives.com/album.asp?id=1419)
 + [Still Life](https://www.progarchives.com/album.asp?id=1420)
 + [World Record](https://www.progarchives.com/album.asp?id=1421)
-+ [The Quiet Zone / The Pleasure Dome](https://www.progarchives.com/album.asp?id=1422)
++ [The Quiet Zone - The Pleasure Dome](https://www.progarchives.com/album.asp?id=1422)
 
 Camel (10)
 + [Camel](https://www.progarchives.com/album.asp?id=327)
@@ -235,7 +244,7 @@ UK (2)
 
 Supertramp (4)
 + [Crime of the Century](https://www.progarchives.com/album.asp?id=1251)
-+ [Crisis? What Crisis?](https://www.progarchives.com/album.asp?id=1252)
++ [Crisis What Crisis](https://www.progarchives.com/album.asp?id=1252)
 + [Even in the Quietest Moments...](https://www.progarchives.com/album.asp?id=1253)
 + [Breakfast in America](https://www.progarchives.com/album.asp?id=1254)
 
@@ -275,7 +284,7 @@ Styx (11)
 
 ### Solo Artists
 
-Frank Zappa / The Mothers of Invention (27)
+Frank Zappa (27)
 + [Lumpy Gravy](https://www.progarchives.com/album.asp?id=5285)
 + [We're Only in It for the Money](https://www.progarchives.com/album.asp?id=5328)
 + [Uncle Meat](https://www.progarchives.com/album.asp?id=5329)
@@ -284,7 +293,7 @@ Frank Zappa / The Mothers of Invention (27)
 + [Weasels Ripped My Flesh](https://www.progarchives.com/album.asp?id=5427)
 + [Chunga's Revenge](https://www.progarchives.com/album.asp?id=5341)
 + [200 Motels](https://www.progarchives.com/album.asp?id=5447)
-+ [Waka / Jawaka](https://www.progarchives.com/album.asp?id=5426)
++ [Waka - Jawaka](https://www.progarchives.com/album.asp?id=5426)
 + [The Grand Wazoo](https://www.progarchives.com/album.asp?id=5416)
 + [Over-Nite Sensation](https://www.progarchives.com/album.asp?id=5404)
 + [Apostrophe (')](https://www.progarchives.com/album.asp?id=5334)
@@ -413,11 +422,11 @@ Gong (8)
 
 Magma (7)
 + [Magma](https://www.progarchives.com/album.asp?id=3303)
-+ [1001° Centigrades](https://www.progarchives.com/album.asp?id=3304)
-+ [Mëkanïk Destruktïv Kömmandöh](https://www.progarchives.com/album.asp?id=3306)
-+ [Ẁurdah Ïtah](https://www.progarchives.com/album.asp?id=7792)
-+ [Köhntarkösz](https://www.progarchives.com/album.asp?id=3307)
-+ [Üdü Ẁüdü](https://www.progarchives.com/album.asp?id=3309)
++ [1001 Centigrades](https://www.progarchives.com/album.asp?id=3304)
++ [Mekanik Destruktiv Kommandoh](https://www.progarchives.com/album.asp?id=3306)
++ [Qurdah Itah](https://www.progarchives.com/album.asp?id=7792)
++ [Kohntarkosz](https://www.progarchives.com/album.asp?id=3307)
++ [Udu Wudu](https://www.progarchives.com/album.asp?id=3309)
 + [Attahk](https://www.progarchives.com/album.asp?id=3310)
 
 ### Fusion Bands
@@ -443,7 +452,7 @@ Ekseption (8)
 + [Ekseption](https://www.progarchives.com/album.asp?id=6480)
 + [Beggar Julia's Time Trip](https://www.progarchives.com/album.asp?id=6481)
 + [Ekseption 3](https://www.progarchives.com/album.asp?id=6482)
-+ [00:04](https://www.progarchives.com/album.asp?id=6483)
++ [00-04](https://www.progarchives.com/album.asp?id=6483)
 + [Ekspetion 5](https://www.progarchives.com/album.asp?id=6484)
 + [Trinity](https://www.progarchives.com/album.asp?id=6485)
 + [Bingo](https://www.progarchives.com/album.asp?id=6486)
@@ -460,7 +469,7 @@ Can (3)
 + [Ege Bamyasi](https://www.progarchives.com/album.asp?id=3509)
 + [Future Days](https://www.progarchives.com/album.asp?id=3510)
 
-Amon Düül II (1)
+Amon Duul II (1)
 + [Yeti](https://www.progarchives.com/album.asp?id=4691)
 
 Neu! (1)
@@ -513,7 +522,7 @@ New Trolls (4)
 + [Concerto Grosso Per I New Trolls](https://www.progarchives.com/album.asp?id=2842)
 + [Searching for a Land](https://www.progarchives.com/album.asp?id=2844)
 + [UT](https://www.progarchives.com/album.asp?id=2843)
-+ [Concerto Grosso Nº 2](https://www.progarchives.com/album.asp?id=2845)
++ [Concerto Grosso No 2](https://www.progarchives.com/album.asp?id=2845)
 
 Maxophone (1)
 + [Maxophone](https://www.progarchives.com/album.asp?id=922)
@@ -562,11 +571,11 @@ Fusioon (3)
 
 Avtograf (Autograph) (2)
 + [Avtograf 1](https://www.progarchives.com/album.asp?id=10660)
-+ [Avtograf 2](https://www.youtube.com/watch?v=HG4pLt8ZppI)
+- [Avtograf 2](https://www.youtube.com/watch?v=HG4pLt8ZppI) <-- YouTube Link
 
 East (2)
-+ [Játékok](https://www.progarchives.com/album.asp?id=279)
-+ [Hüség](https://www.progarchives.com/album.asp?id=280)
++ [Jatekok](https://www.progarchives.com/album.asp?id=279)
++ [Huseg](https://www.progarchives.com/album.asp?id=280)
 
 ## TRACK TAGS
     index
@@ -723,7 +732,9 @@ Before tagging, wget the page, translate (if applicable), pass through track_lis
 
 ## HELPFULL LINKS
 [POS Tagging - geeksforgeeks](https://www.geeksforgeeks.org/part-speech-tagging-stop-words-using-nltk-python/)
+
 [Xpath tips](http://www.whitebeam.org/library/guide/TechNotes/xpath.rhtm)
+
 [Xpath parser](http://xpather.com/)
 
 //album/tr[w/@lemma="the" or w/@lemma="vera"]

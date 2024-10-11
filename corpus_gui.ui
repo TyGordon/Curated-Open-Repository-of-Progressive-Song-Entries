@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>912</width>
+    <width>923</width>
     <height>786</height>
    </rect>
   </property>
@@ -100,7 +100,7 @@
           <string/>
          </property>
          <property name="pixmap">
-          <pixmap>corpus_logo_transparent.png</pixmap>
+          <pixmap>Images/corpus_logo_transparent.png</pixmap>
          </property>
          <property name="scaledContents">
           <bool>true</bool>
@@ -1317,7 +1317,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>912</width>
+     <width>923</width>
      <height>25</height>
     </rect>
    </property>
