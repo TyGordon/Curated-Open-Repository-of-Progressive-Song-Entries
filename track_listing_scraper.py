@@ -6,6 +6,8 @@ from nltk.tokenize import word_tokenize, sent_tokenize
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import wordnet
 
+# Line number constants
+RATING_LINE = 20 - 1
 DATE_LINE = 55 - 1
 LISTING_LINE = 57 - 1
 
@@ -14,39 +16,21 @@ LISTING_LINE = 57 - 1
 #filename = os.path.join(dirname, 'relative/path/to/file/you/want')
 
 # Iterate over all files in "/Albums"
-for i in os.listdir("Albums"):
+for d in os.listdir("Albums"):
     
-    if "[Hatfield_and_the_North]Hatfield_and_the_North" in i:
-        path = ("Albums/" + str(i))
+    if "[Hatfield_and_the_North]Hatfield_and_the_North" in d:
+        path = ("Albums/" + str(d))
 
         has_tracks = False
         has_title = False
 
-        artist_string = date_string = output_string = listing_string = ""
+        #ar
+
+        artist_string = date_string = output_string = listing_string = rating_string = ""
 
         with open(path, 'r') as input_file:
             line_num = 0
             for input_line in input_file:
-
-                if has_title:
-                    has_title = False
-
-                    date_string = input_line[input_line.index(" (") - (len(" (") - 4):]
-                    date_string = date_string[:date_string.index(")")]
-
-                    # Cull everything after the song title
-                    input_line = input_line[:input_line.index(" (") - (len(" (") - 2)]
-
-                    artist_string = input_line[:input_line.index(" - ") - (len(" - ") - 3)]
-
-                    artist_string = artist_string[artist_string.index("content=\"") - (len("content=\"") - 18):]
-
-                    # Cull everything before the song title
-                    input_line = input_line[input_line.index(" - ") - (len(" - ") - 6):]
-
-                    #print(artist_string + " | " + date_string + " | " + input_line)
-                    
-                    output_string = "<album name=\"" + input_line + "\" date=\"" + date_string + "\">\n"
 
                 if has_tracks:
                     has_tracks = False
@@ -146,15 +130,26 @@ for i in os.listdir("Albums"):
                 if line_num == DATE_LINE:
 
                     # REGEX-out the date
-                    r = re.compile(r'(.*?in )([0-9]*?)(<.*)')
+                    DATE_REGEX = '(.*?in )([0-9]*?)(<.*)'
+                    r = re.compile(DATE_REGEX)
                     date_string = re.sub(r, r'\2', input_line)
 
-                    print(date_string)
+                    print("Date: " + date_string) # DEBUG
+
+                elif line_num == RATING_LINE:
+
+                    # REGEX-out the rating
+                    RATING_REGEX = '^(.*?)([0-9].[0-9][0-9])([0-9]*?[)][;])$'
+                    r = re.compile(RATING_REGEX)
+                    rating_string = re.sub(r, r'\2', input_line)
+
+                    print("Rating: " + rating_string) # DEBUG
 
                 elif line_num == LISTING_LINE:
 
                     # REGEX-out the track listing
-                    r = re.compile(r'(.*?">)(.*?)(Total Time.*?)$')
+                    LISTING_REGEX = '(.*?">)(.*?)(Total Time.*?)$'
+                    r = re.compile(LISTING_REGEX)
                     listing_string = re.sub(r, r'\2', input_line).replace("<br>", "\n")[0:-2]
 
                     listing_array = listing_string.splitlines()
@@ -197,8 +192,8 @@ for i in os.listdir("Albums"):
 
                         i[2] = tagged 
 
-                    for i in formatted_array:
-                        print(i)
+                    #for i in formatted_array:
+                    #    print(i)
 
                     #print(listing_array)
 

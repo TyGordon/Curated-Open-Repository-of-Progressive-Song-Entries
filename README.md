@@ -1,11 +1,28 @@
 # Curated Open Repository of Progressive Song Entries (CORPSE)
 
 ### This document covers many components of the CORPSE project including:
-1. What's included in the project
-2. Which bands and albums to use (Roughly 370 Albums)
+1. What's included in the project, and how to use it
+2. Which bands and albums are used (Roughly 370 Albums)
 3. How to tag the words
 
-## WHAT'S INCLUDED
+### Table of Contents
+1. [Overview](#overview)
+2. [Artist List](#artist-list)
+    - [The Big Seven](#the-big-seven)
+    - [Secondary Bands](#secondary-bands)
+    - [Solo Artists](#solo-artists)
+    - [Canturbury Scene](#canterbury-scene)
+    - [Fusion](#fusion)
+    - [Krautrock](#krautrock)
+    - [RPI](#rock-progressivo-italiano-rpi)
+    - [International](#international)
+    - [Artists to Include](#artists-to-include)
+3. [Track Tags](#tagging)
+4. [Misc](#misc)
+
+## OVERVIEW
+
+### What's Included
     The CORPSE Corpus consists of two main tools and the data contained within the corpus (both raw html and formatted xml files). The tools CORPSE Maker and CORPSE Explorer are made up of the following subcomponents:
 
     CORPSE MAKER
@@ -19,7 +36,7 @@
     2. corpus_gui.ui - A QT ui file used for render the explorer GUI.
     3. reasources.qrc- a qrc file used by QT to load images, etc.
 
-## WHAT'S NEEDED
+### What's Needed
     These resources are nessessary for re-assembling the corpus:
     - Microsoft Windows 10/11 OS (linux/mac are untested)
     - curl for Windows (for curl_maker.py to work)
@@ -29,7 +46,10 @@
 
     Otherwise, just running the CORPSE_Explorer.exe should work with no added software
 
-## ARTISTS TO INCLUDE:
+### How To Use This Project
+    1. Open the .exe
+
+## ARTIST LIST
 
 ### The "Big Seven"
 
@@ -429,7 +449,7 @@ Magma (7)
 + [Udu Wudu](https://www.progarchives.com/album.asp?id=3309)
 + [Attahk](https://www.progarchives.com/album.asp?id=3310)
 
-### Fusion Bands
+### Fusion
 
 Mahavishnu Orchestra (4)
 + [The Inner Mounting Flame](https://www.progarchives.com/album.asp?id=3356)
@@ -577,42 +597,56 @@ East (2)
 + [Jatekok](https://www.progarchives.com/album.asp?id=279)
 + [Huseg](https://www.progarchives.com/album.asp?id=280)
 
-## TRACK TAGS
-    index
+### Artists To Include:
+    - The Who
+
+## TAGGING
+
+### Artist Tags
+    artist-name
+        Name of the artist.
+    sub-genre
+        Prog archives sub-genre.
+
+### Album Tags
+    album-name
+        - Name of the album.
+    album-rating
+        - Prog archives cumulative user rating.
+    album-length
+        - Duration of the album.
+
+### Track Tags
+    tr-index
         - The total index of the track in the album. Do not restart count when the side changes.
-    length
+    tr-length
         - Duration of the track.
-    count
+    w-count
         - Word count of the track.
-    type
-        - stantard
+    *?tr-type (could be automated)
+        - standard
         - main-track
         - part-track
         - compound-track
 
+    Manual Tags:
+        has-pun="true"
+        made-up="true"
+        poorly-formed="true"
+        non-semantic="true"
+        not-english="true"
 
-    has-pun="true"
-    made-up="true"
-    poorly-formed="true"
-    non-semantic="true"
-    not-english="true"
+        imprecise-translation="true"
+        title-track="true"
+        hidden-track="true"
+        single="true"
 
-    imprecise-translation="true"
-    title-track="true"
-    hidden-track="true"
-    single="true"
-
-
-    
-
-## WORD TAGS
+### Word Tags
     pos
         - Part of Speech of the word (using an auto-tagger).
     lemma
         - The lemmatized form of the word (ie. Dogs, doggies, dog, dawg -> lemma="dog").
     
-
-
 
 ## Manual Tagging Procedure
 
@@ -624,7 +658,7 @@ Before tagging, wget the page, translate (if applicable), pass through track_lis
 4. Do the other tags
 5. Profit?
 
-## TITLE STYLES:
+## Potential Tags:
 
     nounless-word
         - "If"
@@ -649,8 +683,6 @@ Before tagging, wget the page, translate (if applicable), pass through track_lis
     other
         - "P-Qb4"
 
-
-## TAG TYPES:
 
     REFERENCES:
         > contemporary-reference
@@ -714,9 +746,9 @@ Before tagging, wget the page, translate (if applicable), pass through track_lis
         > explicit
             - "Broken Hearts are for Assholes"
 
+## MISC
 
-
-## MISC CODE
+### Misc Code
     wget -c https://www.progarchives.com/album.asp?id=1433 -O [PINK_FLOYD]_piper_at_the_gates_of_dawn.html
     wget -c https://www.progarchives.com/album.asp?id=1434 -O [PINK_FLOYD]_a_saucerful_of_secrets.html
     wget -c https://www.progarchives.com/album.asp?id=1435 -O [PINK_FLOYD]_more.html
@@ -730,7 +762,7 @@ Before tagging, wget the page, translate (if applicable), pass through track_lis
     wget -c https://www.progarchives.com/album.asp?id=1443 -O [PINK_FLOYD]_the_wall.html
     wget -c https://www.progarchives.com/album.asp?id=1444 -O [PINK_FLOYD]_the_final_cut.html
 
-## HELPFULL LINKS
+### Helpful Links
 [POS Tagging - geeksforgeeks](https://www.geeksforgeeks.org/part-speech-tagging-stop-words-using-nltk-python/)
 
 [Xpath tips](http://www.whitebeam.org/library/guide/TechNotes/xpath.rhtm)
