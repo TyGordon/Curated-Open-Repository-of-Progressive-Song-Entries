@@ -1,0 +1,121 @@
+<artist name="Matching Mole" genre="Canterbury Scene">
+	<al name ="Little Red Record" date="1972">
+		<length>2574</length>
+		<rating>3.91</rating>
+		<tr index="1">
+			<length>151</length>
+			<w pos="VBG" lemma="starting">Starting</w>
+			<w pos="IN" lemma="in">in</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="middle">Middle</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="day">Day</w>
+			<punc pos="," lemma=",">,</punc>
+			<w pos="PRP" lemma="we">We</w>
+			<w pos="MD" lemma="can">Can</w>
+			<w pos="VB" lemma="drink">Drink</w>
+			<w pos="PRP$" lemma="our">Our</w>
+			<w pos="NNS" lemma="politics">Politics</w>
+			<w pos="RP" lemma="away">Away</w>
+		</tr>
+		<tr index="2">
+			<length>505</length>
+			<w pos="NNS" lemma="marchides">Marchides</w>
+		</tr>
+		<tr index="3">
+			<length>216</length>
+			<w pos="NNP" lemma="nan">Nan</w>
+			<w pos="NNP" lemma="true">True</w>
+			<w pos="POS" lemma="'s">'s</w>
+			<w pos="NNP" lemma="hole">Hole</w>
+		</tr>
+		<tr index="4">
+			<length>170</length>
+			<w pos="JJ" lemma="righteous">Righteous</w>
+			<w pos="NNP" lemma="rhumba">Rhumba</w>
+		</tr>
+		<tr index="5">
+			<length>264</length>
+			<w pos="NNP" lemma="brandy">Brandy</w>
+			<w pos="IN" lemma="a">as</w>
+			<w pos="IN" lemma="in">in</w>
+			<w pos="NNP" lemma="benj">Benj</w>
+		</tr>
+		<tr index="6">
+			<length>486</length>
+			<w pos="NNP" lemma="gloria">Gloria</w>
+			<w pos="NNP" lemma="gloom">Gloom</w>
+		</tr>
+		<tr index="7">
+			<length>179</length>
+			<w pos="NNP" lemma="god">God</w>
+			<w pos="NNP" lemma="song">Song</w>
+		</tr>
+		<tr index="8">
+			<length>206</length>
+			<w pos="NNP" lemma="flora">Flora</w>
+			<w pos="NNP" lemma="fidgit">Fidgit</w>
+		</tr>
+		<tr index="9">
+			<length>397</length>
+			<w pos="NNP" lemma="smoke">Smoke</w>
+			<w pos="NNP" lemma="signal">Signal</w>
+		</tr>
+	</al>
+	<al name ="Maching Mole" date="1972">
+		<length>1</length>
+		<rating>3.65</rating>
+		<tr index="1">
+			<length>306</length>
+			<w pos="NNP" lemma="o">O</w>
+			<w pos="NNP" lemma="caroline">Caroline</w>
+		</tr>
+		<tr index="2">
+			<length>179</length>
+			<w pos="JJ" lemma="instant">Instant</w>
+			<w pos="NNP" lemma="pussy">Pussy</w>
+		</tr>
+		<tr index="3">
+			<length>186</length>
+			<w pos="VBN" lemma="signed">Signed</w>
+			<w pos="NN" lemma="curtain">Curtain</w>
+		</tr>
+		<tr index="4">
+			<length>556</length>
+			<w pos="NN" lemma="part">Part</w>
+			<w pos="IN" lemma="of">Of</w>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="dance">Dance</w>
+		</tr>
+		<tr index="5">
+			<length>298</length>
+			<w pos="NNP" lemma="instant">Instant</w>
+			<w pos="NNP" lemma="kitten">Kitten</w>
+		</tr>
+		<tr index="6">
+			<length>279</length>
+			<w pos="VBN" lemma="dedicated">Dedicated</w>
+			<w pos="TO" lemma="to">To</w>
+			<w pos="NNP" lemma="hugh">Hugh</w>
+			<punc pos="," lemma=",">,</punc>
+			<w pos="CC" lemma="but">But</w>
+			<w pos="PRP" lemma="you">You</w>
+			<w pos="VBP" lemma="were">Were</w>
+			<w pos="RB" lemma="n't">n't</w>
+			<w pos="VBG" lemma="listening">Listening</w>
+		</tr>
+		<tr index="7">
+			<length>242</length>
+			<w pos="NNP" lemma="beer">Beer</w>
+			<w pos="IN" lemma="a">As</w>
+			<w pos="IN" lemma="in">In</w>
+			<w pos="NNP" lemma="braindeer">Braindeer</w>
+		</tr>
+		<tr index="8">
+			<length>357</length>
+			<w pos="NNP" lemma="immediate">Immediate</w>
+			<w pos="NNP" lemma="curtain">Curtain</w>
+		</tr>
+	</al>
+</artist>

@@ -1,0 +1,59 @@
+<artist name="Museo Rosenbach" genre="Rock Progressivo Italiano">
+	<al name ="Zarathustra" date="1973">
+		<length>2384</length>
+		<rating>4.32</rating>
+		<tr index="1">
+			<length>1249</length>
+			<w pos="NNP" lemma="zarathustra">Zarathustra</w>
+		</tr>
+		<tr index="a">
+			<length>0</length>
+			<w pos="NNP" lemma="l'ultimo">L'Ultimo</w>
+			<w pos="NNP" lemma="uomo">Uomo</w>
+		</tr>
+		<tr index="b">
+			<length>0</length>
+			<w pos="NNP" lemma="il">Il</w>
+			<w pos="NNP" lemma="re">Re</w>
+			<w pos="NNP" lemma="di">Di</w>
+			<w pos="NNP" lemma="ieri">Ieri</w>
+		</tr>
+		<tr index="c">
+			<length>0</length>
+			<w pos="NNP" lemma="al">Al</w>
+			<w pos="NNP" lemma="di">Di</w>
+			<w pos="NNP" lemma="la">La</w>
+			<w pos="NNP" lemma="del">Del</w>
+			<w pos="NNP" lemma="bene">Bene</w>
+			<w pos="NNP" lemma="e">E</w>
+			<w pos="NNP" lemma="del">Del</w>
+			<w pos="NNP" lemma="male">Male</w>
+		</tr>
+		<tr index="d">
+			<length>0</length>
+			<w pos="NN" lemma="superuomo">Superuomo</w>
+		</tr>
+		<tr index="e">
+			<length>0</length>
+			<w pos="NNP" lemma="il">Il</w>
+			<w pos="NNP" lemma="tempio">Tempio</w>
+			<w pos="NNP" lemma="delle">Delle</w>
+			<w pos="NNP" lemma="clessidre">Clessidre</w>
+		</tr>
+		<tr index="2">
+			<length>245</length>
+			<w pos="NNP" lemma="degli">Degli</w>
+			<w pos="NNP" lemma="uomini">Uomini</w>
+		</tr>
+		<tr index="3">
+			<length>511</length>
+			<w pos="NNP" lemma="della">Della</w>
+			<w pos="NNP" lemma="natura">Natura</w>
+		</tr>
+		<tr index="4">
+			<length>379</length>
+			<w pos="NNP" lemma="dell'eterno">Dell'Eterno</w>
+			<w pos="NNP" lemma="ritorno">Ritorno</w>
+		</tr>
+	</al>
+</artist>

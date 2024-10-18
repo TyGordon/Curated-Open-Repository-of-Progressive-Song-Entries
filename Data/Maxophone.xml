@@ -1,0 +1,45 @@
+<artist name="Maxophone" genre="Rock Progressivo Italiano">
+	<al name ="Maxophone" date="1975">
+		<length>2437</length>
+		<rating>4.26</rating>
+		<tr index="1">
+			<length>399</length>
+			<w pos="NNP" lemma="c">C</w>
+			<w pos="POS" lemma="'">'</w>
+			<w pos="NNP" lemma="f">F</w>
+			<w pos="NNP" lemma="un">Un</w>
+			<w pos="NNP" lemma="paese">Paese</w>
+			<w pos="NNP" lemma="al">Al</w>
+			<w pos="NNP" lemma="mondo">Mondo</w>
+		</tr>
+		<tr index="2">
+			<length>424</length>
+			<w pos="NN" lemma="fase">Fase</w>
+		</tr>
+		<tr index="3">
+			<length>352</length>
+			<w pos="NNP" lemma="al">Al</w>
+			<w pos="NNP" lemma="mancato">Mancato</w>
+			<w pos="NNP" lemma="compleanno">Compleanno</w>
+			<w pos="NNP" lemma="di">Di</w>
+			<w pos="NNP" lemma="una">Una</w>
+			<w pos="NNP" lemma="farfalla">Farfalla</w>
+		</tr>
+		<tr index="4">
+			<length>407</length>
+			<w pos="NN" lemma="elzeviro">Elzeviro</w>
+		</tr>
+		<tr index="5">
+			<length>321</length>
+			<w pos="NNP" lemma="mercanti">Mercanti</w>
+			<w pos="NNP" lemma="di">Di</w>
+			<w pos="NNP" lemma="pazzie">Pazzie</w>
+		</tr>
+		<tr index="6">
+			<length>534</length>
+			<w pos="NNP" lemma="antiche">Antiche</w>
+			<w pos="NNP" lemma="conclusioni">Conclusioni</w>
+			<w pos="NNP" lemma="negre">Negre</w>
+		</tr>
+	</al>
+</artist>

@@ -1,0 +1,41 @@
+<artist name="Campo Di Marte" genre="Rock Progressivo Italiano">
+	<al name ="Campo Di Marte" date="1973">
+		<length>2443</length>
+		<rating>3.92</rating>
+		<tr index="1">
+			<length>490</length>
+			<w pos="NNP" lemma="primo">Primo</w>
+			<w pos="NNP" lemma="tempo">Tempo</w>
+		</tr>
+		<tr index="2">
+			<length>200</length>
+			<w pos="NNP" lemma="secundo">Secundo</w>
+			<w pos="NNP" lemma="tempo">Tempo</w>
+		</tr>
+		<tr index="3">
+			<length>380</length>
+			<w pos="NNP" lemma="terzo">Terzo</w>
+			<w pos="NNP" lemma="tempo">Tempo</w>
+		</tr>
+		<tr index="4">
+			<length>195</length>
+			<w pos="NNP" lemma="quarto">Quarto</w>
+			<w pos="NNP" lemma="tempo">Tempo</w>
+		</tr>
+		<tr index="5">
+			<length>358</length>
+			<w pos="NNP" lemma="quinto">Quinto</w>
+			<w pos="NNP" lemma="tempo">Tempo</w>
+		</tr>
+		<tr index="6">
+			<length>312</length>
+			<w pos="NNP" lemma="sesto">Sesto</w>
+			<w pos="NNP" lemma="tempo">Tempo</w>
+		</tr>
+		<tr index="7">
+			<length>508</length>
+			<w pos="NNP" lemma="settimo">Settimo</w>
+			<w pos="NNP" lemma="tempo">Tempo</w>
+		</tr>
+	</al>
+</artist>

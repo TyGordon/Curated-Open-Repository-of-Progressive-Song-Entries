@@ -1,0 +1,38 @@
+<artist name="Chris Squire" genre="Symphonic Prog">
+	<al name ="Fish Out of Water" date="1975">
+		<length>2554</length>
+		<rating>4.00</rating>
+		<tr index="1">
+			<length>253</length>
+			<w pos="VB" lemma="hold">Hold</w>
+			<w pos="RP" lemma="out">Out</w>
+			<w pos="CD" lemma="your">Your</w>
+			<w pos="NN" lemma="hand">Hand</w>
+		</tr>
+		<tr index="2">
+			<length>299</length>
+			<w pos="PRP" lemma="you">You</w>
+			<w pos="IN" lemma="by">By</w>
+			<w pos="NNP" lemma="my">My</w>
+			<w pos="NNP" lemma="side">Side</w>
+		</tr>
+		<tr index="3">
+			<length>686</length>
+			<w pos="RB" lemma="silently">Silently</w>
+			<w pos="VBG" lemma="falling">Falling</w>
+		</tr>
+		<tr index="4">
+			<length>414</length>
+			<w pos="JJ" lemma="lucky">Lucky</w>
+			<w pos="NNP" lemma="seven">Seven</w>
+		</tr>
+		<tr index="5">
+			<length>896</length>
+			<w pos="NNP" lemma="safe">Safe</w>
+			<punc pos="(" lemma="(">(</punc>
+			<w pos="NNP" lemma="canon">Canon</w>
+			<w pos="NNP" lemma="song">Song</w>
+			<punc pos=")" lemma=")">)</punc>
+		</tr>
+	</al>
+</artist>

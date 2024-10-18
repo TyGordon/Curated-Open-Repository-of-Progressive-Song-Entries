@@ -1,0 +1,169 @@
+<artist name="Le Orme" genre="Rock Progressivo Italiano">
+	<al name ="Collage" date="1971">
+		<length>2096</length>
+		<rating>3.87</rating>
+		<tr index="1">
+			<length>282</length>
+			<w pos="NN" lemma="collage">Collage</w>
+		</tr>
+		<tr index="2">
+			<length>300</length>
+			<w pos="NN" lemma="era">Era</w>
+			<w pos="NN" lemma="inverno">Inverno</w>
+		</tr>
+		<tr index="3">
+			<length>488</length>
+			<w pos="NNP" lemma="cemento">Cemento</w>
+			<w pos="NNP" lemma="armato">Armato</w>
+		</tr>
+		<tr index="4">
+			<length>252</length>
+			<w pos="NNP" lemma="sguardo">Sguardo</w>
+			<w pos="NNP" lemma="verso">Verso</w>
+			<w pos="NNP" lemma="il">Il</w>
+			<w pos="NNP" lemma="cielo">Cielo</w>
+		</tr>
+		<tr index="5">
+			<length>416</length>
+			<w pos="CD" lemma="evasione">Evasione</w>
+			<w pos="NN" lemma="totale">Totale</w>
+		</tr>
+		<tr index="6">
+			<length>178</length>
+			<w pos="NN" lemma="immagini">Immagini</w>
+		</tr>
+		<tr index="7">
+			<length>180</length>
+			<w pos="NNP" lemma="morte">Morte</w>
+			<w pos="NNP" lemma="di">Di</w>
+			<w pos="NNP" lemma="un">Un</w>
+			<w pos="NNP" lemma="fiore">Fiore</w>
+		</tr>
+	</al>
+	<al name ="Contrappunti" date="1974">
+		<length>2015</length>
+		<rating>3.97</rating>
+		<tr index="1">
+			<length>356</length>
+			<w pos="NN" lemma="contrappunti">Contrappunti</w>
+		</tr>
+		<tr index="2">
+			<length>215</length>
+			<w pos="NNP" lemma="frutto">Frutto</w>
+			<w pos="NNP" lemma="acerbo">Acerbo</w>
+		</tr>
+		<tr index="3">
+			<length>200</length>
+			<w pos="NN" lemma="aliante">Aliante</w>
+		</tr>
+		<tr index="4">
+			<length>193</length>
+			<w pos="NNP" lemma="india">India</w>
+		</tr>
+		<tr index="5">
+			<length>287</length>
+			<w pos="NNP" lemma="la">La</w>
+			<w pos="NNP" lemma="fabbricante">Fabbricante</w>
+			<w pos="NNP" lemma="d'angeli">D'Angeli</w>
+		</tr>
+		<tr index="6">
+			<length>231</length>
+			<w pos="NN" lemma="notturno">Notturno</w>
+		</tr>
+		<tr index="7">
+			<length>531</length>
+			<w pos="NN" lemma="maggio">Maggio</w>
+		</tr>
+	</al>
+	<al name ="Felona E Sorona" date="1973">
+		<length>2019</length>
+		<rating>4.25</rating>
+		<tr index="1">
+			<length>523</length>
+			<w pos="NNP" lemma="sospesi">Sospesi</w>
+			<w pos="NNP" lemma="nell'incredibile">Nell'Incredibile</w>
+		</tr>
+		<tr index="2">
+			<length>118</length>
+			<w pos="NN" lemma="felona">Felona</w>
+		</tr>
+		<tr index="3">
+			<length>117</length>
+			<w pos="NNP" lemma="la">La</w>
+			<w pos="NNP" lemma="solitudine">Solitudine</w>
+			<w pos="NNP" lemma="di">Di</w>
+			<w pos="NNP" lemma="chi">Chi</w>
+			<w pos="NNP" lemma="protegge">Protegge</w>
+			<w pos="NNP" lemma="il">Il</w>
+			<w pos="NNP" lemma="mondo">Mondo</w>
+		</tr>
+		<tr index="4">
+			<length>227</length>
+			<w pos="NN" lemma="l'equilibrio">L'Equilibrio</w>
+		</tr>
+		<tr index="5">
+			<length>148</length>
+			<w pos="NN" lemma="sorona">Sorona</w>
+		</tr>
+		<tr index="6">
+			<length>205</length>
+			<w pos="NNP" lemma="attesa">Attesa</w>
+			<w pos="NNP" lemma="inerte">Inerte</w>
+		</tr>
+		<tr index="7">
+			<length>209</length>
+			<w pos="NNP" lemma="ritratto">Ritratto</w>
+			<w pos="NNP" lemma="di">Di</w>
+			<w pos="NNP" lemma="un">Un</w>
+			<w pos="NNP" lemma="mattino">Mattino</w>
+		</tr>
+		<tr index="8">
+			<length>248</length>
+			<w pos="NNP" lemma="all'infuori">All'infuori</w>
+			<w pos="NNP" lemma="del">Del</w>
+			<w pos="NNP" lemma="tempo">Tempo</w>
+		</tr>
+	</al>
+	<al name ="Uomo Di Pezza" date="1972">
+		<length>1906</length>
+		<rating>4.22</rating>
+		<tr index="1">
+			<length>328</length>
+			<w pos="NNP" lemma="una">Una</w>
+			<w pos="NNP" lemma="dolcezza">Dolcezza</w>
+			<w pos="NNP" lemma="nuova">Nuova</w>
+		</tr>
+		<tr index="2">
+			<length>174</length>
+			<w pos="NNP" lemma="gioco">Gioco</w>
+			<w pos="NNP" lemma="di">Di</w>
+			<w pos="NNP" lemma="bimba">Bimba</w>
+		</tr>
+		<tr index="3">
+			<length>448</length>
+			<w pos="NNP" lemma="la">La</w>
+			<w pos="NNP" lemma="porta">Porta</w>
+			<w pos="NNP" lemma="chiusa">Chiusa</w>
+		</tr>
+		<tr index="4">
+			<length>162</length>
+			<w pos="NNP" lemma="breve">Breve</w>
+			<w pos="NNP" lemma="immagine">Immagine</w>
+		</tr>
+		<tr index="5">
+			<length>228</length>
+			<w pos="NN" lemma="figure">Figure</w>
+			<w pos="NNP" lemma="di">Di</w>
+			<w pos="NN" lemma="cartone">Cartone</w>
+		</tr>
+		<tr index="6">
+			<length>283</length>
+			<w pos="NNP" lemma="aspettando">Aspettando</w>
+			<w pos="NNP" lemma="l'alba">L'Alba</w>
+		</tr>
+		<tr index="7">
+			<length>283</length>
+			<w pos="NN" lemma="alienazione">Alienazione</w>
+		</tr>
+	</al>
+</artist>

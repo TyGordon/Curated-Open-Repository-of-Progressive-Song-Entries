@@ -49,6 +49,27 @@
 ### How To Use This Project
     1. Open the .exe
 
+### Limitations
+    Known Bugs:
+
+    - Track names with a period followed by a space do not play nicely with the POS tagger: the tagger tends to eat them.
+    - XML does not like the '&' character, so all instances were replaced with "and"
+    - CURL does not like some characters such as '/', which had to be replaced with '-'
+    - Many special characters (such as those of the cyrillic variety, or those with uncommon accent markers) had to be latinized
+    
+    Design Flaws:
+    - Many albums are excluded for the following reasons:
+        > They do not fit within the time frame (1968-1984).
+            Ex. "Freak Out!" by Frank Zappa/The Mothers of Invention
+        > They are under a different name.
+            Ex. Magma's "Tristan et Iseult" ("Wurdah Itah")
+        > The album has a very poor relative rating AND is at the end of the groups "golden era".
+            Ex. Jethro Tull's "Under Wraps"
+        > The respective group is nieche or borderline prog and only gets one album, with the rest omitted.
+            Ex. Return to Forever's albums that are not "Romantic Warrior"
+        > The group was not discovered/known about at corpus compiling time.
+    - Tracks from foriegn groups have to be hand translated in order to be represented. Hand Translation is an art (or at least an imprecise science) and has subjective implications on the corpus data.
+
 ## ARTIST LIST
 
 ### The "Big Seven"
@@ -548,7 +569,7 @@ Maxophone (1)
 + [Maxophone](https://www.progarchives.com/album.asp?id=922)
 
 Alphataurus (1)
-+ [Alphataurus](https://www.progarchives.com/artist.asp?id=469)
++ [Alphataurus](https://www.progarchives.com/album.asp?id=2463)
 
 Osana (2)
 + [L'Uomo](https://www.progarchives.com/album.asp?id=1029)
@@ -599,6 +620,9 @@ East (2)
 
 ### Artists To Include:
     - The Who
+    - Frank Zappa
+        Shut up 'n play yer guitart 1, 2, 3 (NOT THE BOX SET)
+    - Deep Purple
 
 ## TAGGING
 
@@ -769,4 +793,5 @@ Before tagging, wget the page, translate (if applicable), pass through track_lis
 
 [Xpath parser](http://xpather.com/)
 
-//album/tr[w/@lemma="the" or w/@lemma="vera"]
+### Xpath Code
+    //artist/al[rating>0.0][length>0][@date]/tr[w/@lemma][length>0]

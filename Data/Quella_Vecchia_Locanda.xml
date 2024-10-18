@@ -1,0 +1,87 @@
+<artist name="Quella Vecchia Locanda" genre="Rock Progressivo Italiano">
+	<al name ="Il Tempo della Gioia" date="1974">
+		<length>2024</length>
+		<rating>4.13</rating>
+		<tr index="1">
+			<length>327</length>
+			<w pos="NNP" lemma="villa">Villa</w>
+			<w pos="NNP" lemma="doria">Doria</w>
+			<w pos="NNP" lemma="pamphili">Pamphili</w>
+		</tr>
+		<tr index="2">
+			<length>247</length>
+			<w pos="DT" lemma="a">A</w>
+			<w pos="NNP" lemma="forma">Forma</w>
+			<w pos="NNP" lemma="di">Di</w>
+		</tr>
+		<tr index="3">
+			<length>375</length>
+			<w pos="NNP" lemma="il">Il</w>
+			<w pos="NNP" lemma="tempo">Tempo</w>
+			<w pos="NN" lemma="della">della</w>
+			<w pos="NNP" lemma="gioia">Gioia</w>
+		</tr>
+		<tr index="4">
+			<length>579</length>
+			<w pos="NNP" lemma="un">Un</w>
+			<w pos="NNP" lemma="giorno">Giorno</w>
+			<punc pos="," lemma=",">,</punc>
+			<w pos="JJ" lemma="un">un</w>
+			<w pos="NNP" lemma="amico">Amico</w>
+		</tr>
+		<tr index="5">
+			<length>496</length>
+			<w pos="JJ" lemma="+">+</w>
+			<w pos="NNP" lemma="accaduto">Accaduto</w>
+			<w pos="NN" lemma="una">una</w>
+			<w pos="NNP" lemma="notte">Notte</w>
+		</tr>
+	</al>
+	<al name ="Quella Vecchia Locanda" date="1972">
+		<length>2057</length>
+		<rating>4.14</rating>
+		<tr index="1">
+			<length>299</length>
+			<w pos="NN" lemma="prologo">Prologo</w>
+		</tr>
+		<tr index="2">
+			<length>234</length>
+			<w pos="NNP" lemma="un">Un</w>
+			<w pos="NNP" lemma="villaggio">Villaggio</w>
+			<punc pos="," lemma=",">,</punc>
+			<w pos="NNP" lemma="un'illsione">Un'illsione</w>
+		</tr>
+		<tr index="3">
+			<length>253</length>
+			<w pos="NN" lemma="realta">Realta</w>
+		</tr>
+		<tr index="4">
+			<length>179</length>
+			<w pos="NNP" lemma="immagini">Immagini</w>
+			<w pos="NNP" lemma="sfuocate">Sfuocate</w>
+		</tr>
+		<tr index="5">
+			<length>251</length>
+			<w pos="NNP" lemma="il">Il</w>
+			<w pos="NNP" lemma="cieco">Cieco</w>
+		</tr>
+		<tr index="6">
+			<length>221</length>
+			<w pos="NN" lemma="dialogo">Dialogo</w>
+		</tr>
+		<tr index="7">
+			<length>315</length>
+			<w pos="NNP" lemma="verso">Verso</w>
+			<w pos="NNP" lemma="la">La</w>
+			<w pos="NNP" lemma="locanda">Locanda</w>
+		</tr>
+		<tr index="8">
+			<length>315</length>
+			<w pos="NNP" lemma="sogno">Sogno</w>
+			<punc pos="," lemma=",">,</punc>
+			<w pos="NNP" lemma="risveglio">Risveglio</w>
+			<w pos="NNP" lemma="e">E</w>
+			<punc pos=":" lemma="...">...</punc>
+		</tr>
+	</al>
+</artist>

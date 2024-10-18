@@ -1,0 +1,82 @@
+<artist name="Osana" genre="Rock Progressivo Italiano">
+	<al name ="L'Uomo" date="1971">
+		<length>2275</length>
+		<rating>3.66</rating>
+		<tr index="1">
+			<length>206</length>
+			<w pos="NN" lemma="introduzione">Introduzione</w>
+		</tr>
+		<tr index="2">
+			<length>214</length>
+			<w pos="NN" lemma="l'uomo">L'uomo</w>
+		</tr>
+		<tr index="3">
+			<length>296</length>
+			<w pos="NN" lemma="mirror">Mirror</w>
+			<w pos="NN" lemma="train">Train</w>
+		</tr>
+		<tr index="4">
+			<length>360</length>
+			<w pos="NNP" lemma="non">Non</w>
+			<w pos="JJ" lemma="sei">sei</w>
+			<w pos="NN" lemma="vissuto">vissuto</w>
+			<w pos="NN" lemma="mai">mai</w>
+		</tr>
+		<tr index="5">
+			<length>195</length>
+			<w pos="NNP" lemma="vado">Vado</w>
+			<w pos="NN" lemma="verso">verso</w>
+			<w pos="NN" lemma="una">una</w>
+			<w pos="NN" lemma="meta">meta</w>
+		</tr>
+		<tr index="6">
+			<length>211</length>
+			<w pos="IN" lemma="in">In</w>
+			<w pos="JJ" lemma="un">un</w>
+			<w pos="NN" lemma="vecchio">vecchio</w>
+			<w pos="NN" lemma="cieco">cieco</w>
+		</tr>
+		<tr index="7">
+			<length>373</length>
+			<w pos="RB" lemma="l'amore">L'amore</w>
+			<w pos="NN" lemma="vincera">vincera</w>
+			<w pos="NN" lemma="di">di</w>
+			<w pos="NN" lemma="nuovo">nuovo</w>
+		</tr>
+		<tr index="8">
+			<length>184</length>
+			<w pos="NN" lemma="everybody">Everybody</w>
+			<w pos="POS" lemma="'s">'s</w>
+			<w pos="NNP" lemma="gon">Gon</w>
+			<w pos="TO" lemma="na">na</w>
+			<w pos="VB" lemma="see">See</w>
+			<w pos="PRP" lemma="you">You</w>
+			<w pos="VB" lemma="die">Die</w>
+		</tr>
+		<tr index="9">
+			<length>236</length>
+			<w pos="JJ" lemma="lady">Lady</w>
+			<w pos="NN" lemma="power">Power</w>
+		</tr>
+	</al>
+	<al name ="Palepoli" date="1972">
+		<length>2511</length>
+		<rating>4.24</rating>
+		<tr index="1">
+			<length>1110</length>
+			<w pos="NNP" lemma="oro">Oro</w>
+			<w pos="NNP" lemma="caldo">Caldo</w>
+		</tr>
+		<tr index="2">
+			<length>105</length>
+			<w pos="NNP" lemma="stanza">Stanza</w>
+			<w pos="NNP" lemma="citta">Citta</w>
+		</tr>
+		<tr index="3">
+			<length>1296</length>
+			<w pos="NNP" lemma="animale">Animale</w>
+			<w pos="NNP" lemma="senza">Senza</w>
+			<w pos="NNP" lemma="respiro">Respiro</w>
+		</tr>
+	</al>
+</artist>

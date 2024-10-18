@@ -1,0 +1,45 @@
+<artist name="Robert Wyatt" genre="Canterbury Scene">
+	<al name ="Rock Bottom" date="1974">
+		<length>2369</length>
+		<rating>4.26</rating>
+		<tr index="1">
+			<length>391</length>
+			<w pos="NNP" lemma="sea">Sea</w>
+			<w pos="NNP" lemma="song">Song</w>
+		</tr>
+		<tr index="2">
+			<length>346</length>
+			<w pos="DT" lemma="a">A</w>
+			<w pos="JJ" lemma="last">Last</w>
+			<w pos="NN" lemma="straw">Straw</w>
+		</tr>
+		<tr index="3">
+			<length>458</length>
+			<w pos="JJ" lemma="little">Little</w>
+			<w pos="NNP" lemma="red">Red</w>
+			<w pos="NNP" lemma="riding">Riding</w>
+			<w pos="NNP" lemma="hood">Hood</w>
+			<w pos="NNP" lemma="hit">Hit</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="road">Road</w>
+		</tr>
+		<tr index="4">
+			<length>415</length>
+			<w pos="NN" lemma="alifib">Alifib</w>
+		</tr>
+		<tr index="5">
+			<length>391</length>
+			<w pos="NN" lemma="alife">Alife</w>
+		</tr>
+		<tr index="6">
+			<length>368</length>
+			<w pos="JJ" lemma="little">Little</w>
+			<w pos="NNP" lemma="red">Red</w>
+			<w pos="NNP" lemma="robin">Robin</w>
+			<w pos="NNP" lemma="hood">Hood</w>
+			<w pos="NNP" lemma="hit">Hit</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="road">Road</w>
+		</tr>
+	</al>
+</artist>

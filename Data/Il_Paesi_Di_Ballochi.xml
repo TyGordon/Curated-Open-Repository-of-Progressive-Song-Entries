@@ -1,0 +1,86 @@
+<artist name="Il Paesi Di Ballochi" genre="Rock Progressivo Italiano">
+	<al name ="Il Paese Dei Balocchi" date="1972">
+		<length>2492</length>
+		<rating>3.76</rating>
+		<tr index="1">
+			<length>154</length>
+			<w pos="NNP" lemma="il">Il</w>
+			<w pos="NN" lemma="trionfo">trionfo</w>
+			<w pos="NN" lemma="dell'egoismo">dell'egoismo</w>
+			<punc pos="," lemma=",">,</punc>
+			<w pos="NN" lemma="della">della</w>
+			<w pos="NN" lemma="violenza">violenza</w>
+			<punc pos="," lemma=",">,</punc>
+			<w pos="NN" lemma="della">della</w>
+			<w pos="NN" lemma="presunazione">presunazione</w>
+			<w pos="NN" lemma="e">e</w>
+			<w pos="NN" lemma="dell'infifferenza">dell'infifferenza</w>
+		</tr>
+		<tr index="2">
+			<length>249</length>
+			<w pos="NNP" lemma="impotenza">Impotenza</w>
+			<w pos="NN" lemma="dell'umilta">dell'umilta</w>
+			<w pos="NN" lemma="della">della</w>
+			<w pos="NN" lemma="rassegnazione">rassegnazione</w>
+		</tr>
+		<tr index="3">
+			<length>235</length>
+			<w pos="NNP" lemma="canzone">Canzone</w>
+			<w pos="NN" lemma="della">della</w>
+			<w pos="NN" lemma="speranza">speranza</w>
+		</tr>
+		<tr index="4">
+			<length>460</length>
+			<w pos="NN" lemma="evasione">Evasione</w>
+		</tr>
+		<tr index="5">
+			<length>214</length>
+			<w pos="NNP" lemma="hidden">Hidden</w>
+			<w pos="NN" lemma="song">song</w>
+		</tr>
+		<tr index="6">
+			<length>280</length>
+			<w pos="NNP" lemma="risveglio">Risveglio</w>
+			<w pos="VBZ" lemma="e">e</w>
+			<w pos="CD" lemma="visione">visione</w>
+			<w pos="NN" lemma="del">del</w>
+			<w pos="JJ" lemma="paese">paese</w>
+			<w pos="NN" lemma="dei">dei</w>
+			<w pos="NN" lemma="balocchi">balocchi</w>
+		</tr>
+		<tr index="7">
+			<length>120</length>
+			<w pos="NNP" lemma="ingresso">Ingresso</w>
+			<w pos="CC" lemma="e">e</w>
+			<w pos="JJ" lemma="incontro">incontro</w>
+			<w pos="NN" lemma="con">con</w>
+			<w pos="NN" lemma="i">i</w>
+			<w pos="NNP" lemma="baloccanti">Baloccanti</w>
+		</tr>
+		<tr index="8">
+			<length>45</length>
+			<w pos="NNP" lemma="canzone">Canzone</w>
+			<w pos="NN" lemma="della">della</w>
+			<w pos="NN" lemma="verita">verita</w>
+		</tr>
+		<tr index="9">
+			<length>61</length>
+			<w pos="NNP" lemma="narcisismo">Narcisismo</w>
+			<w pos="NN" lemma="della">della</w>
+			<w pos="NN" lemma="perfezione">perfezione</w>
+		</tr>
+		<tr index="10">
+			<length>416</length>
+			<w pos="NNP" lemma="verita">Verita</w>
+			<w pos="NN" lemma="dell'intuizione">dell'intuizione</w>
+			<w pos="NN" lemma="fantastica">fantastica</w>
+		</tr>
+		<tr index="11">
+			<length>258</length>
+			<w pos="NNP" lemma="ritorno">Ritorno</w>
+			<w pos="NN" lemma="alla">alla</w>
+			<w pos="NN" lemma="condizione">condizione</w>
+			<w pos="NN" lemma="umana">umana</w>
+		</tr>
+	</al>
+</artist>

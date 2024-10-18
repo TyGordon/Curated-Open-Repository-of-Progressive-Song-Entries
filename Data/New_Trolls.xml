@@ -1,0 +1,257 @@
+<artist name="New Trolls" genre="Rock Progressivo Italiano">
+	<al name ="Concerto Grosso No 2" date="1976">
+		<length>2022</length>
+		<rating>3.00</rating>
+		<tr index="">
+			<length>0</length>
+			<w pos="NNP" lemma="concerto">Concerto</w>
+			<w pos="NNP" lemma="grosso">Grosso</w>
+			<w pos="NNP" lemma="n¦">N¦</w>
+			<w pos="CD" lemma="2">2</w>
+			<punc pos=":" lemma=":">:</punc>
+		</tr>
+		<tr index="1">
+			<length>284</length>
+			<w pos="CD" lemma="1¦">1¦</w>
+			<w pos="NN" lemma="tempo">tempo</w>
+			<punc pos=":" lemma=":">:</punc>
+			<w pos="NN" lemma="vivace">Vivace</w>
+		</tr>
+		<tr index="2">
+			<length>221</length>
+			<w pos="CD" lemma="2¦">2¦</w>
+			<w pos="NN" lemma="tempo">tempo</w>
+			<punc pos=":" lemma=":">:</punc>
+			<w pos="NNP" lemma="andante">Andante</w>
+			<punc pos="(" lemma="(">(</punc>
+			<w pos="JJS" lemma="most">Most</w>
+			<w pos="NNP" lemma="dear">Dear</w>
+			<w pos="NNP" lemma="lady">Lady</w>
+			<punc pos=")" lemma=")">)</punc>
+		</tr>
+		<tr index="3">
+			<length>253</length>
+			<w pos="CD" lemma="3¦">3¦</w>
+			<w pos="NN" lemma="tempo">tempo</w>
+			<punc pos=":" lemma=":">:</punc>
+			<w pos="NNP" lemma="moderato">Moderato</w>
+			<punc pos="(" lemma="(">(</punc>
+			<w pos="NNP" lemma="fare">Fare</w>
+			<w pos="PRP" lemma="you">You</w>
+			<w pos="NNP" lemma="well">Well</w>
+			<w pos="NNP" lemma="dove">Dove</w>
+			<punc pos=")" lemma=")">)</punc>
+		</tr>
+		<tr index="4">
+			<length>256</length>
+			<w pos="JJ" lemma="quiet">Quiet</w>
+			<w pos="NNP" lemma="sea">Seas</w>
+		</tr>
+		<tr index="5">
+			<length>289</length>
+			<w pos="NN" lemma="vent'anni">Vent'Anni</w>
+		</tr>
+		<tr index="6">
+			<length>200</length>
+			<w pos="NNP" lemma="bella">Bella</w>
+			<w pos="NNP" lemma="come">Come</w>
+			<w pos="NNP" lemma="mai">Mai</w>
+		</tr>
+		<tr index="7">
+			<length>199</length>
+			<w pos="VB" lemma="let">Let</w>
+			<w pos="PRP" lemma="it">It</w>
+			<w pos="VB" lemma="be">Be</w>
+			<w pos="NNP" lemma="me">Me</w>
+		</tr>
+		<tr index="8">
+			<length>320</length>
+			<w pos="NNP" lemma="le">Le</w>
+			<w pos="NNP" lemma="roi">Roi</w>
+			<w pos="NNP" lemma="soleil">Soleil</w>
+		</tr>
+	</al>
+	<al name ="Concerto Grosso Per I New Trolls" date="1971">
+		<length>2237</length>
+		<rating>3.75</rating>
+		<tr index="">
+			<length>0</length>
+			<w pos="NNP" lemma="concerto">Concerto</w>
+			<w pos="NNP" lemma="grosso">Grosso</w>
+			<w pos="NNP" lemma="per">Per</w>
+			<w pos="PRP" lemma="i">I</w>
+			<w pos="NNP" lemma="new">New</w>
+			<w pos="NNS" lemma="troll">Trolls</w>
+			<punc pos=":" lemma=":">:</punc>
+		</tr>
+		<tr index="1">
+			<length>135</length>
+			<w pos="CD" lemma="1¦">1¦</w>
+			<w pos="NN" lemma="tempo">Tempo</w>
+			<punc pos=":" lemma=":">:</punc>
+			<w pos="NN" lemma="allegro">Allegro</w>
+		</tr>
+		<tr index="2">
+			<length>290</length>
+			<w pos="CD" lemma="2¦">2¦</w>
+			<w pos="NN" lemma="tempo">Tempo</w>
+			<punc pos=":" lemma=":">:</punc>
+			<w pos="NN" lemma="adagio">Adagio</w>
+		</tr>
+		<tr index="3">
+			<length>250</length>
+			<w pos="CD" lemma="3¦">3¦</w>
+			<w pos="NN" lemma="tempo">Tempo</w>
+			<punc pos=":" lemma=":">:</punc>
+			<w pos="NNP" lemma="cadenza">Cadenza</w>
+			<punc pos=":" lemma="-">-</punc>
+			<w pos="NNP" lemma="andante">Andante</w>
+			<w pos="NNP" lemma="con">Con</w>
+			<w pos="NNP" lemma="moto">Moto</w>
+		</tr>
+		<tr index="4">
+			<length>330</length>
+			<w pos="CD" lemma="4¦">4¦</w>
+			<w pos="NN" lemma="tempo">Tempo</w>
+			<punc pos=":" lemma=":">:</punc>
+			<w pos="NNS" lemma="shadow">Shadows</w>
+		</tr>
+		<tr index="5">
+			<length>1232</length>
+			<w pos="NNP" lemma="nella">Nella</w>
+			<w pos="NNP" lemma="sala">Sala</w>
+			<w pos="NNP" lemma="vuota">Vuota</w>
+			<punc pos="," lemma=",">,</punc>
+			<w pos="NNP" lemma="improvvisazioni">Improvvisazioni</w>
+			<w pos="NNP" lemma="dei">Dei</w>
+			<w pos="NNP" lemma="new">New</w>
+			<w pos="NNP" lemma="troll">Trolls</w>
+			<w pos="NNP" lemma="registrate">Registrate</w>
+			<w pos="IN" lemma="in">In</w>
+			<w pos="NNP" lemma="diretta">Diretta</w>
+		</tr>
+	</al>
+	<al name ="Searching for a Land" date="1972">
+		<length>4332</length>
+		<rating>3.62</rating>
+		<tr index="1">
+			<length>285</length>
+			<w pos="VBG" lemma="searching">Searching</w>
+		</tr>
+		<tr index="2">
+			<length>322</length>
+			<w pos="NN" lemma="percival">Percival</w>
+		</tr>
+		<tr index="3">
+			<length>300</length>
+			<w pos="IN" lemma="in">In</w>
+			<w pos="NNP" lemma="st">St</w>
+			<punc pos="," lemma=",">,</punc>
+			<w pos="NNP" lemma="peter">Peter</w>
+			<w pos="POS" lemma="'s">'s</w>
+			<w pos="NNP" lemma="day">Day</w>
+		</tr>
+		<tr index="4">
+			<length>240</length>
+			<w pos="IN" lemma="once">Once</w>
+			<w pos="DT" lemma="that">That</w>
+			<w pos="PRP" lemma="i">I</w>
+			<w pos="VBD" lemma="prayed">Prayed</w>
+		</tr>
+		<tr index="5">
+			<length>505</length>
+			<w pos="DT" lemma="a">A</w>
+			<w pos="NNP" lemma="land">Land</w>
+			<w pos="TO" lemma="to">to</w>
+			<w pos="VB" lemma="live">Live</w>
+			<w pos="DT" lemma="a">a</w>
+			<w pos="NNP" lemma="land">Land</w>
+			<w pos="TO" lemma="to">to</w>
+			<w pos="VB" lemma="die">Die</w>
+		</tr>
+		<tr index="6">
+			<length>125</length>
+			<w pos="NN" lemma="giga">Giga</w>
+		</tr>
+		<tr index="7">
+			<length>520</length>
+			<w pos="TO" lemma="to">To</w>
+			<w pos="VB" lemma="edith">Edith</w>
+		</tr>
+		<tr index="8">
+			<length>440</length>
+			<w pos="NNP" lemma="intro">Intro</w>
+		</tr>
+		<tr index="9">
+			<length>405</length>
+			<w pos="NNP" lemma="bright">Bright</w>
+			<w pos="NNS" lemma="light">Lights</w>
+		</tr>
+		<tr index="10">
+			<length>145</length>
+			<w pos="NNP" lemma="muddy">Muddy</w>
+			<w pos="NNP" lemma="madalein">Madalein</w>
+		</tr>
+		<tr index="11">
+			<length>1045</length>
+			<w pos="VBG" lemma="lying">Lying</w>
+			<w pos="RB" lemma="here">Here</w>
+		</tr>
+	</al>
+	<al name ="UT" date="1972">
+		<length>2486</length>
+		<rating>3.86</rating>
+		<tr index="1">
+			<length>189</length>
+			<w pos="NN" lemma="studio">Studio</w>
+		</tr>
+		<tr index="2">
+			<length>111</length>
+			<w pos="NN" lemma="xxii">Xxii</w>
+			<w pos="NNP" lemma="strada">Strada</w>
+		</tr>
+		<tr index="3">
+			<length>302</length>
+			<w pos="PRP" lemma="i">I</w>
+			<w pos="NNP" lemma="cavalieri">Cavalieri</w>
+			<w pos="NNP" lemma="del">Del</w>
+			<w pos="NNP" lemma="lago">Lago</w>
+			<w pos="NN" lemma="dell'ontario">dell'Ontario</w>
+		</tr>
+		<tr index="4">
+			<length>177</length>
+			<w pos="NNP" lemma="storia">Storia</w>
+			<w pos="NNP" lemma="di">Di</w>
+			<w pos="NNP" lemma="una">Una</w>
+			<w pos="NNP" lemma="foglia">Foglia</w>
+		</tr>
+		<tr index="5">
+			<length>473</length>
+			<w pos="NNP" lemma="nato">Nato</w>
+			<w pos="NNP" lemma="adesso">Adesso</w>
+		</tr>
+		<tr index="6">
+			<length>593</length>
+			<w pos="NNP" lemma="c">C</w>
+			<w pos="POS" lemma="'">'</w>
+			<w pos="NN" lemma="e">e</w>
+			<w pos="''" lemma="'">'</w>
+			<w pos="NNP" lemma="troppa">Troppa</w>
+			<w pos="NNP" lemma="guerra">Guerra</w>
+		</tr>
+		<tr index="7">
+			<length>366</length>
+			<w pos="NNP" lemma="paolo">Paolo</w>
+			<w pos="NNP" lemma="e">E</w>
+			<w pos="NNP" lemma="francesca">Francesca</w>
+		</tr>
+		<tr index="8">
+			<length>275</length>
+			<w pos="NNP" lemma="chi">Chi</w>
+			<w pos="NNP" lemma="mi">Mi</w>
+			<w pos="NNP" lemma="puo">Puo</w>
+			<w pos="POS" lemma="'">'</w>
+			<w pos="NN" lemma="capire">Capire</w>
+		</tr>
+	</al>
+</artist>

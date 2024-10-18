@@ -1,0 +1,423 @@
+<artist name="Gong" genre="Canterbury Scene">
+	<al name ="Camembert Electrique" date="1971">
+		<length>2376</length>
+		<rating>3.79</rating>
+		<tr index="1">
+			<length>27</length>
+			<w pos="NNP" lemma="radio">Radio</w>
+			<w pos="NNP" lemma="gnome">Gnome</w>
+			<w pos="NNP" lemma="prediction">Prediction</w>
+		</tr>
+		<tr index="2">
+			<length>378</length>
+			<w pos="PRP" lemma="you">You</w>
+			<w pos="VBP" lemma="ca">Ca</w>
+			<w pos="RB" lemma="n't">n't</w>
+			<w pos="NNP" lemma="kill">Kill</w>
+			<w pos="NNP" lemma="me">Me</w>
+		</tr>
+		<tr index="3">
+			<length>156</length>
+			<w pos="PRP" lemma="i">I</w>
+			<w pos="VBP" lemma="'ve">'ve</w>
+			<w pos="NNP" lemma="bin">Bin</w>
+			<w pos="NNP" lemma="stone">Stone</w>
+			<w pos="IN" lemma="before">Before</w>
+		</tr>
+		<tr index="4">
+			<length>357</length>
+			<w pos="NNP" lemma="mister">Mister</w>
+			<w pos="NNP" lemma="long">Long</w>
+			<w pos="NNP" lemma="shanks/o">Shanks/O</w>
+			<w pos="NNP" lemma="mother/i">Mother/I</w>
+			<w pos="NNP" lemma="am">Am</w>
+			<w pos="NNP" lemma="your">Your</w>
+			<w pos="NNP" lemma="fantasy">Fantasy</w>
+		</tr>
+		<tr index="5">
+			<length>272</length>
+			<w pos="NNP" lemma="dynamite/i">Dynamite/I</w>
+			<w pos="NNP" lemma="am">Am</w>
+			<w pos="NNP" lemma="your">Your</w>
+			<w pos="NNP" lemma="animal">Animal</w>
+		</tr>
+		<tr index="6">
+			<length>31</length>
+			<w pos="NNP" lemma="wet">Wet</w>
+			<w pos="NNP" lemma="cheese">Cheese</w>
+			<w pos="NNP" lemma="delirium">Delirium</w>
+		</tr>
+		<tr index="7">
+			<length>12</length>
+			<w pos="VBG" lemma="squeezing">Squeezing</w>
+			<w pos="NNP" lemma="sponge">Sponges</w>
+			<w pos="NNP" lemma="over">Over</w>
+			<w pos="NNP" lemma="policeman">Policemen</w>
+			<w pos="POS" lemma="'s">'s</w>
+			<w pos="NNS" lemma="head">Heads</w>
+		</tr>
+		<tr index="8">
+			<length>382</length>
+			<w pos="NNP" lemma="fohat">Fohat</w>
+			<w pos="NNP" lemma="dig">Digs</w>
+			<w pos="NNP" lemma="hole">Holes</w>
+			<w pos="IN" lemma="in">In</w>
+			<w pos="NNP" lemma="space">Space</w>
+		</tr>
+		<tr index="9">
+			<length>278</length>
+			<w pos="CC" lemma="and">And</w>
+			<w pos="PRP" lemma="you">You</w>
+			<w pos="VBD" lemma="tried">Tried</w>
+			<w pos="RB" lemma="so">So</w>
+			<w pos="JJ" lemma="hard">Hard</w>
+		</tr>
+		<tr index="10">
+			<length>456</length>
+			<w pos="JJ" lemma="tropical">Tropical</w>
+			<w pos="NNP" lemma="fish/selene">Fish/Selene</w>
+		</tr>
+		<tr index="11">
+			<length>27</length>
+			<w pos="NNP" lemma="gnome">Gnome</w>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="second">Second</w>
+		</tr>
+	</al>
+	<al name ="Expresso II" date="1978">
+		<length>2237</length>
+		<rating>3.73</rating>
+		<tr index="1">
+			<length>382</length>
+			<w pos="NNP" lemma="heavy">Heavy</w>
+			<w pos="NNP" lemma="tune">Tune</w>
+		</tr>
+		<tr index="2">
+			<length>291</length>
+			<w pos="NNP" lemma="golden">Golden</w>
+			<w pos="NNP" lemma="dilemma">Dilemma</w>
+		</tr>
+		<tr index="3">
+			<length>437</length>
+			<w pos="NN" lemma="sleepy">Sleepy</w>
+		</tr>
+		<tr index="4">
+			<length>457</length>
+			<w pos="NN" lemma="solo">Soli</w>
+		</tr>
+		<tr index="5">
+			<length>383</length>
+			<w pos="VBG" lemma="boring">Boring</w>
+		</tr>
+		<tr index="6">
+			<length>287</length>
+			<w pos="CD" lemma="three">Three</w>
+			<w pos="NNP" lemma="blind">Blind</w>
+			<w pos="NNP" lemma="mouse">Mice</w>
+		</tr>
+	</al>
+	<al name ="Gazeuse!" date="1976">
+		<length>2378</length>
+		<rating>3.94</rating>
+		<tr index="1">
+			<length>358</length>
+			<w pos="NN" lemma="expresso">Expresso</w>
+		</tr>
+		<tr index="2">
+			<length>222</length>
+			<w pos="NNP" lemma="night">Night</w>
+			<w pos="NNP" lemma="illusion">Illusion</w>
+		</tr>
+		<tr index="3">
+			<length>600</length>
+			<w pos="NNS" lemma="percolation">Percolations</w>
+			<punc pos="," lemma=",">,</punc>
+			<w pos="NNP" lemma="part">Part</w>
+			<w pos="CD" lemma="1">1</w>
+			<w pos="NNP" lemma="+">+</w>
+			<w pos="NNP" lemma="part">Part</w>
+			<w pos="CD" lemma="2">2</w>
+		</tr>
+		<tr index="4">
+			<length>468</length>
+			<w pos="NNS" lemma="shadow">Shadows</w>
+			<w pos="IN" lemma="of">Of</w>
+		</tr>
+		<tr index="5">
+			<length>480</length>
+			<w pos="NNS" lemma="esnuria">Esnuria</w>
+		</tr>
+		<tr index="6">
+			<length>250</length>
+			<w pos="NNP" lemma="mireille">Mireille</w>
+		</tr>
+	</al>
+	<al name ="Magick Brother" date="1969">
+		<length>2665</length>
+		<rating>3.40</rating>
+		<tr index="">
+			<length>0</length>
+			<w pos="RB" lemma="early">Early</w>
+			<w pos="NNP" lemma="morning">Morning</w>
+			<punc pos=":" lemma="-">-</punc>
+		</tr>
+		<tr index="2">
+			<length>250</length>
+			<w pos="VB" lemma="change">Change</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="world">World</w>
+			<punc pos="(" lemma="(">(</punc>
+			<w pos="JJ" lemma="aka">aka</w>
+			<w pos="NNP" lemma="rational">Rational</w>
+			<w pos="NNP" lemma="anthem">Anthem</w>
+			<punc pos=")" lemma=")">)</punc>
+		</tr>
+		<tr index="3">
+			<length>215</length>
+			<w pos="NNP" lemma="glad">Glad</w>
+			<w pos="TO" lemma="to">To</w>
+			<w pos="VB" lemma="sad">Sad</w>
+			<w pos="TO" lemma="to">To</w>
+			<w pos="VB" lemma="say">Say</w>
+		</tr>
+		<tr index="">
+			<length>0</length>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="late">Late</w>
+			<w pos="NNP" lemma="night">Night</w>
+			<punc pos=":" lemma="-">-</punc>
+		</tr>
+	</al>
+	<al name ="Radio Gnome Invisible Part 1 - Flying Teapot" date="1973">
+		<length>2207</length>
+		<rating>3.95</rating>
+		<tr index="1">
+			<length>333</length>
+			<w pos="NNP" lemma="radio">Radio</w>
+			<w pos="NNP" lemma="gnome">Gnome</w>
+			<w pos="NNP" lemma="invisible">Invisible</w>
+		</tr>
+		<tr index="2">
+			<length>709</length>
+			<w pos="VBG" lemma="flying">Flying</w>
+			<w pos="NN" lemma="teapot">Teapot</w>
+		</tr>
+		<tr index="3">
+			<length>179</length>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="pot">Pot</w>
+			<w pos="NNP" lemma="head">Head</w>
+			<w pos="NNS" lemma="pixy">Pixies</w>
+		</tr>
+		<tr index="4">
+			<length>104</length>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="octave">Octave</w>
+			<w pos="NNPS" lemma="doctor">Doctors</w>
+			<w pos="CC" lemma="and">And</w>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="crystal">Crystal</w>
+			<w pos="NN" lemma="machine">Machine</w>
+		</tr>
+		<tr index="5">
+			<length>577</length>
+			<w pos="CD" lemma="zero">Zero</w>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="hero">Hero</w>
+			<w pos="CC" lemma="and">And</w>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="witch">Witch</w>
+			<w pos="POS" lemma="'s">'s</w>
+			<w pos="NNP" lemma="spell">Spell</w>
+		</tr>
+		<tr index="6">
+			<length>305</length>
+			<w pos="NNP" lemma="witch">Witch</w>
+			<w pos="POS" lemma="'s">'s</w>
+			<w pos="NNP" lemma="song/i">Song/I</w>
+			<w pos="NNP" lemma="am">Am</w>
+			<w pos="NNP" lemma="your">Your</w>
+			<w pos="NNP" lemma="pussy">Pussy</w>
+		</tr>
+	</al>
+	<al name ="Radio Gnome Invisible Part 2 - Angel's Egg" date="1973">
+		<length>2608</length>
+		<rating>4.14</rating>
+		<tr index="1">
+			<length>460</length>
+			<w pos="JJ" lemma="other">Other</w>
+			<w pos="NNP" lemma="side">Side</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="sky">Sky</w>
+		</tr>
+		<tr index="2">
+			<length>265</length>
+			<w pos="VBN" lemma="sold">Sold</w>
+			<w pos="IN" lemma="on">on</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="highest">Highest</w>
+			<w pos="NNP" lemma="buddha">Buddha</w>
+		</tr>
+		<tr index="3">
+			<length>69</length>
+			<w pos="NNP" lemma="castle">Castle</w>
+			<w pos="IN" lemma="in">in</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="cloud">Clouds</w>
+		</tr>
+		<tr index="4">
+			<length>292</length>
+			<w pos="NNP" lemma="prostitute">Prostitute</w>
+			<w pos="NNP" lemma="poem">Poem</w>
+		</tr>
+		<tr index="5">
+			<length>43</length>
+			<w pos="NNP" lemma="givin">Givin</w>
+			<w pos="POS" lemma="'">'</w>
+			<w pos="NNP" lemma="my">My</w>
+			<w pos="NNP" lemma="love">Love</w>
+			<w pos="TO" lemma="to">to</w>
+			<w pos="PRP" lemma="you">You</w>
+		</tr>
+		<tr index="6">
+			<length>129</length>
+			<w pos="NN" lemma="selene">Selene</w>
+		</tr>
+		<tr index="7">
+			<length>129</length>
+			<w pos="NNP" lemma="flute">Flute</w>
+			<w pos="NNP" lemma="salad">Salad</w>
+		</tr>
+		<tr index="8">
+			<length>217</length>
+			<w pos="RB" lemma="oily">Oily</w>
+			<w pos="NNP" lemma="way">Way</w>
+		</tr>
+		<tr index="9">
+			<length>69</length>
+			<w pos="NNP" lemma="outer">Outer</w>
+			<w pos="NNP" lemma="temple">Temple</w>
+		</tr>
+		<tr index="10">
+			<length>154</length>
+			<w pos="NNP" lemma="inner">Inner</w>
+			<w pos="NNP" lemma="temple">Temple</w>
+		</tr>
+		<tr index="11">
+			<length>46</length>
+			<w pos="NNS" lemma="percolation">Percolations</w>
+		</tr>
+		<tr index="12">
+			<length>207</length>
+			<w pos="NNP" lemma="love">Love</w>
+			<w pos="VBZ" lemma="is">is</w>
+			<w pos="NNP" lemma="how">How</w>
+			<w pos="PRP" lemma="you">You</w>
+			<w pos="VBP" lemma="make">Make</w>
+			<w pos="PRP" lemma="it">It</w>
+		</tr>
+		<tr index="13">
+			<length>336</length>
+			<w pos="PRP" lemma="i">I</w>
+			<w pos="NNP" lemma="never">Never</w>
+			<w pos="NNP" lemma="glid">Glid</w>
+			<w pos="IN" lemma="before">Before</w>
+		</tr>
+		<tr index="14">
+			<length>192</length>
+			<w pos="NN" lemma="eat">Eat</w>
+			<w pos="WDT" lemma="that">that</w>
+			<w pos="NNP" lemma="phonebook">Phonebook</w>
+			<w pos="NNP" lemma="coda">Coda</w>
+		</tr>
+	</al>
+	<al name ="Radio Gnome Invisible Part 3 - You" date="1974">
+		<length>2659</length>
+		<rating>4.26</rating>
+		<tr index="1">
+			<length>90</length>
+			<w pos="NNS" lemma="thought">Thoughts</w>
+			<w pos="IN" lemma="for">for</w>
+			<w pos="NNP" lemma="naught">Naught</w>
+		</tr>
+		<tr index="2">
+			<length>97</length>
+			<w pos="POS" lemma="'s">'s</w>
+			<w pos="NN" lemma="advice">Advice</w>
+		</tr>
+		<tr index="3">
+			<length>131</length>
+			<w pos="NNP" lemma="magick">Magick</w>
+			<w pos="NNP" lemma="mother">Mother</w>
+			<w pos="NNP" lemma="invocation">Invocation</w>
+		</tr>
+		<tr index="4">
+			<length>369</length>
+			<w pos="NN" lemma="master">Master</w>
+			<w pos="NN" lemma="builder">Builder</w>
+		</tr>
+		<tr index="5">
+			<length>522</length>
+			<w pos="DT" lemma="a">A</w>
+			<w pos="NNP" lemma="sprinkling">Sprinkling</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="NNP" lemma="cloud">Clouds</w>
+		</tr>
+		<tr index="6">
+			<length>145</length>
+			<w pos="JJ" lemma="perfect">Perfect</w>
+			<w pos="NNP" lemma="mystery">Mystery</w>
+		</tr>
+		<tr index="7">
+			<length>621</length>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="isle">Isle</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="NNP" lemma="everywhere">Everywhere</w>
+		</tr>
+		<tr index="8">
+			<length>684</length>
+			<w pos="PRP" lemma="you">You</w>
+			<w pos="RB" lemma="never">Never</w>
+			<w pos="VB" lemma="blow">Blow</w>
+			<w pos="PRP$" lemma="your">Your</w>
+			<w pos="NNP" lemma="trip">Trip</w>
+			<w pos="NN" lemma="forever">Forever</w>
+		</tr>
+	</al>
+	<al name ="Shamal" date="1975">
+		<length>2401</length>
+		<rating>3.81</rating>
+		<tr index="1">
+			<length>380</length>
+			<w pos="NNP" lemma="wingful">Wingful</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="NNP" lemma="eye">Eyes</w>
+		</tr>
+		<tr index="2">
+			<length>438</length>
+			<w pos="NN" lemma="chandra">Chandra</w>
+		</tr>
+		<tr index="3">
+			<length>313</length>
+			<w pos="NN" lemma="bambooji">Bambooji</w>
+		</tr>
+		<tr index="4">
+			<length>463</length>
+			<w pos="NNP" lemma="cat">Cat</w>
+			<w pos="IN" lemma="in">in</w>
+			<w pos="NNP" lemma="clark">Clark</w>
+			<w pos="POS" lemma="'s">'s</w>
+			<w pos="NNS" lemma="shoe">Shoes</w>
+		</tr>
+		<tr index="5">
+			<length>304</length>
+			<w pos="NN" lemma="mandrake">Mandrake</w>
+		</tr>
+		<tr index="6">
+			<length>540</length>
+			<w pos="JJ" lemma="shamal">Shamal</w>
+		</tr>
+	</al>
+</artist>

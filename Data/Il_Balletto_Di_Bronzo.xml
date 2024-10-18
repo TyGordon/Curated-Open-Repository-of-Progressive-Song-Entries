@@ -1,0 +1,29 @@
+<artist name="Il Balletto Di Bronzo" genre="Rock Progressivo Italiano">
+	<al name ="Ys" date="1972">
+		<length>2267</length>
+		<rating>4.25</rating>
+		<tr index="1">
+			<length>911</length>
+			<w pos="NN" lemma="introduzione">Introduzione</w>
+		</tr>
+		<tr index="2">
+			<length>207</length>
+			<w pos="NNP" lemma="primo">Primo</w>
+			<w pos="NNP" lemma="incontro">Incontro</w>
+		</tr>
+		<tr index="3">
+			<length>186</length>
+			<w pos="NNP" lemma="secondo">Secondo</w>
+			<w pos="NNP" lemma="incontro">Incontro</w>
+		</tr>
+		<tr index="4">
+			<length>273</length>
+			<w pos="NNP" lemma="terzo">Terzo</w>
+			<w pos="NNP" lemma="incontro">Incontro</w>
+		</tr>
+		<tr index="5">
+			<length>690</length>
+			<w pos="NN" lemma="epilogo">Epilogo</w>
+		</tr>
+	</al>
+</artist>

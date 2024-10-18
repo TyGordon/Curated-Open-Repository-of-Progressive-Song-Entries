@@ -1,0 +1,30 @@
+<artist name="Biglietto Per L'Inferno" genre="Rock Progressivo Italiano">
+	<al name ="Biglietto Per L'Inferno" date="1974">
+		<length>2150</length>
+		<rating>4.14</rating>
+		<tr index="1">
+			<length>256</length>
+			<w pos="NN" lemma="ansia">Ansia</w>
+		</tr>
+		<tr index="2">
+			<length>392</length>
+			<w pos="NN" lemma="confessione">Confessione</w>
+		</tr>
+		<tr index="3">
+			<length>372</length>
+			<w pos="NNP" lemma="una">Una</w>
+			<w pos="NNP" lemma="strana">Strana</w>
+			<w pos="NNP" lemma="regina">Regina</w>
+		</tr>
+		<tr index="4">
+			<length>277</length>
+			<w pos="NNP" lemma="il">Il</w>
+			<w pos="NNP" lemma="nevare">Nevare</w>
+		</tr>
+		<tr index="5">
+			<length>863</length>
+			<w pos="NNP" lemma="l'amico">L'Amico</w>
+			<w pos="NNP" lemma="suicida">Suicida</w>
+		</tr>
+	</al>
+</artist>

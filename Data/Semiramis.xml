@@ -1,0 +1,48 @@
+<artist name="Semiramis" genre="Rock Progressivo Italiano">
+	<al name ="Dedicato A Frazz" date="1973">
+		<length>2208</length>
+		<rating>4.07</rating>
+		<tr index="1">
+			<length>361</length>
+			<w pos="NNP" lemma="la">La</w>
+			<w pos="JJ" lemma="bottega">bottega</w>
+			<w pos="NN" lemma="del">del</w>
+			<w pos="NN" lemma="rigattiere">rigattiere</w>
+		</tr>
+		<tr index="2">
+			<length>358</length>
+			<w pos="NNP" lemma="luna">Luna</w>
+			<w pos="NNP" lemma="park">Park</w>
+		</tr>
+		<tr index="3">
+			<length>268</length>
+			<w pos="NNP" lemma="uno">Uno</w>
+			<w pos="NN" lemma="zoo">zoo</w>
+			<w pos="NN" lemma="di">di</w>
+			<w pos="NN" lemma="vetro">vetro</w>
+		</tr>
+		<tr index="4">
+			<length>300</length>
+			<w pos="NNP" lemma="per">Per</w>
+			<w pos="NN" lemma="un">un</w>
+			<w pos="NN" lemma="strada">strada</w>
+			<w pos="NN" lemma="affolata">affolata</w>
+		</tr>
+		<tr index="5">
+			<length>342</length>
+			<w pos="NNP" lemma="dietro">Dietro</w>
+			<w pos="JJ" lemma="una">una</w>
+			<w pos="NN" lemma="porta">porta</w>
+			<w pos="NN" lemma="di">di</w>
+			<w pos="NN" lemma="carta">carta</w>
+		</tr>
+		<tr index="6">
+			<length>305</length>
+			<w pos="NN" lemma="frazz">Frazz</w>
+		</tr>
+		<tr index="7">
+			<length>274</length>
+			<w pos="NN" lemma="clown">Clown</w>
+		</tr>
+	</al>
+</artist>

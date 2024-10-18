@@ -1,0 +1,75 @@
+<artist name="Crucis" genre="Symphonic Prog">
+	<al name ="Crucis" date="1976">
+		<length>1</length>
+		<rating>3.78</rating>
+		<tr index="1">
+			<length>273</length>
+			<w pos="NNP" lemma="todo">Todo</w>
+			<w pos="NNP" lemma="tiempo">Tiempo</w>
+			<w pos="NNP" lemma="e">Es</w>
+			<w pos="NNP" lemma="posible">Posible</w>
+		</tr>
+		<tr index="2">
+			<length>294</length>
+			<w pos="NN" lemma="me">Mes</w>
+		</tr>
+		<tr index="3">
+			<length>175</length>
+			<w pos="NNP" lemma="corto">Corto</w>
+			<w pos="NNP" lemma="amanecer">Amanecer</w>
+		</tr>
+		<tr index="4">
+			<length>300</length>
+			<w pos="NNP" lemma="la">La</w>
+			<w pos="NNP" lemma="triste">Triste</w>
+			<w pos="NNP" lemma="visi=n">Visi=n</w>
+			<w pos="NNP" lemma="del">Del</w>
+			<w pos="NNP" lemma="entierro">Entierro</w>
+			<w pos="NNP" lemma="propio">Propio</w>
+		</tr>
+		<tr index="5">
+			<length>246</length>
+			<w pos="NNP" lemma="ir=nico">Ir=nico</w>
+			<w pos="NNP" lemma="ser">Ser</w>
+		</tr>
+		<tr index="6">
+			<length>414</length>
+			<w pos="NNP" lemma="determinados">Determinados</w>
+			<w pos="NNP" lemma="espejos">Espejos</w>
+		</tr>
+		<tr index="7">
+			<length>405</length>
+			<w pos="NNP" lemma="recluso">Recluso</w>
+			<w pos="NNP" lemma="artista">Artista</w>
+		</tr>
+	</al>
+	<al name ="Los Delirios Del Mariscal" date="1976">
+		<length>2071</length>
+		<rating>4.17</rating>
+		<tr index="1">
+			<length>366</length>
+			<w pos="DT" lemma="no">No</w>
+			<w pos="NNP" lemma="me">Me</w>
+			<w pos="NNP" lemma="separen">Separen</w>
+			<w pos="IN" lemma="de">de</w>
+			<w pos="NNP" lemma="mi">Mi</w>
+		</tr>
+		<tr index="2">
+			<length>610</length>
+			<w pos="NNP" lemma="los">Los</w>
+			<w pos="NNP" lemma="delirios">Delirios</w>
+			<w pos="FW" lemma="del">del</w>
+			<w pos="NNP" lemma="mariscal">Mariscal</w>
+		</tr>
+		<tr index="3">
+			<length>345</length>
+			<w pos="NNP" lemma="pollo">Pollo</w>
+			<w pos="NNP" lemma="frito">Frito</w>
+		</tr>
+		<tr index="4">
+			<length>750</length>
+			<w pos="NNP" lemma="abismo">Abismo</w>
+			<w pos="NNP" lemma="terrenal">Terrenal</w>
+		</tr>
+	</al>
+</artist>

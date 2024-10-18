@@ -1,0 +1,205 @@
+<artist name="Wishbone Ash" genre="Prog Related">
+	<al name ="Argus" date="1972">
+		<length>2684</length>
+		<rating>4.23</rating>
+		<tr index="1">
+			<length>582</length>
+			<w pos="NN" lemma="time">Time</w>
+			<w pos="NNP" lemma="wa">Was</w>
+		</tr>
+		<tr index="2">
+			<length>415</length>
+			<w pos="RB" lemma="sometime">Sometime</w>
+			<w pos="NNP" lemma="world">World</w>
+		</tr>
+		<tr index="3">
+			<length>318</length>
+			<w pos="NNP" lemma="blowin">Blowin</w>
+			<w pos="POS" lemma="'">'</w>
+			<w pos="JJ" lemma="free">Free</w>
+		</tr>
+		<tr index="4">
+			<length>426</length>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="king">King</w>
+			<w pos="NNP" lemma="will">Will</w>
+			<w pos="NNP" lemma="come">Come</w>
+		</tr>
+		<tr index="5">
+			<length>235</length>
+			<w pos="NNP" lemma="leaf">Leaf</w>
+			<w pos="CC" lemma="and">and</w>
+			<w pos="NNP" lemma="stream">Stream</w>
+		</tr>
+		<tr index="6">
+			<length>353</length>
+			<w pos="JJ" lemma="warrior">Warrior</w>
+		</tr>
+		<tr index="7">
+			<length>355</length>
+			<w pos="VB" lemma="throw">Throw</w>
+			<w pos="RP" lemma="down">Down</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NN" lemma="sword">Sword</w>
+		</tr>
+	</al>
+	<al name ="Pilgrimage" date="1971">
+		<length>2391</length>
+		<rating>3.61</rating>
+		<tr index="1">
+			<length>281</length>
+			<w pos="NNP" lemma="va">Vas</w>
+			<w pos="NNP" lemma="dis">Dis</w>
+		</tr>
+		<tr index="2">
+			<length>510</length>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="pilgrim">Pilgrim</w>
+		</tr>
+		<tr index="3">
+			<length>281</length>
+			<w pos="NNP" lemma="jail">Jail</w>
+			<w pos="NNP" lemma="bait">Bait</w>
+		</tr>
+		<tr index="4">
+			<length>140</length>
+			<w pos="RB" lemma="alone">Alone</w>
+		</tr>
+		<tr index="5">
+			<length>179</length>
+			<w pos="NN" lemma="lullaby">Lullaby</w>
+		</tr>
+		<tr index="6">
+			<length>377</length>
+			<w pos="NN" lemma="valediction">Valediction</w>
+		</tr>
+		<tr index="7">
+			<length>623</length>
+			<w pos="WRB" lemma="where">Where</w>
+			<w pos="NNP" lemma="were">Were</w>
+			<w pos="PRP" lemma="you">You</w>
+			<w pos="VBP" lemma="tomorrow">Tomorrow</w>
+			<punc pos="(" lemma="(">(</punc>
+			<w pos="NNP" lemma="live">Live</w>
+			<punc pos=")" lemma=")">)</punc>
+		</tr>
+	</al>
+	<al name ="There's the Rub" date="1974">
+		<length>1</length>
+		<rating>3.91</rating>
+		<tr index="1">
+			<length>398</length>
+			<w pos="NN" lemma="silver">Silver</w>
+			<w pos="NNS" lemma="shoe">Shoes</w>
+		</tr>
+		<tr index="2">
+			<length>310</length>
+			<w pos="VBP" lemma="do">Do</w>
+			<w pos="RB" lemma="n't">n't</w>
+			<w pos="VB" lemma="come">Come</w>
+			<w pos="RP" lemma="back">Back</w>
+		</tr>
+		<tr index="3">
+			<length>418</length>
+			<w pos="NN" lemma="persephone">Persephone</w>
+		</tr>
+		<tr index="5">
+			<length>356</length>
+			<w pos="NNP" lemma="lady">Lady</w>
+			<w pos="NNP" lemma="jay">Jay</w>
+		</tr>
+		<tr index="6">
+			<length>567</length>
+			<w pos="NNP" lemma="f.u.b.b">F.U.B.B</w>
+			<punc pos="." lemma=".">.</punc>
+		</tr>
+	</al>
+	<al name ="Wishbone Ash" date="1970">
+		<length>2533</length>
+		<rating>3.89</rating>
+		<tr index="1">
+			<length>222</length>
+			<w pos="NNP" lemma="blind">Blind</w>
+			<w pos="NNP" lemma="eye">Eye</w>
+		</tr>
+		<tr index="2">
+			<length>371</length>
+			<w pos="NNP" lemma="lady">Lady</w>
+			<w pos="NNP" lemma="whiskey">Whiskey</w>
+		</tr>
+		<tr index="3">
+			<length>416</length>
+			<w pos="NN" lemma="error">Error</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="NNP" lemma="my">My</w>
+			<w pos="NNP" lemma="way">Ways</w>
+		</tr>
+		<tr index="4">
+			<length>201</length>
+			<w pos="NN" lemma="queen">Queen</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="NN" lemma="torture">Torture</w>
+		</tr>
+		<tr index="5">
+			<length>696</length>
+			<w pos="NNP" lemma="handy">Handy</w>
+		</tr>
+		<tr index="6">
+			<length>627</length>
+			<w pos="NNP" lemma="phoenix">Phoenix</w>
+		</tr>
+	</al>
+	<al name ="Wishbone Four" date="1973">
+		<length>2577</length>
+		<rating>3.10</rating>
+		<tr index="1">
+			<length>300</length>
+			<w pos="RB" lemma="so">So</w>
+			<w pos="JJ" lemma="many">Many</w>
+			<w pos="NNS" lemma="thing">Things</w>
+			<w pos="TO" lemma="to">To</w>
+			<w pos="VB" lemma="say">Say</w>
+		</tr>
+		<tr index="2">
+			<length>298</length>
+			<w pos="NNP" lemma="ballad">Ballad</w>
+			<w pos="IN" lemma="of">Of</w>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="beacon">Beacon</w>
+		</tr>
+		<tr index="3">
+			<length>220</length>
+			<w pos="DT" lemma="no">No</w>
+			<w pos="NNP" lemma="easy">Easy</w>
+			<w pos="NNP" lemma="road">Road</w>
+		</tr>
+		<tr index="4">
+			<length>507</length>
+			<w pos="NN" lemma="everybody">Everybody</w>
+			<w pos="VBZ" lemma="need">Needs</w>
+			<w pos="DT" lemma="a">A</w>
+			<w pos="NN" lemma="friend">Friend</w>
+		</tr>
+		<tr index="5">
+			<length>348</length>
+			<w pos="NN" lemma="doctor">Doctor</w>
+		</tr>
+		<tr index="6">
+			<length>302</length>
+			<w pos="NN" lemma="sorrel">Sorrel</w>
+		</tr>
+		<tr index="7">
+			<length>261</length>
+			<w pos="VBG" lemma="sing">Sing</w>
+			<w pos="IN" lemma="out">Out</w>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NN" lemma="song">Song</w>
+		</tr>
+		<tr index="8">
+			<length>341</length>
+			<w pos="NNP" lemma="rock'n">Rock'n</w>
+			<w pos="NNP" lemma="roll">Roll</w>
+			<w pos="NNP" lemma="widow">Widow</w>
+		</tr>
+	</al>
+</artist>

@@ -1,0 +1,41 @@
+<artist name="Apoteosi" genre="Rock Progressivo Italiano">
+	<al name ="Apoteosi" date="1975">
+		<length>2129</length>
+		<rating>3.92</rating>
+		<tr index="1">
+			<length>155</length>
+			<w pos="NN" lemma="embrion">Embrion</w>
+		</tr>
+		<tr index="2">
+			<length>880</length>
+			<w pos="NNP" lemma="prima">Prima</w>
+			<w pos="NNP" lemma="realta">Realta</w>
+			<w pos="NNP" lemma="/">/</w>
+			<w pos="NNP" lemma="frammentaria">Frammentaria</w>
+			<w pos="NNP" lemma="rivolta">Rivolta</w>
+		</tr>
+		<tr index="3">
+			<length>516</length>
+			<w pos="NNP" lemma="il">Il</w>
+			<w pos="NNP" lemma="grande">Grande</w>
+			<w pos="NNP" lemma="disumano">Disumano</w>
+			<w pos="NNP" lemma="/">/</w>
+			<w pos="NNP" lemma="oratorio">Oratorio</w>
+			<punc pos="(" lemma="(">(</punc>
+			<w pos="NNP" lemma="chorale">Chorale</w>
+			<punc pos=")" lemma=")">)</punc>
+			<w pos="VBP" lemma="/">/</w>
+			<w pos="NNP" lemma="attesa">Attesa</w>
+		</tr>
+		<tr index="4">
+			<length>228</length>
+			<w pos="NNP" lemma="dimensione">Dimensione</w>
+			<w pos="NNP" lemma="da">Da</w>
+			<w pos="NNP" lemma="sogno">Sogno</w>
+		</tr>
+		<tr index="5">
+			<length>350</length>
+			<w pos="NNS" lemma="apoteosi">Apoteosi</w>
+		</tr>
+	</al>
+</artist>

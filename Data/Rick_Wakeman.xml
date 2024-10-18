@@ -1,0 +1,51 @@
+<artist name="Rick Wakeman" genre="Symphonic Prog">
+	<al name ="The Six Wives of Henry VIII" date="1973">
+		<length>2186</length>
+		<rating>4.13</rating>
+		<tr index="1">
+			<length>225</length>
+			<w pos="NNP" lemma="catherine">Catherine</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="NNP" lemma="aragon">Aragon</w>
+		</tr>
+		<tr index="2">
+			<length>470</length>
+			<w pos="NNP" lemma="anne">Anne</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="NNP" lemma="clef">Cleves</w>
+		</tr>
+		<tr index="3">
+			<length>396</length>
+			<w pos="NNP" lemma="catherine">Catherine</w>
+			<w pos="NNP" lemma="howard">Howard</w>
+		</tr>
+		<tr index="4">
+			<length>284</length>
+			<w pos="NNP" lemma="jane">Jane</w>
+			<w pos="NNP" lemma="seymour">Seymour</w>
+		</tr>
+		<tr index="5">
+			<length>391</length>
+			<w pos="NNP" lemma="anne">Anne</w>
+			<w pos="NNP" lemma="boleyn">Boleyn</w>
+			<punc pos="(" lemma="(">(</punc>
+			<w pos="NN" lemma="incl">incl</w>
+			<punc pos="," lemma=",">,</punc>
+			<w pos="``" lemma="``">``</w>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="day">Day</w>
+			<w pos="NNP" lemma="thou">Thou</w>
+			<w pos="NNP" lemma="gavest">Gavest</w>
+			<w pos="NNP" lemma="lord">Lord</w>
+			<w pos="NNP" lemma="hath">Hath</w>
+			<w pos="NNP" lemma="ended">Ended</w>
+			<w pos="''" lemma="''">''</w>
+			<punc pos=")" lemma=")">)</punc>
+		</tr>
+		<tr index="6">
+			<length>420</length>
+			<w pos="NNP" lemma="catherine">Catherine</w>
+			<w pos="NNP" lemma="parr">Parr</w>
+		</tr>
+	</al>
+</artist>

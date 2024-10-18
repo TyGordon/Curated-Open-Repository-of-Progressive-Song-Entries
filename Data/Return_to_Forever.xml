@@ -1,0 +1,41 @@
+<artist name="Return to Forever" genre="Jazz Rock/Fusion">
+	<al name ="Romantic Warrior" date="1976">
+		<length>2736</length>
+		<rating>4.30</rating>
+		<tr index="1">
+			<length>314</length>
+			<w pos="JJ" lemma="medieval">Medieval</w>
+			<w pos="NN" lemma="overture">Overture</w>
+		</tr>
+		<tr index="2">
+			<length>454</length>
+			<w pos="NN" lemma="sorceress">Sorceress</w>
+		</tr>
+		<tr index="3">
+			<length>652</length>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="JJ" lemma="romantic">Romantic</w>
+			<w pos="NNP" lemma="warrior">Warrior</w>
+		</tr>
+		<tr index="4">
+			<length>301</length>
+			<w pos="JJ" lemma="majestic">Majestic</w>
+			<w pos="NN" lemma="dance">Dance</w>
+		</tr>
+		<tr index="5">
+			<length>329</length>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="JJ" lemma="magician">Magician</w>
+		</tr>
+		<tr index="6">
+			<length>686</length>
+			<w pos="NNP" lemma="duel">Duel</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="jester">Jester</w>
+			<w pos="CC" lemma="and">and</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NN" lemma="tyrant">Tyrant</w>
+		</tr>
+	</al>
+</artist>

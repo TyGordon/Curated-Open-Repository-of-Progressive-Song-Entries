@@ -1,0 +1,95 @@
+<artist name="Amon Duul II" genre="Krautrock">
+	<al name ="Yeti" date="1970">
+		<length>4112</length>
+		<rating>4.09</rating>
+		<tr index="1">
+			<length>804</length>
+			<w pos="NNP" lemma="soap">Soap</w>
+			<w pos="NNP" lemma="shop">Shop</w>
+			<w pos="NNP" lemma="rock">Rock</w>
+		</tr>
+		<tr index="a">
+			<length>0</length>
+			<w pos="VBG" lemma="burning">Burning</w>
+			<w pos="NN" lemma="sister">Sister</w>
+		</tr>
+		<tr index="b">
+			<length>0</length>
+			<w pos="NNP" lemma="halluzination">Halluzination</w>
+			<w pos="NNP" lemma="guillotine">Guillotine</w>
+		</tr>
+		<tr index="c">
+			<length>0</length>
+			<w pos="NNP" lemma="gulp">Gulp</w>
+			<w pos="DT" lemma="a">a</w>
+			<w pos="NNP" lemma="sonata">Sonata</w>
+		</tr>
+		<tr index="d">
+			<length>0</length>
+			<w pos="JJ" lemma="flesh-coloured">Flesh-Coloured</w>
+			<w pos="NNP" lemma="anti-aircraft">Anti-Aircraft</w>
+			<w pos="NNP" lemma="alarm">Alarm</w>
+		</tr>
+		<tr index="2">
+			<length>236</length>
+			<w pos="PRP" lemma="she">She</w>
+			<w pos="NNP" lemma="came">Came</w>
+			<w pos="IN" lemma="through">Through</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="chimney">Chimney</w>
+		</tr>
+		<tr index="3">
+			<length>210</length>
+			<w pos="NNS" lemma="archangel">Archangels</w>
+			<w pos="NNP" lemma="thunderbird">Thunderbird</w>
+		</tr>
+		<tr index="4">
+			<length>258</length>
+			<w pos="NN" lemma="cerberus">Cerberus</w>
+		</tr>
+		<tr index="5">
+			<length>95</length>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="return">Return</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="NNP" lemma="ruebezahl">Ruebezahl</w>
+		</tr>
+		<tr index="6">
+			<length>397</length>
+			<w pos="JJ" lemma="eye-shaking">Eye-Shaking</w>
+			<w pos="NNP" lemma="king">King</w>
+		</tr>
+		<tr index="7">
+			<length>131</length>
+			<w pos="JJ" lemma="pale">Pale</w>
+			<w pos="NN" lemma="gallery">Gallery</w>
+		</tr>
+		<tr index="8">
+			<length>1080</length>
+			<w pos="NNP" lemma="yeti">Yeti</w>
+			<punc pos="(" lemma="(">(</punc>
+			<w pos="NN" lemma="improvisation">improvisation</w>
+			<punc pos=")" lemma=")">)</punc>
+		</tr>
+		<tr index="9">
+			<length>366</length>
+			<w pos="PRP$" lemma="yeti">Yeti</w>
+			<w pos="NNS" lemma="talk">Talks</w>
+			<w pos="TO" lemma="to">to</w>
+			<w pos="NNP" lemma="yogi">Yogi</w>
+			<punc pos="(" lemma="(">(</punc>
+			<w pos="NN" lemma="improvisation">improvisation</w>
+			<punc pos=")" lemma=")">)</punc>
+		</tr>
+		<tr index="10">
+			<length>535</length>
+			<w pos="NNP" lemma="sandoz">Sandoz</w>
+			<w pos="IN" lemma="in">in</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="rain">Rain</w>
+			<punc pos="(" lemma="(">(</punc>
+			<w pos="NN" lemma="improvisation">improvisation</w>
+			<punc pos=")" lemma=")">)</punc>
+		</tr>
+	</al>
+</artist>

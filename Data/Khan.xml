@@ -1,0 +1,68 @@
+<artist name="Khan" genre="Canterbury Scene">
+	<al name ="Space Shanty" date="1972">
+		<length>2758</length>
+		<rating>4.29</rating>
+		<tr index="1">
+			<length>539</length>
+			<w pos="NNP" lemma="space">Space</w>
+			<w pos="NNP" lemma="shanty">Shanty</w>
+			<punc pos="(" lemma="(">(</punc>
+			<w pos="VBG" lemma="including">including</w>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="cobalt">Cobalt</w>
+			<w pos="NNP" lemma="sequence">Sequence</w>
+			<w pos="CC" lemma="and">and</w>
+			<w pos="NNP" lemma="march">March</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="sine">Sine</w>
+			<w pos="NNP" lemma="squadron">Squadrons</w>
+			<punc pos=")" lemma=")">)</punc>
+		</tr>
+		<tr index="2">
+			<length>395</length>
+			<w pos="NNP" lemma="stranded">Stranded</w>
+			<punc pos="(" lemma="(">(</punc>
+			<w pos="VBG" lemma="including">including</w>
+			<w pos="NNP" lemma="effervescent">Effervescent</w>
+			<w pos="NNP" lemma="psycho">Psycho</w>
+			<w pos="NNP" lemma="novelty">Novelty</w>
+			<w pos="NNP" lemma="no">No</w>
+			<punc pos="," lemma=",">,</punc>
+			<w pos="CD" lemma="5">5</w>
+			<punc pos=")" lemma=")">)</punc>
+		</tr>
+		<tr index="3">
+			<length>434</length>
+			<w pos="NNP" lemma="mixed">Mixed</w>
+			<w pos="NNP" lemma="up">Up</w>
+			<w pos="NNP" lemma="man">Man</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNS" lemma="mountain">Mountains</w>
+		</tr>
+		<tr index="4">
+			<length>562</length>
+			<w pos="VBG" lemma="driving">Driving</w>
+			<w pos="TO" lemma="to">to</w>
+			<w pos="NNP" lemma="amsterdam">Amsterdam</w>
+		</tr>
+		<tr index="5">
+			<length>332</length>
+			<w pos="NNS" lemma="stargazer">Stargazers</w>
+		</tr>
+		<tr index="6">
+			<length>496</length>
+			<w pos="NNP" lemma="hollow">Hollow</w>
+			<w pos="NNP" lemma="stone">Stone</w>
+			<punc pos="(" lemma="(">(</punc>
+			<w pos="VBG" lemma="including">including</w>
+			<w pos="NNP" lemma="escape">Escape</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="space">Space</w>
+			<w pos="NNP" lemma="pirate">Pirates</w>
+			<punc pos=")" lemma=")">)</punc>
+		</tr>
+	</al>
+</artist>

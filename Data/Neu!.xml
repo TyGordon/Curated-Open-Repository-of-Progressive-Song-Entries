@@ -1,0 +1,37 @@
+<artist name="Neu!" genre="Krautrock">
+	<al name ="Neu!" date="1972">
+		<length>2742</length>
+		<rating>4.04</rating>
+		<tr index="1">
+			<length>607</length>
+			<w pos="NN" lemma="hallogallo">Hallogallo</w>
+		</tr>
+		<tr index="2">
+			<length>290</length>
+			<w pos="NN" lemma="sonderangebot">Sonderangebot</w>
+		</tr>
+		<tr index="3">
+			<length>402</length>
+			<w pos="NN" lemma="weissensee">Weissensee</w>
+		</tr>
+		<tr index="">
+			<length>0</length>
+			<w pos="NN" lemma="jahresnberblick">Jahresnberblick</w>
+			<punc pos=":" lemma=":">:</punc>
+		</tr>
+		<tr index="4">
+			<length>412</length>
+			<w pos="NNP" lemma="im">Im</w>
+			<w pos="NNP" lemma="glnck">Glnck</w>
+		</tr>
+		<tr index="5">
+			<length>586</length>
+			<w pos="NN" lemma="negativland">Negativland</w>
+		</tr>
+		<tr index="6">
+			<length>435</length>
+			<w pos="NNP" lemma="lieber">Lieber</w>
+			<w pos="NNP" lemma="honig">Honig</w>
+		</tr>
+	</al>
+</artist>

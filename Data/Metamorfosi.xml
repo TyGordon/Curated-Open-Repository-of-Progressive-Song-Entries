@@ -1,0 +1,60 @@
+<artist name="Metamorfosi" genre="Rock Progressivo Italiano">
+	<al name ="Inferno" date="1973">
+		<length>2418</length>
+		<rating>4.06</rating>
+		<tr index="1">
+			<length>471</length>
+			<w pos="NN" lemma="introduzione">Introduzione</w>
+		</tr>
+		<tr index="2">
+			<length>80</length>
+			<w pos="NNP" lemma="porta">Porta</w>
+			<w pos="NN" lemma="dell'inferno">dell'Inferno</w>
+		</tr>
+		<tr index="3">
+			<length>79</length>
+			<w pos="NN" lemma="caronte">Caronte</w>
+		</tr>
+		<tr index="4">
+			<length>382</length>
+			<w pos="RB" lemma="spacciatore">Spacciatore</w>
+			<w pos="JJ" lemma="di">di</w>
+			<w pos="NN" lemma="droga">droga</w>
+		</tr>
+		<tr index="5">
+			<length>195</length>
+			<w pos="NN" lemma="lussuriosi">Lussuriosi</w>
+		</tr>
+		<tr index="6">
+			<length>92</length>
+			<w pos="NNP" lemma="avari">Avari</w>
+		</tr>
+		<tr index="7">
+			<length>225</length>
+			<w pos="NNS" lemma="violenti">Violenti</w>
+		</tr>
+		<tr index="8">
+			<length>92</length>
+			<w pos="NN" lemma="malebolge">Malebolge</w>
+		</tr>
+		<tr index="9">
+			<length>342</length>
+			<w pos="NN" lemma="sfruttatori">Sfruttatori</w>
+		</tr>
+		<tr index="10">
+			<length>205</length>
+			<w pos="NN" lemma="razzisti">Razzisti</w>
+		</tr>
+		<tr index="11">
+			<length>152</length>
+			<w pos="NNP" lemma="lucifero">Lucifero</w>
+			<punc pos="(" lemma="(">(</punc>
+			<w pos="NNP" lemma="politicanti">Politicanti</w>
+			<punc pos=")" lemma=")">)</punc>
+		</tr>
+		<tr index="12">
+			<length>97</length>
+			<w pos="NN" lemma="conclusione">Conclusione</w>
+		</tr>
+	</al>
+</artist>

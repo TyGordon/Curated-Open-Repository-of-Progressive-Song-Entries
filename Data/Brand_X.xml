@@ -1,0 +1,145 @@
+<artist name="Brand X" genre="Jazz Rock/Fusion">
+	<al name ="Masques" date="1978">
+		<length>2947</length>
+		<rating>4.06</rating>
+		<tr index="1">
+			<length>311</length>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="poke">Poke</w>
+		</tr>
+		<tr index="2">
+			<length>196</length>
+			<w pos="NNS" lemma="masque">Masques</w>
+		</tr>
+		<tr index="3">
+			<length>289</length>
+			<w pos="NNP" lemma="black">Black</w>
+			<w pos="NNP" lemma="moon">Moon</w>
+		</tr>
+		<tr index="4">
+			<length>683</length>
+			<w pos="RB" lemma="deadly">Deadly</w>
+			<w pos="NNP" lemma="nightshade">Nightshade</w>
+		</tr>
+		<tr index="5">
+			<length>369</length>
+			<w pos="NN" lemma="earth">Earth</w>
+			<w pos="NN" lemma="dance">Dance</w>
+		</tr>
+		<tr index="6">
+			<length>481</length>
+			<w pos="NN" lemma="access">Access</w>
+			<w pos="TO" lemma="to">to</w>
+			<w pos="NNP" lemma="data">Data</w>
+		</tr>
+		<tr index="7">
+			<length>618</length>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="ghost">Ghost</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="NNP" lemma="mayfield">Mayfield</w>
+			<w pos="NNP" lemma="lodge">Lodge</w>
+		</tr>
+	</al>
+	<al name ="Moroccan Roll" date="1977">
+		<length>2972</length>
+		<rating>4.07</rating>
+		<tr index="1">
+			<length>265</length>
+			<w pos="NNP" lemma="sun">Sun</w>
+			<w pos="IN" lemma="in">in</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="night">Night</w>
+		</tr>
+		<tr index="2">
+			<length>676</length>
+			<w pos="WRB" lemma="why">Why</w>
+			<w pos="MD" lemma="should">Should</w>
+			<w pos="PRP" lemma="i">I</w>
+			<w pos="VB" lemma="lend">Lend</w>
+			<w pos="PRP" lemma="you">You</w>
+			<w pos="VBP" lemma="mine">Mine</w>
+		</tr>
+		<tr index="3">
+			<length>130</length>
+			<punc pos=":" lemma="...">...</punc>
+			<w pos="RB" lemma="maybe">Maybe</w>
+			<w pos="PRP" lemma="i">I</w>
+			<w pos="MD" lemma="'ll">'ll</w>
+			<w pos="VB" lemma="lend">Lend</w>
+			<w pos="PRP" lemma="you">You</w>
+			<w pos="VBP" lemma="mine">Mine</w>
+			<w pos="IN" lemma="after">After</w>
+			<w pos="DT" lemma="all">All</w>
+		</tr>
+		<tr index="4">
+			<length>281</length>
+			<w pos="NNP" lemma="hate">Hate</w>
+			<w pos="NNP" lemma="zone">Zone</w>
+		</tr>
+		<tr index="5">
+			<length>95</length>
+			<w pos="NN" lemma="collapsar">Collapsar</w>
+		</tr>
+		<tr index="6">
+			<length>475</length>
+			<w pos="NNP" lemma="disco">Disco</w>
+			<w pos="NNP" lemma="suicide">Suicide</w>
+		</tr>
+		<tr index="7">
+			<length>98</length>
+			<w pos="NNS" lemma="orbit">Orbits</w>
+		</tr>
+		<tr index="8">
+			<length>508</length>
+			<w pos="NNP" lemma="malaga">Malaga</w>
+			<w pos="NNP" lemma="virgin">Virgin</w>
+		</tr>
+		<tr index="9">
+			<length>444</length>
+			<w pos="NN" lemma="macrocosm">Macrocosm</w>
+		</tr>
+	</al>
+	<al name ="Unorthodox Behaviour" date="1976">
+		<length>2443</length>
+		<rating>4.12</rating>
+		<tr index="1">
+			<length>380</length>
+			<w pos="JJ" lemma="nuclear">Nuclear</w>
+			<w pos="NNP" lemma="burn">Burn</w>
+		</tr>
+		<tr index="2">
+			<length>339</length>
+			<w pos="NN" lemma="euthanasia">Euthanasia</w>
+			<w pos="NNP" lemma="waltz">Waltz</w>
+		</tr>
+		<tr index="3">
+			<length>493</length>
+			<w pos="NNP" lemma="born">Born</w>
+			<w pos="NNP" lemma="ugly">Ugly</w>
+		</tr>
+		<tr index="4">
+			<length>266</length>
+			<w pos="NNS" lemma="smack">Smacks</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="NNP" lemma="euphoric">Euphoric</w>
+			<w pos="NNP" lemma="hysteria">Hysteria</w>
+		</tr>
+		<tr index="5">
+			<length>505</length>
+			<w pos="IN" lemma="unorthodox">Unorthodox</w>
+			<w pos="NNP" lemma="behaviour">Behaviour</w>
+		</tr>
+		<tr index="6">
+			<length>277</length>
+			<w pos="VBG" lemma="running">Running</w>
+			<w pos="IN" lemma="on">on</w>
+			<w pos="NNP" lemma="three">Three</w>
+		</tr>
+		<tr index="7">
+			<length>183</length>
+			<w pos="RB" lemma="touch">Touch</w>
+			<w pos="NN" lemma="wood">Wood</w>
+		</tr>
+	</al>
+</artist>

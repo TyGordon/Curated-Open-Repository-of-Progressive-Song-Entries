@@ -1,0 +1,102 @@
+<artist name="Can" genre="Krautrock">
+	<al name ="Ege Bamyasi" date="1972">
+		<length>2366</length>
+		<rating>3.98</rating>
+		<tr index="1">
+			<length>568</length>
+			<w pos="NN" lemma="pinch">Pinch</w>
+		</tr>
+		<tr index="2">
+			<length>258</length>
+			<w pos="VBG" lemma="sing">Sing</w>
+			<w pos="NNP" lemma="swan">Swan</w>
+			<w pos="NN" lemma="song">Song</w>
+		</tr>
+		<tr index="3">
+			<length>335</length>
+			<w pos="CD" lemma="one">One</w>
+			<w pos="JJR" lemma="more">More</w>
+			<w pos="NN" lemma="night">Night</w>
+		</tr>
+		<tr index="4">
+			<length>214</length>
+			<w pos="NNP" lemma="vitamin">Vitamin</w>
+			<w pos="NNP" lemma="c">C</w>
+		</tr>
+		<tr index="5">
+			<length>625</length>
+			<w pos="NN" lemma="soup">Soup</w>
+		</tr>
+		<tr index="6">
+			<length>183</length>
+			<w pos="PRP" lemma="i">I</w>
+			<w pos="VBP" lemma="'m">'m</w>
+			<w pos="RB" lemma="so">So</w>
+			<w pos="JJ" lemma="green">Green</w>
+		</tr>
+		<tr index="7">
+			<length>183</length>
+			<w pos="NN" lemma="spoon">Spoon</w>
+		</tr>
+	</al>
+	<al name ="Future Days" date="1973">
+		<length>2464</length>
+		<rating>4.11</rating>
+		<tr index="1">
+			<length>574</length>
+			<w pos="JJ" lemma="future">Future</w>
+			<w pos="NNS" lemma="day">Days</w>
+		</tr>
+		<tr index="2">
+			<length>508</length>
+			<w pos="NN" lemma="spray">Spray</w>
+		</tr>
+		<tr index="3">
+			<length>182</length>
+			<w pos="NN" lemma="moonshake">Moonshake</w>
+		</tr>
+		<tr index="4">
+			<length>1200</length>
+			<w pos="NNP" lemma="bel">Bel</w>
+			<w pos="NN" lemma="air">air</w>
+		</tr>
+	</al>
+	<al name ="Tago Mago" date="1971">
+		<length>4395</length>
+		<rating>3.97</rating>
+		<tr index="1">
+			<length>449</length>
+			<w pos="NN" lemma="paperhouse">Paperhouse</w>
+		</tr>
+		<tr index="2">
+			<length>248</length>
+			<w pos="NN" lemma="mushroom">Mushroom</w>
+		</tr>
+		<tr index="3">
+			<length>442</length>
+			<w pos="UH" lemma="oh">Oh</w>
+			<w pos="NN" lemma="yeah">Yeah</w>
+		</tr>
+		<tr index="4">
+			<length>1112</length>
+			<w pos="NN" lemma="halleluhwah">Halleluhwah</w>
+		</tr>
+		<tr index="5">
+			<length>1042</length>
+			<w pos="NN" lemma="aumgn">Aumgn</w>
+		</tr>
+		<tr index="6">
+			<length>695</length>
+			<w pos="VBG" lemma="peking">Peking</w>
+			<w pos="NNP" lemma="o">O</w>
+		</tr>
+		<tr index="7">
+			<length>407</length>
+			<w pos="VB" lemma="bring">Bring</w>
+			<w pos="NNP" lemma="me">Me</w>
+			<w pos="NNP" lemma="coffee">Coffee</w>
+			<w pos="CC" lemma="or">or</w>
+			<w pos="NNP" lemma="tea">Tea</w>
+		</tr>
+	</al>
+</artist>

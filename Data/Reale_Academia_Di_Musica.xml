@@ -1,0 +1,34 @@
+<artist name="Reale Academia Di Musica" genre="Rock Progressivo Italiano">
+	<al name ="Reale Academia Di Musica" date="1972">
+		<length>2412</length>
+		<rating>4.05</rating>
+		<tr index="1">
+			<length>226</length>
+			<w pos="NNP" lemma="favola">Favola</w>
+		</tr>
+		<tr index="2">
+			<length>559</length>
+			<w pos="NN" lemma="mattino">Mattino</w>
+		</tr>
+		<tr index="3">
+			<length>319</length>
+			<w pos="NNP" lemma="ognuno">Ognuno</w>
+			<w pos="NNP" lemma="sa">Sa</w>
+		</tr>
+		<tr index="4">
+			<length>521</length>
+			<w pos="NN" lemma="padre">Padre</w>
+		</tr>
+		<tr index="5">
+			<length>356</length>
+			<w pos="NNP" lemma="lavoro">Lavoro</w>
+			<w pos="IN" lemma="in">In</w>
+			<w pos="NNP" lemma="citta">Citta</w>
+			<w pos="POS" lemma="'">'</w>
+		</tr>
+		<tr index="6">
+			<length>431</length>
+			<w pos="NN" lemma="vertigine">Vertigine</w>
+		</tr>
+	</al>
+</artist>

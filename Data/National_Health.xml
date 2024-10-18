@@ -1,0 +1,90 @@
+<artist name="National Health" genre="Canterbury Scene">
+	<al name ="National Health" date="1978">
+		<length>2998</length>
+		<rating>4.12</rating>
+		<tr index="1">
+			<length>872</length>
+			<w pos="NNP" lemma="tenemos">Tenemos</w>
+			<w pos="NNP" lemma="road">Roads</w>
+		</tr>
+		<tr index="2">
+			<length>613</length>
+			<w pos="NN" lemma="brujo">Brujo</w>
+		</tr>
+		<tr index="3">
+			<length>252</length>
+			<w pos="NNS" lemma="borogoves">Borogoves</w>
+			<punc pos="(" lemma="(">(</punc>
+			<w pos="NN" lemma="excerpt">excerpt</w>
+			<w pos="IN" lemma="from">from</w>
+			<w pos="NNP" lemma="part">Part</w>
+			<w pos="CD" lemma="two">Two</w>
+			<punc pos=")" lemma=")">)</punc>
+		</tr>
+		<tr index="4">
+			<length>389</length>
+			<w pos="NNS" lemma="borogoves">Borogoves</w>
+			<punc pos="(" lemma="(">(</punc>
+			<w pos="NNP" lemma="part">Part</w>
+			<w pos="NNP" lemma="one">One</w>
+			<punc pos=")" lemma=")">)</punc>
+		</tr>
+		<tr index="5">
+			<length>872</length>
+			<w pos="NNS" lemma="elephant">Elephants</w>
+		</tr>
+	</al>
+	<al name ="Of Queues and Cures" date="1978">
+		<length>3168</length>
+		<rating>4.28</rating>
+		<tr index="1">
+			<length>532</length>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="bryden">Bryden</w>
+			<w pos="NN" lemma="2-step">2-Step</w>
+			<punc pos="(" lemma="(">(</punc>
+			<w pos="IN" lemma="for">for</w>
+			<w pos="NNPS" lemma="amphibian">Amphibians</w>
+			<punc pos=")" lemma=")">)</punc>
+			<w pos="VBP" lemma="part">Part</w>
+			<w pos="CD" lemma="1">1</w>
+		</tr>
+		<tr index="2">
+			<length>376</length>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="collapso">Collapso</w>
+		</tr>
+		<tr index="3">
+			<length>690</length>
+			<w pos="NN" lemma="squarer">Squarer</w>
+			<w pos="IN" lemma="for">for</w>
+			<w pos="NNP" lemma="maud">Maud</w>
+		</tr>
+		<tr index="4">
+			<length>528</length>
+			<w pos="NNP" lemma="dream">Dreams</w>
+			<w pos="NNP" lemma="wide">Wide</w>
+			<w pos="NNP" lemma="awake">Awake</w>
+		</tr>
+		<tr index="5">
+			<length>703</length>
+			<w pos="NNS" lemma="binoculars">Binoculars</w>
+		</tr>
+		<tr index="6">
+			<length>8</length>
+			<w pos="NN" lemma="phlgkat÷n">PhlGkat÷n</w>
+		</tr>
+		<tr index="7">
+			<length>331</length>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="bryden">Bryden</w>
+			<w pos="NN" lemma="2-step">2-Step</w>
+			<punc pos="(" lemma="(">(</punc>
+			<w pos="IN" lemma="for">for</w>
+			<w pos="NNPS" lemma="amphibian">Amphibians</w>
+			<punc pos=")" lemma=")">)</punc>
+			<w pos="VBP" lemma="part">Part</w>
+			<w pos="CD" lemma="2">2</w>
+		</tr>
+	</al>
+</artist>

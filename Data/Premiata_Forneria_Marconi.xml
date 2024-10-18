@@ -1,0 +1,124 @@
+<artist name="Premiata Forneria Marconi" genre="Rock Progressivo Italiano">
+	<al name ="L'Isola Di Niente" date="1974">
+		<length>2129</length>
+		<rating>4.21</rating>
+		<tr index="1">
+			<length>642</length>
+			<w pos="NNP" lemma="l'isola">L'Isola</w>
+			<w pos="VBZ" lemma="di">di</w>
+			<w pos="NNP" lemma="niente">Niente</w>
+		</tr>
+		<tr index="2">
+			<length>398</length>
+			<w pos="VBZ" lemma="is">Is</w>
+			<w pos="PRP$" lemma="my">My</w>
+			<w pos="NN" lemma="face">Face</w>
+			<w pos="IN" lemma="on">On</w>
+			<w pos="NNP" lemma="straight">Straight</w>
+		</tr>
+		<tr index="3">
+			<length>381</length>
+			<w pos="NNP" lemma="la">La</w>
+			<w pos="NNP" lemma="luna">Luna</w>
+			<w pos="NNP" lemma="nuova">Nuova</w>
+		</tr>
+		<tr index="4">
+			<length>241</length>
+			<w pos="NNP" lemma="dolcissima">Dolcissima</w>
+			<w pos="NNP" lemma="maria">Maria</w>
+		</tr>
+		<tr index="5">
+			<length>441</length>
+			<w pos="NNP" lemma="via">Via</w>
+			<w pos="NNP" lemma="lumiere">Lumiere</w>
+		</tr>
+	</al>
+	<al name ="Per Un Amico" date="1972">
+		<length>2046</length>
+		<rating>4.40</rating>
+		<tr index="1">
+			<length>463</length>
+			<w pos="NNP" lemma="appena">Appena</w>
+			<w pos="JJ" lemma="un">un</w>
+			<w pos="NNP" lemma="po">Po</w>
+			<w pos="POS" lemma="'">'</w>
+		</tr>
+		<tr index="2">
+			<length>258</length>
+			<w pos="NN" lemma="generale">Generale</w>
+		</tr>
+		<tr index="3">
+			<length>323</length>
+			<w pos="NNP" lemma="per">Per</w>
+			<w pos="NN" lemma="un">un</w>
+			<w pos="NNP" lemma="amico">Amico</w>
+		</tr>
+		<tr index="4">
+			<length>519</length>
+			<w pos="NNP" lemma="il">Il</w>
+			<w pos="NNP" lemma="banchetto">Banchetto</w>
+		</tr>
+		<tr index="5">
+			<length>483</length>
+			<w pos="NN" lemma="geranio">Geranio</w>
+		</tr>
+	</al>
+	<al name ="Storia Di Un Minuto" date="1972">
+		<length>2074</length>
+		<rating>4.33</rating>
+		<tr index="1">
+			<length>70</length>
+			<w pos="NN" lemma="introduzione">Introduzione</w>
+		</tr>
+		<tr index="2">
+			<length>344</length>
+			<w pos="NNP" lemma="impressioni">Impressioni</w>
+			<w pos="VBZ" lemma="di">di</w>
+			<w pos="NNP" lemma="settembre">Settembre</w>
+		</tr>
+		<tr index="3">
+			<length>292</length>
+			<w pos="NNP" lemma="e">E</w>
+			<w pos="POS" lemma="'">'</w>
+			<w pos="NNP" lemma="festa">Festa</w>
+		</tr>
+		<tr index="4">
+			<length>248</length>
+			<w pos="NNP" lemma="dove">Dove</w>
+			<w pos="NNP" lemma="..">..</w>
+			<punc pos="," lemma=",">,</punc>
+			<w pos="NNP" lemma="quando">Quando</w>
+			<w pos="NNP" lemma="..">..</w>
+			<punc pos="," lemma=",">,</punc>
+			<punc pos="(" lemma="(">(</punc>
+			<w pos="NNP" lemma="parte">Parte</w>
+			<w pos="PRP" lemma="i">I</w>
+			<punc pos=")" lemma=")">)</punc>
+		</tr>
+		<tr index="5">
+			<length>360</length>
+			<w pos="NNP" lemma="dove">Dove</w>
+			<w pos="NNP" lemma="..">..</w>
+			<punc pos="," lemma=",">,</punc>
+			<w pos="NNP" lemma="quando">Quando</w>
+			<w pos="NNP" lemma="..">..</w>
+			<punc pos="," lemma=",">,</punc>
+			<punc pos="(" lemma="(">(</punc>
+			<w pos="NNP" lemma="parte">Parte</w>
+			<w pos="NNP" lemma="ii">II</w>
+			<punc pos=")" lemma=")">)</punc>
+		</tr>
+		<tr index="6">
+			<length>406</length>
+			<w pos="NNP" lemma="la">La</w>
+			<w pos="NNP" lemma="carrozza">Carrozza</w>
+			<w pos="NN" lemma="di">di</w>
+			<w pos="NNS" lemma="han">Hans</w>
+		</tr>
+		<tr index="7">
+			<length>352</length>
+			<w pos="NNP" lemma="grazie">Grazie</w>
+			<w pos="NNP" lemma="davvero">Davvero</w>
+		</tr>
+	</al>
+</artist>

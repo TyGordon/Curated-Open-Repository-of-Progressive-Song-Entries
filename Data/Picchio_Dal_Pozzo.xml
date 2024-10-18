@@ -1,0 +1,54 @@
+<artist name="Picchio Dal Pozzo" genre="Canterbury Scene">
+	<al name ="Picchio Dal Pozzo" date="1976">
+		<length>2391</length>
+		<rating>4.11</rating>
+		<tr index="1">
+			<length>198</length>
+			<w pos="NN" lemma="merta">Merta</w>
+		</tr>
+		<tr index="2">
+			<length>263</length>
+			<w pos="NN" lemma="cocomelastico">Cocomelastico</w>
+		</tr>
+		<tr index="3">
+			<length>616</length>
+			<w pos="NN" lemma="seppia">Seppia</w>
+		</tr>
+		<tr index="a ">
+			<length>0</length>
+			<w pos="NN" lemma="sottotitolo">Sottotitolo</w>
+		</tr>
+		<tr index="b ">
+			<length>0</length>
+			<w pos="NN" lemma="frescofresco">Frescofresco</w>
+		</tr>
+		<tr index="c ">
+			<length>0</length>
+			<w pos="NN" lemma="rusf">Rusf</w>
+		</tr>
+		<tr index="4">
+			<length>51</length>
+			<w pos="NN" lemma="bofonchia">Bofonchia</w>
+		</tr>
+		<tr index="5">
+			<length>443</length>
+			<w pos="NN" lemma="napier">Napier</w>
+		</tr>
+		<tr index="6">
+			<length>262</length>
+			<w pos="NNP" lemma="la">La</w>
+			<w pos="NNP" lemma="floricultura">Floricultura</w>
+			<w pos="NNP" lemma="di">Di</w>
+			<w pos="NNP" lemma="tschincinnata">Tschincinnata</w>
+		</tr>
+		<tr index="7">
+			<length>269</length>
+			<w pos="NNP" lemma="la">La</w>
+			<w pos="NNP" lemma="bolla">Bolla</w>
+		</tr>
+		<tr index="8">
+			<length>289</length>
+			<w pos="IN" lemma="off">Off</w>
+		</tr>
+	</al>
+</artist>

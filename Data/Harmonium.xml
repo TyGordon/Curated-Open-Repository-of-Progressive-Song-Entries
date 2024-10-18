@@ -1,0 +1,54 @@
+<artist name="Harmonium" genre="Prog Folk">
+	<al name ="Si On Avait Besoin D'une Cinquième Saison" date="1975">
+		<length>2493</length>
+		<rating>4.34</rating>
+		<tr index="1">
+			<length>335</length>
+			<w pos="NN" lemma="vert">Vert</w>
+		</tr>
+		<tr index="2">
+			<length>206</length>
+			<w pos="NN" lemma="dixie">Dixie</w>
+		</tr>
+		<tr index="3">
+			<length>628</length>
+			<w pos="NNP" lemma="depuis">Depuis</w>
+			<w pos="NN" lemma="l'automne">l'automne</w>
+		</tr>
+		<tr index="4">
+			<length>291</length>
+			<w pos="NNP" lemma="en">En</w>
+			<w pos="NN" lemma="pleine">pleine</w>
+			<w pos="NN" lemma="face">face</w>
+		</tr>
+		<tr index="5">
+			<length>1032</length>
+			<w pos="NNS" lemma="histoires">Histoires</w>
+			<w pos="NNS" lemma="sans">sans</w>
+			<w pos="NNS" lemma="parole">paroles</w>
+		</tr>
+		<tr index="">
+			<length>0</length>
+			<w pos="NN" lemma="l'isolement">L'isolement</w>
+		</tr>
+		<tr index="">
+			<length>0</length>
+			<w pos="VB" lemma="l'appel">L'appel</w>
+		</tr>
+		<tr index="">
+			<length>0</length>
+			<w pos="NNP" lemma="la">La</w>
+			<w pos="NN" lemma="rencontre">rencontre</w>
+		</tr>
+		<tr index="">
+			<length>0</length>
+			<w pos="NN" lemma="l'union">L'union</w>
+		</tr>
+		<tr index="">
+			<length>0</length>
+			<w pos="NNP" lemma="le">Le</w>
+			<w pos="JJ" lemma="grand">grand</w>
+			<w pos="NN" lemma="bal">bal</w>
+		</tr>
+	</al>
+</artist>

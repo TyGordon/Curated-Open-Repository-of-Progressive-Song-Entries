@@ -1,1338 +1,888 @@
-<album name="Foxtrot" date="1972">
-	<tr index="1" length="7:19" style="">
-		<w pos="" lemma="watcher">Watcher</w>
-		<w pos="" lemma="of">of</w>
-		<w pos="" lemma="the">the</w>
-		<w pos="" lemma="skies">Skies</w>
-	</tr>
-	<tr index="2" length="4:40" style="">
-		<w pos="" lemma="time">Time</w>
-		<w pos="" lemma="table">Table</w>
-	</tr>
-	<tr index="3" length="8:35" style="">
-		<w pos="" lemma="get">Get</w>
-		<w pos="" lemma="'em">'em</w>
-		<w pos="" lemma="out">Out</w>
-		<w pos="" lemma="by">by</w>
-		<w pos="" lemma="friday">Friday</w>
-	</tr>
-	<tr index="4" length="5:43" style="">
-		<w pos="" lemma="can-utility">Can-Utility</w>
-		<w pos="" lemma="and">and</w>
-		<w pos="" lemma="the">the</w>
-		<w pos="" lemma="coastliners">Coastliners</w>
-	</tr>
-	<tr index="5" length="1:38" style="">
-		<w pos="" lemma="horizons">Horizons</w>
-	</tr>
-	<tr index="6" length="22:58" style="">
-		<w pos="" lemma="supper's">Supper's</w>
-		<w pos="" lemma="ready">Ready</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="lover's">Lover's</w>
-		<w pos="" lemma="leap">Leap</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="the">The</w>
-		<w pos="" lemma="guaranteed">Guaranteed</w>
-		<w pos="" lemma="eternal">Eternal</w>
-		<w pos="" lemma="sanctuary">Sanctuary</w>
-		<w pos="" lemma="man">Man</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="ikhnaton">Ikhnaton</w>
-		<w pos="" lemma="and">and</w>
-		<w pos="" lemma="itsacon">Itsacon</w>
-		<w pos="" lemma="and">and</w>
-		<w pos="" lemma="their">Their</w>
-		<w pos="" lemma="band">Band</w>
-		<w pos="" lemma="of">of</w>
-		<w pos="" lemma="merry">Merry</w>
-		<w pos="" lemma="men">Men</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="how">How</w>
-		<w pos="" lemma="dare">Dare</w>
-		<w pos="" lemma="i">I</w>
-		<w pos="" lemma="be">Be</w>
-		<w pos="" lemma="so">So</w>
-		<w pos="" lemma="beautiful?">Beautiful?</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="willow">Willow</w>
-		<w pos="" lemma="farm">Farm</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="apocalypse">Apocalypse</w>
-		<w pos="" lemma="in">in</w>
-		<w pos="" lemma="9/8">9/8</w>
-		<w pos="" lemma="(featuring">(featuring</w>
-		<w pos="" lemma="the">the</w>
-		<w pos="" lemma="delicious">delicious</w>
-		<w pos="" lemma="talents">talents</w>
-		<w pos="" lemma="of">of</w>
-		<w pos="" lemma="gabble">Gabble</w>
-		<w pos="" lemma="ratchet)">Ratchet)</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="as">As</w>
-		<w pos="" lemma="sure">Sure</w>
-		<w pos="" lemma="as">as</w>
-		<w pos="" lemma="eggs">Eggs</w>
-		<w pos="" lemma="is">Is</w>
-		<w pos="" lemma="eggs">Eggs</w>
-		<w pos="" lemma="(aching">(Aching</w>
-		<w pos="" lemma="men's">Men's</w>
-		<w pos="" lemma="feet)">Feet)</w>
-	</tr>
-</album>
-<album name="Foxtrot" date="1972">
-	<tr index="1" length="7:19" style="">
-		<w pos="" lemma="watcher">Watcher</w>
-		<w pos="" lemma="of">of</w>
-		<w pos="" lemma="the">the</w>
-		<w pos="" lemma="skies">Skies</w>
-	</tr>
-	<tr index="2" length="4:40" style="">
-		<w pos="" lemma="time">Time</w>
-		<w pos="" lemma="table">Table</w>
-	</tr>
-	<tr index="3" length="8:35" style="">
-		<w pos="" lemma="get">Get</w>
-		<w pos="" lemma="'em">'em</w>
-		<w pos="" lemma="out">Out</w>
-		<w pos="" lemma="by">by</w>
-		<w pos="" lemma="friday">Friday</w>
-	</tr>
-	<tr index="4" length="5:43" style="">
-		<w pos="" lemma="can-utility">Can-Utility</w>
-		<w pos="" lemma="and">and</w>
-		<w pos="" lemma="the">the</w>
-		<w pos="" lemma="coastliners">Coastliners</w>
-	</tr>
-	<tr index="5" length="1:38" style="">
-		<w pos="" lemma="horizons">Horizons</w>
-	</tr>
-	<tr index="6" length="22:58" style="">
-		<w pos="" lemma="supper's">Supper's</w>
-		<w pos="" lemma="ready">Ready</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="lover's">Lover's</w>
-		<w pos="" lemma="leap">Leap</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="the">The</w>
-		<w pos="" lemma="guaranteed">Guaranteed</w>
-		<w pos="" lemma="eternal">Eternal</w>
-		<w pos="" lemma="sanctuary">Sanctuary</w>
-		<w pos="" lemma="man">Man</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="ikhnaton">Ikhnaton</w>
-		<w pos="" lemma="and">and</w>
-		<w pos="" lemma="itsacon">Itsacon</w>
-		<w pos="" lemma="and">and</w>
-		<w pos="" lemma="their">Their</w>
-		<w pos="" lemma="band">Band</w>
-		<w pos="" lemma="of">of</w>
-		<w pos="" lemma="merry">Merry</w>
-		<w pos="" lemma="men">Men</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="how">How</w>
-		<w pos="" lemma="dare">Dare</w>
-		<w pos="" lemma="i">I</w>
-		<w pos="" lemma="be">Be</w>
-		<w pos="" lemma="so">So</w>
-		<w pos="" lemma="beautiful?">Beautiful?</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="willow">Willow</w>
-		<w pos="" lemma="farm">Farm</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="apocalypse">Apocalypse</w>
-		<w pos="" lemma="in">in</w>
-		<w pos="" lemma="9/8">9/8</w>
-		<w pos="" lemma="(featuring">(featuring</w>
-		<w pos="" lemma="the">the</w>
-		<w pos="" lemma="delicious">delicious</w>
-		<w pos="" lemma="talents">talents</w>
-		<w pos="" lemma="of">of</w>
-		<w pos="" lemma="gabble">Gabble</w>
-		<w pos="" lemma="ratchet)">Ratchet)</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="as">As</w>
-		<w pos="" lemma="sure">Sure</w>
-		<w pos="" lemma="as">as</w>
-		<w pos="" lemma="eggs">Eggs</w>
-		<w pos="" lemma="is">Is</w>
-		<w pos="" lemma="eggs">Eggs</w>
-		<w pos="" lemma="(aching">(Aching</w>
-		<w pos="" lemma="men's">Men's</w>
-		<w pos="" lemma="feet)">Feet)</w>
-	</tr>
-</album>
-<album name="Foxtrot" date="1972">
-	<tr index="1" length="7:19" style="">
-		<w pos="" lemma="watcher">Watcher</w>
-		<w pos="" lemma="of">of</w>
-		<w pos="" lemma="the">the</w>
-		<w pos="" lemma="skies">Skies</w>
-	</tr>
-	<tr index="2" length="4:40" style="">
-		<w pos="" lemma="time">Time</w>
-		<w pos="" lemma="table">Table</w>
-	</tr>
-	<tr index="3" length="8:35" style="">
-		<w pos="" lemma="get">Get</w>
-		<w pos="" lemma="'em">'em</w>
-		<w pos="" lemma="out">Out</w>
-		<w pos="" lemma="by">by</w>
-		<w pos="" lemma="friday">Friday</w>
-	</tr>
-	<tr index="4" length="5:43" style="">
-		<w pos="" lemma="can-utility">Can-Utility</w>
-		<w pos="" lemma="and">and</w>
-		<w pos="" lemma="the">the</w>
-		<w pos="" lemma="coastliners">Coastliners</w>
-	</tr>
-	<tr index="5" length="1:38" style="">
-		<w pos="" lemma="horizons">Horizons</w>
-	</tr>
-	<tr index="6" length="22:58" style="">
-		<w pos="" lemma="supper's">Supper's</w>
-		<w pos="" lemma="ready">Ready</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="lover's">Lover's</w>
-		<w pos="" lemma="leap">Leap</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="the">The</w>
-		<w pos="" lemma="guaranteed">Guaranteed</w>
-		<w pos="" lemma="eternal">Eternal</w>
-		<w pos="" lemma="sanctuary">Sanctuary</w>
-		<w pos="" lemma="man">Man</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="ikhnaton">Ikhnaton</w>
-		<w pos="" lemma="and">and</w>
-		<w pos="" lemma="itsacon">Itsacon</w>
-		<w pos="" lemma="and">and</w>
-		<w pos="" lemma="their">Their</w>
-		<w pos="" lemma="band">Band</w>
-		<w pos="" lemma="of">of</w>
-		<w pos="" lemma="merry">Merry</w>
-		<w pos="" lemma="men">Men</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="how">How</w>
-		<w pos="" lemma="dare">Dare</w>
-		<w pos="" lemma="i">I</w>
-		<w pos="" lemma="be">Be</w>
-		<w pos="" lemma="so">So</w>
-		<w pos="" lemma="beautiful?">Beautiful?</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="willow">Willow</w>
-		<w pos="" lemma="farm">Farm</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="apocalypse">Apocalypse</w>
-		<w pos="" lemma="in">in</w>
-		<w pos="" lemma="9/8">9/8</w>
-		<w pos="" lemma="(featuring">(featuring</w>
-		<w pos="" lemma="the">the</w>
-		<w pos="" lemma="delicious">delicious</w>
-		<w pos="" lemma="talents">talents</w>
-		<w pos="" lemma="of">of</w>
-		<w pos="" lemma="gabble">Gabble</w>
-		<w pos="" lemma="ratchet)">Ratchet)</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="as">As</w>
-		<w pos="" lemma="sure">Sure</w>
-		<w pos="" lemma="as">as</w>
-		<w pos="" lemma="eggs">Eggs</w>
-		<w pos="" lemma="is">Is</w>
-		<w pos="" lemma="eggs">Eggs</w>
-		<w pos="" lemma="(aching">(Aching</w>
-		<w pos="" lemma="men's">Men's</w>
-		<w pos="" lemma="feet)">Feet)</w>
-	</tr>
-</album>
-<album name="Foxtrot" date="1972">
-	<tr index="1" length="7:19" style="">
-		<w pos="" lemma="[('watcher', 'nnp'), ('of', 'in'), ('the', 'dt'), ('skies', 'nns')]">[('Watcher', 'NNP'), ('of', 'IN'), ('the', 'DT'), ('Skies', 'NNS')]</w>
-	</tr>
-	<tr index="2" length="4:40" style="">
-		<w pos="" lemma="[('time', 'nnp'), ('table', 'nnp')]">[('Time', 'NNP'), ('Table', 'NNP')]</w>
-	</tr>
-	<tr index="3" length="8:35" style="">
-		<w pos="" lemma="[('get', 'nnp'), ("'em", 'prp'), ('out', 'rp'), ('by', 'in'), ('friday', 'nnp')]">[('Get', 'NNP'), ("'em", 'PRP'), ('Out', 'RP'), ('by', 'IN'), ('Friday', 'NNP')]</w>
-	</tr>
-	<tr index="4" length="5:43" style="">
-		<w pos="" lemma="[('can-utility', 'nn'), ('and', 'cc'), ('the', 'dt'), ('coastliners', 'nns')]">[('Can-Utility', 'NN'), ('and', 'CC'), ('the', 'DT'), ('Coastliners', 'NNS')]</w>
-	</tr>
-	<tr index="5" length="1:38" style="">
-		<w pos="" lemma="[('horizons', 'nns')]">[('Horizons', 'NNS')]</w>
-	</tr>
-	<tr index="6" length="22:58" style="">
-		<w pos="" lemma="[('supper', 'nnp'), ("'s", 'pos'), ('ready', 'jj')]">[('Supper', 'NNP'), ("'s", 'POS'), ('Ready', 'JJ')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('lover', 'nnp'), ("'s", 'pos'), ('leap', 'nnp')]">[('Lover', 'NNP'), ("'s", 'POS'), ('Leap', 'NNP')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('the', 'dt'), ('guaranteed', 'nnp'), ('eternal', 'nnp'), ('sanctuary', 'nnp'), ('man', 'nn')]">[('The', 'DT'), ('Guaranteed', 'NNP'), ('Eternal', 'NNP'), ('Sanctuary', 'NNP'), ('Man', 'NN')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('ikhnaton', 'nnp'), ('and', 'cc'), ('itsacon', 'nnp'), ('and', 'cc'), ('their', 'nnp'), ('band', 'nnp'), ('of', 'in'), ('merry', 'nnp'), ('men', 'nnp')]">[('Ikhnaton', 'NNP'), ('and', 'CC'), ('Itsacon', 'NNP'), ('and', 'CC'), ('Their', 'NNP'), ('Band', 'NNP'), ('of', 'IN'), ('Merry', 'NNP'), ('Men', 'NNP')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('how', 'wrb'), ('dare', 'nnp'), ('i', 'prp'), ('be', 'vbp'), ('so', 'rb'), ('beautiful', 'jj'), ('?', '.')]">[('How', 'WRB'), ('Dare', 'NNP'), ('I', 'PRP'), ('Be', 'VBP'), ('So', 'RB'), ('Beautiful', 'JJ'), ('?', '.')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('willow', 'jj'), ('farm', 'nn')]">[('Willow', 'JJ'), ('Farm', 'NN')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('apocalypse', 'nnp'), ('in', 'in'), ('9/8', 'cd'), ('(', '('), ('featuring', 'vbg'), ('the', 'dt'), ('delicious', 'jj'), ('talents', 'nns'), ('of', 'in'), ('gabble', 'nnp'), ('ratchet', 'nnp'), (')', ')')]">[('Apocalypse', 'NNP'), ('in', 'IN'), ('9/8', 'CD'), ('(', '('), ('featuring', 'VBG'), ('the', 'DT'), ('delicious', 'JJ'), ('talents', 'NNS'), ('of', 'IN'), ('Gabble', 'NNP'), ('Ratchet', 'NNP'), (')', ')')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('as', 'rb'), ('sure', 'jj'), ('as', 'in'), ('eggs', 'nnp'), ('is', 'nnp'), ('eggs', 'nnp'), ('(', '('), ('aching', 'vbg'), ('men', 'nnp'), ("'s", 'pos'), ('feet', 'nnp'), (')', ')')]">[('As', 'RB'), ('Sure', 'JJ'), ('as', 'IN'), ('Eggs', 'NNP'), ('Is', 'NNP'), ('Eggs', 'NNP'), ('(', '('), ('Aching', 'VBG'), ('Men', 'NNP'), ("'s", 'POS'), ('Feet', 'NNP'), (')', ')')]</w>
-	</tr>
-</album>
-<album name="Foxtrot" date="1972">
-	<tr index="1" length="7:19" style="">
-		<w pos="" lemma="[('watcher', 'nnp'), ('of', 'in'), ('the', 'dt'), ('skies', 'nns')]">[('Watcher', 'NNP'), ('of', 'IN'), ('the', 'DT'), ('Skies', 'NNS')]</w>
-	</tr>
-	<tr index="2" length="4:40" style="">
-		<w pos="" lemma="[('time', 'nnp'), ('table', 'nnp')]">[('Time', 'NNP'), ('Table', 'NNP')]</w>
-	</tr>
-	<tr index="3" length="8:35" style="">
-		<w pos="" lemma="[('get', 'nnp'), ("'em", 'prp'), ('out', 'rp'), ('by', 'in'), ('friday', 'nnp')]">[('Get', 'NNP'), ("'em", 'PRP'), ('Out', 'RP'), ('by', 'IN'), ('Friday', 'NNP')]</w>
-	</tr>
-	<tr index="4" length="5:43" style="">
-		<w pos="" lemma="[('can-utility', 'nn'), ('and', 'cc'), ('the', 'dt'), ('coastliners', 'nns')]">[('Can-Utility', 'NN'), ('and', 'CC'), ('the', 'DT'), ('Coastliners', 'NNS')]</w>
-	</tr>
-	<tr index="5" length="1:38" style="">
-		<w pos="" lemma="[('horizons', 'nns')]">[('Horizons', 'NNS')]</w>
-	</tr>
-	<tr index="6" length="22:58" style="">
-		<w pos="" lemma="[('supper', 'nnp'), ("'s", 'pos'), ('ready', 'jj')]">[('Supper', 'NNP'), ("'s", 'POS'), ('Ready', 'JJ')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('lover', 'nnp'), ("'s", 'pos'), ('leap', 'nnp')]">[('Lover', 'NNP'), ("'s", 'POS'), ('Leap', 'NNP')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('the', 'dt'), ('guaranteed', 'nnp'), ('eternal', 'nnp'), ('sanctuary', 'nnp'), ('man', 'nn')]">[('The', 'DT'), ('Guaranteed', 'NNP'), ('Eternal', 'NNP'), ('Sanctuary', 'NNP'), ('Man', 'NN')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('ikhnaton', 'nnp'), ('and', 'cc'), ('itsacon', 'nnp'), ('and', 'cc'), ('their', 'nnp'), ('band', 'nnp'), ('of', 'in'), ('merry', 'nnp'), ('men', 'nnp')]">[('Ikhnaton', 'NNP'), ('and', 'CC'), ('Itsacon', 'NNP'), ('and', 'CC'), ('Their', 'NNP'), ('Band', 'NNP'), ('of', 'IN'), ('Merry', 'NNP'), ('Men', 'NNP')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('how', 'wrb'), ('dare', 'nnp'), ('i', 'prp'), ('be', 'vbp'), ('so', 'rb'), ('beautiful', 'jj'), ('?', '.')]">[('How', 'WRB'), ('Dare', 'NNP'), ('I', 'PRP'), ('Be', 'VBP'), ('So', 'RB'), ('Beautiful', 'JJ'), ('?', '.')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('willow', 'jj'), ('farm', 'nn')]">[('Willow', 'JJ'), ('Farm', 'NN')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('apocalypse', 'nnp'), ('in', 'in'), ('9/8', 'cd'), ('(', '('), ('featuring', 'vbg'), ('the', 'dt'), ('delicious', 'jj'), ('talents', 'nns'), ('of', 'in'), ('gabble', 'nnp'), ('ratchet', 'nnp'), (')', ')')]">[('Apocalypse', 'NNP'), ('in', 'IN'), ('9/8', 'CD'), ('(', '('), ('featuring', 'VBG'), ('the', 'DT'), ('delicious', 'JJ'), ('talents', 'NNS'), ('of', 'IN'), ('Gabble', 'NNP'), ('Ratchet', 'NNP'), (')', ')')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('as', 'rb'), ('sure', 'jj'), ('as', 'in'), ('eggs', 'nnp'), ('is', 'nnp'), ('eggs', 'nnp'), ('(', '('), ('aching', 'vbg'), ('men', 'nnp'), ("'s", 'pos'), ('feet', 'nnp'), (')', ')')]">[('As', 'RB'), ('Sure', 'JJ'), ('as', 'IN'), ('Eggs', 'NNP'), ('Is', 'NNP'), ('Eggs', 'NNP'), ('(', '('), ('Aching', 'VBG'), ('Men', 'NNP'), ("'s", 'POS'), ('Feet', 'NNP'), (')', ')')]</w>
-	</tr>
-</album>
-<album name="Foxtrot" date="1972">
-	<tr index="1" length="7:19" style="">
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="w">W</w>
-		<w pos="" lemma="a">a</w>
-		<w pos="" lemma="t">t</w>
-		<w pos="" lemma="c">c</w>
-		<w pos="" lemma="h">h</w>
-		<w pos="" lemma="e">e</w>
-		<w pos="" lemma="r">r</w>
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="o">o</w>
-		<w pos="" lemma="f">f</w>
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="t">t</w>
-		<w pos="" lemma="h">h</w>
-		<w pos="" lemma="e">e</w>
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="s">S</w>
-		<w pos="" lemma="k">k</w>
-		<w pos="" lemma="i">i</w>
-		<w pos="" lemma="e">e</w>
-		<w pos="" lemma="s">s</w>
-	</tr>
-	<tr index="2" length="4:40" style="">
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="t">T</w>
-		<w pos="" lemma="i">i</w>
-		<w pos="" lemma="m">m</w>
-		<w pos="" lemma="e">e</w>
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="t">T</w>
-		<w pos="" lemma="a">a</w>
-		<w pos="" lemma="b">b</w>
-		<w pos="" lemma="l">l</w>
-		<w pos="" lemma="e">e</w>
-	</tr>
-	<tr index="3" length="8:35" style="">
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="g">G</w>
-		<w pos="" lemma="e">e</w>
-		<w pos="" lemma="t">t</w>
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="'">'</w>
-		<w pos="" lemma="e">e</w>
-		<w pos="" lemma="m">m</w>
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="o">O</w>
-		<w pos="" lemma="u">u</w>
-		<w pos="" lemma="t">t</w>
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="b">b</w>
-		<w pos="" lemma="y">y</w>
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="f">F</w>
-		<w pos="" lemma="r">r</w>
-		<w pos="" lemma="i">i</w>
-		<w pos="" lemma="d">d</w>
-		<w pos="" lemma="a">a</w>
-		<w pos="" lemma="y">y</w>
-	</tr>
-	<tr index="4" length="5:43" style="">
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="c">C</w>
-		<w pos="" lemma="a">a</w>
-		<w pos="" lemma="n">n</w>
-		<w pos="" lemma="-">-</w>
-		<w pos="" lemma="u">U</w>
-		<w pos="" lemma="t">t</w>
-		<w pos="" lemma="i">i</w>
-		<w pos="" lemma="l">l</w>
-		<w pos="" lemma="i">i</w>
-		<w pos="" lemma="t">t</w>
-		<w pos="" lemma="y">y</w>
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="a">a</w>
-		<w pos="" lemma="n">n</w>
-		<w pos="" lemma="d">d</w>
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="t">t</w>
-		<w pos="" lemma="h">h</w>
-		<w pos="" lemma="e">e</w>
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="c">C</w>
-		<w pos="" lemma="o">o</w>
-		<w pos="" lemma="a">a</w>
-		<w pos="" lemma="s">s</w>
-		<w pos="" lemma="t">t</w>
-		<w pos="" lemma="l">l</w>
-		<w pos="" lemma="i">i</w>
-		<w pos="" lemma="n">n</w>
-		<w pos="" lemma="e">e</w>
-		<w pos="" lemma="r">r</w>
-		<w pos="" lemma="s">s</w>
-	</tr>
-	<tr index="5" length="1:38" style="">
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="h">H</w>
-		<w pos="" lemma="o">o</w>
-		<w pos="" lemma="r">r</w>
-		<w pos="" lemma="i">i</w>
-		<w pos="" lemma="z">z</w>
-		<w pos="" lemma="o">o</w>
-		<w pos="" lemma="n">n</w>
-		<w pos="" lemma="s">s</w>
-	</tr>
-	<tr index="6" length="22:58" style="">
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="s">S</w>
-		<w pos="" lemma="u">u</w>
-		<w pos="" lemma="p">p</w>
-		<w pos="" lemma="p">p</w>
-		<w pos="" lemma="e">e</w>
-		<w pos="" lemma="r">r</w>
-		<w pos="" lemma="'">'</w>
-		<w pos="" lemma="s">s</w>
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="r">R</w>
-		<w pos="" lemma="e">e</w>
-		<w pos="" lemma="a">a</w>
-		<w pos="" lemma="d">d</w>
-		<w pos="" lemma="y">y</w>
-		<w pos="" lemma=" "> </w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="l">L</w>
-		<w pos="" lemma="o">o</w>
-		<w pos="" lemma="v">v</w>
-		<w pos="" lemma="e">e</w>
-		<w pos="" lemma="r">r</w>
-		<w pos="" lemma="'">'</w>
-		<w pos="" lemma="s">s</w>
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="l">L</w>
-		<w pos="" lemma="e">e</w>
-		<w pos="" lemma="a">a</w>
-		<w pos="" lemma="p">p</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="t">T</w>
-		<w pos="" lemma="h">h</w>
-		<w pos="" lemma="e">e</w>
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="g">G</w>
-		<w pos="" lemma="u">u</w>
-		<w pos="" lemma="a">a</w>
-		<w pos="" lemma="r">r</w>
-		<w pos="" lemma="a">a</w>
-		<w pos="" lemma="n">n</w>
-		<w pos="" lemma="t">t</w>
-		<w pos="" lemma="e">e</w>
-		<w pos="" lemma="e">e</w>
-		<w pos="" lemma="d">d</w>
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="e">E</w>
-		<w pos="" lemma="t">t</w>
-		<w pos="" lemma="e">e</w>
-		<w pos="" lemma="r">r</w>
-		<w pos="" lemma="n">n</w>
-		<w pos="" lemma="a">a</w>
-		<w pos="" lemma="l">l</w>
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="s">S</w>
-		<w pos="" lemma="a">a</w>
-		<w pos="" lemma="n">n</w>
-		<w pos="" lemma="c">c</w>
-		<w pos="" lemma="t">t</w>
-		<w pos="" lemma="u">u</w>
-		<w pos="" lemma="a">a</w>
-		<w pos="" lemma="r">r</w>
-		<w pos="" lemma="y">y</w>
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="m">M</w>
-		<w pos="" lemma="a">a</w>
-		<w pos="" lemma="n">n</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="i">I</w>
-		<w pos="" lemma="k">k</w>
-		<w pos="" lemma="h">h</w>
-		<w pos="" lemma="n">n</w>
-		<w pos="" lemma="a">a</w>
-		<w pos="" lemma="t">t</w>
-		<w pos="" lemma="o">o</w>
-		<w pos="" lemma="n">n</w>
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="a">a</w>
-		<w pos="" lemma="n">n</w>
-		<w pos="" lemma="d">d</w>
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="i">I</w>
-		<w pos="" lemma="t">t</w>
-		<w pos="" lemma="s">s</w>
-		<w pos="" lemma="a">a</w>
-		<w pos="" lemma="c">c</w>
-		<w pos="" lemma="o">o</w>
-		<w pos="" lemma="n">n</w>
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="a">a</w>
-		<w pos="" lemma="n">n</w>
-		<w pos="" lemma="d">d</w>
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="t">T</w>
-		<w pos="" lemma="h">h</w>
-		<w pos="" lemma="e">e</w>
-		<w pos="" lemma="i">i</w>
-		<w pos="" lemma="r">r</w>
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="b">B</w>
-		<w pos="" lemma="a">a</w>
-		<w pos="" lemma="n">n</w>
-		<w pos="" lemma="d">d</w>
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="o">o</w>
-		<w pos="" lemma="f">f</w>
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="m">M</w>
-		<w pos="" lemma="e">e</w>
-		<w pos="" lemma="r">r</w>
-		<w pos="" lemma="r">r</w>
-		<w pos="" lemma="y">y</w>
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="m">M</w>
-		<w pos="" lemma="e">e</w>
-		<w pos="" lemma="n">n</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="h">H</w>
-		<w pos="" lemma="o">o</w>
-		<w pos="" lemma="w">w</w>
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="d">D</w>
-		<w pos="" lemma="a">a</w>
-		<w pos="" lemma="r">r</w>
-		<w pos="" lemma="e">e</w>
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="i">I</w>
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="b">B</w>
-		<w pos="" lemma="e">e</w>
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="s">S</w>
-		<w pos="" lemma="o">o</w>
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="b">B</w>
-		<w pos="" lemma="e">e</w>
-		<w pos="" lemma="a">a</w>
-		<w pos="" lemma="u">u</w>
-		<w pos="" lemma="t">t</w>
-		<w pos="" lemma="i">i</w>
-		<w pos="" lemma="f">f</w>
-		<w pos="" lemma="u">u</w>
-		<w pos="" lemma="l">l</w>
-		<w pos="" lemma="?">?</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="w">W</w>
-		<w pos="" lemma="i">i</w>
-		<w pos="" lemma="l">l</w>
-		<w pos="" lemma="l">l</w>
-		<w pos="" lemma="o">o</w>
-		<w pos="" lemma="w">w</w>
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="f">F</w>
-		<w pos="" lemma="a">a</w>
-		<w pos="" lemma="r">r</w>
-		<w pos="" lemma="m">m</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="a">A</w>
-		<w pos="" lemma="p">p</w>
-		<w pos="" lemma="o">o</w>
-		<w pos="" lemma="c">c</w>
-		<w pos="" lemma="a">a</w>
-		<w pos="" lemma="l">l</w>
-		<w pos="" lemma="y">y</w>
-		<w pos="" lemma="p">p</w>
-		<w pos="" lemma="s">s</w>
-		<w pos="" lemma="e">e</w>
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="i">i</w>
-		<w pos="" lemma="n">n</w>
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="9">9</w>
-		<w pos="" lemma="/">/</w>
-		<w pos="" lemma="8">8</w>
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="(">(</w>
-		<w pos="" lemma="f">f</w>
-		<w pos="" lemma="e">e</w>
-		<w pos="" lemma="a">a</w>
-		<w pos="" lemma="t">t</w>
-		<w pos="" lemma="u">u</w>
-		<w pos="" lemma="r">r</w>
-		<w pos="" lemma="i">i</w>
-		<w pos="" lemma="n">n</w>
-		<w pos="" lemma="g">g</w>
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="t">t</w>
-		<w pos="" lemma="h">h</w>
-		<w pos="" lemma="e">e</w>
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="d">d</w>
-		<w pos="" lemma="e">e</w>
-		<w pos="" lemma="l">l</w>
-		<w pos="" lemma="i">i</w>
-		<w pos="" lemma="c">c</w>
-		<w pos="" lemma="i">i</w>
-		<w pos="" lemma="o">o</w>
-		<w pos="" lemma="u">u</w>
-		<w pos="" lemma="s">s</w>
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="t">t</w>
-		<w pos="" lemma="a">a</w>
-		<w pos="" lemma="l">l</w>
-		<w pos="" lemma="e">e</w>
-		<w pos="" lemma="n">n</w>
-		<w pos="" lemma="t">t</w>
-		<w pos="" lemma="s">s</w>
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="o">o</w>
-		<w pos="" lemma="f">f</w>
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="g">G</w>
-		<w pos="" lemma="a">a</w>
-		<w pos="" lemma="b">b</w>
-		<w pos="" lemma="b">b</w>
-		<w pos="" lemma="l">l</w>
-		<w pos="" lemma="e">e</w>
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="r">R</w>
-		<w pos="" lemma="a">a</w>
-		<w pos="" lemma="t">t</w>
-		<w pos="" lemma="c">c</w>
-		<w pos="" lemma="h">h</w>
-		<w pos="" lemma="e">e</w>
-		<w pos="" lemma="t">t</w>
-		<w pos="" lemma=")">)</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="a">A</w>
-		<w pos="" lemma="s">s</w>
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="s">S</w>
-		<w pos="" lemma="u">u</w>
-		<w pos="" lemma="r">r</w>
-		<w pos="" lemma="e">e</w>
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="a">a</w>
-		<w pos="" lemma="s">s</w>
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="e">E</w>
-		<w pos="" lemma="g">g</w>
-		<w pos="" lemma="g">g</w>
-		<w pos="" lemma="s">s</w>
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="i">I</w>
-		<w pos="" lemma="s">s</w>
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="e">E</w>
-		<w pos="" lemma="g">g</w>
-		<w pos="" lemma="g">g</w>
-		<w pos="" lemma="s">s</w>
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="(">(</w>
-		<w pos="" lemma="a">A</w>
-		<w pos="" lemma="c">c</w>
-		<w pos="" lemma="h">h</w>
-		<w pos="" lemma="i">i</w>
-		<w pos="" lemma="n">n</w>
-		<w pos="" lemma="g">g</w>
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="m">M</w>
-		<w pos="" lemma="e">e</w>
-		<w pos="" lemma="n">n</w>
-		<w pos="" lemma="'">'</w>
-		<w pos="" lemma="s">s</w>
-		<w pos="" lemma=" "> </w>
-		<w pos="" lemma="f">F</w>
-		<w pos="" lemma="e">e</w>
-		<w pos="" lemma="e">e</w>
-		<w pos="" lemma="t">t</w>
-		<w pos="" lemma=")">)</w>
-	</tr>
-</album>
-<album name="Foxtrot" date="1972">
-	<tr index="1" length="7:19" style="">
-	</tr>
-	<tr index="2" length="4:40" style="">
-	</tr>
-	<tr index="3" length="8:35" style="">
-	</tr>
-	<tr index="4" length="5:43" style="">
-	</tr>
-	<tr index="5" length="1:38" style="">
-	</tr>
-	<tr index="6" length="22:58" style="">
-	</tr>
-	<tr index="-" length="-" style="">
-	</tr>
-	<tr index="-" length="-" style="">
-	</tr>
-	<tr index="-" length="-" style="">
-	</tr>
-	<tr index="-" length="-" style="">
-	</tr>
-	<tr index="-" length="-" style="">
-	</tr>
-	<tr index="-" length="-" style="">
-	</tr>
-	<tr index="-" length="-" style="">
-	</tr>
-</album>
-<album name="Foxtrot" date="1972">
-	<tr index="1" length="7:19" style="">
-	</tr>
-	<tr index="2" length="4:40" style="">
-	</tr>
-	<tr index="3" length="8:35" style="">
-	</tr>
-	<tr index="4" length="5:43" style="">
-	</tr>
-	<tr index="5" length="1:38" style="">
-	</tr>
-	<tr index="6" length="22:58" style="">
-	</tr>
-	<tr index="-" length="-" style="">
-	</tr>
-	<tr index="-" length="-" style="">
-	</tr>
-	<tr index="-" length="-" style="">
-	</tr>
-	<tr index="-" length="-" style="">
-	</tr>
-	<tr index="-" length="-" style="">
-	</tr>
-	<tr index="-" length="-" style="">
-	</tr>
-	<tr index="-" length="-" style="">
-	</tr>
-</album>
-<album name="Foxtrot" date="1972">
-	<tr index="1" length="7:19" style="">
-	</tr>
-	<tr index="2" length="4:40" style="">
-	</tr>
-	<tr index="3" length="8:35" style="">
-	</tr>
-	<tr index="4" length="5:43" style="">
-	</tr>
-	<tr index="5" length="1:38" style="">
-	</tr>
-	<tr index="6" length="22:58" style="">
-	</tr>
-	<tr index="-" length="-" style="">
-	</tr>
-	<tr index="-" length="-" style="">
-	</tr>
-	<tr index="-" length="-" style="">
-	</tr>
-	<tr index="-" length="-" style="">
-	</tr>
-	<tr index="-" length="-" style="">
-	</tr>
-	<tr index="-" length="-" style="">
-	</tr>
-	<tr index="-" length="-" style="">
-	</tr>
-</album>
-<album name="Foxtrot" date="1972">
-	<tr index="1" length="7:19" style="">
-		<w pos="" lemma="[('watcher', 'nnp'), ('of', 'in'), ('the', 'dt'), ('skies', 'nns')]">[('Watcher', 'NNP'), ('of', 'IN'), ('the', 'DT'), ('Skies', 'NNS')]</w>
-	</tr>
-	<tr index="2" length="4:40" style="">
-		<w pos="" lemma="[('time', 'nnp'), ('table', 'nnp')]">[('Time', 'NNP'), ('Table', 'NNP')]</w>
-	</tr>
-	<tr index="3" length="8:35" style="">
-		<w pos="" lemma="[('get', 'nnp'), ("'em", 'prp'), ('out', 'rp'), ('by', 'in'), ('friday', 'nnp')]">[('Get', 'NNP'), ("'em", 'PRP'), ('Out', 'RP'), ('by', 'IN'), ('Friday', 'NNP')]</w>
-	</tr>
-	<tr index="4" length="5:43" style="">
-		<w pos="" lemma="[('can-utility', 'nn'), ('and', 'cc'), ('the', 'dt'), ('coastliners', 'nns')]">[('Can-Utility', 'NN'), ('and', 'CC'), ('the', 'DT'), ('Coastliners', 'NNS')]</w>
-	</tr>
-	<tr index="5" length="1:38" style="">
-		<w pos="" lemma="[('horizons', 'nns')]">[('Horizons', 'NNS')]</w>
-	</tr>
-	<tr index="6" length="22:58" style="">
-		<w pos="" lemma="[('supper', 'nnp'), ("'s", 'pos'), ('ready', 'jj')]">[('Supper', 'NNP'), ("'s", 'POS'), ('Ready', 'JJ')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('lover', 'nnp'), ("'s", 'pos'), ('leap', 'nnp')]">[('Lover', 'NNP'), ("'s", 'POS'), ('Leap', 'NNP')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('the', 'dt'), ('guaranteed', 'nnp'), ('eternal', 'nnp'), ('sanctuary', 'nnp'), ('man', 'nn')]">[('The', 'DT'), ('Guaranteed', 'NNP'), ('Eternal', 'NNP'), ('Sanctuary', 'NNP'), ('Man', 'NN')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('ikhnaton', 'nnp'), ('and', 'cc'), ('itsacon', 'nnp'), ('and', 'cc'), ('their', 'nnp'), ('band', 'nnp'), ('of', 'in'), ('merry', 'nnp'), ('men', 'nnp')]">[('Ikhnaton', 'NNP'), ('and', 'CC'), ('Itsacon', 'NNP'), ('and', 'CC'), ('Their', 'NNP'), ('Band', 'NNP'), ('of', 'IN'), ('Merry', 'NNP'), ('Men', 'NNP')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('how', 'wrb'), ('dare', 'nnp'), ('i', 'prp'), ('be', 'vbp'), ('so', 'rb'), ('beautiful', 'jj'), ('?', '.')]">[('How', 'WRB'), ('Dare', 'NNP'), ('I', 'PRP'), ('Be', 'VBP'), ('So', 'RB'), ('Beautiful', 'JJ'), ('?', '.')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('willow', 'jj'), ('farm', 'nn')]">[('Willow', 'JJ'), ('Farm', 'NN')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('apocalypse', 'nnp'), ('in', 'in'), ('9/8', 'cd'), ('(', '('), ('featuring', 'vbg'), ('the', 'dt'), ('delicious', 'jj'), ('talents', 'nns'), ('of', 'in'), ('gabble', 'nnp'), ('ratchet', 'nnp'), (')', ')')]">[('Apocalypse', 'NNP'), ('in', 'IN'), ('9/8', 'CD'), ('(', '('), ('featuring', 'VBG'), ('the', 'DT'), ('delicious', 'JJ'), ('talents', 'NNS'), ('of', 'IN'), ('Gabble', 'NNP'), ('Ratchet', 'NNP'), (')', ')')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('as', 'rb'), ('sure', 'jj'), ('as', 'in'), ('eggs', 'nnp'), ('is', 'nnp'), ('eggs', 'nnp'), ('(', '('), ('aching', 'vbg'), ('men', 'nnp'), ("'s", 'pos'), ('feet', 'nnp'), (')', ')')]">[('As', 'RB'), ('Sure', 'JJ'), ('as', 'IN'), ('Eggs', 'NNP'), ('Is', 'NNP'), ('Eggs', 'NNP'), ('(', '('), ('Aching', 'VBG'), ('Men', 'NNP'), ("'s", 'POS'), ('Feet', 'NNP'), (')', ')')]</w>
-	</tr>
-</album>
-<album name="Foxtrot" date="1972">
-	<tr index="1" length="7:19" style="">
-		<w pos="" lemma="[('watcher', 'nnp'), ('of', 'in'), ('the', 'dt'), ('skies', 'nns')]">[('Watcher', 'NNP'), ('of', 'IN'), ('the', 'DT'), ('Skies', 'NNS')]</w>
-	</tr>
-	<tr index="2" length="4:40" style="">
-		<w pos="" lemma="[('time', 'nnp'), ('table', 'nnp')]">[('Time', 'NNP'), ('Table', 'NNP')]</w>
-	</tr>
-	<tr index="3" length="8:35" style="">
-		<w pos="" lemma="[('get', 'nnp'), ("'em", 'prp'), ('out', 'rp'), ('by', 'in'), ('friday', 'nnp')]">[('Get', 'NNP'), ("'em", 'PRP'), ('Out', 'RP'), ('by', 'IN'), ('Friday', 'NNP')]</w>
-	</tr>
-	<tr index="4" length="5:43" style="">
-		<w pos="" lemma="[('can-utility', 'nn'), ('and', 'cc'), ('the', 'dt'), ('coastliners', 'nns')]">[('Can-Utility', 'NN'), ('and', 'CC'), ('the', 'DT'), ('Coastliners', 'NNS')]</w>
-	</tr>
-	<tr index="5" length="1:38" style="">
-		<w pos="" lemma="[('horizons', 'nns')]">[('Horizons', 'NNS')]</w>
-	</tr>
-	<tr index="6" length="22:58" style="">
-		<w pos="" lemma="[('supper', 'nnp'), ("'s", 'pos'), ('ready', 'jj')]">[('Supper', 'NNP'), ("'s", 'POS'), ('Ready', 'JJ')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('lover', 'nnp'), ("'s", 'pos'), ('leap', 'nnp')]">[('Lover', 'NNP'), ("'s", 'POS'), ('Leap', 'NNP')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('the', 'dt'), ('guaranteed', 'nnp'), ('eternal', 'nnp'), ('sanctuary', 'nnp'), ('man', 'nn')]">[('The', 'DT'), ('Guaranteed', 'NNP'), ('Eternal', 'NNP'), ('Sanctuary', 'NNP'), ('Man', 'NN')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('ikhnaton', 'nnp'), ('and', 'cc'), ('itsacon', 'nnp'), ('and', 'cc'), ('their', 'nnp'), ('band', 'nnp'), ('of', 'in'), ('merry', 'nnp'), ('men', 'nnp')]">[('Ikhnaton', 'NNP'), ('and', 'CC'), ('Itsacon', 'NNP'), ('and', 'CC'), ('Their', 'NNP'), ('Band', 'NNP'), ('of', 'IN'), ('Merry', 'NNP'), ('Men', 'NNP')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('how', 'wrb'), ('dare', 'nnp'), ('i', 'prp'), ('be', 'vbp'), ('so', 'rb'), ('beautiful', 'jj'), ('?', '.')]">[('How', 'WRB'), ('Dare', 'NNP'), ('I', 'PRP'), ('Be', 'VBP'), ('So', 'RB'), ('Beautiful', 'JJ'), ('?', '.')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('willow', 'jj'), ('farm', 'nn')]">[('Willow', 'JJ'), ('Farm', 'NN')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('apocalypse', 'nnp'), ('in', 'in'), ('9/8', 'cd'), ('(', '('), ('featuring', 'vbg'), ('the', 'dt'), ('delicious', 'jj'), ('talents', 'nns'), ('of', 'in'), ('gabble', 'nnp'), ('ratchet', 'nnp'), (')', ')')]">[('Apocalypse', 'NNP'), ('in', 'IN'), ('9/8', 'CD'), ('(', '('), ('featuring', 'VBG'), ('the', 'DT'), ('delicious', 'JJ'), ('talents', 'NNS'), ('of', 'IN'), ('Gabble', 'NNP'), ('Ratchet', 'NNP'), (')', ')')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('as', 'rb'), ('sure', 'jj'), ('as', 'in'), ('eggs', 'nnp'), ('is', 'nnp'), ('eggs', 'nnp'), ('(', '('), ('aching', 'vbg'), ('men', 'nnp'), ("'s", 'pos'), ('feet', 'nnp'), (')', ')')]">[('As', 'RB'), ('Sure', 'JJ'), ('as', 'IN'), ('Eggs', 'NNP'), ('Is', 'NNP'), ('Eggs', 'NNP'), ('(', '('), ('Aching', 'VBG'), ('Men', 'NNP'), ("'s", 'POS'), ('Feet', 'NNP'), (')', ')')]</w>
-	</tr>
-</album>
-<album name="Foxtrot" date="1972">
-	<tr index="1" length="7:19" style="">
-		<w pos="" lemma="[('watcher', 'nnp'), ('of', 'in'), ('the', 'dt'), ('skies', 'nns')]">[('Watcher', 'NNP'), ('of', 'IN'), ('the', 'DT'), ('Skies', 'NNS')]</w>
-	</tr>
-	<tr index="2" length="4:40" style="">
-		<w pos="" lemma="[('time', 'nnp'), ('table', 'nnp')]">[('Time', 'NNP'), ('Table', 'NNP')]</w>
-	</tr>
-	<tr index="3" length="8:35" style="">
-		<w pos="" lemma="[('get', 'nnp'), ("'em", 'prp'), ('out', 'rp'), ('by', 'in'), ('friday', 'nnp')]">[('Get', 'NNP'), ("'em", 'PRP'), ('Out', 'RP'), ('by', 'IN'), ('Friday', 'NNP')]</w>
-	</tr>
-	<tr index="4" length="5:43" style="">
-		<w pos="" lemma="[('can-utility', 'nn'), ('and', 'cc'), ('the', 'dt'), ('coastliners', 'nns')]">[('Can-Utility', 'NN'), ('and', 'CC'), ('the', 'DT'), ('Coastliners', 'NNS')]</w>
-	</tr>
-	<tr index="5" length="1:38" style="">
-		<w pos="" lemma="[('horizons', 'nns')]">[('Horizons', 'NNS')]</w>
-	</tr>
-	<tr index="6" length="22:58" style="">
-		<w pos="" lemma="[('supper', 'nnp'), ("'s", 'pos'), ('ready', 'jj')]">[('Supper', 'NNP'), ("'s", 'POS'), ('Ready', 'JJ')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('lover', 'nnp'), ("'s", 'pos'), ('leap', 'nnp')]">[('Lover', 'NNP'), ("'s", 'POS'), ('Leap', 'NNP')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('the', 'dt'), ('guaranteed', 'nnp'), ('eternal', 'nnp'), ('sanctuary', 'nnp'), ('man', 'nn')]">[('The', 'DT'), ('Guaranteed', 'NNP'), ('Eternal', 'NNP'), ('Sanctuary', 'NNP'), ('Man', 'NN')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('ikhnaton', 'nnp'), ('and', 'cc'), ('itsacon', 'nnp'), ('and', 'cc'), ('their', 'nnp'), ('band', 'nnp'), ('of', 'in'), ('merry', 'nnp'), ('men', 'nnp')]">[('Ikhnaton', 'NNP'), ('and', 'CC'), ('Itsacon', 'NNP'), ('and', 'CC'), ('Their', 'NNP'), ('Band', 'NNP'), ('of', 'IN'), ('Merry', 'NNP'), ('Men', 'NNP')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('how', 'wrb'), ('dare', 'nnp'), ('i', 'prp'), ('be', 'vbp'), ('so', 'rb'), ('beautiful', 'jj'), ('?', '.')]">[('How', 'WRB'), ('Dare', 'NNP'), ('I', 'PRP'), ('Be', 'VBP'), ('So', 'RB'), ('Beautiful', 'JJ'), ('?', '.')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('willow', 'jj'), ('farm', 'nn')]">[('Willow', 'JJ'), ('Farm', 'NN')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('apocalypse', 'nnp'), ('in', 'in'), ('9/8', 'cd'), ('(', '('), ('featuring', 'vbg'), ('the', 'dt'), ('delicious', 'jj'), ('talents', 'nns'), ('of', 'in'), ('gabble', 'nnp'), ('ratchet', 'nnp'), (')', ')')]">[('Apocalypse', 'NNP'), ('in', 'IN'), ('9/8', 'CD'), ('(', '('), ('featuring', 'VBG'), ('the', 'DT'), ('delicious', 'JJ'), ('talents', 'NNS'), ('of', 'IN'), ('Gabble', 'NNP'), ('Ratchet', 'NNP'), (')', ')')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('as', 'rb'), ('sure', 'jj'), ('as', 'in'), ('eggs', 'nnp'), ('is', 'nnp'), ('eggs', 'nnp'), ('(', '('), ('aching', 'vbg'), ('men', 'nnp'), ("'s", 'pos'), ('feet', 'nnp'), (')', ')')]">[('As', 'RB'), ('Sure', 'JJ'), ('as', 'IN'), ('Eggs', 'NNP'), ('Is', 'NNP'), ('Eggs', 'NNP'), ('(', '('), ('Aching', 'VBG'), ('Men', 'NNP'), ("'s", 'POS'), ('Feet', 'NNP'), (')', ')')]</w>
-	</tr>
-</album>
-<album name="Foxtrot" date="1972">
-	<tr index="1" length="7:19" style="">
-		<w pos="" lemma="[('watcher', 'nnp'), ('of', 'in'), ('the', 'dt'), ('skies', 'nns')]">[('Watcher', 'NNP'), ('of', 'IN'), ('the', 'DT'), ('Skies', 'NNS')]</w>
-	</tr>
-	<tr index="2" length="4:40" style="">
-		<w pos="" lemma="[('time', 'nnp'), ('table', 'nnp')]">[('Time', 'NNP'), ('Table', 'NNP')]</w>
-	</tr>
-	<tr index="3" length="8:35" style="">
-		<w pos="" lemma="[('get', 'nnp'), ("'em", 'prp'), ('out', 'rp'), ('by', 'in'), ('friday', 'nnp')]">[('Get', 'NNP'), ("'em", 'PRP'), ('Out', 'RP'), ('by', 'IN'), ('Friday', 'NNP')]</w>
-	</tr>
-	<tr index="4" length="5:43" style="">
-		<w pos="" lemma="[('can-utility', 'nn'), ('and', 'cc'), ('the', 'dt'), ('coastliners', 'nns')]">[('Can-Utility', 'NN'), ('and', 'CC'), ('the', 'DT'), ('Coastliners', 'NNS')]</w>
-	</tr>
-	<tr index="5" length="1:38" style="">
-		<w pos="" lemma="[('horizons', 'nns')]">[('Horizons', 'NNS')]</w>
-	</tr>
-	<tr index="6" length="22:58" style="">
-		<w pos="" lemma="[('supper', 'nnp'), ("'s", 'pos'), ('ready', 'jj')]">[('Supper', 'NNP'), ("'s", 'POS'), ('Ready', 'JJ')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('lover', 'nnp'), ("'s", 'pos'), ('leap', 'nnp')]">[('Lover', 'NNP'), ("'s", 'POS'), ('Leap', 'NNP')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('the', 'dt'), ('guaranteed', 'nnp'), ('eternal', 'nnp'), ('sanctuary', 'nnp'), ('man', 'nn')]">[('The', 'DT'), ('Guaranteed', 'NNP'), ('Eternal', 'NNP'), ('Sanctuary', 'NNP'), ('Man', 'NN')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('ikhnaton', 'nnp'), ('and', 'cc'), ('itsacon', 'nnp'), ('and', 'cc'), ('their', 'nnp'), ('band', 'nnp'), ('of', 'in'), ('merry', 'nnp'), ('men', 'nnp')]">[('Ikhnaton', 'NNP'), ('and', 'CC'), ('Itsacon', 'NNP'), ('and', 'CC'), ('Their', 'NNP'), ('Band', 'NNP'), ('of', 'IN'), ('Merry', 'NNP'), ('Men', 'NNP')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('how', 'wrb'), ('dare', 'nnp'), ('i', 'prp'), ('be', 'vbp'), ('so', 'rb'), ('beautiful', 'jj'), ('?', '.')]">[('How', 'WRB'), ('Dare', 'NNP'), ('I', 'PRP'), ('Be', 'VBP'), ('So', 'RB'), ('Beautiful', 'JJ'), ('?', '.')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('willow', 'jj'), ('farm', 'nn')]">[('Willow', 'JJ'), ('Farm', 'NN')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('apocalypse', 'nnp'), ('in', 'in'), ('9/8', 'cd'), ('(', '('), ('featuring', 'vbg'), ('the', 'dt'), ('delicious', 'jj'), ('talents', 'nns'), ('of', 'in'), ('gabble', 'nnp'), ('ratchet', 'nnp'), (')', ')')]">[('Apocalypse', 'NNP'), ('in', 'IN'), ('9/8', 'CD'), ('(', '('), ('featuring', 'VBG'), ('the', 'DT'), ('delicious', 'JJ'), ('talents', 'NNS'), ('of', 'IN'), ('Gabble', 'NNP'), ('Ratchet', 'NNP'), (')', ')')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('as', 'rb'), ('sure', 'jj'), ('as', 'in'), ('eggs', 'nnp'), ('is', 'nnp'), ('eggs', 'nnp'), ('(', '('), ('aching', 'vbg'), ('men', 'nnp'), ("'s", 'pos'), ('feet', 'nnp'), (')', ')')]">[('As', 'RB'), ('Sure', 'JJ'), ('as', 'IN'), ('Eggs', 'NNP'), ('Is', 'NNP'), ('Eggs', 'NNP'), ('(', '('), ('Aching', 'VBG'), ('Men', 'NNP'), ("'s", 'POS'), ('Feet', 'NNP'), (')', ')')]</w>
-	</tr>
-</album>
-<album name="Foxtrot" date="1972">
-	<tr index="1" length="7:19" style="">
-		<w pos="" lemma="[('watcher', 'nnp'), ('of', 'in'), ('the', 'dt'), ('skies', 'nns')]">[('Watcher', 'NNP'), ('of', 'IN'), ('the', 'DT'), ('Skies', 'NNS')]</w>
-	</tr>
-	<tr index="2" length="4:40" style="">
-		<w pos="" lemma="[('time', 'nnp'), ('table', 'nnp')]">[('Time', 'NNP'), ('Table', 'NNP')]</w>
-	</tr>
-	<tr index="3" length="8:35" style="">
-		<w pos="" lemma="[('get', 'nnp'), ("'em", 'prp'), ('out', 'rp'), ('by', 'in'), ('friday', 'nnp')]">[('Get', 'NNP'), ("'em", 'PRP'), ('Out', 'RP'), ('by', 'IN'), ('Friday', 'NNP')]</w>
-	</tr>
-	<tr index="4" length="5:43" style="">
-		<w pos="" lemma="[('can-utility', 'nn'), ('and', 'cc'), ('the', 'dt'), ('coastliners', 'nns')]">[('Can-Utility', 'NN'), ('and', 'CC'), ('the', 'DT'), ('Coastliners', 'NNS')]</w>
-	</tr>
-	<tr index="5" length="1:38" style="">
-		<w pos="" lemma="[('horizons', 'nns')]">[('Horizons', 'NNS')]</w>
-	</tr>
-	<tr index="6" length="22:58" style="">
-		<w pos="" lemma="[('supper', 'nnp'), ("'s", 'pos'), ('ready', 'jj')]">[('Supper', 'NNP'), ("'s", 'POS'), ('Ready', 'JJ')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('lover', 'nnp'), ("'s", 'pos'), ('leap', 'nnp')]">[('Lover', 'NNP'), ("'s", 'POS'), ('Leap', 'NNP')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('the', 'dt'), ('guaranteed', 'nnp'), ('eternal', 'nnp'), ('sanctuary', 'nnp'), ('man', 'nn')]">[('The', 'DT'), ('Guaranteed', 'NNP'), ('Eternal', 'NNP'), ('Sanctuary', 'NNP'), ('Man', 'NN')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('ikhnaton', 'nnp'), ('and', 'cc'), ('itsacon', 'nnp'), ('and', 'cc'), ('their', 'nnp'), ('band', 'nnp'), ('of', 'in'), ('merry', 'nnp'), ('men', 'nnp')]">[('Ikhnaton', 'NNP'), ('and', 'CC'), ('Itsacon', 'NNP'), ('and', 'CC'), ('Their', 'NNP'), ('Band', 'NNP'), ('of', 'IN'), ('Merry', 'NNP'), ('Men', 'NNP')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('how', 'wrb'), ('dare', 'nnp'), ('i', 'prp'), ('be', 'vbp'), ('so', 'rb'), ('beautiful', 'jj'), ('?', '.')]">[('How', 'WRB'), ('Dare', 'NNP'), ('I', 'PRP'), ('Be', 'VBP'), ('So', 'RB'), ('Beautiful', 'JJ'), ('?', '.')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('willow', 'jj'), ('farm', 'nn')]">[('Willow', 'JJ'), ('Farm', 'NN')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('apocalypse', 'nnp'), ('in', 'in'), ('9/8', 'cd'), ('(', '('), ('featuring', 'vbg'), ('the', 'dt'), ('delicious', 'jj'), ('talents', 'nns'), ('of', 'in'), ('gabble', 'nnp'), ('ratchet', 'nnp'), (')', ')')]">[('Apocalypse', 'NNP'), ('in', 'IN'), ('9/8', 'CD'), ('(', '('), ('featuring', 'VBG'), ('the', 'DT'), ('delicious', 'JJ'), ('talents', 'NNS'), ('of', 'IN'), ('Gabble', 'NNP'), ('Ratchet', 'NNP'), (')', ')')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('as', 'rb'), ('sure', 'jj'), ('as', 'in'), ('eggs', 'nnp'), ('is', 'nnp'), ('eggs', 'nnp'), ('(', '('), ('aching', 'vbg'), ('men', 'nnp'), ("'s", 'pos'), ('feet', 'nnp'), (')', ')')]">[('As', 'RB'), ('Sure', 'JJ'), ('as', 'IN'), ('Eggs', 'NNP'), ('Is', 'NNP'), ('Eggs', 'NNP'), ('(', '('), ('Aching', 'VBG'), ('Men', 'NNP'), ("'s", 'POS'), ('Feet', 'NNP'), (')', ')')]</w>
-	</tr>
-</album>
-<album name="Foxtrot" date="1972">
-	<tr index="1" length="7:19" style="">
-		<w pos="" lemma="[('watcher', 'nnp'), ('of', 'in'), ('the', 'dt'), ('skies', 'nns')]">[('Watcher', 'NNP'), ('of', 'IN'), ('the', 'DT'), ('Skies', 'NNS')]</w>
-	</tr>
-	<tr index="2" length="4:40" style="">
-		<w pos="" lemma="[('time', 'nnp'), ('table', 'nnp')]">[('Time', 'NNP'), ('Table', 'NNP')]</w>
-	</tr>
-	<tr index="3" length="8:35" style="">
-		<w pos="" lemma="[('get', 'nnp'), ("'em", 'prp'), ('out', 'rp'), ('by', 'in'), ('friday', 'nnp')]">[('Get', 'NNP'), ("'em", 'PRP'), ('Out', 'RP'), ('by', 'IN'), ('Friday', 'NNP')]</w>
-	</tr>
-	<tr index="4" length="5:43" style="">
-		<w pos="" lemma="[('can-utility', 'nn'), ('and', 'cc'), ('the', 'dt'), ('coastliners', 'nns')]">[('Can-Utility', 'NN'), ('and', 'CC'), ('the', 'DT'), ('Coastliners', 'NNS')]</w>
-	</tr>
-	<tr index="5" length="1:38" style="">
-		<w pos="" lemma="[('horizons', 'nns')]">[('Horizons', 'NNS')]</w>
-	</tr>
-	<tr index="6" length="22:58" style="">
-		<w pos="" lemma="[('supper', 'nnp'), ("'s", 'pos'), ('ready', 'jj')]">[('Supper', 'NNP'), ("'s", 'POS'), ('Ready', 'JJ')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('lover', 'nnp'), ("'s", 'pos'), ('leap', 'nnp')]">[('Lover', 'NNP'), ("'s", 'POS'), ('Leap', 'NNP')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('the', 'dt'), ('guaranteed', 'nnp'), ('eternal', 'nnp'), ('sanctuary', 'nnp'), ('man', 'nn')]">[('The', 'DT'), ('Guaranteed', 'NNP'), ('Eternal', 'NNP'), ('Sanctuary', 'NNP'), ('Man', 'NN')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('ikhnaton', 'nnp'), ('and', 'cc'), ('itsacon', 'nnp'), ('and', 'cc'), ('their', 'nnp'), ('band', 'nnp'), ('of', 'in'), ('merry', 'nnp'), ('men', 'nnp')]">[('Ikhnaton', 'NNP'), ('and', 'CC'), ('Itsacon', 'NNP'), ('and', 'CC'), ('Their', 'NNP'), ('Band', 'NNP'), ('of', 'IN'), ('Merry', 'NNP'), ('Men', 'NNP')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('how', 'wrb'), ('dare', 'nnp'), ('i', 'prp'), ('be', 'vbp'), ('so', 'rb'), ('beautiful', 'jj'), ('?', '.')]">[('How', 'WRB'), ('Dare', 'NNP'), ('I', 'PRP'), ('Be', 'VBP'), ('So', 'RB'), ('Beautiful', 'JJ'), ('?', '.')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('willow', 'jj'), ('farm', 'nn')]">[('Willow', 'JJ'), ('Farm', 'NN')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('apocalypse', 'nnp'), ('in', 'in'), ('9/8', 'cd'), ('(', '('), ('featuring', 'vbg'), ('the', 'dt'), ('delicious', 'jj'), ('talents', 'nns'), ('of', 'in'), ('gabble', 'nnp'), ('ratchet', 'nnp'), (')', ')')]">[('Apocalypse', 'NNP'), ('in', 'IN'), ('9/8', 'CD'), ('(', '('), ('featuring', 'VBG'), ('the', 'DT'), ('delicious', 'JJ'), ('talents', 'NNS'), ('of', 'IN'), ('Gabble', 'NNP'), ('Ratchet', 'NNP'), (')', ')')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('as', 'rb'), ('sure', 'jj'), ('as', 'in'), ('eggs', 'nnp'), ('is', 'nnp'), ('eggs', 'nnp'), ('(', '('), ('aching', 'vbg'), ('men', 'nnp'), ("'s", 'pos'), ('feet', 'nnp'), (')', ')')]">[('As', 'RB'), ('Sure', 'JJ'), ('as', 'IN'), ('Eggs', 'NNP'), ('Is', 'NNP'), ('Eggs', 'NNP'), ('(', '('), ('Aching', 'VBG'), ('Men', 'NNP'), ("'s", 'POS'), ('Feet', 'NNP'), (')', ')')]</w>
-	</tr>
-</album>
-<album name="Foxtrot" date="1972">
-	<tr index="1" length="7:19" style="">
-		<w pos="" lemma="[('watcher', 'nnp'), ('of', 'in'), ('the', 'dt'), ('skies', 'nns')]">[('Watcher', 'NNP'), ('of', 'IN'), ('the', 'DT'), ('Skies', 'NNS')]</w>
-	</tr>
-	<tr index="2" length="4:40" style="">
-		<w pos="" lemma="[('time', 'nnp'), ('table', 'nnp')]">[('Time', 'NNP'), ('Table', 'NNP')]</w>
-	</tr>
-	<tr index="3" length="8:35" style="">
-		<w pos="" lemma="[('get', 'nnp'), ("'em", 'prp'), ('out', 'rp'), ('by', 'in'), ('friday', 'nnp')]">[('Get', 'NNP'), ("'em", 'PRP'), ('Out', 'RP'), ('by', 'IN'), ('Friday', 'NNP')]</w>
-	</tr>
-	<tr index="4" length="5:43" style="">
-		<w pos="" lemma="[('can-utility', 'nn'), ('and', 'cc'), ('the', 'dt'), ('coastliners', 'nns')]">[('Can-Utility', 'NN'), ('and', 'CC'), ('the', 'DT'), ('Coastliners', 'NNS')]</w>
-	</tr>
-	<tr index="5" length="1:38" style="">
-		<w pos="" lemma="[('horizons', 'nns')]">[('Horizons', 'NNS')]</w>
-	</tr>
-	<tr index="6" length="22:58" style="">
-		<w pos="" lemma="[('supper', 'nnp'), ("'s", 'pos'), ('ready', 'jj')]">[('Supper', 'NNP'), ("'s", 'POS'), ('Ready', 'JJ')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('lover', 'nnp'), ("'s", 'pos'), ('leap', 'nnp')]">[('Lover', 'NNP'), ("'s", 'POS'), ('Leap', 'NNP')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('the', 'dt'), ('guaranteed', 'nnp'), ('eternal', 'nnp'), ('sanctuary', 'nnp'), ('man', 'nn')]">[('The', 'DT'), ('Guaranteed', 'NNP'), ('Eternal', 'NNP'), ('Sanctuary', 'NNP'), ('Man', 'NN')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('ikhnaton', 'nnp'), ('and', 'cc'), ('itsacon', 'nnp'), ('and', 'cc'), ('their', 'nnp'), ('band', 'nnp'), ('of', 'in'), ('merry', 'nnp'), ('men', 'nnp')]">[('Ikhnaton', 'NNP'), ('and', 'CC'), ('Itsacon', 'NNP'), ('and', 'CC'), ('Their', 'NNP'), ('Band', 'NNP'), ('of', 'IN'), ('Merry', 'NNP'), ('Men', 'NNP')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('how', 'wrb'), ('dare', 'nnp'), ('i', 'prp'), ('be', 'vbp'), ('so', 'rb'), ('beautiful', 'jj'), ('?', '.')]">[('How', 'WRB'), ('Dare', 'NNP'), ('I', 'PRP'), ('Be', 'VBP'), ('So', 'RB'), ('Beautiful', 'JJ'), ('?', '.')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('willow', 'jj'), ('farm', 'nn')]">[('Willow', 'JJ'), ('Farm', 'NN')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('apocalypse', 'nnp'), ('in', 'in'), ('9/8', 'cd'), ('(', '('), ('featuring', 'vbg'), ('the', 'dt'), ('delicious', 'jj'), ('talents', 'nns'), ('of', 'in'), ('gabble', 'nnp'), ('ratchet', 'nnp'), (')', ')')]">[('Apocalypse', 'NNP'), ('in', 'IN'), ('9/8', 'CD'), ('(', '('), ('featuring', 'VBG'), ('the', 'DT'), ('delicious', 'JJ'), ('talents', 'NNS'), ('of', 'IN'), ('Gabble', 'NNP'), ('Ratchet', 'NNP'), (')', ')')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="[('as', 'rb'), ('sure', 'jj'), ('as', 'in'), ('eggs', 'nnp'), ('is', 'nnp'), ('eggs', 'nnp'), ('(', '('), ('aching', 'vbg'), ('men', 'nnp'), ("'s", 'pos'), ('feet', 'nnp'), (')', ')')]">[('As', 'RB'), ('Sure', 'JJ'), ('as', 'IN'), ('Eggs', 'NNP'), ('Is', 'NNP'), ('Eggs', 'NNP'), ('(', '('), ('Aching', 'VBG'), ('Men', 'NNP'), ("'s", 'POS'), ('Feet', 'NNP'), (')', ')')]</w>
-	</tr>
-</album>
-<album name="Foxtrot" date="1972">
-	<tr index="1" length="7:19" style="">
-		<w pos="" lemma="0">0</w>
-		<w pos="" lemma="[('watcher', 'nnp'), ('of', 'in'), ('the', 'dt'), ('skies', 'nns')]">[('Watcher', 'NNP'), ('of', 'IN'), ('the', 'DT'), ('Skies', 'NNS')]</w>
-	</tr>
-	<tr index="2" length="4:40" style="">
-		<w pos="" lemma="0">0</w>
-		<w pos="" lemma="[('time', 'nnp'), ('table', 'nnp')]">[('Time', 'NNP'), ('Table', 'NNP')]</w>
-	</tr>
-	<tr index="3" length="8:35" style="">
-		<w pos="" lemma="0">0</w>
-		<w pos="" lemma="[('get', 'nnp'), ("'em", 'prp'), ('out', 'rp'), ('by', 'in'), ('friday', 'nnp')]">[('Get', 'NNP'), ("'em", 'PRP'), ('Out', 'RP'), ('by', 'IN'), ('Friday', 'NNP')]</w>
-	</tr>
-	<tr index="4" length="5:43" style="">
-		<w pos="" lemma="0">0</w>
-		<w pos="" lemma="[('can-utility', 'nn'), ('and', 'cc'), ('the', 'dt'), ('coastliners', 'nns')]">[('Can-Utility', 'NN'), ('and', 'CC'), ('the', 'DT'), ('Coastliners', 'NNS')]</w>
-	</tr>
-	<tr index="5" length="1:38" style="">
-		<w pos="" lemma="0">0</w>
-		<w pos="" lemma="[('horizons', 'nns')]">[('Horizons', 'NNS')]</w>
-	</tr>
-	<tr index="6" length="22:58" style="">
-		<w pos="" lemma="0">0</w>
-		<w pos="" lemma="[('supper', 'nnp'), ("'s", 'pos'), ('ready', 'jj')]">[('Supper', 'NNP'), ("'s", 'POS'), ('Ready', 'JJ')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="0">0</w>
-		<w pos="" lemma="[('lover', 'nnp'), ("'s", 'pos'), ('leap', 'nnp')]">[('Lover', 'NNP'), ("'s", 'POS'), ('Leap', 'NNP')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="0">0</w>
-		<w pos="" lemma="[('the', 'dt'), ('guaranteed', 'nnp'), ('eternal', 'nnp'), ('sanctuary', 'nnp'), ('man', 'nn')]">[('The', 'DT'), ('Guaranteed', 'NNP'), ('Eternal', 'NNP'), ('Sanctuary', 'NNP'), ('Man', 'NN')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="0">0</w>
-		<w pos="" lemma="[('ikhnaton', 'nnp'), ('and', 'cc'), ('itsacon', 'nnp'), ('and', 'cc'), ('their', 'nnp'), ('band', 'nnp'), ('of', 'in'), ('merry', 'nnp'), ('men', 'nnp')]">[('Ikhnaton', 'NNP'), ('and', 'CC'), ('Itsacon', 'NNP'), ('and', 'CC'), ('Their', 'NNP'), ('Band', 'NNP'), ('of', 'IN'), ('Merry', 'NNP'), ('Men', 'NNP')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="0">0</w>
-		<w pos="" lemma="[('how', 'wrb'), ('dare', 'nnp'), ('i', 'prp'), ('be', 'vbp'), ('so', 'rb'), ('beautiful', 'jj'), ('?', '.')]">[('How', 'WRB'), ('Dare', 'NNP'), ('I', 'PRP'), ('Be', 'VBP'), ('So', 'RB'), ('Beautiful', 'JJ'), ('?', '.')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="0">0</w>
-		<w pos="" lemma="[('willow', 'jj'), ('farm', 'nn')]">[('Willow', 'JJ'), ('Farm', 'NN')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="0">0</w>
-		<w pos="" lemma="[('apocalypse', 'nnp'), ('in', 'in'), ('9/8', 'cd'), ('(', '('), ('featuring', 'vbg'), ('the', 'dt'), ('delicious', 'jj'), ('talents', 'nns'), ('of', 'in'), ('gabble', 'nnp'), ('ratchet', 'nnp'), (')', ')')]">[('Apocalypse', 'NNP'), ('in', 'IN'), ('9/8', 'CD'), ('(', '('), ('featuring', 'VBG'), ('the', 'DT'), ('delicious', 'JJ'), ('talents', 'NNS'), ('of', 'IN'), ('Gabble', 'NNP'), ('Ratchet', 'NNP'), (')', ')')]</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="0">0</w>
-		<w pos="" lemma="[('as', 'rb'), ('sure', 'jj'), ('as', 'in'), ('eggs', 'nnp'), ('is', 'nnp'), ('eggs', 'nnp'), ('(', '('), ('aching', 'vbg'), ('men', 'nnp'), ("'s", 'pos'), ('feet', 'nnp'), (')', ')')]">[('As', 'RB'), ('Sure', 'JJ'), ('as', 'IN'), ('Eggs', 'NNP'), ('Is', 'NNP'), ('Eggs', 'NNP'), ('(', '('), ('Aching', 'VBG'), ('Men', 'NNP'), ("'s", 'POS'), ('Feet', 'NNP'), (')', ')')]</w>
-	</tr>
-</album>
-<album name="Foxtrot" date="1972">
-	<tr index="1" length="7:19" style="">
-		<w pos="" lemma="0">0</w>
-	</tr>
-	<tr index="2" length="4:40" style="">
-		<w pos="" lemma="0">0</w>
-	</tr>
-	<tr index="3" length="8:35" style="">
-		<w pos="" lemma="0">0</w>
-	</tr>
-	<tr index="4" length="5:43" style="">
-		<w pos="" lemma="0">0</w>
-	</tr>
-	<tr index="5" length="1:38" style="">
-		<w pos="" lemma="0">0</w>
-	</tr>
-	<tr index="6" length="22:58" style="">
-		<w pos="" lemma="0">0</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="0">0</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="0">0</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="0">0</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="0">0</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="0">0</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="0">0</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="0">0</w>
-	</tr>
-</album>
-<album name="Foxtrot" date="1972">
-	<tr index="1" length="7:19" style="">
-		<w pos="" lemma="0">0</w>
-	</tr>
-	<tr index="2" length="4:40" style="">
-		<w pos="" lemma="0">0</w>
-	</tr>
-	<tr index="3" length="8:35" style="">
-		<w pos="" lemma="0">0</w>
-	</tr>
-	<tr index="4" length="5:43" style="">
-		<w pos="" lemma="0">0</w>
-	</tr>
-	<tr index="5" length="1:38" style="">
-		<w pos="" lemma="0">0</w>
-	</tr>
-	<tr index="6" length="22:58" style="">
-		<w pos="" lemma="0">0</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="0">0</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="0">0</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="0">0</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="0">0</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="0">0</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="0">0</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="0">0</w>
-	</tr>
-</album>
-<album name="Foxtrot" date="1972">
-	<tr index="1" length="7:19" style="">
-		<w pos="" lemma="('watcher', 'nnp')">('Watcher', 'NNP')</w>
-		<w pos="" lemma="('of', 'in')">('of', 'IN')</w>
-		<w pos="" lemma="('the', 'dt')">('the', 'DT')</w>
-		<w pos="" lemma="('skies', 'nns')">('Skies', 'NNS')</w>
-	</tr>
-	<tr index="2" length="4:40" style="">
-		<w pos="" lemma="('time', 'nnp')">('Time', 'NNP')</w>
-		<w pos="" lemma="('table', 'nnp')">('Table', 'NNP')</w>
-	</tr>
-	<tr index="3" length="8:35" style="">
-		<w pos="" lemma="('get', 'nnp')">('Get', 'NNP')</w>
-		<w pos="" lemma="("'em", 'prp')">("'em", 'PRP')</w>
-		<w pos="" lemma="('out', 'rp')">('Out', 'RP')</w>
-		<w pos="" lemma="('by', 'in')">('by', 'IN')</w>
-		<w pos="" lemma="('friday', 'nnp')">('Friday', 'NNP')</w>
-	</tr>
-	<tr index="4" length="5:43" style="">
-		<w pos="" lemma="('can-utility', 'nn')">('Can-Utility', 'NN')</w>
-		<w pos="" lemma="('and', 'cc')">('and', 'CC')</w>
-		<w pos="" lemma="('the', 'dt')">('the', 'DT')</w>
-		<w pos="" lemma="('coastliners', 'nns')">('Coastliners', 'NNS')</w>
-	</tr>
-	<tr index="5" length="1:38" style="">
-		<w pos="" lemma="('horizons', 'nns')">('Horizons', 'NNS')</w>
-	</tr>
-	<tr index="6" length="22:58" style="">
-		<w pos="" lemma="('supper', 'nnp')">('Supper', 'NNP')</w>
-		<w pos="" lemma="("'s", 'pos')">("'s", 'POS')</w>
-		<w pos="" lemma="('ready', 'jj')">('Ready', 'JJ')</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="('lover', 'nnp')">('Lover', 'NNP')</w>
-		<w pos="" lemma="("'s", 'pos')">("'s", 'POS')</w>
-		<w pos="" lemma="('leap', 'nnp')">('Leap', 'NNP')</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="('the', 'dt')">('The', 'DT')</w>
-		<w pos="" lemma="('guaranteed', 'nnp')">('Guaranteed', 'NNP')</w>
-		<w pos="" lemma="('eternal', 'nnp')">('Eternal', 'NNP')</w>
-		<w pos="" lemma="('sanctuary', 'nnp')">('Sanctuary', 'NNP')</w>
-		<w pos="" lemma="('man', 'nn')">('Man', 'NN')</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="('ikhnaton', 'nnp')">('Ikhnaton', 'NNP')</w>
-		<w pos="" lemma="('and', 'cc')">('and', 'CC')</w>
-		<w pos="" lemma="('itsacon', 'nnp')">('Itsacon', 'NNP')</w>
-		<w pos="" lemma="('and', 'cc')">('and', 'CC')</w>
-		<w pos="" lemma="('their', 'nnp')">('Their', 'NNP')</w>
-		<w pos="" lemma="('band', 'nnp')">('Band', 'NNP')</w>
-		<w pos="" lemma="('of', 'in')">('of', 'IN')</w>
-		<w pos="" lemma="('merry', 'nnp')">('Merry', 'NNP')</w>
-		<w pos="" lemma="('men', 'nnp')">('Men', 'NNP')</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="('how', 'wrb')">('How', 'WRB')</w>
-		<w pos="" lemma="('dare', 'nnp')">('Dare', 'NNP')</w>
-		<w pos="" lemma="('i', 'prp')">('I', 'PRP')</w>
-		<w pos="" lemma="('be', 'vbp')">('Be', 'VBP')</w>
-		<w pos="" lemma="('so', 'rb')">('So', 'RB')</w>
-		<w pos="" lemma="('beautiful', 'jj')">('Beautiful', 'JJ')</w>
-		<w pos="" lemma="('?', '.')">('?', '.')</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="('willow', 'jj')">('Willow', 'JJ')</w>
-		<w pos="" lemma="('farm', 'nn')">('Farm', 'NN')</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="('apocalypse', 'nnp')">('Apocalypse', 'NNP')</w>
-		<w pos="" lemma="('in', 'in')">('in', 'IN')</w>
-		<w pos="" lemma="('9/8', 'cd')">('9/8', 'CD')</w>
-		<w pos="" lemma="('(', '(')">('(', '(')</w>
-		<w pos="" lemma="('featuring', 'vbg')">('featuring', 'VBG')</w>
-		<w pos="" lemma="('the', 'dt')">('the', 'DT')</w>
-		<w pos="" lemma="('delicious', 'jj')">('delicious', 'JJ')</w>
-		<w pos="" lemma="('talents', 'nns')">('talents', 'NNS')</w>
-		<w pos="" lemma="('of', 'in')">('of', 'IN')</w>
-		<w pos="" lemma="('gabble', 'nnp')">('Gabble', 'NNP')</w>
-		<w pos="" lemma="('ratchet', 'nnp')">('Ratchet', 'NNP')</w>
-		<w pos="" lemma="(')', ')')">(')', ')')</w>
-	</tr>
-	<tr index="-" length="-" style="">
-		<w pos="" lemma="('as', 'rb')">('As', 'RB')</w>
-		<w pos="" lemma="('sure', 'jj')">('Sure', 'JJ')</w>
-		<w pos="" lemma="('as', 'in')">('as', 'IN')</w>
-		<w pos="" lemma="('eggs', 'nnp')">('Eggs', 'NNP')</w>
-		<w pos="" lemma="('is', 'nnp')">('Is', 'NNP')</w>
-		<w pos="" lemma="('eggs', 'nnp')">('Eggs', 'NNP')</w>
-		<w pos="" lemma="('(', '(')">('(', '(')</w>
-		<w pos="" lemma="('aching', 'vbg')">('Aching', 'VBG')</w>
-		<w pos="" lemma="('men', 'nnp')">('Men', 'NNP')</w>
-		<w pos="" lemma="("'s", 'pos')">("'s", 'POS')</w>
-		<w pos="" lemma="('feet', 'nnp')">('Feet', 'NNP')</w>
-		<w pos="" lemma="(')', ')')">(')', ')')</w>
-	</tr>
-</album>
+<artist name="Genesis" genre="Symphonic Prog">
+	<al name ="...And Then There Were Three..." date="1978">
+		<length>3187</length>
+		<rating>3.42</rating>
+		<tr index="1">
+			<length>324</length>
+			<w pos="NNP" lemma="down">Down</w>
+			<w pos="CC" lemma="and">and</w>
+			<w pos="NNP" lemma="out">Out</w>
+		</tr>
+		<tr index="2">
+			<length>285</length>
+			<w pos="NN" lemma="undertow">Undertow</w>
+		</tr>
+		<tr index="3">
+			<length>288</length>
+			<w pos="NNP" lemma="ballad">Ballad</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="NNP" lemma="big">Big</w>
+		</tr>
+		<tr index="4">
+			<length>268</length>
+			<w pos="NN" lemma="snowbound">Snowbound</w>
+		</tr>
+		<tr index="5">
+			<length>429</length>
+			<w pos="NNP" lemma="burning">Burning</w>
+			<w pos="NNP" lemma="rope">Rope</w>
+		</tr>
+		<tr index="6">
+			<length>312</length>
+			<w pos="NNP" lemma="deep">Deep</w>
+			<w pos="IN" lemma="in">in</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="motherlode">Motherlode</w>
+		</tr>
+		<tr index="7">
+			<length>210</length>
+			<w pos="JJ" lemma="many">Many</w>
+			<w pos="NNP" lemma="too">Too</w>
+			<w pos="JJ" lemma="many">Many</w>
+		</tr>
+		<tr index="8">
+			<length>209</length>
+			<w pos="NNS" lemma="scene">Scenes</w>
+			<w pos="IN" lemma="from">from</w>
+			<w pos="DT" lemma="a">a</w>
+			<w pos="NNP" lemma="night">Night</w>
+			<w pos="POS" lemma="'s">'s</w>
+			<w pos="NN" lemma="dream">Dream</w>
+		</tr>
+		<tr index="9">
+			<length>259</length>
+			<w pos="NNP" lemma="say">Say</w>
+			<w pos="PRP" lemma="it">It</w>
+			<w pos="VBZ" lemma="'s">'s</w>
+			<w pos="NNP" lemma="alright">Alright</w>
+			<w pos="NNP" lemma="joe">Joe</w>
+		</tr>
+		<tr index="10">
+			<length>364</length>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="lady">Lady</w>
+			<w pos="NNP" lemma="lie">Lies</w>
+		</tr>
+		<tr index="11">
+			<length>239</length>
+			<w pos="NNP" lemma="follow">Follow</w>
+			<w pos="PRP" lemma="you">You</w>
+			<punc pos="," lemma=",">,</punc>
+			<w pos="VB" lemma="follow">Follow</w>
+			<w pos="NNP" lemma="me">Me</w>
+		</tr>
+	</al>
+	<al name ="Abacab" date="1981">
+		<length>2812</length>
+		<rating>2.61</rating>
+		<tr index="1">
+			<length>421</length>
+			<w pos="NN" lemma="abacab">Abacab</w>
+		</tr>
+		<tr index="2">
+			<length>280</length>
+			<w pos="DT" lemma="no">No</w>
+			<w pos="NNP" lemma="reply">Reply</w>
+			<w pos="IN" lemma="at">at</w>
+			<w pos="NNP" lemma="all">All</w>
+		</tr>
+		<tr index="3">
+			<length>359</length>
+			<w pos="NNP" lemma="me">Me</w>
+			<w pos="CC" lemma="and">and</w>
+			<w pos="NNP" lemma="sarah">Sarah</w>
+			<w pos="NNP" lemma="jane">Jane</w>
+		</tr>
+		<tr index="4">
+			<length>271</length>
+			<w pos="VB" lemma="keep">Keep</w>
+			<w pos="PRP" lemma="it">It</w>
+			<w pos="NNP" lemma="dark">Dark</w>
+		</tr>
+		<tr index="5">
+			<length>448</length>
+			<w pos="NNP" lemma="dodo">Dodo</w>
+			<w pos="NNP" lemma="/">/</w>
+			<w pos="NNP" lemma="lurker">Lurker</w>
+		</tr>
+		<tr index="6">
+			<length>202</length>
+			<w pos="WP" lemma="who">Who</w>
+			<w pos="NNP" lemma="dunnit">Dunnit</w>
+			<punc pos="." lemma="?">?</punc>
+		</tr>
+		<tr index="7">
+			<length>266</length>
+			<w pos="NN" lemma="man">Man</w>
+			<w pos="IN" lemma="on">on</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="corner">Corner</w>
+		</tr>
+		<tr index="8">
+			<length>297</length>
+			<w pos="IN" lemma="like">Like</w>
+			<w pos="PRP" lemma="it">It</w>
+			<w pos="CC" lemma="or">or</w>
+			<w pos="RB" lemma="not">Not</w>
+		</tr>
+		<tr index="9">
+			<length>268</length>
+			<w pos="DT" lemma="another">Another</w>
+			<w pos="NN" lemma="record">Record</w>
+		</tr>
+	</al>
+	<al name ="A Trick of the Tail" date="1976">
+		<length>3061</length>
+		<rating>4.28</rating>
+		<tr index="1">
+			<length>353</length>
+			<w pos="NN" lemma="dance">Dance</w>
+			<w pos="IN" lemma="on">on</w>
+			<w pos="DT" lemma="a">a</w>
+			<w pos="NN" lemma="volcano">Volcano</w>
+		</tr>
+		<tr index="2">
+			<length>388</length>
+			<w pos="VBD" lemma="entangled">Entangled</w>
+		</tr>
+		<tr index="3">
+			<length>387</length>
+			<w pos="NN" lemma="squonk">Squonk</w>
+		</tr>
+		<tr index="4">
+			<length>455</length>
+			<w pos="NNP" lemma="mad">Mad</w>
+			<w pos="NNP" lemma="man">Man</w>
+			<w pos="NNP" lemma="moon">Moon</w>
+		</tr>
+		<tr index="5">
+			<length>375</length>
+			<w pos="NNP" lemma="robbery">Robbery</w>
+			<punc pos="," lemma=",">,</punc>
+			<w pos="NNP" lemma="assault">Assault</w>
+			<w pos="CC" lemma="and">and</w>
+			<w pos="NNP" lemma="battery">Battery</w>
+		</tr>
+		<tr index="6">
+			<length>483</length>
+			<w pos="NNS" lemma="ripple">Ripples</w>
+		</tr>
+		<tr index="7">
+			<length>274</length>
+			<w pos="DT" lemma="a">A</w>
+			<w pos="NNP" lemma="trick">Trick</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="tail">Tail</w>
+		</tr>
+		<tr index="8">
+			<length>346</length>
+			<w pos="NNP" lemma="los">Los</w>
+			<w pos="NNP" lemma="endos">Endos</w>
+		</tr>
+	</al>
+	<al name ="Duke" date="1980">
+		<length>3346</length>
+		<rating>3.51</rating>
+		<tr index="1">
+			<length>343</length>
+			<w pos="IN" lemma="behind">Behind</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNS" lemma="line">Lines</w>
+		</tr>
+		<tr index="2">
+			<length>385</length>
+			<w pos="NN" lemma="duchess">Duchess</w>
+		</tr>
+		<tr index="3">
+			<length>81</length>
+			<w pos="NNP" lemma="guide">Guide</w>
+			<w pos="NNP" lemma="vocal">Vocal</w>
+		</tr>
+		<tr index="4">
+			<length>334</length>
+			<w pos="NN" lemma="man">Man</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="PRP$" lemma="our">Our</w>
+			<w pos="NNS" lemma="time">Times</w>
+		</tr>
+		<tr index="5">
+			<length>193</length>
+			<w pos="VBG" lemma="misunderstanding">Misunderstanding</w>
+		</tr>
+		<tr index="6">
+			<length>297</length>
+			<w pos="NN" lemma="heathaze">Heathaze</w>
+		</tr>
+		<tr index="7">
+			<length>226</length>
+			<w pos="VB" lemma="turn">Turn</w>
+			<w pos="PRP" lemma="it">It</w>
+			<w pos="IN" lemma="on">On</w>
+			<w pos="NNP" lemma="again">Again</w>
+		</tr>
+		<tr index="8">
+			<length>234</length>
+			<w pos="RB" lemma="alone">Alone</w>
+			<w pos="NNP" lemma="tonight">Tonight</w>
+		</tr>
+		<tr index="9">
+			<length>306</length>
+			<w pos="NN" lemma="cul-de-sac">Cul-De-Sac</w>
+		</tr>
+		<tr index="10">
+			<length>240</length>
+			<w pos="NNP" lemma="please">Please</w>
+			<w pos="VBP" lemma="do">Do</w>
+			<w pos="RB" lemma="n't">n't</w>
+			<w pos="VB" lemma="ask">Ask</w>
+		</tr>
+		<tr index="11">
+			<length>519</length>
+			<w pos="NNP" lemma="duke">Duke</w>
+			<w pos="POS" lemma="'s">'s</w>
+			<w pos="NNS" lemma="travel">Travels</w>
+		</tr>
+		<tr index="12">
+			<length>188</length>
+			<w pos="NNP" lemma="duke">Duke</w>
+			<w pos="POS" lemma="'s">'s</w>
+			<w pos="NN" lemma="end">End</w>
+		</tr>
+	</al>
+	<al name ="Foxtrot" date="1972">
+		<length>3053</length>
+		<rating>4.61</rating>
+		<tr index="1">
+			<length>439</length>
+			<w pos="NNP" lemma="watcher">Watcher</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNS" lemma="sky">Skies</w>
+		</tr>
+		<tr index="2">
+			<length>280</length>
+			<w pos="NNP" lemma="time">Time</w>
+			<w pos="NNP" lemma="table">Table</w>
+		</tr>
+		<tr index="3">
+			<length>515</length>
+			<w pos="NNP" lemma="get">Get</w>
+			<w pos="PRP" lemma="'em">'em</w>
+			<w pos="RP" lemma="out">Out</w>
+			<w pos="IN" lemma="by">by</w>
+			<w pos="NNP" lemma="friday">Friday</w>
+		</tr>
+		<tr index="4">
+			<length>343</length>
+			<w pos="NN" lemma="can-utility">Can-Utility</w>
+			<w pos="CC" lemma="and">and</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNS" lemma="coastliners">Coastliners</w>
+		</tr>
+		<tr index="5">
+			<length>98</length>
+			<w pos="NNS" lemma="horizon">Horizons</w>
+		</tr>
+		<tr index="6">
+			<length>1378</length>
+			<w pos="NNP" lemma="supper">Supper</w>
+			<w pos="POS" lemma="'s">'s</w>
+			<w pos="JJ" lemma="ready">Ready</w>
+		</tr>
+		<tr index="a">
+			<length>0</length>
+			<w pos="NNP" lemma="lover">Lover</w>
+			<w pos="POS" lemma="'s">'s</w>
+			<w pos="NNP" lemma="leap">Leap</w>
+		</tr>
+		<tr index="b">
+			<length>0</length>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="guaranteed">Guaranteed</w>
+			<w pos="NNP" lemma="eternal">Eternal</w>
+			<w pos="NNP" lemma="sanctuary">Sanctuary</w>
+			<w pos="NN" lemma="man">Man</w>
+		</tr>
+		<tr index="c">
+			<length>0</length>
+			<w pos="NNP" lemma="ikhnaton">Ikhnaton</w>
+			<w pos="CC" lemma="and">and</w>
+			<w pos="NNP" lemma="itsacon">Itsacon</w>
+			<w pos="CC" lemma="and">and</w>
+			<w pos="NNP" lemma="their">Their</w>
+			<w pos="NNP" lemma="band">Band</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="NNP" lemma="merry">Merry</w>
+			<w pos="NNP" lemma="men">Men</w>
+		</tr>
+		<tr index="d">
+			<length>0</length>
+			<w pos="WRB" lemma="how">How</w>
+			<w pos="NNP" lemma="dare">Dare</w>
+			<w pos="PRP" lemma="i">I</w>
+			<w pos="VBP" lemma="be">Be</w>
+			<w pos="RB" lemma="so">So</w>
+			<w pos="JJ" lemma="beautiful">Beautiful</w>
+			<punc pos="." lemma="?">?</punc>
+		</tr>
+		<tr index="e">
+			<length>0</length>
+			<w pos="JJ" lemma="willow">Willow</w>
+			<w pos="NN" lemma="farm">Farm</w>
+		</tr>
+		<tr index="f">
+			<length>0</length>
+			<w pos="NNP" lemma="apocalypse">Apocalypse</w>
+			<w pos="IN" lemma="in">in</w>
+			<w pos="CD" lemma="9/8">9/8</w>
+			<punc pos="(" lemma="(">(</punc>
+			<w pos="VBG" lemma="featuring">featuring</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="JJ" lemma="delicious">delicious</w>
+			<w pos="NNS" lemma="talent">talents</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="NNP" lemma="gabble">Gabble</w>
+			<w pos="NNP" lemma="ratchet">Ratchet</w>
+			<punc pos=")" lemma=")">)</punc>
+		</tr>
+		<tr index="g">
+			<length>0</length>
+			<w pos="RB" lemma="a">As</w>
+			<w pos="JJ" lemma="sure">Sure</w>
+			<w pos="IN" lemma="a">as</w>
+			<w pos="NNP" lemma="egg">Eggs</w>
+			<w pos="NNP" lemma="is">Is</w>
+			<w pos="NNP" lemma="egg">Eggs</w>
+			<punc pos="(" lemma="(">(</punc>
+			<w pos="VBG" lemma="aching">Aching</w>
+			<w pos="NNP" lemma="men">Men</w>
+			<w pos="POS" lemma="'s">'s</w>
+			<w pos="NNP" lemma="foot">Feet</w>
+			<punc pos=")" lemma=")">)</punc>
+		</tr>
+	</al>
+	<al name ="From Genesis to Revelation" date="1969">
+		<length>2627</length>
+		<rating>2.54</rating>
+		<tr index="1">
+			<length>193</length>
+			<w pos="WRB" lemma="where">Where</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="sour">Sour</w>
+			<w pos="NNP" lemma="turn">Turns</w>
+			<w pos="TO" lemma="to">to</w>
+			<w pos="VB" lemma="sweet">Sweet</w>
+		</tr>
+		<tr index="2">
+			<length>226</length>
+			<w pos="IN" lemma="in">In</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NN" lemma="beginning">Beginning</w>
+		</tr>
+		<tr index="3">
+			<length>258</length>
+			<w pos="NN" lemma="fireside">Fireside</w>
+			<w pos="NN" lemma="song">Song</w>
+		</tr>
+		<tr index="4">
+			<length>278</length>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NN" lemma="serpent">Serpent</w>
+		</tr>
+		<tr index="5">
+			<length>211</length>
+			<w pos="NNP" lemma="am">Am</w>
+			<w pos="PRP" lemma="i">I</w>
+			<w pos="RB" lemma="very">Very</w>
+			<w pos="JJ" lemma="wrong">Wrong</w>
+			<punc pos="." lemma="?">?</punc>
+		</tr>
+		<tr index="6">
+			<length>209</length>
+			<w pos="IN" lemma="in">In</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NN" lemma="wilderness">Wilderness</w>
+		</tr>
+		<tr index="7">
+			<length>220</length>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NN" lemma="conqueror">Conqueror</w>
+		</tr>
+		<tr index="8">
+			<length>157</length>
+			<w pos="IN" lemma="in">In</w>
+			<w pos="VBG" lemma="hiding">Hiding</w>
+		</tr>
+		<tr index="9">
+			<length>201</length>
+			<w pos="CD" lemma="one">One</w>
+			<w pos="NNP" lemma="day">Day</w>
+		</tr>
+		<tr index="10">
+			<length>213</length>
+			<w pos="NN" lemma="window">Window</w>
+		</tr>
+		<tr index="11">
+			<length>210</length>
+			<w pos="IN" lemma="in">In</w>
+			<w pos="NNP" lemma="limbo">Limbo</w>
+		</tr>
+		<tr index="12">
+			<length>133</length>
+			<w pos="JJ" lemma="silent">Silent</w>
+			<w pos="NNP" lemma="sun">Sun</w>
+		</tr>
+		<tr index="13">
+			<length>118</length>
+			<w pos="DT" lemma="a">A</w>
+			<w pos="NN" lemma="place">Place</w>
+			<w pos="TO" lemma="to">to</w>
+			<w pos="VB" lemma="call">Call</w>
+			<w pos="NNP" lemma="my">My</w>
+			<w pos="NNP" lemma="own">Own</w>
+		</tr>
+	</al>
+	<al name ="Genesis" date="1983">
+		<length>2866</length>
+		<rating>2.78</rating>
+		<tr index="1">
+			<length>445</length>
+			<w pos="NN" lemma="mama">Mama</w>
+		</tr>
+		<tr index="2">
+			<length>263</length>
+			<w pos="DT" lemma="that">That</w>
+			<w pos="VBZ" lemma="'s">'s</w>
+			<w pos="DT" lemma="all">All</w>
+		</tr>
+		<tr index="3">
+			<length>292</length>
+			<w pos="NN" lemma="home">Home</w>
+			<w pos="IN" lemma="by">by</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="sea">Sea</w>
+		</tr>
+		<tr index="4">
+			<length>380</length>
+			<w pos="JJ" lemma="second">Second</w>
+			<w pos="NNP" lemma="home">Home</w>
+			<w pos="IN" lemma="by">by</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="sea">Sea</w>
+		</tr>
+		<tr index="5">
+			<length>313</length>
+			<w pos="NNP" lemma="illegal">Illegal</w>
+			<w pos="NNP" lemma="alien">Alien</w>
+		</tr>
+		<tr index="6">
+			<length>235</length>
+			<w pos="VBG" lemma="taking">Taking</w>
+			<w pos="PRP" lemma="it">It</w>
+			<w pos="NNP" lemma="all">All</w>
+			<w pos="NNP" lemma="too">Too</w>
+			<w pos="NNP" lemma="hard">Hard</w>
+		</tr>
+		<tr index="7">
+			<length>285</length>
+			<w pos="RB" lemma="just">Just</w>
+			<w pos="DT" lemma="a">a</w>
+			<w pos="NNP" lemma="job">Job</w>
+			<w pos="TO" lemma="to">to</w>
+			<w pos="VB" lemma="do">Do</w>
+		</tr>
+		<tr index="8">
+			<length>268</length>
+			<w pos="NNP" lemma="silver">Silver</w>
+			<w pos="NNP" lemma="rainbow">Rainbow</w>
+		</tr>
+		<tr index="9">
+			<length>385</length>
+			<w pos="PRP" lemma="it">It</w>
+			<w pos="VBZ" lemma="'s">'s</w>
+			<w pos="NNP" lemma="gon">Gon</w>
+			<w pos="TO" lemma="na">na</w>
+			<w pos="VB" lemma="get">Get</w>
+			<w pos="NNP" lemma="better">Better</w>
+		</tr>
+	</al>
+	<al name ="Nursery Cryme" date="1971">
+		<length>2349</length>
+		<rating>4.42</rating>
+		<tr index="1">
+			<length>624</length>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="musical">Musical</w>
+			<w pos="NNP" lemma="box">Box</w>
+		</tr>
+		<tr index="2">
+			<length>104</length>
+			<w pos="IN" lemma="for">For</w>
+			<w pos="NNP" lemma="absent">Absent</w>
+			<w pos="NNP" lemma="friend">Friends</w>
+		</tr>
+		<tr index="3">
+			<length>490</length>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="return">Return</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="giant">Giant</w>
+			<w pos="NNP" lemma="hogweed">Hogweed</w>
+		</tr>
+		<tr index="4">
+			<length>310</length>
+			<w pos="CD" lemma="seven">Seven</w>
+			<w pos="NNS" lemma="stone">Stones</w>
+		</tr>
+		<tr index="5">
+			<length>175</length>
+			<w pos="NNP" lemma="harold">Harold</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="barrel">Barrel</w>
+		</tr>
+		<tr index="6">
+			<length>172</length>
+			<w pos="NN" lemma="harlequin">Harlequin</w>
+		</tr>
+		<tr index="7">
+			<length>474</length>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="fountain">Fountain</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="NNP" lemma="salmacis">Salmacis</w>
+		</tr>
+	</al>
+	<al name ="Selling England by the Pound" date="1973">
+		<length>3220</length>
+		<rating>4.65</rating>
+		<tr index="1">
+			<length>484</length>
+			<w pos="VBG" lemma="dancing">Dancing</w>
+			<w pos="IN" lemma="with">with</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="moonlit">Moonlit</w>
+			<w pos="NNP" lemma="knight">Knight</w>
+		</tr>
+		<tr index="2">
+			<length>248</length>
+			<w pos="PRP" lemma="i">I</w>
+			<w pos="VBP" lemma="know">Know</w>
+			<w pos="WP" lemma="what">What</w>
+			<w pos="PRP" lemma="i">I</w>
+			<w pos="IN" lemma="like">Like</w>
+			<punc pos="(" lemma="(">(</punc>
+			<w pos="IN" lemma="in">In</w>
+			<w pos="NNP" lemma="your">Your</w>
+			<w pos="NNP" lemma="wardrobe">Wardrobe</w>
+			<punc pos=")" lemma=")">)</punc>
+		</tr>
+		<tr index="3">
+			<length>578</length>
+			<w pos="NN" lemma="firth">Firth</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="NNP" lemma="fifth">Fifth</w>
+		</tr>
+		<tr index="4">
+			<length>190</length>
+			<w pos="RBR" lemma="more">More</w>
+			<w pos="NNP" lemma="fool">Fool</w>
+			<w pos="NNP" lemma="me">Me</w>
+		</tr>
+		<tr index="5">
+			<length>706</length>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="battle">Battle</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="NNP" lemma="epping">Epping</w>
+			<w pos="NNP" lemma="forest">Forest</w>
+		</tr>
+		<tr index="6">
+			<length>256</length>
+			<w pos="IN" lemma="after">After</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NN" lemma="ordeal">Ordeal</w>
+		</tr>
+		<tr index="7">
+			<length>666</length>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="cinema">Cinema</w>
+			<w pos="NNP" lemma="show">Show</w>
+		</tr>
+		<tr index="8">
+			<length>92</length>
+			<w pos="NNP" lemma="aisle">Aisle</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="NNP" lemma="plenty">Plenty</w>
+		</tr>
+	</al>
+	<al name ="The Lamb Lies Down on Broadway" date="1974">
+		<length>5652</length>
+		<rating>4.30</rating>
+		<tr index="1">
+			<length>290</length>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="lamb">Lamb</w>
+			<w pos="NNP" lemma="lie">Lies</w>
+			<w pos="NNP" lemma="down">Down</w>
+			<w pos="IN" lemma="on">on</w>
+			<w pos="NNP" lemma="broadway">Broadway</w>
+		</tr>
+		<tr index="2">
+			<length>263</length>
+			<w pos="NNP" lemma="fly">Fly</w>
+			<w pos="IN" lemma="on">on</w>
+			<w pos="DT" lemma="a">a</w>
+			<w pos="NNP" lemma="windshield">Windshield</w>
+		</tr>
+		<tr index="3">
+			<length>33</length>
+			<w pos="NNP" lemma="broadway">Broadway</w>
+			<w pos="NNP" lemma="melody">Melody</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="CD" lemma="1974">1974</w>
+		</tr>
+		<tr index="4">
+			<length>131</length>
+			<w pos="NN" lemma="cuckoo">Cuckoo</w>
+			<w pos="NN" lemma="cocoon">Cocoon</w>
+		</tr>
+		<tr index="5">
+			<length>495</length>
+			<w pos="IN" lemma="in">In</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NN" lemma="cage">Cage</w>
+		</tr>
+		<tr index="6">
+			<length>165</length>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="grand">Grand</w>
+			<w pos="NNP" lemma="parade">Parade</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="NNP" lemma="lifeless">Lifeless</w>
+			<w pos="NNP" lemma="packaging">Packaging</w>
+		</tr>
+		<tr index="7">
+			<length>342</length>
+			<w pos="RB" lemma="back">Back</w>
+			<w pos="IN" lemma="in">in</w>
+			<w pos="NNP" lemma="n.y.c">N.Y.C</w>
+			<punc pos="." lemma=".">.</punc>
+		</tr>
+		<tr index="8">
+			<length>133</length>
+			<w pos="NNP" lemma="hairless">Hairless</w>
+			<w pos="NNP" lemma="heart">Heart</w>
+		</tr>
+		<tr index="9">
+			<length>222</length>
+			<w pos="VBG" lemma="counting">Counting</w>
+			<w pos="RP" lemma="out">Out</w>
+			<w pos="NNP" lemma="time">Time</w>
+		</tr>
+		<tr index="10">
+			<length>315</length>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NN" lemma="carpet">Carpet</w>
+			<w pos="NNS" lemma="crawler">Crawlers</w>
+		</tr>
+		<tr index="11">
+			<length>340</length>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="chamber">Chamber</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="CD" lemma="32">32</w>
+			<w pos="NNS" lemma="door">Doors</w>
+		</tr>
+		<tr index="12">
+			<length>162</length>
+			<w pos="NNP" lemma="lillywhite">Lillywhite</w>
+			<w pos="NNP" lemma="lilith">Lilith</w>
+		</tr>
+		<tr index="13">
+			<length>324</length>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="waiting">Waiting</w>
+			<w pos="NNP" lemma="room">Room</w>
+		</tr>
+		<tr index="14">
+			<length>187</length>
+			<w pos="RB" lemma="anyway">Anyway</w>
+		</tr>
+		<tr index="15">
+			<length>179</length>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="supernatural">Supernatural</w>
+			<w pos="NNP" lemma="anaesthetist">Anaesthetist</w>
+		</tr>
+		<tr index="16">
+			<length>417</length>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="lamia">Lamia</w>
+		</tr>
+		<tr index="17">
+			<length>187</length>
+			<w pos="JJ" lemma="silent">Silent</w>
+			<w pos="NNP" lemma="sorrow">Sorrow</w>
+			<w pos="IN" lemma="in">in</w>
+			<w pos="NNP" lemma="empty">Empty</w>
+			<w pos="NNP" lemma="boat">Boats</w>
+		</tr>
+		<tr index="18">
+			<length>493</length>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="colony">Colony</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="NNP" lemma="slippermen">Slippermen</w>
+		</tr>
+		<tr index="i">
+			<length>0</length>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NN" lemma="arrival">Arrival</w>
+		</tr>
+		<tr index="ii">
+			<length>0</length>
+			<w pos="DT" lemma="a">A</w>
+			<w pos="NN" lemma="visit">Visit</w>
+			<w pos="TO" lemma="to">to</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="doktor">Doktor</w>
+		</tr>
+		<tr index="iii">
+			<length>0</length>
+			<w pos="RB" lemma="raven">Raven</w>
+		</tr>
+		<tr index="19">
+			<length>124</length>
+			<w pos="NN" lemma="ravine">Ravine</w>
+		</tr>
+		<tr index="20">
+			<length>212</length>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="light">Light</w>
+			<w pos="NNPS" lemma="dy">Dies</w>
+			<w pos="NNP" lemma="down">Down</w>
+			<w pos="IN" lemma="on">on</w>
+			<w pos="NNP" lemma="broadway">Broadway</w>
+		</tr>
+		<tr index="21">
+			<length>237</length>
+			<w pos="VBG" lemma="riding">Riding</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="scree">Scree</w>
+		</tr>
+		<tr index="22">
+			<length>146</length>
+			<w pos="IN" lemma="in">In</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="rapid">Rapids</w>
+		</tr>
+		<tr index="23">
+			<length>255</length>
+			<w pos="PRP" lemma="it">it</w>
+		</tr>
+	</al>
+	<al name ="Trespass" date="1970">
+		<length>2555</length>
+		<rating>4.13</rating>
+		<tr index="1">
+			<length>426</length>
+			<w pos="VBG" lemma="looking">Looking</w>
+			<w pos="IN" lemma="for">for</w>
+			<w pos="NN" lemma="someone">Someone</w>
+		</tr>
+		<tr index="2">
+			<length>402</length>
+			<w pos="NNP" lemma="white">White</w>
+			<w pos="NN" lemma="mountain">Mountain</w>
+		</tr>
+		<tr index="3">
+			<length>410</length>
+			<w pos="NNS" lemma="vision">Visions</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="NNS" lemma="angel">Angels</w>
+		</tr>
+		<tr index="4">
+			<length>528</length>
+			<w pos="NN" lemma="stagnation">Stagnation</w>
+		</tr>
+		<tr index="5">
+			<length>253</length>
+			<w pos="NN" lemma="dusk">Dusk</w>
+		</tr>
+		<tr index="6">
+			<length>536</length>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="knife">Knife</w>
+		</tr>
+	</al>
+	<al name ="Wind and Wuthering" date="1976">
+		<length>3046</length>
+		<rating>4.11</rating>
+		<tr index="1">
+			<length>461</length>
+			<w pos="NNP" lemma="eleventh">Eleventh</w>
+			<w pos="NNP" lemma="earl">Earl</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="NNP" lemma="mar">Mar</w>
+		</tr>
+		<tr index="2">
+			<length>600</length>
+			<w pos="CD" lemma="one">One</w>
+			<w pos="IN" lemma="for">for</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="vine">Vine</w>
+		</tr>
+		<tr index="3">
+			<length>378</length>
+			<w pos="PRP$" lemma="your">Your</w>
+			<w pos="JJ" lemma="own">Own</w>
+			<w pos="JJ" lemma="special">Special</w>
+			<w pos="NNP" lemma="way">Way</w>
+		</tr>
+		<tr index="4">
+			<length>199</length>
+			<w pos="NNP" lemma="wot">Wot</w>
+			<w pos="NNP" lemma="gorilla">Gorilla</w>
+			<punc pos="." lemma="?">?</punc>
+		</tr>
+		<tr index="5">
+			<length>397</length>
+			<w pos="DT" lemma="all">All</w>
+			<w pos="IN" lemma="in">in</w>
+			<w pos="DT" lemma="a">a</w>
+			<w pos="NNP" lemma="mouse">Mouse</w>
+			<w pos="POS" lemma="'s">'s</w>
+			<w pos="NNP" lemma="night">Night</w>
+		</tr>
+		<tr index="6">
+			<length>327</length>
+			<w pos="NN" lemma="blood">Blood</w>
+			<w pos="IN" lemma="on">on</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="rooftop">Rooftops</w>
+		</tr>
+		<tr index="7">
+			<length>143</length>
+			<w pos="JJ" lemma="unquiet">Unquiet</w>
+			<w pos="NNP" lemma="slumber">Slumbers</w>
+			<w pos="IN" lemma="for">for</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNS" lemma="sleeper">Sleepers</w>
+			<punc pos=":" lemma="...">...</punc>
+		</tr>
+		<tr index="8">
+			<length>289</length>
+			<punc pos=":" lemma="...">...</punc>
+			<w pos="IN" lemma="in">In</w>
+			<w pos="DT" lemma="that">That</w>
+			<w pos="NNP" lemma="quiet">Quiet</w>
+			<w pos="NN" lemma="earth">Earth</w>
+		</tr>
+		<tr index="9">
+			<length>252</length>
+			<w pos="IN" lemma="afterglow">Afterglow</w>
+		</tr>
+	</al>
+</artist>

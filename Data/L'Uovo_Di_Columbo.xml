@@ -1,0 +1,41 @@
+<artist name="L'Uovo Di Columbo" genre="Rock Progressivo Italiano">
+	<al name ="L'Uovo Di Columbo" date="1973">
+		<length>2048</length>
+		<rating>3.74</rating>
+		<tr index="1">
+			<length>295</length>
+			<w pos="NN" lemma="l'indecisione">L'Indecisione</w>
+		</tr>
+		<tr index="2">
+			<length>212</length>
+			<w pos="NN" lemma="io">Io</w>
+		</tr>
+		<tr index="3">
+			<length>277</length>
+			<w pos="NN" lemma="anja">Anja</w>
+		</tr>
+		<tr index="4">
+			<length>297</length>
+			<w pos="NNP" lemma="vox">Vox</w>
+			<w pos="NNP" lemma="dei">Dei</w>
+		</tr>
+		<tr index="5">
+			<length>249</length>
+			<w pos="NN" lemma="turba">Turba</w>
+		</tr>
+		<tr index="6">
+			<length>288</length>
+			<w pos="NN" lemma="consiglio">Consiglio</w>
+		</tr>
+		<tr index="7">
+			<length>402</length>
+			<w pos="NNP" lemma="visione">Visione</w>
+			<w pos="NNP" lemma="della">Della</w>
+			<w pos="NNP" lemma="morte">Morte</w>
+		</tr>
+		<tr index="8">
+			<length>22</length>
+			<w pos="NN" lemma="scherzo">Scherzo</w>
+		</tr>
+	</al>
+</artist>

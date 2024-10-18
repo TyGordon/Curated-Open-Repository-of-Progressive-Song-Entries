@@ -1,0 +1,235 @@
+<artist name="Mahavishnu Orchestra" genre="Jazz Rock/Fusion">
+	<al name ="Apocalypse" date="1974">
+		<length>3116</length>
+		<rating>3.70</rating>
+		<tr index="1">
+			<length>253</length>
+			<w pos="NN" lemma="power">Power</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="NNP" lemma="love">Love</w>
+		</tr>
+		<tr index="2">
+			<length>858</length>
+			<w pos="NN" lemma="vision">Vision</w>
+			<w pos="VBZ" lemma="is">Is</w>
+			<w pos="DT" lemma="a">a</w>
+			<w pos="JJ" lemma="naked">Naked</w>
+			<w pos="NN" lemma="sword">Sword</w>
+		</tr>
+		<tr index="3">
+			<length>480</length>
+			<w pos="NN" lemma="smile">Smile</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="beyond">Beyond</w>
+		</tr>
+		<tr index="4">
+			<length>366</length>
+			<w pos="NNS" lemma="wing">Wings</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="NNP" lemma="karma">Karma</w>
+		</tr>
+		<tr index="5">
+			<length>1159</length>
+			<w pos="NNP" lemma="hymn">Hymn</w>
+			<w pos="TO" lemma="to">to</w>
+			<w pos="VB" lemma="him">Him</w>
+		</tr>
+	</al>
+	<al name ="Birds of Fire" date="1973">
+		<length>2384</length>
+		<rating>4.32</rating>
+		<tr index="1">
+			<length>341</length>
+			<w pos="NNS" lemma="bird">Birds</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="NN" lemma="fire">Fire</w>
+		</tr>
+		<tr index="2">
+			<length>279</length>
+			<w pos="NNS" lemma="mile">Miles</w>
+			<w pos="NNP" lemma="beyond">Beyond</w>
+			<punc pos="(" lemma="(">(</punc>
+			<w pos="NNP" lemma="mile">Miles</w>
+			<w pos="NNP" lemma="davis">Davis</w>
+			<punc pos=")" lemma=")">)</punc>
+		</tr>
+		<tr index="3">
+			<length>173</length>
+			<w pos="JJ" lemma="celestial">Celestial</w>
+			<w pos="NNP" lemma="terrestrial">Terrestrial</w>
+			<w pos="NNP" lemma="commuter">Commuters</w>
+		</tr>
+		<tr index="4">
+			<length>22</length>
+			<w pos="NNP" lemma="sapphire">Sapphire</w>
+			<w pos="NNP" lemma="bullet">Bullets</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="NNP" lemma="pure">Pure</w>
+			<w pos="NNP" lemma="love">Love</w>
+		</tr>
+		<tr index="5">
+			<length>199</length>
+			<w pos="NNP" lemma="thousand">Thousand</w>
+			<w pos="NNP" lemma="island">Island</w>
+			<w pos="NNP" lemma="park">Park</w>
+		</tr>
+		<tr index="6">
+			<length>115</length>
+			<w pos="NN" lemma="hope">Hope</w>
+		</tr>
+		<tr index="7">
+			<length>594</length>
+			<w pos="CD" lemma="one">One</w>
+			<w pos="NNP" lemma="word">Word</w>
+		</tr>
+		<tr index="8">
+			<length>301</length>
+			<w pos="JJ" lemma="sanctuary">Sanctuary</w>
+		</tr>
+		<tr index="9">
+			<length>232</length>
+			<w pos="JJ" lemma="open">Open</w>
+			<w pos="NNP" lemma="country">Country</w>
+			<w pos="NNP" lemma="joy">Joy</w>
+		</tr>
+		<tr index="10">
+			<length>128</length>
+			<w pos="NN" lemma="resolution">Resolution</w>
+		</tr>
+	</al>
+	<al name ="The Inner Mounting Flame" date="1971">
+		<length>2794</length>
+		<rating>4.29</rating>
+		<tr index="1">
+			<length>412</length>
+			<w pos="NN" lemma="meeting">Meeting</w>
+			<w pos="IN" lemma="of">Of</w>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNS" lemma="spirit">Spirits</w>
+		</tr>
+		<tr index="2">
+			<length>310</length>
+			<w pos="NN" lemma="dawn">Dawn</w>
+		</tr>
+		<tr index="3">
+			<length>388</length>
+			<w pos="NNP" lemma="noonward">Noonward</w>
+			<w pos="NNP" lemma="race">Race</w>
+		</tr>
+		<tr index="4">
+			<length>339</length>
+			<w pos="DT" lemma="a">A</w>
+			<w pos="NNP" lemma="lotus">Lotus</w>
+			<w pos="IN" lemma="on">On</w>
+			<w pos="NNP" lemma="irish">Irish</w>
+			<w pos="NNP" lemma="stream">Streams</w>
+		</tr>
+		<tr index="5">
+			<length>376</length>
+			<w pos="JJ" lemma="vital">Vital</w>
+			<w pos="NN" lemma="transformation">Transformation</w>
+		</tr>
+		<tr index="6">
+			<length>437</length>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="dance">Dance</w>
+			<w pos="IN" lemma="of">Of</w>
+			<w pos="NNP" lemma="maya">Maya</w>
+		</tr>
+		<tr index="7">
+			<length>307</length>
+			<w pos="PRP" lemma="you">You</w>
+			<w pos="VBP" lemma="know">Know</w>
+			<punc pos="," lemma=",">,</punc>
+			<w pos="PRP" lemma="you">You</w>
+			<w pos="VBP" lemma="know">Know</w>
+		</tr>
+		<tr index="8">
+			<length>212</length>
+			<w pos="VBG" lemma="awakening">Awakening</w>
+		</tr>
+	</al>
+	<al name ="Visions of the Emerald Beyond" date="1975">
+		<length>2398</length>
+		<rating>3.89</rating>
+		<tr index="1">
+			<length>190</length>
+			<w pos="NNP" lemma="eternity">Eternity</w>
+			<w pos="POS" lemma="'s">'s</w>
+			<w pos="NNP" lemma="breath">Breath</w>
+			<w pos="NNP" lemma="part">Part</w>
+			<w pos="CD" lemma="1">1</w>
+		</tr>
+		<tr index="2">
+			<length>288</length>
+			<w pos="NNP" lemma="eternity">Eternity</w>
+			<w pos="POS" lemma="'s">'s</w>
+			<w pos="NNP" lemma="breath">Breath</w>
+			<w pos="NNP" lemma="part">Part</w>
+			<w pos="CD" lemma="2">2</w>
+		</tr>
+		<tr index="3">
+			<length>334</length>
+			<w pos="NNP" lemma="lila">Lila</w>
+			<w pos="POS" lemma="'s">'s</w>
+			<w pos="NN" lemma="dance">Dance</w>
+		</tr>
+		<tr index="4">
+			<length>129</length>
+			<w pos="NNP" lemma="ca">Ca</w>
+			<w pos="RB" lemma="n't">n't</w>
+			<w pos="VB" lemma="stand">Stand</w>
+			<w pos="NNP" lemma="your">Your</w>
+			<w pos="NNP" lemma="funk">Funk</w>
+		</tr>
+		<tr index="5">
+			<length>221</length>
+			<w pos="JJ" lemma="pastoral">Pastoral</w>
+		</tr>
+		<tr index="6">
+			<length>120</length>
+			<w pos="NN" lemma="faith">Faith</w>
+		</tr>
+		<tr index="7">
+			<length>208</length>
+			<w pos="NNP" lemma="cosmic">Cosmic</w>
+			<w pos="NNP" lemma="strut">Strut</w>
+		</tr>
+		<tr index="8">
+			<length>78</length>
+			<w pos="IN" lemma="if">If</w>
+			<w pos="PRP" lemma="i">I</w>
+			<w pos="VBP" lemma="could">Could</w>
+			<w pos="VB" lemma="see">See</w>
+		</tr>
+		<tr index="9">
+			<length>211</length>
+			<w pos="NNP" lemma="be">Be</w>
+			<w pos="JJ" lemma="happy">Happy</w>
+		</tr>
+		<tr index="10">
+			<length>222</length>
+			<w pos="NN" lemma="earth">Earth</w>
+			<w pos="NN" lemma="ship">Ship</w>
+		</tr>
+		<tr index="11">
+			<length>108</length>
+			<w pos="NN" lemma="pegasus">Pegasus</w>
+		</tr>
+		<tr index="12">
+			<length>15</length>
+			<punc pos="$" lemma="opus">Opus</punc>
+			<w pos="CD" lemma="1">1</w>
+		</tr>
+		<tr index="13">
+			<length>274</length>
+			<w pos="IN" lemma="on">On</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="way">Way</w>
+			<w pos="NNP" lemma="home">Home</w>
+			<w pos="TO" lemma="to">to</w>
+			<w pos="VB" lemma="earth">Earth</w>
+		</tr>
+	</al>
+</artist>

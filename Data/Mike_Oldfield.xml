@@ -1,0 +1,248 @@
+<artist name="Mike Oldfield" genre="Crossover Prog">
+	<al name ="Crises" date="1983">
+		<length>2364</length>
+		<rating>3.51</rating>
+		<tr index="1">
+			<length>1253</length>
+			<w pos="NNS" lemma="crisis">Crises</w>
+		</tr>
+		<tr index="2">
+			<length>218</length>
+			<w pos="NNP" lemma="moonlight">Moonlight</w>
+			<w pos="NNP" lemma="shadow">Shadow</w>
+		</tr>
+		<tr index="3">
+			<length>214</length>
+			<w pos="IN" lemma="in">In</w>
+			<w pos="NNP" lemma="high">High</w>
+			<w pos="NNS" lemma="place">Places</w>
+		</tr>
+		<tr index="4">
+			<length>232</length>
+			<w pos="NNP" lemma="foreign">Foreign</w>
+			<w pos="NNP" lemma="affair">Affair</w>
+		</tr>
+		<tr index="5">
+			<length>257</length>
+			<w pos="CD" lemma="taurus">Taurus</w>
+			<w pos="CD" lemma="3">3</w>
+		</tr>
+		<tr index="6">
+			<length>190</length>
+			<w pos="NN" lemma="shadow">Shadow</w>
+			<w pos="IN" lemma="on">on</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="wall">Wall</w>
+		</tr>
+	</al>
+	<al name ="Five Miles Out" date="1982">
+		<length>3003</length>
+		<rating>3.69</rating>
+		<tr index="1">
+			<length>1489</length>
+			<w pos="NNP" lemma="taurus">Taurus</w>
+			<w pos="NNP" lemma="ii">II</w>
+		</tr>
+		<tr index="2">
+			<length>225</length>
+			<w pos="RB" lemma="family">Family</w>
+			<w pos="NN" lemma="man">Man</w>
+		</tr>
+		<tr index="3">
+			<length>783</length>
+			<w pos="NN" lemma="orabidoo">Orabidoo</w>
+		</tr>
+		<tr index="4">
+			<length>250</length>
+			<w pos="NNP" lemma="mount">Mount</w>
+			<w pos="NNP" lemma="teidi">Teidi</w>
+		</tr>
+		<tr index="5">
+			<length>257</length>
+			<w pos="CD" lemma="five">Five</w>
+			<w pos="NNS" lemma="mile">Miles</w>
+			<w pos="RB" lemma="out">Out</w>
+		</tr>
+	</al>
+	<al name ="Hergest Ridge" date="1974">
+		<length>2431</length>
+		<rating>3.96</rating>
+		<tr index="1">
+			<length>1300</length>
+			<w pos="NNP" lemma="hergest">Hergest</w>
+			<w pos="NNP" lemma="ridge">Ridge</w>
+			<w pos="NNP" lemma="part">Part</w>
+			<w pos="NNP" lemma="one">One</w>
+		</tr>
+		<tr index="2">
+			<length>1131</length>
+			<w pos="NNP" lemma="hergest">Hergest</w>
+			<w pos="NNP" lemma="ridge">Ridge</w>
+			<w pos="NNP" lemma="part">Part</w>
+			<w pos="CD" lemma="two">Two</w>
+		</tr>
+	</al>
+	<al name ="Incantations" date="1978">
+		<length>4357</length>
+		<rating>3.96</rating>
+		<tr index="1">
+			<length>1145</length>
+			<w pos="NNS" lemma="incantation">Incantations</w>
+			<w pos="VBP" lemma="part">Part</w>
+			<w pos="CD" lemma="one">One</w>
+		</tr>
+		<tr index="2">
+			<length>1174</length>
+			<w pos="NNS" lemma="incantation">Incantations</w>
+			<w pos="VBP" lemma="part">Part</w>
+			<w pos="CD" lemma="two">Two</w>
+		</tr>
+		<tr index="4">
+			<length>1019</length>
+			<w pos="NNS" lemma="incantation">Incantations</w>
+			<w pos="NNP" lemma="part">Part</w>
+			<w pos="CD" lemma="four">Four</w>
+		</tr>
+	</al>
+	<al name ="Ommadawn" date="1975">
+		<length>2181</length>
+		<rating>4.29</rating>
+		<tr index="1">
+			<length>1154</length>
+			<w pos="NNP" lemma="ommadawn">Ommadawn</w>
+			<w pos="NNP" lemma="part">Part</w>
+			<w pos="CD" lemma="1">1</w>
+		</tr>
+		<tr index="2">
+			<length>1027</length>
+			<w pos="NNP" lemma="ommadawn">Ommadawn</w>
+			<w pos="NNP" lemma="part">Part</w>
+			<w pos="CD" lemma="2">2</w>
+			<punc pos="(" lemma="(">(</punc>
+			<w pos="NN" lemma="incl">incl</w>
+			<punc pos="," lemma=",">,</punc>
+			<w pos="``" lemma="``">``</w>
+			<w pos="IN" lemma="on">On</w>
+			<w pos="NNP" lemma="horseback">Horseback</w>
+			<w pos="''" lemma="''">''</w>
+			<punc pos=")" lemma=")">)</punc>
+		</tr>
+	</al>
+	<al name ="Platinum" date="1979">
+		<length>2268</length>
+		<rating>3.17</rating>
+		<tr index="1">
+			<length>305</length>
+			<w pos="NNP" lemma="platinum">Platinum</w>
+			<w pos="NNP" lemma="part">Part</w>
+			<w pos="CD" lemma="1">1</w>
+			<punc pos=":" lemma="-">-</punc>
+			<w pos="NN" lemma="airborne">Airborne</w>
+		</tr>
+		<tr index="2">
+			<length>366</length>
+			<w pos="NNP" lemma="platinum">Platinum</w>
+			<w pos="NNP" lemma="part">Part</w>
+			<w pos="CD" lemma="2">2</w>
+			<punc pos=":" lemma="-">-</punc>
+			<w pos="NN" lemma="platinum">Platinum</w>
+		</tr>
+		<tr index="3">
+			<length>197</length>
+			<w pos="NNP" lemma="platinum">Platinum</w>
+			<w pos="NNP" lemma="part">Part</w>
+			<w pos="CD" lemma="3">3</w>
+			<punc pos=":" lemma="-">-</punc>
+			<w pos="NN" lemma="charleston">Charleston</w>
+		</tr>
+		<tr index="4">
+			<length>289</length>
+			<w pos="NNP" lemma="platinum">Platinum</w>
+			<w pos="NNP" lemma="part">Part</w>
+			<w pos="CD" lemma="4">4</w>
+			<punc pos=":" lemma="-">-</punc>
+			<w pos="JJ" lemma="north">North</w>
+			<w pos="NNP" lemma="star">Star</w>
+			<w pos="NNP" lemma="/">/</w>
+			<w pos="NNP" lemma="platinum">Platinum</w>
+			<w pos="NNP" lemma="finale">Finale</w>
+		</tr>
+		<tr index="6">
+			<length>226</length>
+			<w pos="NNP" lemma="into">Into</w>
+			<w pos="NNP" lemma="wonderland">Wonderland</w>
+		</tr>
+		<tr index="7">
+			<length>346</length>
+			<w pos="VB" lemma="punkadiddle">Punkadiddle</w>
+		</tr>
+		<tr index="8">
+			<length>284</length>
+			<w pos="PRP" lemma="i">I</w>
+			<w pos="VBD" lemma="got">Got</w>
+			<w pos="NNP" lemma="rhythm">Rhythm</w>
+		</tr>
+	</al>
+	<al name ="QE2" date="1980">
+		<length>2364</length>
+		<rating>3.51</rating>
+		<tr index="1">
+			<length>607</length>
+			<w pos="CD" lemma="taurus">Taurus</w>
+			<w pos="CD" lemma="1">1</w>
+		</tr>
+		<tr index="2">
+			<length>212</length>
+			<w pos="NN" lemma="sheba">Sheba</w>
+		</tr>
+		<tr index="3">
+			<length>168</length>
+			<w pos="NN" lemma="conflict">Conflict</w>
+		</tr>
+		<tr index="4">
+			<length>165</length>
+			<w pos="NN" lemma="arrival">Arrival</w>
+		</tr>
+		<tr index="5">
+			<length>217</length>
+			<w pos="JJ" lemma="wonderful">Wonderful</w>
+			<w pos="NN" lemma="land">Land</w>
+		</tr>
+		<tr index="6">
+			<length>279</length>
+			<w pos="NN" lemma="mirage">Mirage</w>
+		</tr>
+		<tr index="7">
+			<length>459</length>
+			<w pos="NN" lemma="qe2">QE2</w>
+		</tr>
+		<tr index="8">
+			<length>184</length>
+			<w pos="NN" lemma="celt">Celt</w>
+		</tr>
+		<tr index="9">
+			<length>73</length>
+			<w pos="RB" lemma="molly">Molly</w>
+		</tr>
+	</al>
+	<al name ="Tubular Bells" date="1973">
+		<length>2936</length>
+		<rating>4.15</rating>
+		<tr index="1">
+			<length>1536</length>
+			<w pos="JJ" lemma="tubular">Tubular</w>
+			<w pos="NNP" lemma="bell">Bells</w>
+			<punc pos="," lemma=",">,</punc>
+			<w pos="NNP" lemma="part">Part</w>
+			<w pos="CD" lemma="1">1</w>
+		</tr>
+		<tr index="2">
+			<length>1400</length>
+			<w pos="JJ" lemma="tubular">Tubular</w>
+			<w pos="NNP" lemma="bell">Bells</w>
+			<punc pos="," lemma=",">,</punc>
+			<w pos="NNP" lemma="part">Part</w>
+			<w pos="CD" lemma="2">2</w>
+		</tr>
+	</al>
+</artist>

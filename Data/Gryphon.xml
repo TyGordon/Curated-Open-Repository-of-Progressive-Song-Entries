@@ -1,0 +1,242 @@
+<artist name="Gryphon" genre="Prog Folk">
+	<al name ="Gryphon" date="1973">
+		<length>2203</length>
+		<rating>3.39</rating>
+		<tr index="1">
+			<length>187</length>
+			<w pos="NNP" lemma="kemp">Kemp</w>
+			<w pos="POS" lemma="'s">'s</w>
+			<w pos="NNP" lemma="jig">Jig</w>
+		</tr>
+		<tr index="2">
+			<length>165</length>
+			<w pos="NNP" lemma="sir">Sir</w>
+			<w pos="NNP" lemma="gavin">Gavin</w>
+			<w pos="NNP" lemma="grimbold">Grimbold</w>
+		</tr>
+		<tr index="3">
+			<length>89</length>
+			<w pos="NN" lemma="touch">Touch</w>
+			<w pos="CC" lemma="and">and</w>
+			<w pos="VB" lemma="go">Go</w>
+		</tr>
+		<tr index="4">
+			<length>234</length>
+			<w pos="CD" lemma="three">Three</w>
+			<w pos="NNP" lemma="jolly">Jolly</w>
+			<w pos="NNS" lemma="butcher">Butchers</w>
+		</tr>
+		<tr index="5">
+			<length>91</length>
+			<w pos="NN" lemma="pastime">Pastime</w>
+			<w pos="IN" lemma="with">with</w>
+			<w pos="JJ" lemma="good">Good</w>
+			<w pos="NN" lemma="company">Company</w>
+		</tr>
+		<tr index="6">
+			<length>340</length>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="unquiet">Unquiet</w>
+			<w pos="NNP" lemma="grave">Grave</w>
+		</tr>
+		<tr index="7">
+			<length>293</length>
+			<w pos="NN" lemma="estampie">Estampie</w>
+		</tr>
+		<tr index="8">
+			<length>142</length>
+			<w pos="VBG" lemma="crossing">Crossing</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNS" lemma="stile">Stiles</w>
+		</tr>
+		<tr index="9">
+			<length>192</length>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="astrologer">Astrologer</w>
+		</tr>
+		<tr index="10">
+			<length>66</length>
+			<w pos="NN" lemma="tea">Tea</w>
+			<w pos="NNS" lemma="wreck">Wrecks</w>
+		</tr>
+		<tr index="11">
+			<length>289</length>
+			<w pos="NNP" lemma="juniper">Juniper</w>
+			<w pos="NNP" lemma="suite">Suite</w>
+		</tr>
+		<tr index="12">
+			<length>115</length>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="devil">Devil</w>
+			<w pos="CC" lemma="and">and</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="farmer">Farmer</w>
+			<w pos="POS" lemma="'s">'s</w>
+			<w pos="NNP" lemma="wife">Wife</w>
+		</tr>
+	</al>
+	<al name ="Midnight Mushrumps" date="1974">
+		<length>2530</length>
+		<rating>3.75</rating>
+		<tr index="1">
+			<length>1138</length>
+			<w pos="NNP" lemma="midnight">Midnight</w>
+			<w pos="NNP" lemma="mushrumps">Mushrumps</w>
+		</tr>
+		<tr index="2">
+			<length>182</length>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="ploughboy">Ploughboy</w>
+			<w pos="POS" lemma="'s">'s</w>
+			<w pos="NN" lemma="dream">Dream</w>
+		</tr>
+		<tr index="3">
+			<length>238</length>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="JJ" lemma="last">Last</w>
+			<w pos="NNP" lemma="flash">Flash</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="NNP" lemma="gaberdine">Gaberdine</w>
+			<w pos="NNP" lemma="tailor">Tailor</w>
+		</tr>
+		<tr index="4">
+			<length>321</length>
+			<w pos="NNP" lemma="gulland">Gulland</w>
+			<w pos="NNP" lemma="rock">Rock</w>
+		</tr>
+		<tr index="5">
+			<length>336</length>
+			<w pos="NNP" lemma="dubbel">Dubbel</w>
+			<w pos="NNP" lemma="dutch">Dutch</w>
+		</tr>
+		<tr index="6">
+			<length>315</length>
+			<w pos="NN" lemma="ethelion">Ethelion</w>
+		</tr>
+	</al>
+	<al name ="Raindance" date="1975">
+		<length>2503</length>
+		<rating>3.29</rating>
+		<tr index="1">
+			<length>164</length>
+			<w pos="IN" lemma="down">Down</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="dog">Dog</w>
+		</tr>
+		<tr index="2">
+			<length>337</length>
+			<w pos="NN" lemma="raindance">Raindance</w>
+		</tr>
+		<tr index="3">
+			<length>188</length>
+			<w pos="NNP" lemma="mother">Mother</w>
+			<w pos="NNP" lemma="nature">Nature</w>
+			<w pos="POS" lemma="'s">'s</w>
+			<w pos="NN" lemma="son">Son</w>
+		</tr>
+		<tr index="4">
+			<length>134</length>
+			<w pos="NNP" lemma="le">Le</w>
+			<w pos="NNP" lemma="cambrioleur">Cambrioleur</w>
+			<w pos="NNP" lemma="est">Est</w>
+			<w pos="NNPS" lemma="dans">Dans</w>
+			<w pos="NNP" lemma="le">Le</w>
+			<w pos="NNP" lemma="mouchoir">Mouchoir</w>
+		</tr>
+		<tr index="5">
+			<length>60</length>
+			<w pos="NN" lemma="ormolu">Ormolu</w>
+		</tr>
+		<tr index="6">
+			<length>336</length>
+			<w pos="JJ" lemma="fontinental">Fontinental</w>
+			<w pos="NN" lemma="version">Version</w>
+		</tr>
+		<tr index="7">
+			<length>213</length>
+			<w pos="NN" lemma="wallbanger">Wallbanger</w>
+		</tr>
+		<tr index="8">
+			<length>108</length>
+			<w pos="VBP" lemma="do">Do</w>
+			<w pos="RB" lemma="n't">n't</w>
+			<w pos="NNP" lemma="say">Say</w>
+			<w pos="VB" lemma="go">Go</w>
+		</tr>
+		<tr index="9">
+			<length>963</length>
+			<punc pos="(" lemma="(">(</punc>
+			<w pos="NNP" lemma="ein">Ein</w>
+			<w pos="NNP" lemma="klein">Klein</w>
+			<punc pos=")" lemma=")">)</punc>
+			<w pos="NNP" lemma="heldenleben">Heldenleben</w>
+		</tr>
+	</al>
+	<al name ="Red Queen to Gryphon Three" date="1974">
+		<length>2312</length>
+		<rating>4.15</rating>
+		<tr index="1">
+			<length>582</length>
+			<w pos="VBG" lemma="opening">Opening</w>
+			<w pos="NN" lemma="move">Move</w>
+		</tr>
+		<tr index="2">
+			<length>495</length>
+			<w pos="JJ" lemma="second">Second</w>
+			<w pos="NNP" lemma="spasm">Spasm</w>
+		</tr>
+		<tr index="3">
+			<length>645</length>
+			<w pos="NN" lemma="lament">Lament</w>
+		</tr>
+		<tr index="4">
+			<length>590</length>
+			<w pos="NN" lemma="checkmate">Checkmate</w>
+		</tr>
+	</al>
+	<al name ="Treason" date="1977">
+		<length>2236</length>
+		<rating>3.34</rating>
+		<tr index="1">
+			<length>600</length>
+			<w pos="NN" lemma="spring">Spring</w>
+			<w pos="NN" lemma="song">Song</w>
+		</tr>
+		<tr index="2">
+			<length>270</length>
+			<w pos="NNP" lemma="round">Round</w>
+			<w pos="CC" lemma="and">and</w>
+			<w pos="NNP" lemma="round">Round</w>
+		</tr>
+		<tr index="3">
+			<length>297</length>
+			<w pos="NN" lemma="flash">Flash</w>
+			<w pos="IN" lemma="in">in</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NN" lemma="pantry">Pantry</w>
+		</tr>
+		<tr index="4">
+			<length>248</length>
+			<w pos="NNP" lemma="falero">Falero</w>
+			<w pos="NNP" lemma="lady">Lady</w>
+		</tr>
+		<tr index="5">
+			<length>315</length>
+			<w pos="NNS" lemma="snake">Snakes</w>
+			<w pos="CC" lemma="and">and</w>
+			<w pos="NNS" lemma="ladder">Ladders</w>
+		</tr>
+		<tr index="6">
+			<length>262</length>
+			<w pos="NN" lemma="fall">Fall</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="leaf">Leaf</w>
+		</tr>
+		<tr index="7">
+			<length>244</length>
+			<w pos="JJ" lemma="major">Major</w>
+			<w pos="NN" lemma="disaster">Disaster</w>
+		</tr>
+	</al>
+</artist>

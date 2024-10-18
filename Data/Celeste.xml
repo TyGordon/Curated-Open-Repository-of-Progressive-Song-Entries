@@ -1,0 +1,44 @@
+<artist name="Celeste" genre="Rock Progressivo Italiano">
+	<al name ="Principe Di Un Giorno" date="1976">
+		<length>2224</length>
+		<rating>4.16</rating>
+		<tr index="1">
+			<length>372</length>
+			<w pos="NNP" lemma="principe">Principe</w>
+			<w pos="NNP" lemma="di">Di</w>
+			<w pos="NNP" lemma="giorno">Giorno</w>
+		</tr>
+		<tr index="2">
+			<length>498</length>
+			<w pos="NNP" lemma="favole">Favole</w>
+			<w pos="NNP" lemma="antiche">Antiche</w>
+		</tr>
+		<tr index="3">
+			<length>257</length>
+			<w pos="NN" lemma="eftus">Eftus</w>
+		</tr>
+		<tr index="4">
+			<length>491</length>
+			<w pos="NNP" lemma="giochi">Giochi</w>
+			<w pos="NNP" lemma="nella">Nella</w>
+			<w pos="NNP" lemma="notte">Notte</w>
+		</tr>
+		<tr index="5">
+			<length>304</length>
+			<w pos="NNP" lemma="la">La</w>
+			<w pos="NNP" lemma="grande">Grande</w>
+			<w pos="NNP" lemma="isola">Isola</w>
+		</tr>
+		<tr index="6">
+			<length>236</length>
+			<w pos="NNP" lemma="la">La</w>
+			<w pos="NNP" lemma="danza">Danza</w>
+			<w pos="NNP" lemma="del">Del</w>
+			<w pos="NNP" lemma="fato">Fato</w>
+		</tr>
+		<tr index="7">
+			<length>66</length>
+			<w pos="NN" lemma="l'imbroglio">L'imbroglio</w>
+		</tr>
+	</al>
+</artist>

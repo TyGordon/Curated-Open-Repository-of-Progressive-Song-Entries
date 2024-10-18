@@ -1,0 +1,42 @@
+<artist name="Tilt" genre="Jazz Rock/Fusion">
+	<al name ="Immagini Per Un Orecchio" date="1974">
+		<length>2194</length>
+		<rating>4.27</rating>
+		<tr index="1">
+			<length>245</length>
+			<w pos="NNP" lemma="gravita">Gravita</w>
+			<w pos="CD" lemma="9,81">9,81</w>
+		</tr>
+		<tr index="2">
+			<length>279</length>
+			<w pos="NNS" lemma="strip">Strips</w>
+		</tr>
+		<tr index="3">
+			<length>97</length>
+			<w pos="NN" lemma="corrosione">Corrosione</w>
+		</tr>
+		<tr index="4">
+			<length>209</length>
+			<w pos="NNP" lemma="positivo">Positivo</w>
+			<w pos="NNP" lemma="/">/</w>
+			<w pos="NNP" lemma="negativo">Negativo</w>
+		</tr>
+		<tr index="5">
+			<length>336</length>
+			<w pos="IN" lemma="in">In</w>
+			<w pos="NNP" lemma="cammino">Cammino</w>
+		</tr>
+		<tr index="6">
+			<length>75</length>
+			<w pos="NN" lemma="farenheit">Farenheit</w>
+		</tr>
+		<tr index="7">
+			<length>804</length>
+			<w pos="NNP" lemma="articolazioni">Articolazioni</w>
+		</tr>
+		<tr index="8">
+			<length>149</length>
+			<w pos="NN" lemma="tilt">Tilt</w>
+		</tr>
+	</al>
+</artist>

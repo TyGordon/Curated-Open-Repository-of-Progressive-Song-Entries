@@ -1,0 +1,46 @@
+<artist name="Murple" genre="Rock Progressivo Italiano">
+	<al name ="Io Sono Murple" date="1974">
+		<length>2054</length>
+		<rating>3.90</rating>
+		<tr index="1">
+			<length>1057</length>
+			<w pos="NNP" lemma="antartide">Antartide</w>
+			<w pos="NNP" lemma="/">/</w>
+			<w pos="NNP" lemma="metamorfosi">Metamorfosi</w>
+			<w pos="NNP" lemma="/">/</w>
+			<w pos="NNP" lemma="pathos">Pathos</w>
+			<w pos="NNP" lemma="/">/</w>
+			<w pos="NNP" lemma="senza">Senza</w>
+			<w pos="NNP" lemma="un">Un</w>
+			<w pos="NNP" lemma="percht">PerchT</w>
+			<w pos="NNP" lemma="/">/</w>
+			<w pos="NNP" lemma="nessuna">Nessuna</w>
+			<w pos="NNP" lemma="scelta">Scelta</w>
+			<w pos="NNP" lemma="/">/</w>
+			<w pos="NNP" lemma="murple">Murple</w>
+			<w pos="NNP" lemma="rock">Rock</w>
+		</tr>
+		<tr index="2">
+			<length>997</length>
+			<w pos="NNP" lemma="preludio">Preludio</w>
+			<w pos="NNP" lemma="e">E</w>
+			<w pos="NNP" lemma="scherzo">Scherzo</w>
+			<w pos="NNP" lemma="/">/</w>
+			<w pos="NNP" lemma="tra">Tra</w>
+			<w pos="PRP" lemma="i">I</w>
+			<w pos="NNP" lemma="fili">Fili</w>
+			<w pos="NNP" lemma="/">/</w>
+			<w pos="NNP" lemma="variazioni">Variazioni</w>
+			<w pos="IN" lemma="in">In</w>
+			<w pos="CD" lemma="6/8">6/8</w>
+			<w pos="JJ" lemma="/">/</w>
+			<w pos="NNP" lemma="fratello">Fratello</w>
+			<w pos="NNP" lemma="/">/</w>
+			<w pos="NNP" lemma="un">Un</w>
+			<w pos="NNP" lemma="mondo">Mondo</w>
+			<w pos="NNP" lemma="cos8">Cos8</w>
+			<w pos="NNP" lemma="/">/</w>
+			<w pos="NNP" lemma="antarplastic">Antarplastic</w>
+		</tr>
+	</al>
+</artist>

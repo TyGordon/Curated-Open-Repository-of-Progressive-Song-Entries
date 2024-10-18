@@ -1,0 +1,160 @@
+<artist name="Supertramp" genre="Crossover Prog">
+	<al name ="Breakfast in America" date="1979">
+		<length>2757</length>
+		<rating>3.97</rating>
+	</al>
+	<al name ="Crime of the Century" date="1974">
+		<length>2594</length>
+		<rating>4.32</rating>
+		<tr index="1">
+			<length>335</length>
+			<w pos="NN" lemma="school">School</w>
+		</tr>
+		<tr index="2">
+			<length>266</length>
+			<w pos="NNP" lemma="bloody">Bloody</w>
+			<w pos="NNP" lemma="well">Well</w>
+			<w pos="NNP" lemma="right">Right</w>
+		</tr>
+		<tr index="3">
+			<length>412</length>
+			<w pos="NNP" lemma="hide">Hide</w>
+			<w pos="IN" lemma="in">in</w>
+			<w pos="NNP" lemma="your">Your</w>
+			<w pos="NNP" lemma="shell">Shell</w>
+		</tr>
+		<tr index="4">
+			<length>390</length>
+			<w pos="NN" lemma="asylum">Asylum</w>
+		</tr>
+		<tr index="5">
+			<length>199</length>
+			<w pos="NN" lemma="dreamer">Dreamer</w>
+		</tr>
+		<tr index="6">
+			<length>427</length>
+			<w pos="NN" lemma="rudy">Rudy</w>
+		</tr>
+		<tr index="7">
+			<length>245</length>
+			<w pos="IN" lemma="if">If</w>
+			<w pos="NNP" lemma="everyone">Everyone</w>
+			<w pos="NNP" lemma="wa">Was</w>
+			<w pos="VBG" lemma="listening">Listening</w>
+		</tr>
+		<tr index="8">
+			<length>320</length>
+			<w pos="NN" lemma="crime">Crime</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="century">Century</w>
+		</tr>
+	</al>
+	<al name ="Crisis What Crisis" date="1975">
+		<length>2835</length>
+		<rating>3.62</rating>
+		<tr index="1">
+			<length>137</length>
+			<w pos="NNP" lemma="easy">Easy</w>
+			<w pos="VBZ" lemma="doe">Does</w>
+			<w pos="PRP" lemma="it">It</w>
+		</tr>
+		<tr index="2">
+			<length>315</length>
+			<w pos="NNP" lemma="sister">Sister</w>
+			<w pos="NNP" lemma="moonshine">Moonshine</w>
+		</tr>
+		<tr index="3">
+			<length>312</length>
+			<w pos="VBP" lemma="ai">Ai</w>
+			<w pos="RB" lemma="n't">n't</w>
+			<w pos="NN" lemma="nobody">Nobody</w>
+			<w pos="CC" lemma="but">but</w>
+			<w pos="NNP" lemma="me">Me</w>
+		</tr>
+		<tr index="4">
+			<length>290</length>
+			<w pos="DT" lemma="a">A</w>
+			<w pos="NNP" lemma="soapbox">Soapbox</w>
+			<w pos="NN" lemma="opera">Opera</w>
+		</tr>
+		<tr index="5">
+			<length>380</length>
+			<w pos="DT" lemma="another">Another</w>
+			<w pos="NNP" lemma="man">Man</w>
+			<w pos="POS" lemma="'s">'s</w>
+			<w pos="NNP" lemma="woman">Woman</w>
+		</tr>
+		<tr index="6">
+			<length>324</length>
+			<w pos="NN" lemma="lady">Lady</w>
+		</tr>
+		<tr index="7">
+			<length>308</length>
+			<w pos="NNP" lemma="poor">Poor</w>
+			<w pos="NNP" lemma="boy">Boy</w>
+		</tr>
+		<tr index="8">
+			<length>239</length>
+			<w pos="RB" lemma="just">Just</w>
+			<w pos="DT" lemma="a">a</w>
+			<w pos="JJ" lemma="normal">Normal</w>
+			<w pos="NNP" lemma="day">Day</w>
+		</tr>
+		<tr index="9">
+			<length>321</length>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NN" lemma="meaning">Meaning</w>
+		</tr>
+		<tr index="10">
+			<length>209</length>
+			<w pos="CD" lemma="two">Two</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="NNS" lemma="u">Us</w>
+		</tr>
+	</al>
+	<al name ="Even in the Quietest Moments..." date="1977">
+		<length>2605</length>
+		<rating>4.01</rating>
+		<tr index="1">
+			<length>247</length>
+			<w pos="VB" lemma="give">Give</w>
+			<w pos="DT" lemma="a">A</w>
+			<w pos="JJ" lemma="little">Little</w>
+			<w pos="NNP" lemma="bit">Bit</w>
+		</tr>
+		<tr index="2">
+			<length>409</length>
+			<w pos="NNP" lemma="lover">Lover</w>
+			<w pos="NNP" lemma="boy">Boy</w>
+		</tr>
+		<tr index="3">
+			<length>399</length>
+			<w pos="RB" lemma="even">Even</w>
+			<w pos="IN" lemma="in">In</w>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="quietest">Quietest</w>
+			<w pos="NN" lemma="moment">Moment</w>
+		</tr>
+		<tr index="4">
+			<length>240</length>
+			<w pos="NN" lemma="downstream">Downstream</w>
+		</tr>
+		<tr index="5">
+			<length>289</length>
+			<w pos="NNP" lemma="babaji">Babaji</w>
+		</tr>
+		<tr index="6">
+			<length>370</length>
+			<w pos="IN" lemma="from">From</w>
+			<w pos="RB" lemma="now">Now</w>
+			<w pos="IN" lemma="on">On</w>
+		</tr>
+		<tr index="7">
+			<length>651</length>
+			<w pos="NNP" lemma="fool">Fool</w>
+			<w pos="POS" lemma="'s">'s</w>
+			<w pos="NN" lemma="overture">Overture</w>
+		</tr>
+	</al>
+</artist>

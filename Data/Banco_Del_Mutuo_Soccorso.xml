@@ -1,0 +1,177 @@
+<artist name="Banco Del Mutuo Soccorso" genre="Rock Progressivo Italiano">
+	<al name ="Banco Del Mutuo Soccorso" date="1972">
+		<length>2500</length>
+		<rating>4.31</rating>
+		<tr index="1">
+			<length>133</length>
+			<w pos="IN" lemma="in">In</w>
+			<w pos="NNP" lemma="volo">Volo</w>
+		</tr>
+		<tr index="2">
+			<length>400</length>
+			<w pos="NNP" lemma="r.i.p">R.I.P</w>
+			<punc pos="," lemma=",">,</punc>
+			<punc pos="(" lemma="(">(</punc>
+			<w pos="NNP" lemma="requiescant">Requiescant</w>
+			<w pos="IN" lemma="in">In</w>
+			<w pos="NNP" lemma="pace">Pace</w>
+			<punc pos=")" lemma=")">)</punc>
+		</tr>
+		<tr index="3">
+			<length>79</length>
+			<w pos="NN" lemma="passaggio">Passaggio</w>
+		</tr>
+		<tr index="4">
+			<length>652</length>
+			<w pos="NNS" lemma="metamorfosi">Metamorfosi</w>
+		</tr>
+		<tr index="5">
+			<length>1106</length>
+			<w pos="NNP" lemma="il">Il</w>
+			<w pos="NNP" lemma="giardino">Giardino</w>
+			<w pos="NNP" lemma="del">Del</w>
+			<w pos="NNP" lemma="mago">Mago</w>
+		</tr>
+		<tr index="a ..">
+			<length>0</length>
+			<w pos="NNP" lemma="passo">Passo</w>
+			<w pos="NNP" lemma="dopo">Dopo</w>
+			<w pos="NNP" lemma="passo">Passo</w>
+			<punc pos=":" lemma="...">...</punc>
+		</tr>
+		<tr index="b ..">
+			<length>0</length>
+			<w pos="NNP" lemma="chi">Chi</w>
+			<w pos="NNP" lemma="ride">Ride</w>
+			<w pos="NNP" lemma="e">E</w>
+			<w pos="NNP" lemma="chi">Chi</w>
+			<w pos="NNP" lemma="geme">Geme</w>
+			<punc pos=":" lemma="...">...</punc>
+		</tr>
+		<tr index="c ..">
+			<length>0</length>
+			<w pos="NNP" lemma="coi">Coi</w>
+			<w pos="NNP" lemma="capelli">Capelli</w>
+			<w pos="NNP" lemma="sciolti">Sciolti</w>
+			<w pos="NNP" lemma="al">Al</w>
+			<w pos="NNP" lemma="vento">Vento</w>
+			<punc pos=":" lemma="...">...</punc>
+		</tr>
+		<tr index="d ">
+			<length>0</length>
+			<w pos="NN" lemma="compenetrazione">Compenetrazione</w>
+		</tr>
+		<tr index="6">
+			<length>130</length>
+			<w pos="NN" lemma="traccia">Traccia</w>
+		</tr>
+	</al>
+	<al name ="Darwin!" date="1972">
+		<length>2810</length>
+		<rating>4.38</rating>
+		<tr index="1">
+			<length>839</length>
+			<w pos="NN" lemma="l'evoluzione">L'Evoluzione</w>
+		</tr>
+		<tr index="2">
+			<length>522</length>
+			<w pos="NNP" lemma="la">La</w>
+			<w pos="NNP" lemma="conquista">Conquista</w>
+			<w pos="NNP" lemma="della">Della</w>
+			<w pos="NNP" lemma="posizione">Posizione</w>
+			<w pos="NNP" lemma="eretta">Eretta</w>
+		</tr>
+		<tr index="3">
+			<length>222</length>
+			<w pos="NNP" lemma="danza">Danza</w>
+			<w pos="NNP" lemma="dei">Dei</w>
+			<w pos="NNP" lemma="grandi">Grandi</w>
+			<w pos="NNP" lemma="rettili">Rettili</w>
+		</tr>
+		<tr index="4">
+			<length>322</length>
+			<w pos="NNP" lemma="cento">Cento</w>
+			<w pos="NNP" lemma="mani">Mani</w>
+			<w pos="NNP" lemma="e">E</w>
+			<w pos="NNP" lemma="cento">Cento</w>
+			<w pos="NNP" lemma="occhi">Occhi</w>
+		</tr>
+		<tr index="5">
+			<length>338</length>
+			<w pos="CD" lemma="750,000">750,000</w>
+			<w pos="NNP" lemma="anni">Anni</w>
+			<w pos="NNP" lemma="fa">Fa</w>
+			<w pos="NNP" lemma="..">..</w>
+			<punc pos="," lemma=",">,</punc>
+			<w pos="NNP" lemma="l'amore">L'Amore</w>
+			<punc pos="." lemma="?">?</punc>
+		</tr>
+		<tr index="6">
+			<length>358</length>
+			<w pos="NNP" lemma="miserere">Miserere</w>
+			<w pos="NNP" lemma="alla">Alla</w>
+			<w pos="NNP" lemma="storia">Storia</w>
+		</tr>
+		<tr index="7">
+			<length>209</length>
+			<w pos="NNP" lemma="ed">Ed</w>
+			<w pos="NNP" lemma="os">Ora</w>
+			<w pos="NNP" lemma="io">Io</w>
+			<w pos="NNP" lemma="domando">Domando</w>
+			<w pos="NNP" lemma="tempo">Tempo</w>
+			<w pos="NNP" lemma="al">Al</w>
+			<w pos="NNP" lemma="tempo">Tempo</w>
+			<w pos="NNP" lemma="ed">Ed</w>
+			<w pos="NNP" lemma="egli">Egli</w>
+			<w pos="NNP" lemma="mi">Mi</w>
+			<w pos="NNP" lemma="risponde">Risponde</w>
+			<w pos="NNP" lemma="..">..</w>
+			<punc pos="," lemma=",">,</punc>
+			<w pos="NNP" lemma="non">Non</w>
+			<w pos="NNP" lemma="ne">Ne</w>
+			<w pos="NNP" lemma="ho">Ho</w>
+			<punc pos="." lemma="!">!</punc>
+		</tr>
+	</al>
+	<al name ="Io Sono Nato Libero" date="1973">
+		<length>2442</length>
+		<rating>4.37</rating>
+		<tr index="1">
+			<length>946</length>
+			<w pos="NNP" lemma="canto">Canto</w>
+			<w pos="NNP" lemma="nomade">Nomade</w>
+			<w pos="NNP" lemma="per">Per</w>
+			<w pos="NNP" lemma="un">Un</w>
+			<w pos="NNP" lemma="prigioniero">Prigioniero</w>
+			<w pos="NNP" lemma="politico">Politico</w>
+		</tr>
+		<tr index="2">
+			<length>309</length>
+			<w pos="NNP" lemma="non">Non</w>
+			<w pos="NNP" lemma="mi">Mi</w>
+			<w pos="NNP" lemma="rompete">Rompete</w>
+		</tr>
+		<tr index="3">
+			<length>433</length>
+			<w pos="NNP" lemma="la">La</w>
+			<w pos="NNP" lemma="citta">Citta</w>
+			<w pos="NNP" lemma="sottile">Sottile</w>
+		</tr>
+		<tr index="4">
+			<length>595</length>
+			<w pos="NNP" lemma="dopo">Dopo</w>
+			<w pos="NNP" lemma="..">..</w>
+			<punc pos="," lemma=",">,</punc>
+			<w pos="NNP" lemma="niente">Niente</w>
+			<w pos="NNP" lemma="+">+</w>
+			<w pos="NNP" lemma="pi·">Pi·</w>
+			<w pos="NNP" lemma="lo">Lo</w>
+			<w pos="NNP" lemma="stesso">Stesso</w>
+		</tr>
+		<tr index="5">
+			<length>159</length>
+			<w pos="NNP" lemma="traccia">Traccia</w>
+			<w pos="NNP" lemma="ii">II</w>
+		</tr>
+	</al>
+</artist>
