@@ -20626,69 +20626,6 @@
 	</al>
 </artist>
 <artist name="UK" genre="Eclectic Prog">
-	<al name ="Danger Money" date="1978">
-		<length>2788</length>
-		<rating>4.11</rating>
-		<tr index="">
-			<length>0</length>
-			<w pos="IN" lemma="in">In</w>
-			<w pos="DT" lemma="the">the</w>
-			<w pos="NNP" lemma="dead">Dead</w>
-			<w pos="IN" lemma="of">of</w>
-			<w pos="NNP" lemma="night">Night</w>
-			<punc pos="(" lemma="(">(</punc>
-			<w pos="NNP" lemma="suite">Suite</w>
-			<punc pos=")" lemma=")">)</punc>
-			<punc pos=":" lemma=":">:</punc>
-		</tr>
-		<tr index="1">
-			<length>335</length>
-			<w pos="IN" lemma="in">In</w>
-			<w pos="DT" lemma="the">the</w>
-			<w pos="NNP" lemma="dead">Dead</w>
-			<w pos="IN" lemma="of">of</w>
-			<w pos="NNP" lemma="night">Night</w>
-		</tr>
-		<tr index="2">
-			<length>268</length>
-			<w pos="IN" lemma="by">By</w>
-			<w pos="DT" lemma="the">the</w>
-			<w pos="NNP" lemma="light">Light</w>
-			<w pos="IN" lemma="of">of</w>
-			<w pos="NNP" lemma="day">Day</w>
-		</tr>
-		<tr index="3">
-			<length>186</length>
-			<w pos="NNP" lemma="presto">Presto</w>
-			<w pos="NNP" lemma="vivace">Vivace</w>
-			<w pos="CC" lemma="and">and</w>
-			<w pos="NNP" lemma="reprise">Reprise</w>
-		</tr>
-		<tr index="4">
-			<length>483</length>
-			<w pos="CD" lemma="thirty">Thirty</w>
-			<w pos="NNS" lemma="year">Years</w>
-		</tr>
-		<tr index="5">
-			<length>288</length>
-			<w pos="NN" lemma="alaska">Alaska</w>
-		</tr>
-		<tr index="6">
-			<length>293</length>
-			<w pos="NNP" lemma="time">Time</w>
-			<w pos="TO" lemma="to">to</w>
-			<w pos="VB" lemma="kill">Kill</w>
-		</tr>
-		<tr index="7">
-			<length>490</length>
-			<w pos="RB" lemma="nevermore">Nevermore</w>
-		</tr>
-		<tr index="8">
-			<length>445</length>
-			<w pos="JJ" lemma="mental">Mental</w>
-			<w pos="NN" lemma="medication">Medication</w>
-		</tr>
-	</al>
 	<al name ="UK" date="1978">
 		<length>2788</length>
 		<rating>4.11</rating>

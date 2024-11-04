@@ -68,7 +68,8 @@
         > The respective group is nieche or borderline prog and only gets one album, with the rest omitted.
             Ex. Return to Forever's albums that are not "Romantic Warrior"
         > The group was not discovered/known about at corpus compiling time.
-    - Tracks from foriegn groups have to be hand translated in order to be represented. Hand Translation is an art (or at least an imprecise science) and has subjective implications on the corpus data.
+    - Tracks from foreign groups have to be hand translated in order to be represented. Hand Translation is an art (or at least an imprecise science) and has subjective implications on the corpus data.
+    - The automatic XML generation makes any sub-track listed with an index of "-" have no proper index. THESE NEED TO BE FIXED MANUALLY.
 
 ## ARTIST LIST
 
@@ -281,7 +282,7 @@ Harmonium (1)
 
 UK (2)
 + [UK](https://www.progarchives.com/album.asp?id=1360)
-+ [Danger Money](https://www.progarchives.com/album.asp?id=1360)
++ [Danger Money](https://www.progarchives.com/album.asp?id=1361)
 
 Supertramp (4)
 + [Crime of the Century](https://www.progarchives.com/album.asp?id=1251)

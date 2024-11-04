@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>923</width>
-    <height>786</height>
+    <width>968</width>
+    <height>816</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -111,7 +111,7 @@
       <item>
        <layout class="QHBoxLayout" name="lineEditLayout">
         <item>
-         <widget class="QLineEdit" name="lineEdit">
+         <widget class="QLineEdit" name="queryLine">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
             <horstretch>0</horstretch>
@@ -124,8 +124,15 @@
             <height>0</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+            <italic>true</italic>
+            <kerning>false</kerning>
+           </font>
+          </property>
           <property name="text">
-           <string>(enter word or phrase)</string>
+           <string/>
           </property>
          </widget>
         </item>
@@ -137,6 +144,11 @@
             <verstretch>0</verstretch>
            </sizepolicy>
           </property>
+          <item>
+           <property name="text">
+            <string>---</string>
+           </property>
+          </item>
           <item>
            <property name="text">
             <string>POS</string>
@@ -360,8 +372,17 @@
         </item>
         <item>
          <widget class="QCheckBox" name="lemmaCheckBox">
+          <property name="font">
+           <font>
+            <italic>true</italic>
+            <kerning>false</kerning>
+           </font>
+          </property>
           <property name="text">
            <string>Lemma Search</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
           </property>
          </widget>
         </item>
@@ -392,10 +413,52 @@
               <height>0</height>
              </size>
             </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+              <bold>true</bold>
+             </font>
+            </property>
             <property name="text">
              <string>Dates (1968 - 1984)</string>
             </property>
            </widget>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_11">
+            <item>
+             <widget class="QPushButton" name="dateAll">
+              <property name="font">
+               <font>
+                <pointsize>9</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string>All</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="dateNone">
+              <property name="text">
+               <string>None</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_4">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
           </item>
           <item>
            <widget class="QCheckBox" name="date1968">
@@ -413,6 +476,9 @@
             </property>
             <property name="text">
              <string>1968</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
             </property>
            </widget>
           </item>
@@ -433,6 +499,9 @@
             <property name="text">
              <string>1969</string>
             </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
            </widget>
           </item>
           <item>
@@ -451,6 +520,9 @@
             </property>
             <property name="text">
              <string>1970</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
             </property>
            </widget>
           </item>
@@ -471,6 +543,9 @@
             <property name="text">
              <string>1971</string>
             </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
            </widget>
           </item>
           <item>
@@ -489,6 +564,9 @@
             </property>
             <property name="text">
              <string>1972</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
             </property>
            </widget>
           </item>
@@ -509,6 +587,9 @@
             <property name="text">
              <string>1973</string>
             </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
            </widget>
           </item>
           <item>
@@ -527,6 +608,9 @@
             </property>
             <property name="text">
              <string>1974</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
             </property>
            </widget>
           </item>
@@ -547,6 +631,9 @@
             <property name="text">
              <string>1975</string>
             </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
            </widget>
           </item>
           <item>
@@ -565,6 +652,9 @@
             </property>
             <property name="text">
              <string>1976</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
             </property>
            </widget>
           </item>
@@ -585,6 +675,9 @@
             <property name="text">
              <string>1977</string>
             </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
            </widget>
           </item>
           <item>
@@ -603,6 +696,9 @@
             </property>
             <property name="text">
              <string>1978</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
             </property>
            </widget>
           </item>
@@ -623,6 +719,9 @@
             <property name="text">
              <string>1979</string>
             </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
            </widget>
           </item>
           <item>
@@ -641,6 +740,9 @@
             </property>
             <property name="text">
              <string>1980</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
             </property>
            </widget>
           </item>
@@ -661,6 +763,9 @@
             <property name="text">
              <string>1981</string>
             </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
            </widget>
           </item>
           <item>
@@ -679,6 +784,9 @@
             </property>
             <property name="text">
              <string>1982</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
             </property>
            </widget>
           </item>
@@ -699,6 +807,9 @@
             <property name="text">
              <string>1983</string>
             </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
            </widget>
           </item>
           <item>
@@ -717,6 +828,9 @@
             </property>
             <property name="text">
              <string>1984</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
             </property>
            </widget>
           </item>
@@ -745,6 +859,12 @@
               <height>0</height>
              </size>
             </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+              <bold>true</bold>
+             </font>
+            </property>
             <property name="text">
              <string>Artist Tags</string>
             </property>
@@ -753,33 +873,54 @@
           <item>
            <layout class="QHBoxLayout" name="horizontalLayout_7">
             <item>
-             <widget class="QCheckBox" name="checkBox_4">
+             <widget class="QCheckBox" name="searchArtistName">
+              <property name="font">
+               <font>
+                <kerning>false</kerning>
+               </font>
+              </property>
               <property name="text">
                <string>Name</string>
+              </property>
+              <property name="checked">
+               <bool>false</bool>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLineEdit" name="lineEdit_5"/>
+             <widget class="QLineEdit" name="valueArtistName"/>
             </item>
            </layout>
           </item>
           <item>
            <layout class="QHBoxLayout" name="horizontalLayout_8">
             <item>
-             <widget class="QCheckBox" name="checkBox_7">
+             <widget class="QCheckBox" name="searchArtistGenre">
+              <property name="font">
+               <font>
+                <kerning>false</kerning>
+               </font>
+              </property>
               <property name="text">
                <string>Sub-Genre</string>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QComboBox" name="comboBox"/>
+             <widget class="QComboBox" name="valueArtistGenre"/>
             </item>
            </layout>
           </item>
           <item>
-           <widget class="QLabel" name="label">
+           <widget class="QLabel" name="tagsTitle2">
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+              <italic>false</italic>
+              <bold>true</bold>
+              <kerning>true</kerning>
+             </font>
+            </property>
             <property name="text">
              <string>Album Tags</string>
             </property>
@@ -788,31 +929,38 @@
           <item>
            <layout class="QHBoxLayout" name="horizontalLayout_5">
             <item>
-             <widget class="QCheckBox" name="checkBox_6">
+             <widget class="QCheckBox" name="searchAlbumName">
+              <property name="font">
+               <font>
+                <kerning>false</kerning>
+               </font>
+              </property>
               <property name="text">
                <string>Name</string>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLineEdit" name="lineEdit_6"/>
+             <widget class="QLineEdit" name="valueAlbumName"/>
             </item>
            </layout>
           </item>
           <item>
            <layout class="QHBoxLayout" name="horizontalLayout_9">
             <item>
-             <widget class="QCheckBox" name="checkBox_8">
+             <widget class="QCheckBox" name="searchAlbumRating">
+              <property name="font">
+               <font>
+                <kerning>false</kerning>
+               </font>
+              </property>
               <property name="text">
                <string>Rating</string>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLineEdit" name="lineEdit_7"/>
-            </item>
-            <item>
-             <widget class="QComboBox" name="orderBox_4">
+             <widget class="QComboBox" name="searchAlbumRatingOp">
               <property name="sizePolicy">
                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                 <horstretch>0</horstretch>
@@ -847,23 +995,28 @@
                </property>
               </item>
              </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="valueAlbumRating"/>
             </item>
            </layout>
           </item>
           <item>
            <layout class="QHBoxLayout" name="horizontalLayout_10">
             <item>
-             <widget class="QCheckBox" name="checkBox_9">
+             <widget class="QCheckBox" name="searchAlbumLength">
+              <property name="font">
+               <font>
+                <kerning>false</kerning>
+               </font>
+              </property>
               <property name="text">
                <string>Length</string>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLineEdit" name="lineEdit_8"/>
-            </item>
-            <item>
-             <widget class="QComboBox" name="orderBox_5">
+             <widget class="QComboBox" name="searchAlbumLengthOp">
               <property name="sizePolicy">
                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                 <horstretch>0</horstretch>
@@ -899,10 +1052,19 @@
               </item>
              </widget>
             </item>
+            <item>
+             <widget class="QLineEdit" name="valueAlbumLength"/>
+            </item>
            </layout>
           </item>
           <item>
-           <widget class="QLabel" name="label_2">
+           <widget class="QLabel" name="tagsTitle3">
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+              <bold>true</bold>
+             </font>
+            </property>
             <property name="text">
              <string>Track Tags</string>
             </property>
@@ -911,7 +1073,12 @@
           <item>
            <layout class="QHBoxLayout" name="horizontalLayout_4">
             <item>
-             <widget class="QCheckBox" name="checkBox_3">
+             <widget class="QCheckBox" name="searchTrackIndex">
+              <property name="font">
+               <font>
+                <kerning>false</kerning>
+               </font>
+              </property>
               <property name="text">
                <string>Index</string>
               </property>
@@ -922,19 +1089,19 @@
               <property name="orientation">
                <enum>Qt::Horizontal</enum>
               </property>
+              <property name="sizeType">
+               <enum>QSizePolicy::Fixed</enum>
+              </property>
               <property name="sizeHint" stdset="0">
                <size>
-                <width>40</width>
+                <width>45</width>
                 <height>20</height>
                </size>
               </property>
              </spacer>
             </item>
             <item>
-             <widget class="QLineEdit" name="lineEdit_4"/>
-            </item>
-            <item>
-             <widget class="QComboBox" name="orderBox_2">
+             <widget class="QComboBox" name="searchTrackIndexOp">
               <property name="sizePolicy">
                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                 <horstretch>0</horstretch>
@@ -970,17 +1137,25 @@
               </item>
              </widget>
             </item>
+            <item>
+             <widget class="QLineEdit" name="valueTrackIndex"/>
+            </item>
            </layout>
           </item>
           <item>
            <layout class="QHBoxLayout" name="horizontalLayout">
             <item>
-             <widget class="QCheckBox" name="checkBox">
+             <widget class="QCheckBox" name="searchTrackLength">
               <property name="minimumSize">
                <size>
                 <width>0</width>
                 <height>20</height>
                </size>
+              </property>
+              <property name="font">
+               <font>
+                <kerning>false</kerning>
+               </font>
               </property>
               <property name="text">
                <string>Length</string>
@@ -997,30 +1172,14 @@
               </property>
               <property name="sizeHint" stdset="0">
                <size>
-                <width>10</width>
+                <width>36</width>
                 <height>10</height>
                </size>
               </property>
              </spacer>
             </item>
             <item>
-             <widget class="QLineEdit" name="lineEdit_2">
-              <property name="sizePolicy">
-               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                <horstretch>0</horstretch>
-                <verstretch>0</verstretch>
-               </sizepolicy>
-              </property>
-              <property name="baseSize">
-               <size>
-                <width>40</width>
-                <height>0</height>
-               </size>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <widget class="QComboBox" name="orderBox">
+             <widget class="QComboBox" name="searchTrackLengthOp">
               <property name="sizePolicy">
                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                 <horstretch>0</horstretch>
@@ -1056,17 +1215,38 @@
               </item>
              </widget>
             </item>
+            <item>
+             <widget class="QLineEdit" name="valueTrackLength">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="baseSize">
+               <size>
+                <width>40</width>
+                <height>0</height>
+               </size>
+              </property>
+             </widget>
+            </item>
            </layout>
           </item>
           <item>
            <layout class="QHBoxLayout" name="horizontalLayout_3">
             <item>
-             <widget class="QCheckBox" name="checkBox_2">
+             <widget class="QCheckBox" name="searchTrackWordcount">
               <property name="minimumSize">
                <size>
                 <width>0</width>
                 <height>20</height>
                </size>
+              </property>
+              <property name="font">
+               <font>
+                <kerning>false</kerning>
+               </font>
               </property>
               <property name="text">
                <string>Word Count</string>
@@ -1083,17 +1263,14 @@
               </property>
               <property name="sizeHint" stdset="0">
                <size>
-                <width>10</width>
+                <width>1</width>
                 <height>10</height>
                </size>
               </property>
              </spacer>
             </item>
             <item>
-             <widget class="QLineEdit" name="lineEdit_3"/>
-            </item>
-            <item>
-             <widget class="QComboBox" name="orderBox_3">
+             <widget class="QComboBox" name="searchTrackWordcountOp">
               <property name="sizePolicy">
                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                 <horstretch>0</horstretch>
@@ -1129,6 +1306,16 @@
               </item>
              </widget>
             </item>
+            <item>
+             <widget class="QLineEdit" name="valueTrackWordcount">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+             </widget>
+            </item>
            </layout>
           </item>
           <item>
@@ -1140,6 +1327,11 @@
                 <width>0</width>
                 <height>20</height>
                </size>
+              </property>
+              <property name="font">
+               <font>
+                <kerning>false</kerning>
+               </font>
               </property>
               <property name="text">
                <string>Track Type</string>
@@ -1285,7 +1477,7 @@ hr { height: 1px; border-width: 0; }
 li.unchecked::marker { content: &quot;\2610&quot;; }
 li.checked::marker { content: &quot;\2612&quot;; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum odor amet, consectetuer adipiscing elit. Blandit senectus condimentum posuere vivamus turpis. Nec donec sit fringilla congue vehicula accumsan urna convallis. Dictumst facilisis nisi elit proin, torquent sed a bibendum elementum! Curae molestie aptent id torquent viverra quisque suscipit. Magna quisque varius nulla orci pretium augue litora in. Ultricies nisi proin dolor curabitur velit quis tortor nascetur. Velit sodales curabitur erat suscipit pretium condimentum enim et! Sed dictumst nullam facilisis nibh leo sociosqu taciti. Pretium vestibulum habitasse dictum, bibendum ultricies non placerat! Netus amet orci ullamcorper augue dictumst libero rutrum at. Elementum blandit mi justo tempor hac euismod sodales. Potenti posuere auctor sodales donec praesent nunc. Vel sem porttitor aliquet condimentum est aptent nibh. Adipiscing mus himenaeos ullamcorper velit volutpat platea rutrum laoreet maximus. Ligula platea eleifend felis natoque non nulla. Vitae augue pellentesque class turpis ex imperdiet leo odio per. Fringilla pulvinar sapien metus libero sed ad nulla pretium habitasse. In ipsum tristique leo montes ad et non. Purus eleifend varius facilisi facilisis sodales iaculis arcu. Euismod mus auctor nulla dapibus est ut porttitor. Lorem ipsum odor amet, consectetuer adipiscing elit. Blandit senectus condimentum posuere vivamus turpis. Nec donec sit fringilla congue vehicula accumsan urna convallis. Dictumst facilisis nisi elit proin, torquent sed a bibendum elementum! Curae molestie aptent id torquent viverra quisque suscipit. Magna quisque varius nulla orci pretium augue litora in. Ultricies nisi proin dolor curabitur velit quis tortor nascetur. Velit sodales curabitur erat suscipit pretium condimentum enim et! Sed dictumst nullam facilisis nibh leo sociosqu taciti. Pretium vestibulum habitasse dictum, bibendum ultricies non placerat! Netus amet orci ullamcorper augue dictumst libero rutrum at. Elementum blandit mi justo tempor hac euismod sodales. Potenti posuere auctor sodales donec praesent nunc. Vel sem porttitor aliquet condimentum est aptent nibh. Adipiscing mus himenaeos ullamcorper velit volutpat platea rutrum laoreet maximus. Ligula platea eleifend felis natoque non nulla. Vitae augue pellentesque class turpis ex imperdiet leo odio per. Fringilla pulvinar sapien metus libero sed ad nulla pretium habitasse. In ipsum tristique leo montes ad et non. Purus eleifend varius facilisi facilisis sodales iaculis arcu. Euismod mus auctor nulla dapibus est ut porttitor.Lorem ipsum odor amet, consectetuer adipiscing elit. Blandit senectus condimentum posuere vivamus turpis. Nec donec sit fringilla congue vehicula accumsan urna convallis. Dictumst facilisis nisi elit proin, torquent sed a bibendum elementum! Curae molestie aptent id torquent viverra quisque suscipit. Magna quisque varius nulla orci pretium augue litora in. Ultricies nisi proin dolor curabitur velit quis tortor nascetur. Velit sodales curabitur erat suscipit pretium condimentum enim et! Sed dictumst nullam facilisis nibh leo sociosqu taciti. Pretium vestibulum habitasse dictum, bibendum ultricies non placerat! Netus amet orci ullamcorper augue dictumst libero rutrum at. Elementum blandit mi justo tempor hac euismod sodales. Potenti posuere auctor sodales donec praesent nunc. Vel sem porttitor aliquet condimentum est aptent nibh. Adipiscing mus himenaeos ullamcorper velit volutpat platea rutrum laoreet maximus. Ligula platea eleifend felis natoque non nulla. Vitae augue pellentesque class turpis ex imperdiet leo odio per. Fringilla pulvinar sapien metus libero sed ad nulla pretium habitasse. In ipsum tristique leo montes ad et non. Purus eleifend varius facilisi facilisis sodales iaculis arcu. Euismod mus auctor nulla dapibus est ut porttitor. Lorem ipsum odor amet, consectetuer adipiscing elit. Blandit senectus condimentum posuere vivamus turpis. Nec donec sit fringilla congue vehicula accumsan urna convallis. Dictumst facilisis nisi elit proin, torquent sed a bibendum elementum! Curae molestie aptent id torquent viverra quisque suscipit. Magna quisque varius nulla orci pretium augue litora in. Ultricies nisi proin dolor curabitur velit quis tortor nascetur. Velit sodales curabitur erat suscipit pretium condimentum enim et! Sed dictumst nullam facilisis nibh leo sociosqu taciti. Pretium vestibulum habitasse dictum, bibendum ultricies non placerat! Netus amet orci ullamcorper augue dictumst libero rutrum at. Elementum blandit mi justo tempor hac euismod sodales. Potenti posuere auctor sodales donec praesent nunc. Vel sem porttitor aliquet condimentum est aptent nibh. Adipiscing mus himenaeos ullamcorper velit volutpat platea rutrum laoreet maximus. Ligula platea eleifend felis natoque non nulla. Vitae augue pellentesque class turpis ex imperdiet leo odio per. Fringilla pulvinar sapien metus libero sed ad nulla pretium habitasse. In ipsum tristique leo montes ad et non. Purus eleifend varius facilisi facilisis sodales iaculis arcu. Euismod mus auctor nulla dapibus est ut porttitor.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
     </item>
@@ -1328,7 +1520,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>923</width>
+     <width>968</width>
      <height>25</height>
     </rect>
    </property>
