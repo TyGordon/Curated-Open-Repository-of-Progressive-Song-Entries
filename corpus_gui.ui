@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>968</width>
-    <height>816</height>
+    <height>851</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -120,7 +120,7 @@
           </property>
           <property name="minimumSize">
            <size>
-            <width>355</width>
+            <width>340</width>
             <height>0</height>
            </size>
           </property>
@@ -137,6 +137,46 @@
          </widget>
         </item>
         <item>
+         <widget class="QPushButton" name="statsButton">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>30</width>
+            <height>10</height>
+           </size>
+          </property>
+          <property name="baseSize">
+           <size>
+            <width>20</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>9</pointsize>
+            <kerning>true</kerning>
+           </font>
+          </property>
+          <property name="text">
+           <string>STATS</string>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>20</width>
+            <height>20</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
          <widget class="QComboBox" name="posBox">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
@@ -147,11 +187,6 @@
           <item>
            <property name="text">
             <string>---</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>POS</string>
            </property>
           </item>
           <item>
@@ -346,7 +381,7 @@
           </property>
           <property name="sizeHint" stdset="0">
            <size>
-            <width>10</width>
+            <width>1</width>
             <height>10</height>
            </size>
           </property>
@@ -387,6 +422,22 @@
          </widget>
         </item>
         <item>
+         <widget class="QCheckBox" name="searchWordIndex">
+          <property name="font">
+           <font>
+            <italic>true</italic>
+            <kerning>false</kerning>
+           </font>
+          </property>
+          <property name="text">
+           <string>Word Index</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="valueWordIndex"/>
+        </item>
+        <item>
          <spacer name="buttonSpacer">
           <property name="orientation">
            <enum>Qt::Horizontal</enum>
@@ -400,6 +451,16 @@
          </spacer>
         </item>
        </layout>
+      </item>
+      <item>
+       <widget class="QProgressBar" name="searchProgressBar">
+        <property name="value">
+         <number>24</number>
+        </property>
+        <property name="invertedAppearance">
+         <bool>false</bool>
+        </property>
+       </widget>
       </item>
       <item>
        <layout class="QHBoxLayout" name="checkBoxLayout">
@@ -888,7 +949,11 @@
              </widget>
             </item>
             <item>
-             <widget class="QLineEdit" name="valueArtistName"/>
+             <widget class="QLineEdit" name="valueArtistName">
+              <property name="enabled">
+               <bool>true</bool>
+              </property>
+             </widget>
             </item>
            </layout>
           </item>
