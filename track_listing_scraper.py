@@ -3,6 +3,7 @@ import os
 import nltk
 import string
 
+from deep_translator import GoogleTranslator
 from nltk.tokenize import word_tokenize, sent_tokenize
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import wordnet
@@ -127,6 +128,8 @@ for d in os.listdir("Albums"):
                             formatted_array.append([r.sub(r'\1', i).replace("- ","").replace(". ","").replace(")",""), 
                                                      r.sub(r'-', i), 
                                                      r.sub(r'\3', i).replace("&", "and").replace(". ",", ")]) #[BUG] Tagger eats periods
+
+                    # translated = GoogleTranslator(source='it', target='en').translate("input")
 
                     # For each song title, tokenize
                     for i in formatted_array:

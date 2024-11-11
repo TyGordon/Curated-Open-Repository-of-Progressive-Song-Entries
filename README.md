@@ -1,9 +1,9 @@
 # Curated Open Repository of Progressive Song Entries (CORPSE)
 
 ### This document covers many components of the CORPSE project including:
-1. What's included in the project, and how to use it
-2. Which bands and albums are used (Roughly 370 Albums)
-3. How to tag the words
+1. Information about the project, what is included and how to use it
+2. Which bands and albums are used (Roughly 415 Albums)
+3. How the entries are tagged
 
 ### Table of Contents
 1. [Overview](#overview)
@@ -22,36 +22,55 @@
 
 ## OVERVIEW
 
+### What Is This?
+    This is the Curated Open Repository of Progressive Song Entries (CORPSE), which is a project developed for the University of Kentucky Corpus Linguistics course LIN-510. At its core, CORPSE is a collection of XML formatted song titles sourced from progarchives.com within the years 1966 to 1984. It comes with an Explorer utility, which is a Graphical User Interface (GUI) designed to allow any user the ability to search the database in a simple manner. 
+
+    Progressive Rock is a term used to describe a genre of music that was prevalent in the late 60s, to the early 80s. It is usually described as a more complicated and eclectic form of popular music with many influences from genres such as Jazz, Classical, Blues, Folk Baroque, Soul, R&B, Electronic, Experimental, and Rock. This corpus only includes the "classic" era of Progressive Rock, and deliberatly excludes newer forms passed 1984 such as Progressive Metal, Neo-Prog, etc. Progressive Rock itself can be described with various sub-genres. The following links may be helpful for understanding the genre.
+
+[Prog Archives Home](https://www.progarchives.com/)
+
+[What is Progressive Rock?](http://www.progarchives.com/Progressive-rock.asp#definition)
+
+[Top 100 Prog Albums 1966-1984](https://www.progarchives.com/top-prog-albums.asp?ssubgenres=&salbumtypes=1&syears=1984&syears=1983&syears=1982&syears=1981&syears=1980&syears=1979&syears=1978&syears=1977&syears=1976&syears=1975&syears=1974&syears=1973&syears=1972&syears=1971&syears=1970&syears=1969&syears=1968&syears=1967&syears=1966&scountries=&sminratings=0&smaxratings=0&sminavgratings=0&smaxresults=100&x=55&y=7#list)
+
 ### What's Included
-    The CORPSE Corpus consists of two main tools and the data contained within the corpus (both raw html and formatted xml files). The tools CORPSE Maker and CORPSE Explorer are made up of the following subcomponents:
+    The CORPSE Corpus consists of two main tools and the data that makes up the corpus (both raw html and formatted xml files). The tools CORPSE Maker and CORPSE Explorer are made up of the following subcomponents:
 
     CORPSE MAKER
     1. README.md (This file) - To be used as the source of the URLs.
     2. curl_maker.py - A python program that builds a series of curl commands to fetch web data.
     3. corpus_curl.ps1 - The powershell script output from curl_maker.py. When run it executes the curl commands. 
-    4. track_listing_scraper.py - A python program that takes the html pages from curl and converts it to formatted XML files to be used in the corpus.
+    4. track_listing_scraper.py - A python program that takes the HTML pages from curl and converts it to formatted XML files to be used in the corpus.
+    5. /Albums - A folder of all of the HTML pages used for the corpus.
+    6. /Data - A folder of each album represented in an XML format.
+    7. /Images - A folder with some images used for the GUI and its development.
+    8. full_corpus.xml - An XML file with all of the data. This is used by the CORPSE Explorer.
 
     CORPSE EXPLORER
     1. corpus_explorer.py - A pyqt application that performs searches over the XML data.
     2. corpus_gui.ui - A QT ui file used for render the explorer GUI.
     3. reasources.qrc- a qrc file used by QT to load images, etc.
 
+    OTHER
+    1. 250_finder.py - A python program that finds all of the artists from the list of the top 250 albums from prog archives.
+    2. top-250.html and top-250.txt - The input and output of 250_finder.py.
+
 ### What's Needed
     These resources are nessessary for re-assembling the corpus:
     - Microsoft Windows 10/11 OS (linux/mac are untested)
-    - curl for Windows (for curl_maker.py to work)
+    - Curl for Windows (for curl_maker.py to work)
     - Python, pip (for .py programs)
     - NTLK (use pip) (used for POS tagging)
+    - deep-translator (use pip) (used for translation)
     - QT and pyqt (use pip) (used for GUI)
 
-    Otherwise, just running the CORPSE_Explorer.exe should work with no added software
+    Otherwise, just running the CORPSE_Explorer.exe should work with no added software (full_corpus.xml is still needed)
 
 ### How To Use This Project
     1. Open the .exe
 
 ### Limitations
     Known Bugs:
-
     - Track names with a period followed by a space do not play nicely with the POS tagger: the tagger tends to eat them.
     - XML does not like the '&' character, so all instances were replaced with "and"
     - CURL does not like some characters such as '/', which had to be replaced with '-'
@@ -59,8 +78,8 @@
     
     Design Flaws:
     - Many albums are excluded for the following reasons:
-        > They do not fit within the time frame (1968-1984).
-            Ex. "Freak Out!" by Frank Zappa/The Mothers of Invention
+        > They do not fit within the time frame (1966-1984).
+            Ex. "Invisible Touch" by Genesis
         > They are under a different name.
             Ex. Magma's "Tristan et Iseult" ("Wurdah Itah")
         > The album has a very poor relative rating AND is at the end of the groups "golden era".
@@ -75,7 +94,7 @@
 
 ### The "Big Seven"
 
-Pink Floyd (12)
+Pink Floyd [ENG] (12)
 + [The Piper at the Gates of Dawn](https://www.progarchives.com/album.asp?id=1433)
 + [A Saucerful of Secrets](https://www.progarchives.com/album.asp?id=1434)
 + [More](https://www.progarchives.com/album.asp?id=1435)
@@ -89,7 +108,7 @@ Pink Floyd (12)
 + [The Wall](https://www.progarchives.com/album.asp?id=1443)
 + [The Final Cut](https://www.progarchives.com/album.asp?id=1444)
 
-Genesis (12)
+Genesis [ENG] (12)
 + [From Genesis to Revelation](https://www.progarchives.com/album.asp?id=6)
 + [Trespass](https://www.progarchives.com/album.asp?id=2448)
 + [Nursery Cryme](https://www.progarchives.com/album.asp?id=3)
@@ -103,7 +122,7 @@ Genesis (12)
 + [Abacab](https://www.progarchives.com/album.asp?id=1517)
 + [Genesis](https://www.progarchives.com/album.asp?id=1519)
 
-Yes (11)
+Yes [ENG] (11)
 + [Yes](https://www.progarchives.com/album.asp?id=1823)
 + [Time and a Word](https://www.progarchives.com/album.asp?id=1824)
 + [The Yes Album](https://www.progarchives.com/album.asp?id=1826)
@@ -116,7 +135,7 @@ Yes (11)
 + [Drama](https://www.progarchives.com/album.asp?id=1833)
 + [90125](https://www.progarchives.com/album.asp?id=1836)
 
-Rush (9)
+Rush [ENG] (9)
 + [Rush](https://www.progarchives.com/album.asp?id=3067)
 + [Fly by Night](https://www.progarchives.com/album.asp?id=3068)
 + [Caress of Steel](https://www.progarchives.com/album.asp?id=3069)
@@ -127,7 +146,7 @@ Rush (9)
 + [Moving Pictures](https://www.progarchives.com/album.asp?id=3076)
 + [Signals](https://www.progarchives.com/album.asp?id=3078)
 
-King Crimson (10)
+King Crimson [ENG] (10)
 + [In the Court of the Crimson King](https://www.progarchives.com/album.asp?id=1903)
 + [In the Wake of Poseidon](https://www.progarchives.com/album.asp?id=1904)
 + [Lizard](https://www.progarchives.com/album.asp?id=1905)
@@ -139,7 +158,7 @@ King Crimson (10)
 + [Beat](https://www.progarchives.com/album.asp?id=1915)
 + [Three of a Perfect Pair](https://www.progarchives.com/album.asp?id=1916)
 
-Jethro Tull (14)
+Jethro Tull [ENG] (14)
 + [This Was](https://www.progarchives.com/album.asp?id=2015)
 + [Stand Up](https://www.progarchives.com/album.asp?id=2016)
 + [Benefit](https://www.progarchives.com/album.asp?id=2017)
@@ -156,7 +175,7 @@ Jethro Tull (14)
 + [The Broadsword and the Beast](https://www.progarchives.com/album.asp?id=2032)
 
 
-Emerson Lake and Palmer (7)
+Emerson Lake and Palmer [ENG] (7)
 + [Emerson Lake & Palmer](https://www.progarchives.com/album.asp?id=1862)
 + [Pictures at an Exhibition](https://www.progarchives.com/album.asp?id=1870)
 + [Tarkus](https://www.progarchives.com/album.asp?id=1863)
@@ -167,7 +186,7 @@ Emerson Lake and Palmer (7)
 
 ### Secondary Bands
 
-Gentle Giant (11)
+Gentle Giant [ENG] (11)
 + [Gentle Giant](https://www.progarchives.com/album.asp?id=1144)
 + [Aquiring the Taste](https://www.progarchives.com/album.asp?id=1145)
 + [Three Friends](https://www.progarchives.com/album.asp?id=1146)
@@ -180,7 +199,7 @@ Gentle Giant (11)
 + [Giant for a Day](https://www.progarchives.com/album.asp?id=1153)
 + [Civilian](https://www.progarchives.com/album.asp?id=1154)
 
-Van Der Graaf Generator (8)
+Van Der Graaf Generator [ENG] (8)
 + [The Aerosol Grey Machine](https://www.progarchives.com/album.asp?id=1414)
 + [The Least We Can Do Is Wave to Each Other](https://www.progarchives.com/album.asp?id=1415)
 + [H to He, Who am the Only One](https://www.progarchives.com/album.asp?id=1416)
@@ -190,7 +209,7 @@ Van Der Graaf Generator (8)
 + [World Record](https://www.progarchives.com/album.asp?id=1421)
 + [The Quiet Zone - The Pleasure Dome](https://www.progarchives.com/album.asp?id=1422)
 
-Camel (10)
+Camel [ENG] (10)
 + [Camel](https://www.progarchives.com/album.asp?id=327)
 + [Mirage](https://www.progarchives.com/album.asp?id=328)
 + [The Snow Goose](https://www.progarchives.com/album.asp?id=329)
@@ -202,7 +221,7 @@ Camel (10)
 + [The Single Factor](https://www.progarchives.com/album.asp?id=337)
 + [Stationary Traveller](https://www.progarchives.com/album.asp?id=339)
 
-Alan Parsons Project (7)
+Alan Parsons Project [ENG] (7)
 + [Tales of Mystery and Imagination](https://www.progarchives.com/album.asp?id=1091)
 + [I Robot](https://www.progarchives.com/album.asp?id=1092)
 + [Pyramid](https://www.progarchives.com/album.asp?id=1093)
@@ -211,7 +230,7 @@ Alan Parsons Project (7)
 + [Eye in the Sky](https://www.progarchives.com/album.asp?id=1096)
 + [Ammonia Avenue](https://www.progarchives.com/album.asp?id=1097)
 
-Renaissance (9)
+Renaissance [ENG] (9)
 + [Renaissance](https://www.progarchives.com/album.asp?id=3018)
 + [Illusion](https://www.progarchives.com/album.asp?id=3019)
 + [Prologue](https://www.progarchives.com/album.asp?id=3020)
@@ -222,7 +241,7 @@ Renaissance (9)
 + [A Song for All Seasons](https://www.progarchives.com/album.asp?id=3026)
 + [Azure d'Or](https://www.progarchives.com/album.asp?id=3028)
 
-Eloy (10)
+Eloy [ENG] (10)
 + [Eloy](https://www.progarchives.com/album.asp?id=505)
 + [Inside](https://www.progarchives.com/album.asp?id=506)
 + [Floating](https://www.progarchives.com/album.asp?id=507)
@@ -234,7 +253,10 @@ Eloy (10)
 + [Planets](https://www.progarchives.com/album.asp?id=515)
 + [Time to Turn](https://www.progarchives.com/album.asp?id=516)
 
-Focus (6)
+Island [ENG] (1)
++ [Pictures](https://www.progarchives.com/album.asp?id=638)
+
+Focus [ENG] (6)
 + [In and Out of Focus](https://www.progarchives.com/album.asp?id=3449)
 + [Moving Waves](https://www.progarchives.com/album.asp?id=3450)
 + [Focus 3](https://www.progarchives.com/album.asp?id=3451)
@@ -242,27 +264,32 @@ Focus (6)
 + [Mother Focus](https://www.progarchives.com/album.asp?id=3453)
 + [Ship of Memories](https://www.progarchives.com/album.asp?id=3454)
 
-Wishbone Ash (5)
+Wishbone Ash [ENG] (5)
 + [Wishbone Ash](https://www.progarchives.com/album.asp?id=11444)
 + [Pilgrimage](https://www.progarchives.com/album.asp?id=11445)
 + [Argus](https://www.progarchives.com/album.asp?id=11446)
 + [Wishbone Four](https://www.progarchives.com/album.asp?id=11447)
 + [There's the Rub](https://www.progarchives.com/album.asp?id=11449)
 
-Curved Air (4)
+Curved Air [ENG] (4)
 + [Airconditioning](https://www.progarchives.com/album.asp?id=4795)
 + [Second Album](https://www.progarchives.com/album.asp?id=4796)
 + [Phantasmagoria](https://www.progarchives.com/album.asp?id=4797)
 + [Air Cut](https://www.progarchives.com/album.asp?id=4798)
 
-Hawkwind (5)
+Tangerine Dream [ENG] (3)
++ [Phaedra](https://www.progarchives.com/album.asp?id=6346)
++ [Rubycon](https://www.progarchives.com/album.asp?id=6347)
++ [Stratosfear](https://www.progarchives.com/album.asp?id=6348)
+
+Hawkwind [ENG] (5)
 + [Hawkwind](https://www.progarchives.com/album.asp?id=3883)
 + [X in Search of Space](https://www.progarchives.com/album.asp?id=3884)
 + [Doremi Fasol Latido](https://www.progarchives.com/album.asp?id=3885)
 + [Hall of the Mountian Grill](https://www.progarchives.com/album.asp?id=3886)
 + [Warrior on the Edge of Time](https://www.progarchives.com/album.asp?id=3888)
 
-Nektar (6)
+Nektar [ENG] (6)
 + [Journey to the Center of the Eye](https://www.progarchives.com/album.asp?id=2730)
 + [A Tab in the Ocean](https://www.progarchives.com/album.asp?id=2731)
 + [...Sounds Like This](https://www.progarchives.com/album.asp?id=2732)
@@ -270,27 +297,42 @@ Nektar (6)
 + [Down to Earth](https://www.progarchives.com/album.asp?id=2734)
 + [Recycled](https://www.progarchives.com/album.asp?id=2736)
 
-Triumvirat (5)
+Triumvirat [ENG] (5)
 + [Mediterranean Tales (Across the Waters)](https://www.progarchives.com/album.asp?id=1683)
 + [Illusions on a Double Dimple](https://www.progarchives.com/album.asp?id=1684)
 + [Spartacus](https://www.progarchives.com/album.asp?id=1685)
 + [Old Loves Die Hard](https://www.progarchives.com/album.asp?id=1686)
 + [Pompeii](https://www.progarchives.com/album.asp?id=1687)
 
-Harmonium (1)
-+ [Si On Avait Besoin D'une Cinquième Saison](https://www.progarchives.com/album.asp?id=3160)
+Ekseption [ENG] (8)
++ [Ekseption](https://www.progarchives.com/album.asp?id=6480)
++ [Beggar Julia's Time Trip](https://www.progarchives.com/album.asp?id=6481)
++ [Ekseption 3](https://www.progarchives.com/album.asp?id=6482)
++ [00-04](https://www.progarchives.com/album.asp?id=6483)
++ [Ekspetion 5](https://www.progarchives.com/album.asp?id=6484)
++ [Trinity](https://www.progarchives.com/album.asp?id=6485)
++ [Bingo](https://www.progarchives.com/album.asp?id=6486)
++ [Mindmirror](https://www.progarchives.com/album.asp?id=6487)
 
-UK (2)
+Trace [ENG] (2)
++ [Trace](https://www.progarchives.com/album.asp?id=1337)
++ [Birds](https://www.progarchives.com/album.asp?id=1338)
+
+UK [ENG] (2)
 + [UK](https://www.progarchives.com/album.asp?id=1360)
 + [Danger Money](https://www.progarchives.com/album.asp?id=1361)
 
-Supertramp (4)
+Supertramp [ENG] (4)
 + [Crime of the Century](https://www.progarchives.com/album.asp?id=1251)
 + [Crisis What Crisis](https://www.progarchives.com/album.asp?id=1252)
 + [Even in the Quietest Moments...](https://www.progarchives.com/album.asp?id=1253)
 + [Breakfast in America](https://www.progarchives.com/album.asp?id=1254)
 
-Led Zeppelin (8)
+Strawbs [ENG] ()
++ [Hero and Heroine](https://www.progarchives.com/album.asp?id=2896)
++ [Ghosts](https://www.progarchives.com/album.asp?id=2917)
+
+Led Zeppelin [ENG] (8)
 + [Led Zeppelin](https://www.progarchives.com/album.asp?id=13526)
 + [Led Zeppelin II](https://www.progarchives.com/album.asp?id=13528)
 + [Led Zeppelin III](https://www.progarchives.com/album.asp?id=13531)
@@ -300,7 +342,36 @@ Led Zeppelin (8)
 + [Presence](https://www.progarchives.com/album.asp?id=13532)
 + [In Through the Out Door](https://www.progarchives.com/album.asp?id=13533)
 
-Kansas (7)
+The Who [ENG] (3)
++ [Tommy](https://www.progarchives.com/album.asp?id=16066)
++ [Who's Next](https://www.progarchives.com/album.asp?id=16064)
++ [Quadrophenia](https://www.progarchives.com/album.asp?id=16065)
+
+Deep Purple [ENG] (11)
++ [Shades of Deep Purple](https://www.progarchives.com/album.asp?id=9116)
++ [The Book of Taliesyn](https://www.progarchives.com/album.asp?id=9117)
++ [Deep Purple](https://www.progarchives.com/album.asp?id=9118)
++ [Deep Purple in Rock](https://www.progarchives.com/album.asp?id=9120)
++ [Fireball](https://www.progarchives.com/album.asp?id=9121)
++ [Machine Head](https://www.progarchives.com/album.asp?id=9223)
++ [Who Do We Think We Are](https://www.progarchives.com/album.asp?id=9213)
++ [Burn](https://www.progarchives.com/album.asp?id=9214)
++ [Stormbringer](https://www.progarchives.com/album.asp?id=9176)
++ [Come Taste the Band](https://www.progarchives.com/album.asp?id=9215)
++ [Perfect Strangers](https://www.progarchives.com/album.asp?id=9216)
+
+Uriah Heep [ENG] (6)
++ [Uriah Heep](https://www.progarchives.com/album.asp?id=5919)
++ [Salisbury](https://www.progarchives.com/album.asp?id=5895)
++ [Look At Yourself](https://www.progarchives.com/album.asp?id=5896)
++ [Demons and Wizards](https://www.progarchives.com/album.asp?id=5897)
++ [The Magician's Birthday](https://www.progarchives.com/album.asp?id=5898)
++ [Sweet Freedom](https://www.progarchives.com/album.asp?id=5899)
+
+The Moody Blues [ENG] (1)
++ [Days of Future Passed](https://www.progarchives.com/album.asp?id=1938)
+
+Kansas [ENG] (7)
 + [Kansas](https://www.progarchives.com/album.asp?id=3201)
 + [Song for America](https://www.progarchives.com/album.asp?id=3202)
 + [Masque](https://www.progarchives.com/album.asp?id=3203)
@@ -309,7 +380,7 @@ Kansas (7)
 + [Monolith](https://www.progarchives.com/album.asp?id=3207)
 + [Audio Visions](https://www.progarchives.com/album.asp?id=3208)
 
-Styx (11)
+Styx [ENG] (11)
 + [Styx](https://www.progarchives.com/album.asp?id=2186)
 + [Styx II](https://www.progarchives.com/album.asp?id=2198)
 + [The Serphent Is Rising](https://www.progarchives.com/album.asp?id=9262)
@@ -322,11 +393,11 @@ Styx (11)
 + [Paradise Theatre](https://www.progarchives.com/album.asp?id=2193)
 + [Kilroy Was Here](https://www.progarchives.com/album.asp?id=2194)
 
-
-
 ### Solo Artists
 
-Frank Zappa (27)
+Frank Zappa [ENG] (31)
++ [Freak Out!](https://www.progarchives.com/album.asp?id=5283)
++ [Absolutely Free](https://www.progarchives.com/album.asp?id=5284)
 + [Lumpy Gravy](https://www.progarchives.com/album.asp?id=5285)
 + [We're Only in It for the Money](https://www.progarchives.com/album.asp?id=5328)
 + [Uncle Meat](https://www.progarchives.com/album.asp?id=5329)
@@ -351,23 +422,28 @@ Frank Zappa (27)
 + [Joe's Garage Act I](https://www.progarchives.com/album.asp?id=5485)
 + [Joe's Garage Acts II & III](https://www.progarchives.com/album.asp?id=5486)
 + [Tinsel Town Rebellion](https://www.progarchives.com/album.asp?id=5425)
-+ [Shut Up 'N Play Yer Guitar](https://www.progarchives.com/album.asp?id=5409)
++ [Shut Up 'N Play Yer Guitar](https://www.progarchives.com/album.asp?id=5488)
++ [Shut Up 'N Play Yer Guitar Some More](https://www.progarchives.com/album.asp?id=5489)
++ [Return Of The Son Of Shut Up 'N Play Yer Guitar](https://www.progarchives.com/album.asp?id=5512)
 + [You Are What You Is](https://www.progarchives.com/album.asp?id=5428)
 + [Ship Arriving Too Late to Save a Drowning Witch](https://www.progarchives.com/album.asp?id=5408)
 
-Steve Hackett (4)
+Steve Hackett [ENG] (4)
 + [Voyage of the Acolyte](https://www.progarchives.com/album.asp?id=4160)
 + [Please Don't Touch!](https://www.progarchives.com/album.asp?id=4161)
 + [Spectral Mornings](https://www.progarchives.com/album.asp?id=4162)
 + [Defector](https://www.progarchives.com/album.asp?id=4163)
 
-Peter Gabriel (4)
+Peter Gabriel [ENG] (4)
 + [Car](https://www.progarchives.com/album.asp?id=3634)
 + [Scratch](https://www.progarchives.com/album.asp?id=3635)
 + [Melt](https://www.progarchives.com/album.asp?id=3636)
 + [Security](https://www.progarchives.com/album.asp?id=3638)
 
-Anthony Philips (7)
+Michael Rutherford [ENG] (1)
++ [Smallcreep's Day](https://www.progarchives.com/album.asp?id=4450)
+
+Anthony Philips [ENG] (7)
 + [The Geese and the Ghost](https://www.progarchives.com/album.asp?id=4105)
 + [Wise After the Event](https://www.progarchives.com/album.asp?id=4106)
 + [Private Parts & Pieces](https://www.progarchives.com/album.asp?id=4108)
@@ -376,13 +452,17 @@ Anthony Philips (7)
 + [1984](https://www.progarchives.com/album.asp?id=4111)
 + [Private Parts & Pieces III - Antiques](https://www.progarchives.com/album.asp?id=4110)
 
-Chris Squire (1)
+Chris Squire [ENG] (1)
 + [Fish Out of Water](https://www.progarchives.com/album.asp?id=4442)
 
-Rick Wakeman (1)
+Rick Wakeman [ENG] (1)
 + [The Six Wives of Henry VIII](https://www.progarchives.com/album.asp?id=3967)
 
-Peter Hammill (6)
+Bill Bruford [ENG] (2)
++ [Feels Good to Me](https://www.progarchives.com/album.asp?id=4744)
++ [One of a Kind](https://www.progarchives.com/album.asp?id=4745)
+
+Peter Hammill [ENG] (6)
 + [Fool's Mate](https://www.progarchives.com/album.asp?id=2276)
 + [Chameleon in the Shadow of the Night](https://www.progarchives.com/album.asp?id=2277)
 + [The Silent Corner and the Empty Stage](https://www.progarchives.com/album.asp?id=2274)
@@ -390,7 +470,7 @@ Peter Hammill (6)
 + [Nadir's Big Chance](https://www.progarchives.com/album.asp?id=2280)
 + [Over](https://www.progarchives.com/album.asp?id=2281)
 
-Mike Oldfield (8)
+Mike Oldfield [ENG] (8)
 + [Tubular Bells](https://www.progarchives.com/album.asp?id=4488)
 + [Hergest Ridge](https://www.progarchives.com/album.asp?id=4891)
 + [Ommadawn](https://www.progarchives.com/album.asp?id=4893)
@@ -400,9 +480,14 @@ Mike Oldfield (8)
 + [Five Miles Out](https://www.progarchives.com/album.asp?id=4899)
 + [Crises](https://www.progarchives.com/album.asp?id=4900)
 
+Klaus Schultz [ENG] (3)
++ [Timewind](https://www.progarchives.com/album.asp?id=7534)
++ [Moondawn](https://www.progarchives.com/album.asp?id=7633)
++ [Mirage](https://www.progarchives.com/album.asp?id=7630)
+
 ### Canterbury Scene
 
-Caravan (7)
+Caravan [ENG] (7)
 + [Caravan](https://www.progarchives.com/album.asp?id=3106)
 + [If I Could Do It All Over Again, I'd Do It All Over You](https://www.progarchives.com/album.asp?id=3107)
 + [In the Land of Grey and Pink](https://www.progarchives.com/album.asp?id=3108)
@@ -411,7 +496,7 @@ Caravan (7)
 + [Cunning Stunts](https://www.progarchives.com/album.asp?id=3113)
 + [Blind Dog at St. Dunstans](https://www.progarchives.com/album.asp?id=3115)
 
-Soft Machine (9)
+Soft Machine [ENG] (9)
 + [The Soft Machine](https://www.progarchives.com/album.asp?id=3235)
 + [Volume Two](https://www.progarchives.com/album.asp?id=3236)
 + [Third](https://www.progarchives.com/album.asp?id=3237)
@@ -422,37 +507,40 @@ Soft Machine (9)
 + [Bundles](https://www.progarchives.com/album.asp?id=3243)
 + [Softs](https://www.progarchives.com/album.asp?id=3244)
 
-Matching Mole (2)
+Matching Mole [ENG] (2)
 + [Maching Mole](https://www.progarchives.com/album.asp?id=917)
 + [Little Red Record](https://www.progarchives.com/album.asp?id=918)
 
-Robert Wyatt (1)
+Robert Wyatt [ENG] (1)
 + [Rock Bottom](https://www.progarchives.com/album.asp?id=5370)
 
-Hatfield and the North (2)
+Hatfield and the North [ENG] (2)
 + [Hatfield and the North](https://www.progarchives.com/album.asp?id=558)
 + [The Rotters' Club](https://www.progarchives.com/album.asp?id=559)
 
-National Health (2)
+National Health [ENG] (2)
 + [National Health](https://www.progarchives.com/album.asp?id=982)
 + [Of Queues and Cures](https://www.progarchives.com/album.asp?id=983)
 
-Gryphon (5)
+Quiet Sun [ENG] (1)
++ [Mainstream](https://www.progarchives.com/album.asp?id=8459)
+
+Gryphon [ENG] (5)
 + [Gryphon](https://www.progarchives.com/album.asp?id=477)
 + [Midnight Mushrumps](https://www.progarchives.com/album.asp?id=478)
 + [Red Queen to Gryphon Three](https://www.progarchives.com/album.asp?id=479)
 + [Raindance](https://www.progarchives.com/album.asp?id=480)
 + [Treason](https://www.progarchives.com/album.asp?id=481)
 
-Egg (3)
+Egg [ENG] (3)
 + [Egg](https://www.progarchives.com/album.asp?id=3501)
 + [The Polite Force](https://www.progarchives.com/album.asp?id=3502)
 + [The Civil Surface](https://www.progarchives.com/album.asp?id=3503)
 
-Khan (1)
+Khan [ENG] (1)
 + [Space Shanty](https://www.progarchives.com/album.asp?id=5964)
 
-Gong (8)
+Gong [ENG] (8)
 + [Magick Brother](https://www.progarchives.com/album.asp?id=4623)
 + [Camembert Electrique](https://www.progarchives.com/album.asp?id=4624)
 + [Radio Gnome Invisible Part 1 - Flying Teapot](https://www.progarchives.com/album.asp?id=4626)
@@ -462,7 +550,10 @@ Gong (8)
 + [Gazeuse!](https://www.progarchives.com/album.asp?id=4681)
 + [Expresso II](https://www.progarchives.com/album.asp?id=4682)
 
-Magma (7)
+Steve Hillage [ENG] (1)
++ [Fish Rising](https://www.progarchives.com/album.asp?id=4063)
+
+Magma [ZHL] (7)
 + [Magma](https://www.progarchives.com/album.asp?id=3303)
 + [1001 Centigrades](https://www.progarchives.com/album.asp?id=3304)
 + [Mekanik Destruktiv Kommandoh](https://www.progarchives.com/album.asp?id=3306)
@@ -473,157 +564,180 @@ Magma (7)
 
 ### Fusion
 
-Mahavishnu Orchestra (4)
+Mahavishnu Orchestra [ENG] (4)
 + [The Inner Mounting Flame](https://www.progarchives.com/album.asp?id=3356)
 + [Birds of Fire](https://www.progarchives.com/album.asp?id=3357)
 + [Apocalypse](https://www.progarchives.com/album.asp?id=3359)
 + [Visions of the Emerald Beyond](https://www.progarchives.com/album.asp?id=3360)
 
-Return to Forever (1)
+Return to Forever [ENG] (1)
 + [Romantic Warrior](https://www.progarchives.com/album.asp?id=5305)
 
-Brand X (3)
+Brand X [ENG] (3)
 + [Unorthodox Behaviour](https://www.progarchives.com/album.asp?id=3473)
 + [Moroccan Roll](https://www.progarchives.com/album.asp?id=3474)
 + [Masques](https://www.progarchives.com/album.asp?id=3476)
 
-Tilt (1)
-+ [Immagini Per Un Orecchio](https://www.progarchives.com/album.asp?id=128)
+Arti E Mestieri [ITA] (1)
++ [Tilt - Immagini Per Un Orecchio](https://www.progarchives.com/album.asp?id=128)
 
-Ekseption (8)
-+ [Ekseption](https://www.progarchives.com/album.asp?id=6480)
-+ [Beggar Julia's Time Trip](https://www.progarchives.com/album.asp?id=6481)
-+ [Ekseption 3](https://www.progarchives.com/album.asp?id=6482)
-+ [00-04](https://www.progarchives.com/album.asp?id=6483)
-+ [Ekspetion 5](https://www.progarchives.com/album.asp?id=6484)
-+ [Trinity](https://www.progarchives.com/album.asp?id=6485)
-+ [Bingo](https://www.progarchives.com/album.asp?id=6486)
-+ [Mindmirror](https://www.progarchives.com/album.asp?id=6487)
-
-Spin (2)
+Spin [ENG] (2)
 + [Spin](https://www.progarchives.com/album.asp?id=21776)
 + [Whirlwind](https://www.progarchives.com/album.asp?id=21777)
 
 ### Krautrock 
 
-Can (3)
+Can [ENG] (3)
 + [Tago Mago](https://www.progarchives.com/album.asp?id=3508)
 + [Ege Bamyasi](https://www.progarchives.com/album.asp?id=3509)
 + [Future Days](https://www.progarchives.com/album.asp?id=3510)
 
-Amon Duul II (1)
+Amon Duul II [ENG] (1)
 + [Yeti](https://www.progarchives.com/album.asp?id=4691)
 
-Neu! (1)
+Neu! [GER] (1)
 + [Neu!](https://www.progarchives.com/album.asp?id=3574)
 
 ### Rock Progressivo Italiano (RPI)
 
-Premiata Forneria Marconi (Award-Winning Marconi Bakery) (3)
+Premiata Forneria Marconi [ITA] (Award-Winning Marconi Bakery) (3)
 + [Storia Di Un Minuto](https://www.progarchives.com/album.asp?id=1984)
 + [Per Un Amico](https://www.progarchives.com/album.asp?id=1985)
 + [L'Isola Di Niente](https://www.progarchives.com/album.asp?id=2060)
 
-Banco Del Mutuo Soccorso (Bank of Mutual Trust) (3)
+Banco Del Mutuo Soccorso [ITA] (Bank of Mutual Trust) (3)
 + [Banco Del Mutuo Soccorso](https://www.progarchives.com/album.asp?id=1800)
 + [Darwin!](https://www.progarchives.com/album.asp?id=1801)
 + [Io Sono Nato Libero](https://www.progarchives.com/album.asp?id=170)
 
-Le Orme (The Footsteps) (4)
+Le Orme [ITA] (The Footsteps) (4)
 + [Collage](https://www.progarchives.com/album.asp?id=2301)
 + [Uomo Di Pezza](https://www.progarchives.com/album.asp?id=2297)
 + [Felona E Sorona](https://www.progarchives.com/album.asp?id=2302)
 + [Contrappunti](https://www.progarchives.com/album.asp?id=2304)
 
-Area (4)
+Area [ITA] (4)
 + [Arbeit Macht Frei](https://www.progarchives.com/album.asp?id=102)
 + [Caution Radiation Area](https://www.progarchives.com/album.asp?id=104)
 + [Crac!](https://www.progarchives.com/album.asp?id=103)
 + [Meledetti](https://www.progarchives.com/album.asp?id=107)
 
-Quella Vecchia Locanda (That Old Inn) (2)
+Franco Battiato [ITA] (4)
+
++ [Fetus](https://www.progarchives.com/album.asp?id=8755)
++ [Pollution](https://www.progarchives.com/album.asp?id=8756)
++ [Sulle Corde Di Aries](https://www.progarchives.com/album.asp?id=8597)
++ [Clic](https://www.progarchives.com/album.asp?id=8757)
+
+Quella Vecchia Locanda [ITA] (That Old Inn) (2)
 + [Quella Vecchia Locanda](https://www.progarchives.com/album.asp?id=1137)
 + [Il Tempo della Gioia](https://www.progarchives.com/album.asp?id=1138)
 
-Museo Rosenbach (Rosenbach Museum) (1)
+Museo Rosenbach [ITA] (Rosenbach Museum) (1)
 + [Zarathustra](https://www.progarchives.com/album.asp?id=967)
 
-Il Balletto Di Bronzo (The Bronze Ballet) (1)
+Il Balletto Di Bronzo [ITA] (The Bronze Ballet) (1)
 + [Ys](https://www.progarchives.com/album.asp?id=155)
 
-Il Paesi Di Ballochi (The Land of Toys) (1)
+Il Paesi Di Ballochi [ITA] (The Land of Toys) (1)
 + [Il Paese Dei Balocchi](https://www.progarchives.com/album.asp?id=3499)
 
-L'Uovo Di Columbo (The Egg of Columbus) (1)
+L'Uovo Di Columbo [ITA] (The Egg of Columbus) (1)
 + [L'Uovo Di Columbo](https://www.progarchives.com/album.asp?id=2650)
 
-Biglietto Per L'Inferno (Ticket to Hell) (1)
+Biglietto Per L'Inferno [ITA] (Ticket to Hell) (1)
 + [Biglietto Per L'Inferno](https://www.progarchives.com/album.asp?id=223)
 
-New Trolls (4)
+New Trolls [ITA] (4)
 + [Concerto Grosso Per I New Trolls](https://www.progarchives.com/album.asp?id=2842)
 + [Searching for a Land](https://www.progarchives.com/album.asp?id=2844)
 + [UT](https://www.progarchives.com/album.asp?id=2843)
 + [Concerto Grosso No 2](https://www.progarchives.com/album.asp?id=2845)
 
-Maxophone (1)
+Formula 3 [ITA] (1)
++ [Sognando e Risognando](https://www.progarchives.com/album.asp?id=2683)
+
+Il Volo [ITA] (2)
++ [Il Volo](https://www.progarchives.com/album.asp?id=2484)
++ [Essere O Non Essere ?](https://www.progarchives.com/album.asp?id=2485)
+
+Maxophone [ITA] (1)
 + [Maxophone](https://www.progarchives.com/album.asp?id=922)
 
-Alphataurus (1)
+Alphataurus [ITA] (1)
 + [Alphataurus](https://www.progarchives.com/album.asp?id=2463)
 
-Osana (2)
+Osana [ITA] (2)
 + [L'Uomo](https://www.progarchives.com/album.asp?id=1029)
 + [Palepoli](https://www.progarchives.com/album.asp?id=1030)
 
-Picchio Dal Pozzo (Woodpecker from the Well) (1)
+Blocco Mentale [ITA] (Mental Block) (1)
++ [POA](https://www.youtube.com/watch?v=1UsgljrA4Ss&list=LL&index=168&t=1013s)
+
+Raccomandata con Ricevuta di Ritorno [ITA] (Registered Mail with Return Receipt) (1)
++ [Per... Un Mondo Di Cristallo](https://www.progarchives.com/album.asp?id=2701)
+
+Picchio Dal Pozzo [ITA] (Woodpecker from the Well) (1)
 + [Picchio Dal Pozzo](https://www.progarchives.com/album.asp?id=2566)
 
-Semiramis (1)
+Semiramis [ITA] (1)
 + [Dedicato A Frazz](https://www.progarchives.com/album.asp?id=1214)
 
-Celeste (1)
+Celeste [ITA] (1)
 + [Principe Di Un Giorno](https://www.progarchives.com/album.asp?id=191)
 
-Metamorfosi (Metamophosis) (1)
+Metamorfosi [ITA] (Metamophosis) (1)
 + [Inferno](http://www.progarchives.com/album.asp?id=926)
 
-Reale Academia Di Musica (Royal Academy of Music) (1)
+Locanda Delle Fate [ITA] (Fairy Inn) (1)
++ [Forse Le Lucciole Non Si Amano Più](https://www.progarchives.com/album.asp?id=819)
+
+Il Rovescio Della Medaglia [ITA] (The Reverse of a Coin) (1)
++ [Contaminazione](https://www.progarchives.com/album.asp?id=1181)
+
+Reale Academia Di Musica [ITA] (Royal Academy of Music) (1)
 + [Reale Academia Di Musica](https://www.progarchives.com/album.asp?id=4739)
 
-Apoteosi (Apotheosis) (1)
+Apoteosi [ITA] (Apotheosis) (1)
 + [Apoteosi](https://www.progarchives.com/album.asp?id=2807)
 
-Campo Di Marte (Field of Mars) (1)
+Campo Di Marte [ITA] (Field of Mars) (1)
 + [Campo Di Marte](https://www.progarchives.com/album.asp?id=2500)
 
-Murple (1)
+Murple [ITA] (1)
 + [Io Sono Murple](https://www.progarchives.com/album.asp?id=2825)
 
 ### International
 
-Crucis (Cross) (2)
+Bubu [SPA] (1)
++ [Anabelas](https://www.progarchives.com/album.asp?id=3184)
+
+Crucis [SPA] (Cross) (2)
 + [Crucis](https://www.progarchives.com/album.asp?id=2496)
 + [Los Delirios Del Mariscal](https://www.progarchives.com/album.asp?id=2497)
 
-Fusioon (3)
+Fusioon [SPA] (3)
 + [Fusioon](https://www.progarchives.com/album.asp?id=4395)
 + [Fusioon 2](https://www.progarchives.com/album.asp?id=4396)
 + [Minorisa](https://www.progarchives.com/album.asp?id=4397)
 
-Avtograf (Autograph) (2)
-+ [Avtograf 1](https://www.progarchives.com/album.asp?id=10660)
-- [Avtograf 2](https://www.youtube.com/watch?v=HG4pLt8ZppI) <-- YouTube Link
+Harmonium [FRE] (1)
++ [Si On Avait Besoin D'une Cinquième Saison](https://www.progarchives.com/album.asp?id=3160)
 
-East (2)
+Avtograf [RUS] (Autograph) (2)
++ [Avtograf 1](https://www.progarchives.com/album.asp?id=10660)
+- [Avtograf 2](https://www.youtube.com/watch?v=HG4pLt8ZppI) <-- YouTube Link (Add Manually)
+
+East [HUN] (2)
 + [Jatekok](https://www.progarchives.com/album.asp?id=279)
 + [Huseg](https://www.progarchives.com/album.asp?id=280)
 
 ### Artists To Include:
-    - The Who
-    - Frank Zappa
-        Shut up 'n play yer guitart 1, 2, 3 (NOT THE BOX SET)
-    - Deep Purple
+    - The Who ✓
+    - Frank Zappa ✓
+        Shut up 'n play yer guitar 1, 2, 3 (NOT THE BOX SET)
+    - Deep Purple ✓
+    - Uriah Heep ✓
 
 ## TAGGING
 

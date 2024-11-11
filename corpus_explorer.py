@@ -492,6 +492,7 @@ class MainUI(QMainWindow):
         "artist_genre_value": self.valueArtistGenre.currentText(),
         
         # Album parameters
+        "1966": self.date1968.isChecked(),
         "1967": self.date1968.isChecked(),
         "1968": self.date1968.isChecked(),
         "1969": self.date1969.isChecked(),
