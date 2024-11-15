@@ -1,0 +1,45 @@
+<artist name="Bubu" genre="Eclectic Prog" lang="es">
+	<al name ="Anabelas" date="1978">
+		<length>2393</length>
+		<rating>4.26</rating>
+		<tr index="1">
+			<length>1165</length>
+			<trans>El Cortejo de un Dfa Amarillo</trans>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="cortejo">Cortejo</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="DT" lemma="a">a</w>
+			<w pos="NNP" lemma="yellow">Yellow</w>
+			<w pos="NNP" lemma="dfa">Dfa</w>
+		</tr>
+		<tr index="a ">
+			<length>0</length>
+			<trans>Danza de las Atlﬂntides</trans>
+			<w pos="NN" lemma="dance">Dance</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNS" lemma="atlas">Atlases</w>
+		</tr>
+		<tr index="b ">
+			<length>0</length>
+			<trans>Locomotora Blues</trans>
+			<w pos="JJ" lemma="locomotive">Locomotive</w>
+			<w pos="NNS" lemma="blue">Blues</w>
+		</tr>
+		<tr index="2">
+			<length>672</length>
+			<trans>El Viaje de Anabelas</trans>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="journey">Journey</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="NNP" lemma="anabelas">Anabelas</w>
+		</tr>
+		<tr index="3">
+			<length>556</length>
+			<trans>Sue±os de Maniquf</trans>
+			<w pos="NNP" lemma="his±os">His±os</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="NNP" lemma="maniquf">Maniquf</w>
+		</tr>
+	</al>
+</artist>

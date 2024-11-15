@@ -1,4 +1,4 @@
-<artist name="Gong" genre="Canterbury Scene">
+<artist name="Gong" genre="Canterbury Scene" lang="en">
 	<al name ="Camembert Electrique" date="1971">
 		<length>2376</length>
 		<rating>3.79</rating>
@@ -242,7 +242,7 @@
 	</al>
 	<al name ="Radio Gnome Invisible Part 2 - Angel's Egg" date="1973">
 		<length>2608</length>
-		<rating>4.14</rating>
+		<rating>4.13</rating>
 		<tr index="1">
 			<length>460</length>
 			<w pos="JJ" lemma="other">Other</w>

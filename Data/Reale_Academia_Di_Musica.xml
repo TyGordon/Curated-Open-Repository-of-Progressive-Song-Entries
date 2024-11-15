@@ -1,34 +1,40 @@
-<artist name="Reale Academia Di Musica" genre="Rock Progressivo Italiano">
+<artist name="Reale Academia Di Musica" genre="Rock Progressivo Italiano" lang="it">
 	<al name ="Reale Academia Di Musica" date="1972">
 		<length>2412</length>
 		<rating>4.05</rating>
 		<tr index="1">
 			<length>226</length>
-			<w pos="NNP" lemma="favola">Favola</w>
+			<trans>Favola</trans>
+			<w pos="JJ" lemma="fable">Fable</w>
 		</tr>
 		<tr index="2">
 			<length>559</length>
-			<w pos="NN" lemma="mattino">Mattino</w>
+			<trans>Mattino</trans>
+			<w pos="VBG" lemma="morning">Morning</w>
 		</tr>
 		<tr index="3">
 			<length>319</length>
-			<w pos="NNP" lemma="ognuno">Ognuno</w>
-			<w pos="NNP" lemma="sa">Sa</w>
+			<trans>Ognuno Sa</trans>
+			<w pos="NN" lemma="everyone">Everyone</w>
+			<w pos="NNP" lemma="know">Knows</w>
 		</tr>
 		<tr index="4">
 			<length>521</length>
-			<w pos="NN" lemma="padre">Padre</w>
+			<trans>Padre</trans>
+			<w pos="NN" lemma="father">Father</w>
 		</tr>
 		<tr index="5">
 			<length>356</length>
-			<w pos="NNP" lemma="lavoro">Lavoro</w>
+			<trans>Lavoro In Citta'</trans>
+			<w pos="NN" lemma="work">Work</w>
 			<w pos="IN" lemma="in">In</w>
-			<w pos="NNP" lemma="citta">Citta</w>
-			<w pos="POS" lemma="'">'</w>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="city">City</w>
 		</tr>
 		<tr index="6">
 			<length>431</length>
-			<w pos="NN" lemma="vertigine">Vertigine</w>
+			<trans>Vertigine</trans>
+			<w pos="NN" lemma="vertigo">Vertigo</w>
 		</tr>
 	</al>
 </artist>

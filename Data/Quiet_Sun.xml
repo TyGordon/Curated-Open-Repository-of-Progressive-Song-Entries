@@ -1,0 +1,50 @@
+<artist name="Quiet Sun" genre="Canterbury Scene" lang="en">
+	<al name ="Mainstream" date="1975">
+		<length>2364</length>
+		<rating>4.12</rating>
+		<tr index="1">
+			<length>454</length>
+			<w pos="NNP" lemma="sol">Sol</w>
+			<w pos="NNP" lemma="caliente">Caliente</w>
+		</tr>
+		<tr index="2">
+			<length>107</length>
+			<w pos="NNS" lemma="trumpet">Trumpets</w>
+			<w pos="IN" lemma="with">with</w>
+			<w pos="NNP" lemma="motherhood">Motherhood</w>
+		</tr>
+		<tr index="3">
+			<length>348</length>
+			<w pos="NN" lemma="bargain">Bargain</w>
+			<w pos="NNS" lemma="classic">Classics</w>
+		</tr>
+		<tr index="4">
+			<length>203</length>
+			<w pos="NNP" lemma="r.f.d">R.F.D</w>
+			<punc pos="." lemma=".">.</punc>
+		</tr>
+		<tr index="5">
+			<length>360</length>
+			<w pos="NNP" lemma="mummy">Mummy</w>
+			<w pos="NNP" lemma="wa">Was</w>
+			<w pos="DT" lemma="an">an</w>
+			<w pos="NNP" lemma="asteroid">Asteroid</w>
+			<punc pos="," lemma=",">,</punc>
+			<w pos="NNP" lemma="daddy">Daddy</w>
+			<w pos="NNP" lemma="wa">Was</w>
+			<w pos="DT" lemma="a">a</w>
+			<w pos="NNP" lemma="small">Small</w>
+			<w pos="NNP" lemma="non-stick">Non-Stick</w>
+			<w pos="NNP" lemma="kitchen">Kitchen</w>
+			<w pos="NNP" lemma="utensil">Utensil</w>
+		</tr>
+		<tr index="6">
+			<length>318</length>
+			<w pos="NN" lemma="trot">Trot</w>
+		</tr>
+		<tr index="7">
+			<length>574</length>
+			<w pos="RB" lemma="rongwrong">RongWrong</w>
+		</tr>
+	</al>
+</artist>

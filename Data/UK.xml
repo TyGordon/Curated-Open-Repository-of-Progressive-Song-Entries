@@ -1,65 +1,43 @@
-<artist name="UK" genre="Eclectic Prog">
-	<al name ="Danger Money" date="1978">
-		<length>2788</length>
-		<rating>4.11</rating>
-		<tr index="">
-			<length>0</length>
-			<w pos="IN" lemma="in">In</w>
-			<w pos="DT" lemma="the">the</w>
-			<w pos="NNP" lemma="dead">Dead</w>
-			<w pos="IN" lemma="of">of</w>
-			<w pos="NNP" lemma="night">Night</w>
-			<punc pos="(" lemma="(">(</punc>
-			<w pos="NNP" lemma="suite">Suite</w>
-			<punc pos=")" lemma=")">)</punc>
-			<punc pos=":" lemma=":">:</punc>
-		</tr>
+<artist name="UK" genre="Eclectic Prog" lang="en">
+	<al name ="Danger Money" date="1979">
+		<length>2533</length>
+		<rating>3.83</rating>
 		<tr index="1">
-			<length>335</length>
-			<w pos="IN" lemma="in">In</w>
-			<w pos="DT" lemma="the">the</w>
-			<w pos="NNP" lemma="dead">Dead</w>
-			<w pos="IN" lemma="of">of</w>
-			<w pos="NNP" lemma="night">Night</w>
+			<length>495</length>
+			<w pos="NNP" lemma="danger">Danger</w>
+			<w pos="NNP" lemma="money">Money</w>
 		</tr>
 		<tr index="2">
-			<length>268</length>
-			<w pos="IN" lemma="by">By</w>
-			<w pos="DT" lemma="the">the</w>
-			<w pos="NNP" lemma="light">Light</w>
-			<w pos="IN" lemma="of">of</w>
-			<w pos="NNP" lemma="day">Day</w>
+			<length>300</length>
+			<w pos="JJ" lemma="rendezvous">Rendezvous</w>
+			<w pos="CD" lemma="6:02">6:02</w>
 		</tr>
 		<tr index="3">
-			<length>186</length>
-			<w pos="NNP" lemma="presto">Presto</w>
-			<w pos="NNP" lemma="vivace">Vivace</w>
-			<w pos="CC" lemma="and">and</w>
-			<w pos="NNP" lemma="reprise">Reprise</w>
+			<length>475</length>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="JJ" lemma="only">Only</w>
+			<w pos="NNP" lemma="thing">Thing</w>
+			<w pos="PRP" lemma="she">She</w>
+			<w pos="VBZ" lemma="need">Needs</w>
 		</tr>
 		<tr index="4">
-			<length>483</length>
-			<w pos="CD" lemma="thirty">Thirty</w>
-			<w pos="NNS" lemma="year">Years</w>
+			<length>285</length>
+			<w pos="NNP" lemma="caesar">Caesar</w>
+			<w pos="POS" lemma="'s">'s</w>
+			<w pos="NNP" lemma="palace">Palace</w>
+			<w pos="NNP" lemma="blue">Blues</w>
 		</tr>
 		<tr index="5">
-			<length>288</length>
-			<w pos="NN" lemma="alaska">Alaska</w>
+			<length>238</length>
+			<w pos="NN" lemma="nothing">Nothing</w>
+			<w pos="TO" lemma="to">to</w>
+			<w pos="VB" lemma="lose">Lose</w>
 		</tr>
 		<tr index="6">
-			<length>293</length>
-			<w pos="NNP" lemma="time">Time</w>
-			<w pos="TO" lemma="to">to</w>
-			<w pos="VB" lemma="kill">Kill</w>
-		</tr>
-		<tr index="7">
-			<length>490</length>
-			<w pos="RB" lemma="nevermore">Nevermore</w>
-		</tr>
-		<tr index="8">
-			<length>445</length>
-			<w pos="JJ" lemma="mental">Mental</w>
-			<w pos="NN" lemma="medication">Medication</w>
+			<length>740</length>
+			<w pos="VBG" lemma="carrying">Carrying</w>
+			<w pos="DT" lemma="no">No</w>
+			<w pos="NN" lemma="cross">Cross</w>
 		</tr>
 	</al>
 	<al name ="UK" date="1978">

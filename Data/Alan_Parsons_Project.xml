@@ -1,7 +1,7 @@
-<artist name="Alan Parsons Project" genre="Crossover Prog">
+<artist name="Alan Parsons Project" genre="Crossover Prog" lang="en">
 	<al name ="Ammonia Avenue" date="1984">
 		<length>2397</length>
-		<rating>2.99</rating>
+		<rating>2.98</rating>
 		<tr index="1">
 			<length>303</length>
 			<w pos="NNP" lemma="prime">Prime</w>
@@ -60,7 +60,7 @@
 	</al>
 	<al name ="Eve" date="1979">
 		<length>2355</length>
-		<rating>2.75</rating>
+		<rating>2.76</rating>
 		<tr index="1">
 			<length>309</length>
 			<w pos="NN" lemma="lucifer">Lucifer</w>

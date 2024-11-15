@@ -1,0 +1,105 @@
+<artist name="Trace" genre="Symphonic Prog" lang="en">
+	<al name ="Birds" date="1975">
+		<length>2843</length>
+		<rating>3.97</rating>
+		<tr index="1">
+			<length>147</length>
+			<w pos="NNP" lemma="bourree">Bourree</w>
+		</tr>
+		<tr index="2">
+			<length>148</length>
+			<w pos="NN" lemma="snuff">Snuff</w>
+		</tr>
+		<tr index="3">
+			<length>75</length>
+			<w pos="NNP" lemma="janny">Janny</w>
+			<punc pos="(" lemma="(">(</punc>
+			<w pos="IN" lemma="in">In</w>
+			<w pos="NNP" lemma="a">A</w>
+			<w pos="NNP" lemma="mist">Mist</w>
+			<punc pos=")" lemma=")">)</punc>
+		</tr>
+		<tr index="4">
+			<length>466</length>
+			<w pos="NN" lemma="opus">Opus</w>
+			<w pos="CD" lemma="1065">1065</w>
+		</tr>
+		<tr index="5">
+			<length>173</length>
+			<w pos="NN" lemma="penny">Penny</w>
+		</tr>
+		<tr index="6">
+			<length>38</length>
+			<w pos="NN" lemma="trixie-dixie">Trixie-Dixie</w>
+		</tr>
+		<tr index="7">
+			<length>1321</length>
+			<w pos="NNP" lemma="king-bird">King-Bird</w>
+		</tr>
+		<tr index="8">
+			<length>221</length>
+			<w pos="NNS" lemma="bird">Birds</w>
+			<punc pos="(" lemma="(">(</punc>
+			<w pos="NNP" lemma="short">Short</w>
+			<w pos="NNP" lemma="edit">Edit</w>
+			<punc pos=")" lemma=")">)</punc>
+		</tr>
+		<tr index="9">
+			<length>254</length>
+			<w pos="NNP" lemma="tabu">Tabu</w>
+			<punc pos="(" lemma="(">(</punc>
+			<w pos="NNP" lemma="second">Second</w>
+			<w pos="NNP" lemma="version">Version</w>
+			<punc pos=")" lemma=")">)</punc>
+		</tr>
+	</al>
+	<al name ="Trace" date="1974">
+		<length>3527</length>
+		<rating>3.89</rating>
+		<tr index="1">
+			<length>782</length>
+			<w pos="NN" lemma="gaillarde">Gaillarde</w>
+		</tr>
+		<tr index="2">
+			<length>315</length>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="death">Death</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="NNP" lemma="ace">Ace</w>
+		</tr>
+		<tr index="3">
+			<length>193</length>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="escape">Escape</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="piper">Piper</w>
+		</tr>
+		<tr index="4">
+			<length>253</length>
+			<w pos="RB" lemma="once">Once</w>
+		</tr>
+		<tr index="5">
+			<length>720</length>
+			<w pos="NN" lemma="progression">Progression</w>
+		</tr>
+		<tr index="6">
+			<length>533</length>
+			<w pos="DT" lemma="a">A</w>
+			<w pos="NN" lemma="memory">Memory</w>
+		</tr>
+		<tr index="7">
+			<length>232</length>
+			<w pos="JJ" lemma="final">Final</w>
+			<w pos="NN" lemma="trace">Trace</w>
+		</tr>
+		<tr index="8">
+			<length>245</length>
+			<w pos="NN" lemma="progress">Progress</w>
+		</tr>
+		<tr index="9">
+			<length>254</length>
+			<w pos="NN" lemma="tabu">Tabu</w>
+		</tr>
+	</al>
+</artist>

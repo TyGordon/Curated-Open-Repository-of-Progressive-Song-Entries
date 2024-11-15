@@ -1,0 +1,48 @@
+<artist name="Blocco Mentale" genre="Rock Progressivo Italiano" lang="it">
+	<al name ="POA" date="1973">
+		<length>2355</length>
+		<rating>3.88</rating>
+		<tr index="1">
+			<length>284</length>
+			<trans>Capita</trans>
+			<w pos="PRP" lemma="it">It</w>
+			<w pos="VBZ" lemma="happens">happens</w>
+		</tr>
+		<tr index="2">
+			<length>274</length>
+			<trans>Aria E Mele</trans>
+			<w pos="NNP" lemma="air">Air</w>
+			<w pos="CC" lemma="and">and</w>
+			<w pos="NNP" lemma="apple">Apples</w>
+		</tr>
+		<tr index="3">
+			<length>507</length>
+			<trans>Impressione</trans>
+			<w pos="NN" lemma="impression">Impression</w>
+		</tr>
+		<tr index="4">
+			<length>267</length>
+			<trans>Io E Me</trans>
+			<w pos="NN" lemma="me">Me</w>
+			<w pos="CC" lemma="and">and</w>
+			<w pos="NNP" lemma="me">Me</w>
+		</tr>
+		<tr index="5">
+			<length>457</length>
+			<trans>La Nuova Forza</trans>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="new">New</w>
+			<w pos="NNP" lemma="force">Force</w>
+		</tr>
+		<tr index="6">
+			<length>334</length>
+			<trans>Ritorno</trans>
+			<w pos="NN" lemma="return">Return</w>
+		</tr>
+		<tr index="7">
+			<length>232</length>
+			<trans>Verde</trans>
+			<w pos="JJ" lemma="green">Green</w>
+		</tr>
+	</al>
+</artist>

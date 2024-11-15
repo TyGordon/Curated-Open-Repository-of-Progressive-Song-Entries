@@ -1,46 +1,56 @@
-<artist name="Fusioon" genre="Eclectic Prog">
+<artist name="Fusioon" genre="Eclectic Prog" lang="es">
 	<al name ="Fusioon" date="1972">
 		<length>1852</length>
 		<rating>3.45</rating>
 		<tr index="1">
 			<length>273</length>
-			<w pos="NNP" lemma="danza">Danza</w>
-			<w pos="NNP" lemma="del">Del</w>
-			<w pos="NNP" lemma="molinero">Molinero</w>
+			<trans>Danza Del Molinero</trans>
+			<w pos="NN" lemma="dance">Dance</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="millero">Millero</w>
 		</tr>
 		<tr index="3">
 			<length>193</length>
-			<w pos="NNP" lemma="s">Ses</w>
-			<w pos="NNS" lemma="porqueres">Porqueres</w>
+			<trans>Ses Porqueres</trans>
+			<w pos="PRP$" lemma="his">His</w>
+			<w pos="NNS" lemma="pig">Pigs</w>
 		</tr>
 		<tr index="4">
 			<length>181</length>
-			<w pos="NNP" lemma="pavana">Pavana</w>
-			<w pos="NNP" lemma="espanola">Espanola</w>
+			<trans>Pavana Espanola</trans>
+			<w pos="JJ" lemma="spanish">Spanish</w>
+			<w pos="NNP" lemma="pavane">Pavane</w>
 		</tr>
 		<tr index="5">
 			<length>224</length>
-			<w pos="NNP" lemma="negra">Negra</w>
-			<w pos="NNP" lemma="sombra">Sombra</w>
+			<trans>Negra Sombra</trans>
+			<w pos="NNP" lemma="black">Black</w>
+			<w pos="NNP" lemma="shadow">Shadow</w>
 		</tr>
 		<tr index="6">
 			<length>253</length>
-			<w pos="NNP" lemma="en">En</w>
-			<w pos="NNP" lemma="el">El</w>
-			<w pos="NNP" lemma="puerto">Puerto</w>
-			<w pos="NNP" lemma="de">De</w>
-			<w pos="NNP" lemma="pajares">Pajares</w>
+			<trans>En El Puerto De Pajares</trans>
+			<w pos="IN" lemma="in">In</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="port">Port</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="NNS" lemma="pajares">Pajares</w>
 		</tr>
 		<tr index="7">
 			<length>217</length>
-			<w pos="NNP" lemma="rima">Rima</w>
-			<w pos="NNP" lemma="infantil">Infantil</w>
+			<trans>Rima Infantil</trans>
+			<w pos="NNP" lemma="child">Children</w>
+			<w pos="POS" lemma="'s">'s</w>
+			<w pos="NNP" lemma="rhyme">Rhyme</w>
 		</tr>
 		<tr index="8">
 			<length>255</length>
-			<w pos="NNP" lemma="el">El</w>
-			<w pos="NNP" lemma="cant">Cant</w>
-			<w pos="NNP" lemma="del">Del</w>
+			<trans>El Cant Del Ocells</trans>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="song">Song</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="DT" lemma="the">the</w>
 			<w pos="NNP" lemma="ocells">Ocells</w>
 		</tr>
 	</al>
@@ -49,25 +59,30 @@
 		<rating>3.76</rating>
 		<tr index="1">
 			<length>188</length>
-			<w pos="NNP" lemma="farsa">Farsa</w>
-			<w pos="NNP" lemma="del">Del</w>
-			<w pos="NNP" lemma="buen">Buen</w>
-			<w pos="NNP" lemma="vivir">Vivir</w>
+			<trans>Farsa Del Buen Vivir</trans>
+			<w pos="NN" lemma="farce">Farce</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="JJ" lemma="good">Good</w>
+			<w pos="NN" lemma="living">Living</w>
 		</tr>
 		<tr index="2">
 			<length>392</length>
-			<w pos="NN" lemma="contraste">Contraste</w>
+			<trans>Contraste</trans>
+			<w pos="NNS" lemma="contrast">Contrasts</w>
 		</tr>
 		<tr index="3">
 			<length>495</length>
+			<trans>Tritons</trans>
 			<w pos="NNS" lemma="triton">Tritons</w>
 		</tr>
 		<tr index="4">
 			<length>402</length>
-			<w pos="NNS" lemma="dialogos">Dialogos</w>
+			<trans>Dialogos</trans>
+			<w pos="NNS" lemma="dialogue">Dialogues</w>
 		</tr>
 		<tr index="5">
 			<length>592</length>
+			<trans>Concerto Grosso</trans>
 			<w pos="NNP" lemma="concerto">Concerto</w>
 			<w pos="NNP" lemma="grosso">Grosso</w>
 		</tr>
@@ -77,17 +92,21 @@
 		<rating>3.80</rating>
 		<tr index="1">
 			<length>1130</length>
+			<trans>Ebusus</trans>
 			<w pos="NN" lemma="ebusus">Ebusus</w>
 		</tr>
 		<tr index="2">
 			<length>657</length>
+			<trans>Minorisa</trans>
 			<w pos="NNP" lemma="minorisa">Minorisa</w>
 		</tr>
 		<tr index="3">
 			<length>486</length>
-			<w pos="NNS" lemma="llaves">Llaves</w>
-			<w pos="VBP" lemma="del">del</w>
-			<w pos="NNP" lemma="subconsciente">Subconsciente</w>
+			<trans>Llaves del Subconsciente</trans>
+			<w pos="NNS" lemma="key">Keys</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="subconscious">Subconscious</w>
 		</tr>
 	</al>
 </artist>

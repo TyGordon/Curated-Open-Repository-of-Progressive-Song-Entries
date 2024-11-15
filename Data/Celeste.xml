@@ -1,44 +1,54 @@
-<artist name="Celeste" genre="Rock Progressivo Italiano">
+<artist name="Celeste" genre="Rock Progressivo Italiano" lang="it">
 	<al name ="Principe Di Un Giorno" date="1976">
 		<length>2224</length>
 		<rating>4.16</rating>
 		<tr index="1">
 			<length>372</length>
-			<w pos="NNP" lemma="principe">Principe</w>
-			<w pos="NNP" lemma="di">Di</w>
-			<w pos="NNP" lemma="giorno">Giorno</w>
+			<trans>Principe Di Giorno</trans>
+			<w pos="NN" lemma="prince">Prince</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="day">Day</w>
 		</tr>
 		<tr index="2">
 			<length>498</length>
-			<w pos="NNP" lemma="favole">Favole</w>
-			<w pos="NNP" lemma="antiche">Antiche</w>
+			<trans>Favole Antiche</trans>
+			<w pos="NN" lemma="ancient">Ancient</w>
+			<w pos="NNS" lemma="fable">Fables</w>
 		</tr>
 		<tr index="3">
 			<length>257</length>
-			<w pos="NN" lemma="eftus">Eftus</w>
+			<trans>Eftus</trans>
+			<w pos="NN" lemma="ephtus">Ephtus</w>
 		</tr>
 		<tr index="4">
 			<length>491</length>
-			<w pos="NNP" lemma="giochi">Giochi</w>
-			<w pos="NNP" lemma="nella">Nella</w>
-			<w pos="NNP" lemma="notte">Notte</w>
+			<trans>Giochi Nella Notte</trans>
+			<w pos="NNS" lemma="game">Games</w>
+			<w pos="IN" lemma="in">In</w>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="night">Night</w>
 		</tr>
 		<tr index="5">
 			<length>304</length>
-			<w pos="NNP" lemma="la">La</w>
-			<w pos="NNP" lemma="grande">Grande</w>
-			<w pos="NNP" lemma="isola">Isola</w>
+			<trans>La Grande Isola</trans>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="big">Big</w>
+			<w pos="NNP" lemma="island">Island</w>
 		</tr>
 		<tr index="6">
 			<length>236</length>
-			<w pos="NNP" lemma="la">La</w>
-			<w pos="NNP" lemma="danza">Danza</w>
-			<w pos="NNP" lemma="del">Del</w>
-			<w pos="NNP" lemma="fato">Fato</w>
+			<trans>La Danza Del Fato</trans>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="dance">Dance</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="NNP" lemma="fate">Fate</w>
 		</tr>
 		<tr index="7">
 			<length>66</length>
-			<w pos="NN" lemma="l'imbroglio">L'imbroglio</w>
+			<trans>L'imbroglio</trans>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NN" lemma="scam">scam</w>
 		</tr>
 	</al>
 </artist>

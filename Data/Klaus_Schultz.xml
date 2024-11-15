@@ -1,0 +1,80 @@
+<artist name="Klaus Schultz" genre="Progressive Electronic" lang="en">
+	<al name ="Mirage" date="1977">
+		<length>3452</length>
+		<rating>4.26</rating>
+		<tr index="a ">
+			<length>0</length>
+			<w pos="CD" lemma="1984">1984</w>
+		</tr>
+		<tr index="b ">
+			<length>0</length>
+			<w pos="NN" lemma="aeronef">Aeronef</w>
+		</tr>
+		<tr index="c ">
+			<length>0</length>
+			<w pos="NN" lemma="eclipse">Eclipse</w>
+		</tr>
+		<tr index="d ">
+			<length>0</length>
+			<w pos="NN" lemma="exvasion">Exvasion</w>
+		</tr>
+		<tr index="e ">
+			<length>0</length>
+			<w pos="NNP" lemma="lucid">Lucid</w>
+			<w pos="NNP" lemma="interspace">Interspace</w>
+		</tr>
+		<tr index="f ">
+			<length>0</length>
+			<w pos="NNP" lemma="destination">Destination</w>
+			<w pos="NNP" lemma="vold">Vold</w>
+		</tr>
+		<tr index="a ">
+			<length>0</length>
+			<w pos="NNS" lemma="xylotones">Xylotones</w>
+		</tr>
+		<tr index="b ">
+			<length>0</length>
+			<w pos="VB" lemma="chromwave">Chromwave</w>
+		</tr>
+		<tr index="c ">
+			<length>0</length>
+			<w pos="NNS" lemma="willowdreams">Willowdreams</w>
+		</tr>
+		<tr index="d ">
+			<length>0</length>
+			<w pos="JJ" lemma="liquid">Liquid</w>
+			<w pos="NNS" lemma="mirror">Mirrors</w>
+		</tr>
+		<tr index="e ">
+			<length>0</length>
+			<w pos="NN" lemma="springdance">Springdance</w>
+		</tr>
+		<tr index="f ">
+			<length>0</length>
+			<w pos="DT" lemma="a">A</w>
+			<w pos="NNP" lemma="bientot">Bientot</w>
+		</tr>
+	</al>
+	<al name ="Moondawn" date="1976">
+		<length>3157</length>
+		<rating>3.78</rating>
+		<tr index="2">
+			<length>1522</length>
+			<w pos="NN" lemma="mindphaser">Mindphaser</w>
+		</tr>
+	</al>
+	<al name ="Timewind" date="1975">
+		<length>3534</length>
+		<rating>4.23</rating>
+		<tr index="1">
+			<length>1825</length>
+			<w pos="NNP" lemma="bayreuth">Bayreuth</w>
+			<w pos="NNP" lemma="return">Return</w>
+		</tr>
+		<tr index="2">
+			<length>1709</length>
+			<w pos="JJ" lemma="wahnfried">Wahnfried</w>
+			<w pos="CD" lemma="1883">1883</w>
+		</tr>
+	</al>
+</artist>

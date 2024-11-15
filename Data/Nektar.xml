@@ -1,4 +1,4 @@
-<artist name="Nektar" genre="Psychedelic/Space Rock">
+<artist name="Nektar" genre="Psychedelic/Space Rock" lang="en">
 	<al name ="...Sounds Like This" date="1973">
 		<length>4436</length>
 		<rating>3.35</rating>
@@ -178,7 +178,7 @@
 	</al>
 	<al name ="Journey to the Center of the Eye" date="1971">
 		<length>2569</length>
-		<rating>3.82</rating>
+		<rating>3.83</rating>
 		<tr index="1">
 			<length>87</length>
 			<w pos="NN" lemma="prelude">Prelude</w>

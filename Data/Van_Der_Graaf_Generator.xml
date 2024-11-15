@@ -1,4 +1,4 @@
-<artist name="Van Der Graaf Generator" genre="Eclectic Prog">
+<artist name="Van Der Graaf Generator" genre="Eclectic Prog" lang="en">
 	<al name ="Godbluff" date="1975">
 		<length>2151</length>
 		<rating>4.46</rating>
@@ -86,7 +86,7 @@
 	</al>
 	<al name ="Pawn Hearts" date="1971">
 		<length>2704</length>
-		<rating>4.42</rating>
+		<rating>4.43</rating>
 		<tr index="1">
 			<length>699</length>
 			<w pos="NNS" lemma="lemming">Lemmings</w>
@@ -171,7 +171,7 @@
 	</al>
 	<al name ="Still Life" date="1976">
 		<length>2683</length>
-		<rating>4.30</rating>
+		<rating>4.29</rating>
 		<tr index="1">
 			<length>427</length>
 			<w pos="NNS" lemma="pilgrim">Pilgrims</w>

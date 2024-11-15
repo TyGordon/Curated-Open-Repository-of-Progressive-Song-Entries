@@ -1,4 +1,4 @@
-<artist name="Soft Machine" genre="Canterbury Scene">
+<artist name="Soft Machine" genre="Canterbury Scene" lang="en">
 	<al name ="Bundles" date="1975">
 		<length>2515</length>
 		<rating>4.11</rating>
@@ -126,7 +126,7 @@
 	</al>
 	<al name ="Fourth" date="1971">
 		<length>2353</length>
-		<rating>3.58</rating>
+		<rating>3.60</rating>
 		<tr index="1">
 			<length>555</length>
 			<w pos="NNS" lemma="teeth">Teeth</w>

@@ -300,7 +300,7 @@ class SearchWorker(QObject):
                                     # Iterate over each <w> element in the current track
                                     for w in track.findall("w"):
                                         # print(w.text)
-                                        if tr(word.text) == self.params["query_value"]:
+                                        if w.text == self.params["query_value"]:
                                             break
                                         word_index += 1
 
@@ -396,8 +396,8 @@ class SearchWorker(QObject):
         
         percentage = (lemma_count / self.params["total_words"]) * 100
         percentage = round(percentage, 2)
-
-        html_concordance = ("<b>" + str(line_count) + " hits</b><br>" + "<b> Frequency: "
+        
+        html_concordance = ("<b>" + str(lemma_count) + " hits</b><br>" + "<b> Frequency: "
                              + str(lemma_count) + " / " + str(self.params["total_words"])
                              + " | " + str(percentage) + "%</b>" + concordance) #+ "</p>"
 

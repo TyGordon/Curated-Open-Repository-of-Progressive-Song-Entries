@@ -1,15 +1,18 @@
-<artist name="Premiata Forneria Marconi" genre="Rock Progressivo Italiano">
+<artist name="Premiata Forneria Marconi" genre="Rock Progressivo Italiano" lang="it">
 	<al name ="L'Isola Di Niente" date="1974">
 		<length>2129</length>
-		<rating>4.21</rating>
+		<rating>4.20</rating>
 		<tr index="1">
 			<length>642</length>
-			<w pos="NNP" lemma="l'isola">L'Isola</w>
-			<w pos="VBZ" lemma="di">di</w>
-			<w pos="NNP" lemma="niente">Niente</w>
+			<trans>L'Isola di Niente</trans>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="island">Island</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="NNP" lemma="nothing">Nothing</w>
 		</tr>
 		<tr index="2">
 			<length>398</length>
+			<trans>Is My Face On Straight</trans>
 			<w pos="VBZ" lemma="is">Is</w>
 			<w pos="PRP$" lemma="my">My</w>
 			<w pos="NN" lemma="face">Face</w>
@@ -18,107 +21,92 @@
 		</tr>
 		<tr index="3">
 			<length>381</length>
-			<w pos="NNP" lemma="la">La</w>
-			<w pos="NNP" lemma="luna">Luna</w>
-			<w pos="NNP" lemma="nuova">Nuova</w>
+			<trans>La Luna Nuova</trans>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="new">New</w>
+			<w pos="NNP" lemma="moon">Moon</w>
 		</tr>
 		<tr index="4">
 			<length>241</length>
-			<w pos="NNP" lemma="dolcissima">Dolcissima</w>
-			<w pos="NNP" lemma="maria">Maria</w>
+			<trans>Dolcissima Maria</trans>
+			<w pos="NNP" lemma="sweetest">Sweetest</w>
+			<w pos="NNP" lemma="mary">Mary</w>
 		</tr>
 		<tr index="5">
 			<length>441</length>
-			<w pos="NNP" lemma="via">Via</w>
-			<w pos="NNP" lemma="lumiere">Lumiere</w>
+			<trans>Via Lumiere</trans>
+			<w pos="NNP" lemma="street">Street</w>
+			<w pos="NNP" lemma="light">Light</w>
 		</tr>
 	</al>
 	<al name ="Per Un Amico" date="1972">
 		<length>2046</length>
 		<rating>4.40</rating>
-		<tr index="1">
-			<length>463</length>
-			<w pos="NNP" lemma="appena">Appena</w>
-			<w pos="JJ" lemma="un">un</w>
-			<w pos="NNP" lemma="po">Po</w>
-			<w pos="POS" lemma="'">'</w>
-		</tr>
-		<tr index="2">
-			<length>258</length>
-			<w pos="NN" lemma="generale">Generale</w>
-		</tr>
-		<tr index="3">
-			<length>323</length>
-			<w pos="NNP" lemma="per">Per</w>
-			<w pos="NN" lemma="un">un</w>
-			<w pos="NNP" lemma="amico">Amico</w>
-		</tr>
-		<tr index="4">
-			<length>519</length>
-			<w pos="NNP" lemma="il">Il</w>
-			<w pos="NNP" lemma="banchetto">Banchetto</w>
-		</tr>
-		<tr index="5">
-			<length>483</length>
-			<w pos="NN" lemma="geranio">Geranio</w>
-		</tr>
 	</al>
 	<al name ="Storia Di Un Minuto" date="1972">
 		<length>2074</length>
 		<rating>4.33</rating>
 		<tr index="1">
 			<length>70</length>
-			<w pos="NN" lemma="introduzione">Introduzione</w>
+			<trans>Introduzione</trans>
+			<w pos="NN" lemma="introduction">Introduction</w>
 		</tr>
 		<tr index="2">
 			<length>344</length>
-			<w pos="NNP" lemma="impressioni">Impressioni</w>
-			<w pos="VBZ" lemma="di">di</w>
-			<w pos="NNP" lemma="settembre">Settembre</w>
+			<trans>Impressioni di Settembre</trans>
+			<w pos="NNP" lemma="september">September</w>
+			<w pos="NNS" lemma="impression">Impressions</w>
 		</tr>
 		<tr index="3">
 			<length>292</length>
-			<w pos="NNP" lemma="e">E</w>
-			<w pos="POS" lemma="'">'</w>
-			<w pos="NNP" lemma="festa">Festa</w>
+			<trans>E' Festa</trans>
+			<w pos="PRP" lemma="it">It</w>
+			<w pos="VBZ" lemma="'s">'s</w>
+			<w pos="DT" lemma="a">a</w>
+			<w pos="NN" lemma="party">party</w>
 		</tr>
 		<tr index="4">
 			<length>248</length>
-			<w pos="NNP" lemma="dove">Dove</w>
-			<w pos="NNP" lemma="..">..</w>
+			<trans>Dove.., Quando.., (Parte I)</trans>
+			<w pos="WRB" lemma="where">Where</w>
+			<w pos="NN" lemma="..">..</w>
 			<punc pos="," lemma=",">,</punc>
-			<w pos="NNP" lemma="quando">Quando</w>
-			<w pos="NNP" lemma="..">..</w>
+			<w pos="WRB" lemma="when">When</w>
+			<w pos="NN" lemma="..">..</w>
 			<punc pos="," lemma=",">,</punc>
 			<punc pos="(" lemma="(">(</punc>
-			<w pos="NNP" lemma="parte">Parte</w>
+			<w pos="NNP" lemma="part">Part</w>
 			<w pos="PRP" lemma="i">I</w>
 			<punc pos=")" lemma=")">)</punc>
 		</tr>
 		<tr index="5">
 			<length>360</length>
-			<w pos="NNP" lemma="dove">Dove</w>
-			<w pos="NNP" lemma="..">..</w>
+			<trans>Dove.., Quando.., (Parte II)</trans>
+			<w pos="WRB" lemma="where">Where</w>
+			<w pos="NN" lemma="..">..</w>
 			<punc pos="," lemma=",">,</punc>
-			<w pos="NNP" lemma="quando">Quando</w>
-			<w pos="NNP" lemma="..">..</w>
+			<w pos="WRB" lemma="when">When</w>
+			<w pos="NN" lemma="..">..</w>
 			<punc pos="," lemma=",">,</punc>
 			<punc pos="(" lemma="(">(</punc>
-			<w pos="NNP" lemma="parte">Parte</w>
+			<w pos="NNP" lemma="part">Part</w>
 			<w pos="NNP" lemma="ii">II</w>
 			<punc pos=")" lemma=")">)</punc>
 		</tr>
 		<tr index="6">
 			<length>406</length>
-			<w pos="NNP" lemma="la">La</w>
-			<w pos="NNP" lemma="carrozza">Carrozza</w>
-			<w pos="NN" lemma="di">di</w>
-			<w pos="NNS" lemma="han">Hans</w>
+			<trans>La Carrozza di Hans</trans>
+			<w pos="NNPS" lemma="han">Hans</w>
+			<w pos="POS" lemma="'s">'s</w>
+			<w pos="NN" lemma="carriage">Carriage</w>
 		</tr>
 		<tr index="7">
 			<length>352</length>
-			<w pos="NNP" lemma="grazie">Grazie</w>
-			<w pos="NNP" lemma="davvero">Davvero</w>
+			<trans>Grazie Davvero</trans>
+			<w pos="NNP" lemma="thank">Thank</w>
+			<w pos="PRP" lemma="you">you</w>
+			<w pos="RB" lemma="very">very</w>
+			<w pos="RB" lemma="much">much</w>
 		</tr>
 	</al>
 </artist>

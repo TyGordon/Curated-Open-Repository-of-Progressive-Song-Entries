@@ -1,4 +1,4 @@
-<artist name="Egg" genre="Canterbury Scene">
+<artist name="Egg" genre="Canterbury Scene" lang="en">
 	<al name ="Egg" date="1970">
 		<length>2508</length>
 		<rating>3.79</rating>
@@ -108,7 +108,7 @@
 	</al>
 	<al name ="The Civil Surface" date="1974">
 		<length>2436</length>
-		<rating>3.91</rating>
+		<rating>3.90</rating>
 		<tr index="1">
 			<length>511</length>
 			<w pos="NNP" lemma="germ">Germ</w>

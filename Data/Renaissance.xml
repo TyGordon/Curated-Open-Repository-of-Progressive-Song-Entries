@@ -1,4 +1,4 @@
-<artist name="Renaissance" genre="Symphonic Prog">
+<artist name="Renaissance" genre="Symphonic Prog" lang="en">
 	<al name ="Ashes Are Burning" date="1973">
 		<length>2442</length>
 		<rating>4.26</rating>
@@ -279,7 +279,7 @@
 	</al>
 	<al name ="Renaissance" date="1969">
 		<length>2361</length>
-		<rating>3.77</rating>
+		<rating>3.76</rating>
 		<tr index="1">
 			<length>655</length>
 			<w pos="NNS" lemma="king">Kings</w>

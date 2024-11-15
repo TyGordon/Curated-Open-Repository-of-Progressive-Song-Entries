@@ -1,4 +1,4 @@
-<artist name="Pink Floyd" genre="Psychedelic/Space Rock">
+<artist name="Pink Floyd" genre="Psychedelic/Space Rock" lang="en">
 	<al name ="Animals" date="1977">
 		<length>2498</length>
 		<rating>4.53</rating>
@@ -123,7 +123,7 @@
 	</al>
 	<al name ="A Saucerful of Secrets" date="1968">
 		<length>2363</length>
-		<rating>3.67</rating>
+		<rating>3.68</rating>
 		<tr index="1">
 			<length>338</length>
 			<w pos="VB" lemma="let">Let</w>
@@ -210,72 +210,6 @@
 	<al name ="More" date="1969">
 		<length>2696</length>
 		<rating>3.14</rating>
-		<tr index="1">
-			<length>318</length>
-			<w pos="NNP" lemma="cirrus">Cirrus</w>
-			<w pos="NNP" lemma="minor">Minor</w>
-		</tr>
-		<tr index="2">
-			<length>206</length>
-			<w pos="NN" lemma="nile">Nile</w>
-			<w pos="NN" lemma="song">Song</w>
-		</tr>
-		<tr index="3">
-			<length>213</length>
-			<w pos="NN" lemma="cry">Crying</w>
-			<w pos="NN" lemma="song">Song</w>
-		</tr>
-		<tr index="4">
-			<length>132</length>
-			<w pos="IN" lemma="up">Up</w>
-			<w pos="DT" lemma="the">the</w>
-			<w pos="NNP" lemma="khyber">Khyber</w>
-		</tr>
-		<tr index="5">
-			<length>178</length>
-			<w pos="NNP" lemma="green">Green</w>
-			<w pos="VBZ" lemma="is">Is</w>
-			<w pos="DT" lemma="the">the</w>
-			<w pos="NN" lemma="colour">Colour</w>
-		</tr>
-		<tr index="6">
-			<length>290</length>
-			<w pos="NN" lemma="cymbaline">Cymbaline</w>
-		</tr>
-		<tr index="7">
-			<length>67</length>
-			<w pos="NNP" lemma="party">Party</w>
-			<w pos="NNP" lemma="sequence">Sequence</w>
-		</tr>
-		<tr index="8">
-			<length>328</length>
-			<w pos="NN" lemma="main">Main</w>
-			<w pos="NN" lemma="theme">Theme</w>
-		</tr>
-		<tr index="9">
-			<length>199</length>
-			<w pos="NNP" lemma="ibiza">Ibiza</w>
-			<w pos="NNP" lemma="bar">Bar</w>
-		</tr>
-		<tr index="10">
-			<length>132</length>
-			<w pos="JJR" lemma="more">More</w>
-			<w pos="NNS" lemma="blue">Blues</w>
-		</tr>
-		<tr index="11">
-			<length>433</length>
-			<w pos="NN" lemma="quicksilver">Quicksilver</w>
-		</tr>
-		<tr index="12">
-			<length>65</length>
-			<w pos="JJ" lemma="spanish">Spanish</w>
-			<w pos="NNP" lemma="piece">Piece</w>
-		</tr>
-		<tr index="13">
-			<length>135</length>
-			<w pos="JJ" lemma="dramatic">Dramatic</w>
-			<w pos="NN" lemma="theme">Theme</w>
-		</tr>
 	</al>
 	<al name ="Obscured by Clouds" date="1972">
 		<length>2428</length>

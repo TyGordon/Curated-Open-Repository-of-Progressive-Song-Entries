@@ -1,41 +1,45 @@
-<artist name="Apoteosi" genre="Rock Progressivo Italiano">
+<artist name="Apoteosi" genre="Rock Progressivo Italiano" lang="it">
 	<al name ="Apoteosi" date="1975">
 		<length>2129</length>
 		<rating>3.92</rating>
 		<tr index="1">
 			<length>155</length>
-			<w pos="NN" lemma="embrion">Embrion</w>
+			<trans>Embrion</trans>
+			<w pos="NN" lemma="embryo">Embryo</w>
 		</tr>
 		<tr index="2">
 			<length>880</length>
-			<w pos="NNP" lemma="prima">Prima</w>
-			<w pos="NNP" lemma="realta">Realta</w>
+			<trans>Prima Realta / Frammentaria Rivolta</trans>
+			<w pos="NNP" lemma="first">First</w>
+			<w pos="NNP" lemma="reality">Reality</w>
 			<w pos="NNP" lemma="/">/</w>
-			<w pos="NNP" lemma="frammentaria">Frammentaria</w>
-			<w pos="NNP" lemma="rivolta">Rivolta</w>
+			<w pos="NNP" lemma="fragmentary">Fragmentary</w>
+			<w pos="NNP" lemma="revolt">Revolt</w>
 		</tr>
 		<tr index="3">
 			<length>516</length>
-			<w pos="NNP" lemma="il">Il</w>
-			<w pos="NNP" lemma="grande">Grande</w>
-			<w pos="NNP" lemma="disumano">Disumano</w>
+			<trans>Il Grande Disumano / Oratorio (Chorale) / Attesa</trans>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="great">Great</w>
+			<w pos="NNP" lemma="inhuman">Inhuman</w>
 			<w pos="NNP" lemma="/">/</w>
 			<w pos="NNP" lemma="oratorio">Oratorio</w>
 			<punc pos="(" lemma="(">(</punc>
 			<w pos="NNP" lemma="chorale">Chorale</w>
 			<punc pos=")" lemma=")">)</punc>
-			<w pos="VBP" lemma="/">/</w>
-			<w pos="NNP" lemma="attesa">Attesa</w>
+			<w pos="VBD" lemma="/">/</w>
+			<w pos="VBG" lemma="waiting">Waiting</w>
 		</tr>
 		<tr index="4">
 			<length>228</length>
-			<w pos="NNP" lemma="dimensione">Dimensione</w>
-			<w pos="NNP" lemma="da">Da</w>
-			<w pos="NNP" lemma="sogno">Sogno</w>
+			<trans>Dimensione Da Sogno</trans>
+			<w pos="NNP" lemma="dream">Dream</w>
+			<w pos="NNP" lemma="dimension">Dimension</w>
 		</tr>
 		<tr index="5">
 			<length>350</length>
-			<w pos="NNS" lemma="apoteosi">Apoteosi</w>
+			<trans>Apoteosi</trans>
+			<w pos="NN" lemma="apotheosis">Apotheosis</w>
 		</tr>
 	</al>
 </artist>

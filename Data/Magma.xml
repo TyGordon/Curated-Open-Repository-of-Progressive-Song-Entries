@@ -1,4 +1,4 @@
-<artist name="Magma" genre="Zeuhl">
+<artist name="Magma" genre="Zeuhl" lang="en">
 	<al name ="1001 Centigrades" date="1971">
 		<length>2534</length>
 		<rating>4.09</rating>
@@ -24,8 +24,8 @@
 		</tr>
 	</al>
 	<al name ="Attahk" date="1978">
-		<length>1</length>
-		<rating>3.72</rating>
+		<length>2288</length>
+		<rating>3.71</rating>
 		<tr index="1">
 			<length>420</length>
 			<w pos="DT" lemma="the">The</w>

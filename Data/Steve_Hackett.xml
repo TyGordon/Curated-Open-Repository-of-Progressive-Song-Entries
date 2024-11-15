@@ -1,7 +1,7 @@
-<artist name="Steve Hackett" genre="Eclectic Prog">
+<artist name="Steve Hackett" genre="Eclectic Prog" lang="en">
 	<al name ="Defector" date="1980">
 		<length>2210</length>
-		<rating>3.66</rating>
+		<rating>3.65</rating>
 		<tr index="1">
 			<length>364</length>
 			<w pos="DT" lemma="the">The</w>

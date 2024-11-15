@@ -1,0 +1,62 @@
+<artist name="Il Volo" genre="Rock Progressivo Italiano" lang="it">
+	<al name ="Il Volo" date="1974">
+		<length>1966</length>
+		<rating>3.86</rating>
+		<tr index="1">
+			<length>261</length>
+			<trans>Come una zanzara</trans>
+			<w pos="IN" lemma="like">Like</w>
+			<w pos="DT" lemma="a">a</w>
+			<w pos="NN" lemma="mosquito">mosquito</w>
+		</tr>
+		<tr index="2">
+			<length>238</length>
+			<trans>La mia rivoluzione</trans>
+			<w pos="PRP$" lemma="my">My</w>
+			<w pos="NN" lemma="revolution">revolution</w>
+		</tr>
+		<tr index="3">
+			<length>283</length>
+			<trans>Il calore umano</trans>
+			<w pos="NNP" lemma="human">Human</w>
+			<w pos="NN" lemma="warmth">warmth</w>
+		</tr>
+		<tr index="4">
+			<length>274</length>
+			<trans>Il canto della preistoria</trans>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NN" lemma="song">song</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="NN" lemma="prehistory">prehistory</w>
+		</tr>
+		<tr index="5">
+			<length>232</length>
+			<trans>I primi respiri</trans>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="JJ" lemma="first">first</w>
+			<w pos="NNS" lemma="breath">breaths</w>
+		</tr>
+		<tr index="6">
+			<length>254</length>
+			<trans>La canzone del nostro tempo</trans>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NN" lemma="song">song</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="PRP$" lemma="our">our</w>
+			<w pos="NN" lemma="time">time</w>
+		</tr>
+		<tr index="7">
+			<length>248</length>
+			<trans>Sonno</trans>
+			<w pos="NN" lemma="sleep">Sleep</w>
+		</tr>
+		<tr index="8">
+			<length>176</length>
+			<trans>Sinfonia delle scarpe da tennis</trans>
+			<w pos="NN" lemma="symphony">Symphony</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="NN" lemma="tennis">tennis</w>
+			<w pos="NNS" lemma="shoe">shoes</w>
+		</tr>
+	</al>
+</artist>

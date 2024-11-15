@@ -1,4 +1,4 @@
-<artist name="Triumvirat" genre="Symphonic Prog">
+<artist name="Triumvirat" genre="Symphonic Prog" lang="en">
 	<al name ="Illusions on a Double Dimple" date="1974">
 		<length>2661</length>
 		<rating>3.97</rating>
@@ -128,7 +128,7 @@
 	</al>
 	<al name ="Old Loves Die Hard" date="1976">
 		<length>2920</length>
-		<rating>3.52</rating>
+		<rating>3.51</rating>
 		<tr index="1">
 			<length>471</length>
 			<w pos="PRP" lemma="i">I</w>
@@ -206,7 +206,7 @@
 	</al>
 	<al name ="Pompeii" date="1977">
 		<length>2676</length>
-		<rating>3.09</rating>
+		<rating>3.05</rating>
 		<tr index="1">
 			<length>378</length>
 			<w pos="DT" lemma="the">The</w>

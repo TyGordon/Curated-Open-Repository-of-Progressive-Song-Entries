@@ -14,7 +14,7 @@ with open("README.md", encoding="utf8") as input_file:
             r = re.compile(r'(\+ )(\[.*?\])(\(.*?\))')
 
             # Make the command string and write it
-            curl_line = "curl.exe " + re.sub(r, r'\3', input_line)[1:-2] + " | Select -First 400 | Select -Last 64 | Set-Content -LiteralPath " + "\"Albums/" + band_name + re.sub(r, r'\2', input_line)[1:-2].replace(" ", "_") + ".html\""
+            curl_line = "curl.exe " + re.sub(r, r'\3', input_line)[1:-2] + " | Select -First 562 | Select -Last 112 | Set-Content -LiteralPath " + "\"Albums/" + band_name + re.sub(r, r'\2', input_line)[1:-2].replace(" ", "_") + ".html\""
             output_file.write(curl_line + "\n")
 
         # Line is a band name

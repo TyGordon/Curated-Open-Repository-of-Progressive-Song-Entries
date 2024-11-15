@@ -1,37 +1,48 @@
-<artist name="Neu!" genre="Krautrock">
+<artist name="Neu!" genre="Krautrock" lang="de">
 	<al name ="Neu!" date="1972">
 		<length>2742</length>
 		<rating>4.04</rating>
 		<tr index="1">
 			<length>607</length>
+			<trans>Hallogallo</trans>
 			<w pos="NN" lemma="hallogallo">Hallogallo</w>
 		</tr>
 		<tr index="2">
 			<length>290</length>
-			<w pos="NN" lemma="sonderangebot">Sonderangebot</w>
+			<trans>Sonderangebot</trans>
+			<w pos="JJ" lemma="special">Special</w>
+			<w pos="NN" lemma="range">range</w>
+			<w pos="NN" lemma="bot">bot</w>
 		</tr>
 		<tr index="3">
 			<length>402</length>
+			<trans>Weissensee</trans>
 			<w pos="NN" lemma="weissensee">Weissensee</w>
 		</tr>
 		<tr index="">
 			<length>0</length>
-			<w pos="NN" lemma="jahresnberblick">Jahresnberblick</w>
+			<trans>Jahresnberblick :</trans>
+			<w pos="RB" lemma="yearly">Yearly</w>
+			<w pos="NN" lemma="view">view</w>
 			<punc pos=":" lemma=":">:</punc>
 		</tr>
 		<tr index="4">
 			<length>412</length>
-			<w pos="NNP" lemma="im">Im</w>
-			<w pos="NNP" lemma="glnck">Glnck</w>
+			<trans>Im Glnck</trans>
+			<w pos="IN" lemma="in">In</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NN" lemma="glory">Glory</w>
 		</tr>
 		<tr index="5">
 			<length>586</length>
-			<w pos="NN" lemma="negativland">Negativland</w>
+			<trans>Negativland</trans>
+			<w pos="NN" lemma="negativeland">Negativeland</w>
 		</tr>
 		<tr index="6">
 			<length>435</length>
-			<w pos="NNP" lemma="lieber">Lieber</w>
-			<w pos="NNP" lemma="honig">Honig</w>
+			<trans>Lieber Honig</trans>
+			<w pos="NNP" lemma="dear">Dear</w>
+			<w pos="NNP" lemma="honey">Honey</w>
 		</tr>
 	</al>
 </artist>

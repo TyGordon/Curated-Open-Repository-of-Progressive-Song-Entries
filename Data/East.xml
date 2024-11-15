@@ -1,15 +1,17 @@
-<artist name="East" genre="Neo-Prog">
+<artist name="East" genre="Neo-Prog" lang="hu">
 	<al name ="Huseg" date="1982">
 		<length>2655</length>
 		<rating>3.82</rating>
 		<tr index="1">
 			<length>223</length>
+			<trans>HnsTg - Faith</trans>
 			<w pos="NNP" lemma="hnstg">HnsTg</w>
 			<punc pos=":" lemma="-">-</punc>
 			<w pos="NN" lemma="faith">Faith</w>
 		</tr>
 		<tr index="2">
 			<length>263</length>
+			<trans>Keresd )nmagad - Search Yourself</trans>
 			<w pos="NNP" lemma="keresd">Keresd</w>
 			<punc pos=")" lemma=")">)</punc>
 			<w pos="SYM" lemma="nmagad">nmagad</w>
@@ -19,6 +21,7 @@
 		</tr>
 		<tr index="3">
 			<length>175</length>
+			<trans>Mßgikus er= - Magical Power</trans>
 			<w pos="NNP" lemma="mßgikus">Mßgikus</w>
 			<w pos="SYM" lemma="er=">er=</w>
 			<punc pos=":" lemma="-">-</punc>
@@ -27,6 +30,7 @@
 		</tr>
 		<tr index="4">
 			<length>356</length>
+			<trans>+n voltam - It Was Me</trans>
 			<w pos="NN" lemma="+n">+n</w>
 			<w pos="SYM" lemma="voltam">voltam</w>
 			<punc pos=":" lemma="-">-</punc>
@@ -36,6 +40,7 @@
 		</tr>
 		<tr index="5">
 			<length>98</length>
+			<trans>A vTgtelen tTr ÷r÷me - The Happiness of the Endless Space</trans>
 			<w pos="DT" lemma="a">A</w>
 			<w pos="JJ" lemma="vtgtelen">vTgtelen</w>
 			<w pos="NN" lemma="ttr">tTr</w>
@@ -50,6 +55,7 @@
 		</tr>
 		<tr index="6">
 			<length>220</length>
+			<trans>_jjßsznletTs - Born Again</trans>
 			<w pos="SYM" lemma="_jjßsznletts">_jjßsznletTs</w>
 			<punc pos=":" lemma="-">-</punc>
 			<w pos="NNP" lemma="born">Born</w>
@@ -57,18 +63,21 @@
 		</tr>
 		<tr index="7">
 			<length>344</length>
+			<trans>Ablakok - Windows</trans>
 			<w pos="NNP" lemma="ablakok">Ablakok</w>
 			<punc pos=":" lemma="-">-</punc>
 			<w pos="NNS" lemma="window">Windows</w>
 		</tr>
 		<tr index="8">
 			<length>224</length>
+			<trans>Vesztesek - Losers</trans>
 			<w pos="NNP" lemma="vesztesek">Vesztesek</w>
 			<punc pos=":" lemma="-">-</punc>
 			<w pos="NNS" lemma="loser">Losers</w>
 		</tr>
 		<tr index="9">
 			<length>262</length>
+			<trans>Felh=k=n sTtßlva - Walkin' on the Clouds</trans>
 			<w pos="NNP" lemma="felh=k=n">Felh=k=n</w>
 			<w pos="SYM" lemma="sttßlva">sTtßlva</w>
 			<punc pos=":" lemma="-">-</punc>
@@ -80,6 +89,7 @@
 		</tr>
 		<tr index="10">
 			<length>356</length>
+			<trans>Vßrni kell - You Must Wait</trans>
 			<w pos="NNP" lemma="vßrni">Vßrni</w>
 			<w pos="NNP" lemma="kell">kell</w>
 			<punc pos=":" lemma="-">-</punc>
@@ -89,6 +99,7 @@
 		</tr>
 		<tr index="11">
 			<length>134</length>
+			<trans>MerengTs - Meditation</trans>
 			<w pos="NNP" lemma="merengts">MerengTs</w>
 			<punc pos=":" lemma="-">-</punc>
 			<w pos="NN" lemma="meditation">Meditation</w>

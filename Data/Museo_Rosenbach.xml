@@ -1,59 +1,67 @@
-<artist name="Museo Rosenbach" genre="Rock Progressivo Italiano">
+<artist name="Museo Rosenbach" genre="Rock Progressivo Italiano" lang="it">
 	<al name ="Zarathustra" date="1973">
 		<length>2384</length>
 		<rating>4.32</rating>
 		<tr index="1">
 			<length>1249</length>
+			<trans>Zarathustra</trans>
 			<w pos="NNP" lemma="zarathustra">Zarathustra</w>
 		</tr>
 		<tr index="a">
 			<length>0</length>
-			<w pos="NNP" lemma="l'ultimo">L'Ultimo</w>
-			<w pos="NNP" lemma="uomo">Uomo</w>
+			<trans>L'Ultimo Uomo</trans>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="JJ" lemma="last">Last</w>
+			<w pos="NN" lemma="man">Man</w>
 		</tr>
 		<tr index="b">
 			<length>0</length>
-			<w pos="NNP" lemma="il">Il</w>
-			<w pos="NNP" lemma="re">Re</w>
-			<w pos="NNP" lemma="di">Di</w>
-			<w pos="NNP" lemma="ieri">Ieri</w>
+			<trans>Il Re Di Ieri</trans>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="king">King</w>
+			<w pos="IN" lemma="of">Of</w>
+			<w pos="NN" lemma="yesterday">Yesterday</w>
 		</tr>
 		<tr index="c">
 			<length>0</length>
-			<w pos="NNP" lemma="al">Al</w>
-			<w pos="NNP" lemma="di">Di</w>
-			<w pos="NNP" lemma="la">La</w>
-			<w pos="NNP" lemma="del">Del</w>
-			<w pos="NNP" lemma="bene">Bene</w>
-			<w pos="NNP" lemma="e">E</w>
-			<w pos="NNP" lemma="del">Del</w>
-			<w pos="NNP" lemma="male">Male</w>
+			<trans>Al Di La Del Bene E Del Male</trans>
+			<w pos="NN" lemma="beyond">Beyond</w>
+			<w pos="NNP" lemma="good">Good</w>
+			<w pos="CC" lemma="and">and</w>
+			<w pos="NNP" lemma="evil">Evil</w>
 		</tr>
 		<tr index="d">
 			<length>0</length>
-			<w pos="NN" lemma="superuomo">Superuomo</w>
+			<trans>Superuomo</trans>
+			<w pos="NN" lemma="superman">Superman</w>
 		</tr>
 		<tr index="e">
 			<length>0</length>
-			<w pos="NNP" lemma="il">Il</w>
-			<w pos="NNP" lemma="tempio">Tempio</w>
-			<w pos="NNP" lemma="delle">Delle</w>
-			<w pos="NNP" lemma="clessidre">Clessidre</w>
+			<trans>Il Tempio Delle Clessidre</trans>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="temple">Temple</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="NNP" lemma="hourglass">Hourglasses</w>
 		</tr>
 		<tr index="2">
 			<length>245</length>
-			<w pos="NNP" lemma="degli">Degli</w>
-			<w pos="NNP" lemma="uomini">Uomini</w>
+			<trans>Degli Uomini</trans>
+			<w pos="IN" lemma="of">Of</w>
+			<w pos="NNP" lemma="men">Men</w>
 		</tr>
 		<tr index="3">
 			<length>511</length>
-			<w pos="NNP" lemma="della">Della</w>
-			<w pos="NNP" lemma="natura">Natura</w>
+			<trans>Della Natura</trans>
+			<w pos="IN" lemma="of">Of</w>
+			<w pos="NN" lemma="nature">Nature</w>
 		</tr>
 		<tr index="4">
 			<length>379</length>
-			<w pos="NNP" lemma="dell'eterno">Dell'Eterno</w>
-			<w pos="NNP" lemma="ritorno">Ritorno</w>
+			<trans>Dell'Eterno Ritorno</trans>
+			<w pos="IN" lemma="of">Of</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="eternal">Eternal</w>
+			<w pos="NNP" lemma="return">Return</w>
 		</tr>
 	</al>
 </artist>

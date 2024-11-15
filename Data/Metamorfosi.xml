@@ -1,60 +1,72 @@
-<artist name="Metamorfosi" genre="Rock Progressivo Italiano">
+<artist name="Metamorfosi" genre="Rock Progressivo Italiano" lang="it">
 	<al name ="Inferno" date="1973">
 		<length>2418</length>
 		<rating>4.06</rating>
 		<tr index="1">
 			<length>471</length>
-			<w pos="NN" lemma="introduzione">Introduzione</w>
+			<trans>Introduzione</trans>
+			<w pos="NN" lemma="introduction">Introduction</w>
 		</tr>
 		<tr index="2">
 			<length>80</length>
-			<w pos="NNP" lemma="porta">Porta</w>
-			<w pos="NN" lemma="dell'inferno">dell'Inferno</w>
+			<trans>Porta dell'Inferno</trans>
+			<w pos="NNP" lemma="gate">Gate</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="NNP" lemma="hell">Hell</w>
 		</tr>
 		<tr index="3">
 			<length>79</length>
-			<w pos="NN" lemma="caronte">Caronte</w>
+			<trans>Caronte</trans>
+			<w pos="NNP" lemma="charon">Charon</w>
 		</tr>
 		<tr index="4">
 			<length>382</length>
-			<w pos="RB" lemma="spacciatore">Spacciatore</w>
-			<w pos="JJ" lemma="di">di</w>
-			<w pos="NN" lemma="droga">droga</w>
+			<trans>Spacciatore di droga</trans>
+			<w pos="NN" lemma="drug">Drug</w>
+			<w pos="NN" lemma="dealer">dealer</w>
 		</tr>
 		<tr index="5">
 			<length>195</length>
-			<w pos="NN" lemma="lussuriosi">Lussuriosi</w>
+			<trans>Lussuriosi</trans>
+			<w pos="JJ" lemma="lustful">Lustful</w>
 		</tr>
 		<tr index="6">
 			<length>92</length>
-			<w pos="NNP" lemma="avari">Avari</w>
+			<trans>Avari</trans>
+			<w pos="RB" lemma="miserly">Miserly</w>
 		</tr>
 		<tr index="7">
 			<length>225</length>
-			<w pos="NNS" lemma="violenti">Violenti</w>
+			<trans>Violenti</trans>
+			<w pos="NN" lemma="violent">Violent</w>
 		</tr>
 		<tr index="8">
 			<length>92</length>
+			<trans>Malebolge</trans>
 			<w pos="NN" lemma="malebolge">Malebolge</w>
 		</tr>
 		<tr index="9">
 			<length>342</length>
-			<w pos="NN" lemma="sfruttatori">Sfruttatori</w>
+			<trans>Sfruttatori</trans>
+			<w pos="NNS" lemma="exploiter">Exploiters</w>
 		</tr>
 		<tr index="10">
 			<length>205</length>
-			<w pos="NN" lemma="razzisti">Razzisti</w>
+			<trans>Razzisti</trans>
+			<w pos="NNS" lemma="racist">Racists</w>
 		</tr>
 		<tr index="11">
 			<length>152</length>
-			<w pos="NNP" lemma="lucifero">Lucifero</w>
+			<trans>Lucifero (Politicanti)</trans>
+			<w pos="NNP" lemma="lucifer">Lucifer</w>
 			<punc pos="(" lemma="(">(</punc>
-			<w pos="NNP" lemma="politicanti">Politicanti</w>
+			<w pos="NNPS" lemma="politician">Politicians</w>
 			<punc pos=")" lemma=")">)</punc>
 		</tr>
 		<tr index="12">
 			<length>97</length>
-			<w pos="NN" lemma="conclusione">Conclusione</w>
+			<trans>Conclusione</trans>
+			<w pos="NN" lemma="conclusion">Conclusion</w>
 		</tr>
 	</al>
 </artist>

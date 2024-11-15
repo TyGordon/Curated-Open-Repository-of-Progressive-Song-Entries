@@ -1,41 +1,48 @@
-<artist name="Campo Di Marte" genre="Rock Progressivo Italiano">
+<artist name="Campo Di Marte" genre="Rock Progressivo Italiano" lang="it">
 	<al name ="Campo Di Marte" date="1973">
 		<length>2443</length>
 		<rating>3.92</rating>
 		<tr index="1">
 			<length>490</length>
-			<w pos="NNP" lemma="primo">Primo</w>
-			<w pos="NNP" lemma="tempo">Tempo</w>
+			<trans>Primo Tempo</trans>
+			<w pos="RB" lemma="first">First</w>
+			<w pos="NN" lemma="half">Half</w>
 		</tr>
 		<tr index="2">
 			<length>200</length>
-			<w pos="NNP" lemma="secundo">Secundo</w>
-			<w pos="NNP" lemma="tempo">Tempo</w>
+			<trans>Secundo Tempo</trans>
+			<w pos="JJ" lemma="second">Second</w>
+			<w pos="NNP" lemma="time">Time</w>
 		</tr>
 		<tr index="3">
 			<length>380</length>
-			<w pos="NNP" lemma="terzo">Terzo</w>
-			<w pos="NNP" lemma="tempo">Tempo</w>
+			<trans>Terzo Tempo</trans>
+			<w pos="JJ" lemma="third">Third</w>
+			<w pos="NNP" lemma="time">Time</w>
 		</tr>
 		<tr index="4">
 			<length>195</length>
-			<w pos="NNP" lemma="quarto">Quarto</w>
-			<w pos="NNP" lemma="tempo">Tempo</w>
+			<trans>Quarto Tempo</trans>
+			<w pos="NNP" lemma="fourth">Fourth</w>
+			<w pos="NNP" lemma="half">Half</w>
 		</tr>
 		<tr index="5">
 			<length>358</length>
-			<w pos="NNP" lemma="quinto">Quinto</w>
-			<w pos="NNP" lemma="tempo">Tempo</w>
+			<trans>Quinto Tempo</trans>
+			<w pos="JJ" lemma="fifth">Fifth</w>
+			<w pos="NNP" lemma="time">Time</w>
 		</tr>
 		<tr index="6">
 			<length>312</length>
-			<w pos="NNP" lemma="sesto">Sesto</w>
-			<w pos="NNP" lemma="tempo">Tempo</w>
+			<trans>Sesto Tempo</trans>
+			<w pos="JJ" lemma="sixth">Sixth</w>
+			<w pos="NNP" lemma="time">Time</w>
 		</tr>
 		<tr index="7">
 			<length>508</length>
-			<w pos="NNP" lemma="settimo">Settimo</w>
-			<w pos="NNP" lemma="tempo">Tempo</w>
+			<trans>Settimo Tempo</trans>
+			<w pos="JJ" lemma="seventh">Seventh</w>
+			<w pos="NNP" lemma="time">Time</w>
 		</tr>
 	</al>
 </artist>

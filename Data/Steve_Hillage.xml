@@ -1,0 +1,142 @@
+<artist name="Steve Hillage" genre="Canterbury Scene" lang="en">
+	<al name ="Fish Rising" date="1975">
+		<length>2699</length>
+		<rating>4.09</rating>
+		<tr index="1">
+			<length>1015</length>
+			<w pos="JJ" lemma="solar">Solar</w>
+			<w pos="NNP" lemma="musick">Musick</w>
+			<w pos="NNP" lemma="suite">Suite</w>
+			<punc pos=":" lemma=":">:</punc>
+		</tr>
+		<tr index="a ">
+			<length>0</length>
+			<w pos="NNP" lemma="sun">Sun</w>
+			<w pos="NNP" lemma="song">Song</w>
+			<punc pos="(" lemma="(">(</punc>
+			<w pos="PRP" lemma="i">I</w>
+			<w pos="VBP" lemma="love">Love</w>
+			<w pos="PRP$" lemma="it">Its</w>
+			<w pos="NNP" lemma="holy">Holy</w>
+			<w pos="NNP" lemma="mystery">Mystery</w>
+			<punc pos=")" lemma=")">)</punc>
+		</tr>
+		<tr index="b ">
+			<length>0</length>
+			<w pos="NNP" lemma="canterbury">Canterbury</w>
+			<w pos="NNP" lemma="sunrise">Sunrise</w>
+		</tr>
+		<tr index="c ">
+			<length>0</length>
+			<w pos="NNP" lemma="hiram">Hiram</w>
+			<w pos="NNP" lemma="afterglid">Afterglid</w>
+			<w pos="VBZ" lemma="meet">Meets</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NN" lemma="dervish">Dervish</w>
+		</tr>
+		<tr index="d ">
+			<length>0</length>
+			<w pos="NNP" lemma="sun">Sun</w>
+			<w pos="NNP" lemma="song">Song</w>
+			<punc pos="(" lemma="(">(</punc>
+			<w pos="NN" lemma="reprise">reprise</w>
+			<punc pos=")" lemma=")">)</punc>
+		</tr>
+		<tr index="2">
+			<length>83</length>
+			<w pos="NN" lemma="fish">Fish</w>
+		</tr>
+		<tr index="3">
+			<length>190</length>
+			<w pos="NN" lemma="meditation">Meditation</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="snake">Snake</w>
+		</tr>
+		<tr index="4">
+			<length>525</length>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="salmon">Salmon</w>
+			<w pos="NN" lemma="song">Song</w>
+			<punc pos=":" lemma=":">:</punc>
+		</tr>
+		<tr index="a ">
+			<length>0</length>
+			<w pos="NNP" lemma="salmon">Salmon</w>
+			<w pos="NNP" lemma="pool">Pool</w>
+		</tr>
+		<tr index="b ">
+			<length>0</length>
+			<w pos="NNP" lemma="solomon">Solomon</w>
+			<w pos="POS" lemma="'s">'s</w>
+			<w pos="NNP" lemma="atlantis">Atlantis</w>
+			<w pos="NNP" lemma="salmon">Salmon</w>
+		</tr>
+		<tr index="c ">
+			<length>0</length>
+			<w pos="VBG" lemma="swimming">Swimming</w>
+			<w pos="IN" lemma="with">with</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="salmon">Salmon</w>
+		</tr>
+		<tr index="d ">
+			<length>0</length>
+			<w pos="NNP" lemma="king">King</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="fish">Fishes</w>
+		</tr>
+		<tr index="5">
+			<length>886</length>
+			<w pos="NNS" lemma="aftaglid">Aftaglid</w>
+			<punc pos=":" lemma=":">:</punc>
+		</tr>
+		<tr index="a ">
+			<length>0</length>
+			<w pos="NNP" lemma="sun">Sun</w>
+			<w pos="NNP" lemma="moon">Moon</w>
+			<w pos="VBG" lemma="surfing">Surfing</w>
+		</tr>
+		<tr index="b ">
+			<length>0</length>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="great">Great</w>
+			<w pos="NNP" lemma="wave">Wave</w>
+			<w pos="CC" lemma="and">and</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="boat">Boat</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="NNP" lemma="hermes">Hermes</w>
+		</tr>
+		<tr index="c ">
+			<length>0</length>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="silver">Silver</w>
+			<w pos="NNP" lemma="ladder">Ladder</w>
+		</tr>
+		<tr index="d ">
+			<length>0</length>
+			<w pos="JJ" lemma="astral">Astral</w>
+			<w pos="NNP" lemma="meadow">Meadows</w>
+		</tr>
+		<tr index="e ">
+			<length>0</length>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="lafta">Lafta</w>
+			<w pos="NNP" lemma="yoga">Yoga</w>
+			<w pos="NNP" lemma="song">Song</w>
+		</tr>
+		<tr index="f ">
+			<length>0</length>
+			<w pos="VBG" lemma="glidding">Glidding</w>
+		</tr>
+		<tr index="g ">
+			<length>0</length>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="golden">Golden</w>
+			<w pos="NNP" lemma="vibe">Vibe</w>
+			<w pos="NNP" lemma="/">/</w>
+			<w pos="NNP" lemma="outglib">Outglib</w>
+		</tr>
+	</al>
+</artist>

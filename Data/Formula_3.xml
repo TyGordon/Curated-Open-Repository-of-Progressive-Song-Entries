@@ -1,0 +1,86 @@
+<artist name="Formula 3" genre="Rock Progressivo Italiano" lang="it">
+	<al name ="Sognando e Risognando" date="1972">
+		<length>2419</length>
+		<rating>3.65</rating>
+		<tr index="1">
+			<length>173</length>
+			<trans>Fermo al Semaformo</trans>
+			<w pos="VBN" lemma="stopped">Stopped</w>
+			<w pos="IN" lemma="at">at</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NN" lemma="traffic">traffic</w>
+			<w pos="NN" lemma="light">light</w>
+		</tr>
+		<tr index="2">
+			<length>135</length>
+			<trans>Sognando</trans>
+			<w pos="VBG" lemma="dreaming">Dreaming</w>
+		</tr>
+		<tr index="3">
+			<length>250</length>
+			<trans>La Stalla con I Buoi</trans>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="JJ" lemma="stable">Stable</w>
+			<w pos="IN" lemma="with">with</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="ox">Oxen</w>
+		</tr>
+		<tr index="4">
+			<length>79</length>
+			<trans>Risognando</trans>
+			<w pos="VBG" lemma="dreaming">Dreaming</w>
+			<w pos="RB" lemma="again">again</w>
+		</tr>
+		<tr index="5">
+			<length>315</length>
+			<trans>L'Albero</trans>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="tree">Tree</w>
+		</tr>
+		<tr index="6">
+			<length>261</length>
+			<trans>Non Mi Ritrovo</trans>
+			<w pos="PRP" lemma="i">I</w>
+			<w pos="VBP" lemma="do">do</w>
+			<w pos="RB" lemma="n't">n't</w>
+			<w pos="VB" lemma="find">find</w>
+			<w pos="PRP" lemma="myself">myself</w>
+		</tr>
+		<tr index="7">
+			<length>132</length>
+			<trans>Finale</trans>
+			<w pos="JJ" lemma="final">Final</w>
+		</tr>
+		<tr index="8">
+			<length>297</length>
+			<trans>Storia Di Un UomoE Di Una Donna</trans>
+			<w pos="NN" lemma="story">Story</w>
+			<w pos="IN" lemma="of">Of</w>
+			<w pos="NNP" lemma="a">A</w>
+			<w pos="NNP" lemma="man">Man</w>
+			<w pos="CC" lemma="and">And</w>
+			<w pos="NNP" lemma="a">A</w>
+			<w pos="NNP" lemma="woman">Woman</w>
+		</tr>
+		<tr index="9">
+			<length>152</length>
+			<trans>Tema</trans>
+			<w pos="NN" lemma="theme">Theme</w>
+		</tr>
+		<tr index="10">
+			<length>102</length>
+			<trans>Caccia</trans>
+			<w pos="VBG" lemma="hunting">Hunting</w>
+		</tr>
+		<tr index="11">
+			<length>356</length>
+			<trans>Interludio</trans>
+			<w pos="NN" lemma="interlude">Interlude</w>
+		</tr>
+		<tr index="12">
+			<length>78</length>
+			<trans>Finale</trans>
+			<w pos="JJ" lemma="final">Final</w>
+		</tr>
+	</al>
+</artist>

@@ -1,4 +1,4 @@
-<artist name="Wishbone Ash" genre="Prog Related">
+<artist name="Wishbone Ash" genre="Prog Related" lang="en">
 	<al name ="Argus" date="1972">
 		<length>2684</length>
 		<rating>4.23</rating>
@@ -86,7 +86,7 @@
 	</al>
 	<al name ="There's the Rub" date="1974">
 		<length>1</length>
-		<rating>3.91</rating>
+		<rating>3.90</rating>
 		<tr index="1">
 			<length>398</length>
 			<w pos="NN" lemma="silver">Silver</w>

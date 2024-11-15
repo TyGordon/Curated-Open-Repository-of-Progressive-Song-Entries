@@ -1,0 +1,107 @@
+<artist name="Il Rovescio Della Medaglia" genre="Rock Progressivo Italiano" lang="it">
+	<al name ="Contaminazione" date="1973">
+		<length>2186</length>
+		<rating>4.17</rating>
+		<tr index="1">
+			<length>65</length>
+			<trans>Absent For This Consumed World</trans>
+			<w pos="NN" lemma="absent">Absent</w>
+			<w pos="IN" lemma="for">For</w>
+			<w pos="DT" lemma="this">This</w>
+			<w pos="NNP" lemma="consumed">Consumed</w>
+			<w pos="NNP" lemma="world">World</w>
+		</tr>
+		<tr index="2">
+			<length>107</length>
+			<trans>Ora Non Ricordo Piu</trans>
+			<w pos="RB" lemma="now">Now</w>
+			<w pos="PRP" lemma="i">I</w>
+			<w pos="VBP" lemma="do">Do</w>
+			<w pos="RB" lemma="n't">n't</w>
+			<w pos="VB" lemma="remember">Remember</w>
+			<w pos="RB" lemma="anymore">Anymore</w>
+		</tr>
+		<tr index="3">
+			<length>316</length>
+			<trans>Il Suono Del Silenzio</trans>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="sound">Sound</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="NNP" lemma="silence">Silence</w>
+		</tr>
+		<tr index="4">
+			<length>259</length>
+			<trans>Mi Sono Svegliato E.., Ho Chiuso Gli Occhi</trans>
+			<w pos="PRP" lemma="i">I</w>
+			<w pos="VBD" lemma="woke">Woke</w>
+			<w pos="NNP" lemma="up">Up</w>
+			<w pos="CC" lemma="and">And</w>
+			<w pos="NNP" lemma="..">..</w>
+			<punc pos="," lemma=",">,</punc>
+			<w pos="PRP" lemma="i">I</w>
+			<w pos="VBD" lemma="closed">Closed</w>
+			<w pos="NNP" lemma="my">My</w>
+			<w pos="NNS" lemma="eye">Eyes</w>
+		</tr>
+		<tr index="5">
+			<length>124</length>
+			<trans>Lei Sei Tu: Lei</trans>
+			<w pos="PRP" lemma="she">She</w>
+			<w pos="VBZ" lemma="is">Is</w>
+			<w pos="PRP" lemma="you">You</w>
+			<punc pos=":" lemma=":">:</punc>
+			<w pos="PRP" lemma="she">She</w>
+		</tr>
+		<tr index="6">
+			<length>250</length>
+			<trans>La Mia Musica</trans>
+			<w pos="PRP$" lemma="my">My</w>
+			<w pos="JJ" lemma="music">Music</w>
+		</tr>
+		<tr index="7">
+			<length>83</length>
+			<trans>Johann</trans>
+			<w pos="NNP" lemma="john">John</w>
+		</tr>
+		<tr index="8">
+			<length>186</length>
+			<trans>Scotland Machine</trans>
+			<w pos="NNP" lemma="scotland">Scotland</w>
+			<w pos="NNP" lemma="machine">Machine</w>
+		</tr>
+		<tr index="9">
+			<length>198</length>
+			<trans>Cella 503</trans>
+			<w pos="NNP" lemma="cell">Cell</w>
+			<w pos="CD" lemma="503">503</w>
+		</tr>
+		<tr index="10">
+			<length>64</length>
+			<trans>Contaminazione 1760</trans>
+			<w pos="NN" lemma="contamination">Contamination</w>
+			<w pos="CD" lemma="1760">1760</w>
+		</tr>
+		<tr index="11">
+			<length>175</length>
+			<trans>Alzo Un Muro Elettrico</trans>
+			<w pos="PRP" lemma="i">I</w>
+			<w pos="VBP" lemma="raise">raise</w>
+			<w pos="DT" lemma="an">an</w>
+			<w pos="JJ" lemma="electric">electric</w>
+			<w pos="NN" lemma="wall">wall</w>
+		</tr>
+		<tr index="12">
+			<length>137</length>
+			<trans>Sweet Suite</trans>
+			<w pos="NNP" lemma="sweet">Sweet</w>
+			<w pos="NNP" lemma="suite">Suite</w>
+		</tr>
+		<tr index="13">
+			<length>222</length>
+			<trans>La Grande Fuga</trans>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="great">Great</w>
+			<w pos="NNP" lemma="escape">Escape</w>
+		</tr>
+	</al>
+</artist>

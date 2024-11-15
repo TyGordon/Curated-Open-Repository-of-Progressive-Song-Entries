@@ -1,0 +1,83 @@
+<artist name="Tangerine Dream" genre="Progressive Electronic" lang="en">
+	<al name ="Phaedra" date="1974">
+		<length>2255</length>
+		<rating>4.16</rating>
+		<tr index="1">
+			<length>1055</length>
+			<w pos="NN" lemma="phaedra">Phaedra</w>
+		</tr>
+		<tr index="2">
+			<length>583</length>
+			<w pos="JJ" lemma="mysterious">Mysterious</w>
+			<w pos="NN" lemma="semblance">Semblance</w>
+			<w pos="IN" lemma="at">At</w>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="strand">Strand</w>
+			<w pos="IN" lemma="of">Of</w>
+			<w pos="NNP" lemma="nightmare">Nightmares</w>
+		</tr>
+		<tr index="3">
+			<length>477</length>
+			<w pos="NNS" lemma="movement">Movements</w>
+			<w pos="IN" lemma="of">Of</w>
+			<w pos="NNP" lemma="a">A</w>
+			<w pos="NNP" lemma="visionary">Visionary</w>
+		</tr>
+		<tr index="4">
+			<length>140</length>
+			<w pos="NNP" lemma="sequent">Sequent</w>
+			<w pos="NNP" lemma="c">C</w>
+			<w pos="POS" lemma="'">'</w>
+		</tr>
+	</al>
+	<al name ="Rubycon" date="1975">
+		<length>2093</length>
+		<rating>4.23</rating>
+		<tr index="1">
+			<length>1038</length>
+			<w pos="NNP" lemma="rubycon">Rubycon</w>
+			<w pos="NNP" lemma="part">Part</w>
+			<w pos="CD" lemma="1">1</w>
+		</tr>
+		<tr index="2">
+			<length>1055</length>
+			<w pos="NNP" lemma="rubycon">Rubycon</w>
+			<w pos="NNP" lemma="part">Part</w>
+			<w pos="CD" lemma="2">2</w>
+		</tr>
+	</al>
+	<al name ="Stratosfear" date="1976">
+		<length>2079</length>
+		<rating>4.01</rating>
+		<tr index="1">
+			<length>604</length>
+			<w pos="NN" lemma="stratosfear">Stratosfear</w>
+		</tr>
+		<tr index="2">
+			<length>285</length>
+			<w pos="JJ" lemma="big">Big</w>
+			<w pos="NN" lemma="sleep">Sleep</w>
+			<w pos="IN" lemma="in">in</w>
+			<w pos="NNP" lemma="search">Search</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="NNP" lemma="hades">Hades</w>
+		</tr>
+		<tr index="3">
+			<length>490</length>
+			<w pos="CD" lemma="3am">3AM</w>
+			<w pos="IN" lemma="at">at</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="border">Border</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="marsh">Marsh</w>
+			<w pos="IN" lemma="from">from</w>
+			<w pos="NNP" lemma="okefenokee">Okefenokee</w>
+		</tr>
+		<tr index="4">
+			<length>700</length>
+			<w pos="JJ" lemma="invisible">Invisible</w>
+			<w pos="NNS" lemma="limit">Limits</w>
+		</tr>
+	</al>
+</artist>

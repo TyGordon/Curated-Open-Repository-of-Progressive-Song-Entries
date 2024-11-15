@@ -1,0 +1,67 @@
+<artist name="Locanda Delle Fate" genre="Rock Progressivo Italiano" lang="it">
+	<al name ="Forse Le Lucciole Non Si Amano PiÃ¹" date="1977">
+		<length>2957</length>
+		<rating>4.10</rating>
+		<tr index="1">
+			<length>391</length>
+			<trans>A Volte Un Istante Di Quiete</trans>
+			<w pos="RB" lemma="sometimes">Sometimes</w>
+			<w pos="DT" lemma="a">A</w>
+			<w pos="NN" lemma="moment">Moment</w>
+			<w pos="IN" lemma="of">Of</w>
+			<w pos="JJ" lemma="quiet">Quiet</w>
+		</tr>
+		<tr index="2">
+			<length>588</length>
+			<trans>Forse Le Lucciole Non Si Amano Pi·</trans>
+			<w pos="RB" lemma="maybe">Maybe</w>
+			<w pos="NNS" lemma="firefly">Fireflies</w>
+			<w pos="VBP" lemma="do">Do</w>
+			<w pos="RB" lemma="n't">n't</w>
+			<w pos="VB" lemma="love">Love</w>
+			<w pos="DT" lemma="each">Each</w>
+			<w pos="JJ" lemma="other">Other</w>
+			<w pos="RB" lemma="anymore">Anymore</w>
+		</tr>
+		<tr index="3">
+			<length>505</length>
+			<trans>Profumo Di Colla Bianca</trans>
+			<w pos="NNP" lemma="white">White</w>
+			<w pos="NNP" lemma="glue">Glue</w>
+			<w pos="NNP" lemma="scent">Scent</w>
+		</tr>
+		<tr index="4">
+			<length>401</length>
+			<trans>Cercando Un Nuovo Confine</trans>
+			<w pos="VBG" lemma="looking">Looking</w>
+			<w pos="IN" lemma="for">for</w>
+			<w pos="DT" lemma="a">a</w>
+			<w pos="NNP" lemma="new">New</w>
+			<w pos="NNP" lemma="frontier">Frontier</w>
+		</tr>
+		<tr index="5">
+			<length>281</length>
+			<trans>Sogno Di Estunno</trans>
+			<w pos="NN" lemma="dream">Dream</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="NNP" lemma="estunno">Estunno</w>
+		</tr>
+		<tr index="6">
+			<length>214</length>
+			<trans>Non Chiudere A Chiave Le Stelle</trans>
+			<w pos="VBP" lemma="do">Do</w>
+			<w pos="RB" lemma="n't">n't</w>
+			<w pos="VB" lemma="lock">Lock</w>
+			<w pos="RP" lemma="up">Up</w>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNS" lemma="star">Stars</w>
+		</tr>
+		<tr index="7">
+			<length>577</length>
+			<trans>Vendesi Saggezza</trans>
+			<w pos="NNP" lemma="wisdom">Wisdom</w>
+			<w pos="IN" lemma="for">for</w>
+			<w pos="NN" lemma="sale">sale</w>
+		</tr>
+	</al>
+</artist>

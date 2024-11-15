@@ -1,0 +1,192 @@
+<artist name="Franco Battiato" genre="Rock Progressivo Italiano" lang="it">
+	<al name ="Clic" date="1974">
+		<length>1908</length>
+		<rating>3.57</rating>
+		<tr index="1">
+			<length>367</length>
+			<trans>I Cancelli Della Memoria</trans>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="gate">Gates</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="NNP" lemma="memory">Memory</w>
+		</tr>
+		<tr index="2">
+			<length>289</length>
+			<trans>No U Turn</trans>
+			<w pos="DT" lemma="no">No</w>
+			<w pos="NN" lemma="u-turn">U-Turn</w>
+		</tr>
+		<tr index="3">
+			<length>269</length>
+			<trans>Il Mercato Degli Dei</trans>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NN" lemma="market">Market</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNS" lemma="god">Gods</w>
+		</tr>
+		<tr index="4">
+			<length>160</length>
+			<trans>Rien Ne Va Plus</trans>
+			<w pos="VBG" lemma="nothing">Nothing</w>
+			<w pos="JJR" lemma="more">More</w>
+			<w pos="NNS" lemma="go">Goes</w>
+		</tr>
+		<tr index="5">
+			<length>318</length>
+			<trans>Propiedad Prohibida</trans>
+			<w pos="VBN" lemma="prohibited">Prohibited</w>
+			<w pos="NN" lemma="property">Property</w>
+		</tr>
+		<tr index="6">
+			<length>270</length>
+			<trans>Nel Cantiere Di Un'Infanzia</trans>
+			<w pos="IN" lemma="in">In</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="construction">Construction</w>
+			<w pos="NNP" lemma="site">Site</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="DT" lemma="a">a</w>
+			<w pos="NN" lemma="childhood">Childhood</w>
+		</tr>
+		<tr index="7">
+			<length>231</length>
+			<trans>Ethika Fon Ethica</trans>
+			<w pos="NNP" lemma="ethika">Ethika</w>
+			<w pos="NNP" lemma="fon">Fon</w>
+			<w pos="NNP" lemma="ethica">Ethica</w>
+		</tr>
+	</al>
+	<al name ="Fetus" date="1971">
+		<length>1841</length>
+		<rating>3.43</rating>
+		<tr index="1">
+			<length>159</length>
+			<trans>Fetus</trans>
+			<w pos="NN" lemma="fetus">Fetus</w>
+		</tr>
+		<tr index="2">
+			<length>175</length>
+			<trans>Una Cellula</trans>
+			<w pos="DT" lemma="a">A</w>
+			<w pos="NN" lemma="cell">Cell</w>
+		</tr>
+		<tr index="3">
+			<length>119</length>
+			<trans>Cariocinesi</trans>
+			<w pos="NN" lemma="karyokinesis">Karyokinesis</w>
+		</tr>
+		<tr index="4">
+			<length>271</length>
+			<trans>Energia</trans>
+			<w pos="NNP" lemma="energy">Energy</w>
+		</tr>
+		<tr index="5">
+			<length>231</length>
+			<trans>Fenomenologia</trans>
+			<w pos="NN" lemma="phenomenology">Phenomenology</w>
+		</tr>
+		<tr index="6">
+			<length>371</length>
+			<trans>Meccanica</trans>
+			<w pos="NNS" lemma="mechanic">Mechanics</w>
+		</tr>
+		<tr index="7">
+			<length>336</length>
+			<trans>Anafase</trans>
+			<w pos="NN" lemma="anaphase">Anaphase</w>
+		</tr>
+		<tr index="8">
+			<length>178</length>
+			<trans>Mutazione</trans>
+			<w pos="NN" lemma="mutation">Mutation</w>
+		</tr>
+	</al>
+	<al name ="Pollution" date="1972">
+		<length>1989</length>
+		<rating>3.65</rating>
+		<tr index="1">
+			<length>168</length>
+			<trans>Il Silenzio Del Rumore</trans>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="silence">Silence</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="NNP" lemma="noise">Noise</w>
+		</tr>
+		<tr index="2">
+			<length>20</length>
+			<trans>31 Dicembre 1999 - Ore 9</trans>
+			<w pos="NNP" lemma="december">December</w>
+			<w pos="CD" lemma="31">31</w>
+			<punc pos="," lemma=",">,</punc>
+			<w pos="CD" lemma="1999">1999</w>
+			<punc pos=":" lemma="-">-</punc>
+			<w pos="CD" lemma="9:00">9:00</w>
+			<w pos="VBP" lemma="am">AM</w>
+		</tr>
+		<tr index="3">
+			<length>307</length>
+			<trans>Areknames</trans>
+			<w pos="NNS" lemma="areknames">Areknames</w>
+		</tr>
+		<tr index="4">
+			<length>445</length>
+			<trans>Beta</trans>
+			<w pos="NN" lemma="beta">Beta</w>
+		</tr>
+		<tr index="5">
+			<length>303</length>
+			<trans>Plancton</trans>
+			<w pos="NN" lemma="plankton">Plankton</w>
+		</tr>
+		<tr index="6">
+			<length>529</length>
+			<trans>Pollution</trans>
+			<w pos="NN" lemma="pollution">Pollution</w>
+		</tr>
+		<tr index="7">
+			<length>215</length>
+			<trans>Ti Sei Mai Chiesto Quale Funzione Hai?</trans>
+			<w pos="VBP" lemma="have">Have</w>
+			<w pos="PRP" lemma="you">You</w>
+			<w pos="RB" lemma="ever">Ever</w>
+			<w pos="VBD" lemma="wondered">Wondered</w>
+			<w pos="WP" lemma="what">What</w>
+			<w pos="NNP" lemma="function">Function</w>
+			<w pos="PRP" lemma="you">You</w>
+			<w pos="VBP" lemma="have">Have</w>
+			<punc pos="." lemma="?">?</punc>
+		</tr>
+	</al>
+	<al name ="Sulle Corde Di Aries" date="1973">
+		<length>2001</length>
+		<rating>4.07</rating>
+		<tr index="1">
+			<length>982</length>
+			<trans>Sequenze E Frequenze</trans>
+			<w pos="NNS" lemma="sequence">Sequences</w>
+			<w pos="CC" lemma="and">and</w>
+			<w pos="NNS" lemma="frequency">Frequencies</w>
+		</tr>
+		<tr index="2">
+			<length>326</length>
+			<trans>Aries</trans>
+			<w pos="NNS" lemma="aries">Aries</w>
+		</tr>
+		<tr index="3">
+			<length>301</length>
+			<trans>Aria Di Rivoluzione</trans>
+			<w pos="NNP" lemma="air">Air</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="NNP" lemma="revolution">Revolution</w>
+		</tr>
+		<tr index="4">
+			<length>392</length>
+			<trans>Da Oriente Ad Occidente</trans>
+			<w pos="IN" lemma="from">From</w>
+			<w pos="NNP" lemma="east">East</w>
+			<w pos="TO" lemma="to">to</w>
+			<w pos="VB" lemma="west">West</w>
+		</tr>
+	</al>
+</artist>

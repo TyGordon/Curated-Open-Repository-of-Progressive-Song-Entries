@@ -1,7 +1,7 @@
-<artist name="Kansas" genre="Symphonic Prog">
+<artist name="Kansas" genre="Symphonic Prog" lang="en">
 	<al name ="Audio Visions" date="1980">
 		<length>2564</length>
-		<rating>3.08</rating>
+		<rating>3.07</rating>
 		<tr index="1">
 			<length>295</length>
 			<w pos="NN" lemma="relentless">Relentless</w>
@@ -64,7 +64,7 @@
 	</al>
 	<al name ="Kansas" date="1974">
 		<length>2684</length>
-		<rating>4.01</rating>
+		<rating>4.00</rating>
 		<tr index="1">
 			<length>211</length>
 			<w pos="MD" lemma="can">Can</w>

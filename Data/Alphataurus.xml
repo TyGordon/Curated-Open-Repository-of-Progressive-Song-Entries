@@ -1,0 +1,42 @@
+<artist name="Alphataurus" genre="Rock Progressivo Italiano" lang="it">
+	<al name ="Alphataurus" date="1973">
+		<length>2369</length>
+		<rating>4.14</rating>
+		<tr index="1">
+			<length>738</length>
+			<trans>Le Chamadere (Peccato d'Orgoglio)</trans>
+			<w pos="NNP" lemma="le">Le</w>
+			<w pos="NNP" lemma="chamadere">Chamadere</w>
+			<punc pos="(" lemma="(">(</punc>
+			<w pos="NNP" lemma="sin">Sin</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="NNP" lemma="pride">Pride</w>
+			<punc pos=")" lemma=")">)</punc>
+		</tr>
+		<tr index="2">
+			<length>288</length>
+			<trans>Dopo l'Uragano</trans>
+			<w pos="IN" lemma="after">After</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="hurricane">Hurricane</w>
+		</tr>
+		<tr index="3">
+			<length>194</length>
+			<trans>Croma</trans>
+			<w pos="NN" lemma="chromium">Chromium</w>
+		</tr>
+		<tr index="4">
+			<length>561</length>
+			<trans>La Mente Vola</trans>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="mind">Mind</w>
+			<w pos="NNS" lemma="fly">Flies</w>
+		</tr>
+		<tr index="5">
+			<length>588</length>
+			<trans>Ombra Muta</trans>
+			<w pos="NNP" lemma="mute">Mute</w>
+			<w pos="NNP" lemma="shadow">Shadow</w>
+		</tr>
+	</al>
+</artist>

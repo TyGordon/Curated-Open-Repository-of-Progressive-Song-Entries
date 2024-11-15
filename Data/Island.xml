@@ -1,0 +1,32 @@
+<artist name="Island" genre="Eclectic Prog" lang="en">
+	<al name ="Pictures" date="1977">
+		<length>2940</length>
+		<rating>4.19</rating>
+		<tr index="1">
+			<length>88</length>
+			<w pos="NN" lemma="introduction">Introduction</w>
+		</tr>
+		<tr index="2">
+			<length>373</length>
+			<w pos="NN" lemma="zero">Zero</w>
+		</tr>
+		<tr index="3">
+			<length>1011</length>
+			<w pos="NNS" lemma="picture">Pictures</w>
+		</tr>
+		<tr index="4">
+			<length>733</length>
+			<w pos="NNP" lemma="herold">Herold</w>
+			<w pos="CC" lemma="and">and</w>
+			<w pos="NNP" lemma="king">King</w>
+			<w pos="NNP" lemma="/">/</w>
+			<w pos="NNP" lemma="dloreh">Dloreh</w>
+		</tr>
+		<tr index="5">
+			<length>735</length>
+			<w pos="RB" lemma="here">Here</w>
+			<w pos="CC" lemma="and">and</w>
+			<w pos="RB" lemma="now">Now</w>
+		</tr>
+	</al>
+</artist>

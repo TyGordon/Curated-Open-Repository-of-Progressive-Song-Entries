@@ -1,4 +1,4 @@
-<artist name="Camel" genre="Symphonic Prog">
+<artist name="Camel" genre="Symphonic Prog" lang="en">
 	<al name ="Breathless" date="1978">
 		<length>2657</length>
 		<rating>3.17</rating>
@@ -146,7 +146,7 @@
 	</al>
 	<al name ="Mirage" date="1974">
 		<length>2267</length>
-		<rating>4.41</rating>
+		<rating>4.42</rating>
 		<tr index="1">
 			<length>347</length>
 			<w pos="NN" lemma="freefall">Freefall</w>
@@ -191,9 +191,47 @@
 			<w pos="NNP" lemma="fantasy">Fantasy</w>
 		</tr>
 	</al>
-	<al name ="Moonmadness" date="</div>">
-		<length>1</length>
-		<rating><div id="content"></rating>
+	<al name ="Moonmadness" date="1976">
+		<length>2372</length>
+		<rating>4.40</rating>
+		<tr index="1">
+			<length>119</length>
+			<w pos="CC" lemma="aristillus">Aristillus</w>
+		</tr>
+		<tr index="2">
+			<length>438</length>
+			<w pos="NNP" lemma="song">Song</w>
+			<w pos="NNP" lemma="within">Within</w>
+			<w pos="DT" lemma="a">a</w>
+			<w pos="NN" lemma="song">Song</w>
+		</tr>
+		<tr index="3">
+			<length>408</length>
+			<w pos="NNP" lemma="chord">Chord</w>
+			<w pos="NNP" lemma="change">Change</w>
+		</tr>
+		<tr index="4">
+			<length>129</length>
+			<w pos="NN" lemma="spirit">Spirit</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="water">Water</w>
+		</tr>
+		<tr index="5">
+			<length>420</length>
+			<w pos="DT" lemma="another">Another</w>
+			<w pos="NNP" lemma="night">Night</w>
+		</tr>
+		<tr index="6">
+			<length>304</length>
+			<w pos="NNP" lemma="air">Air</w>
+			<w pos="NNP" lemma="born">Born</w>
+		</tr>
+		<tr index="7">
+			<length>554</length>
+			<w pos="NNP" lemma="lunar">Lunar</w>
+			<w pos="NNP" lemma="sea">Sea</w>
+		</tr>
 	</al>
 	<al name ="Nude" date="1981">
 		<length>2692</length>

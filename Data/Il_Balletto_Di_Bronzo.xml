@@ -1,29 +1,34 @@
-<artist name="Il Balletto Di Bronzo" genre="Rock Progressivo Italiano">
+<artist name="Il Balletto Di Bronzo" genre="Rock Progressivo Italiano" lang="it">
 	<al name ="Ys" date="1972">
 		<length>2267</length>
 		<rating>4.25</rating>
 		<tr index="1">
 			<length>911</length>
-			<w pos="NN" lemma="introduzione">Introduzione</w>
+			<trans>Introduzione</trans>
+			<w pos="NN" lemma="introduction">Introduction</w>
 		</tr>
 		<tr index="2">
 			<length>207</length>
-			<w pos="NNP" lemma="primo">Primo</w>
-			<w pos="NNP" lemma="incontro">Incontro</w>
+			<trans>Primo Incontro</trans>
+			<w pos="RB" lemma="first">First</w>
+			<w pos="VBG" lemma="meeting">Meeting</w>
 		</tr>
 		<tr index="3">
 			<length>186</length>
-			<w pos="NNP" lemma="secondo">Secondo</w>
-			<w pos="NNP" lemma="incontro">Incontro</w>
+			<trans>Secondo Incontro</trans>
+			<w pos="JJ" lemma="second">Second</w>
+			<w pos="NN" lemma="meeting">Meeting</w>
 		</tr>
 		<tr index="4">
 			<length>273</length>
-			<w pos="NNP" lemma="terzo">Terzo</w>
-			<w pos="NNP" lemma="incontro">Incontro</w>
+			<trans>Terzo Incontro</trans>
+			<w pos="JJ" lemma="third">Third</w>
+			<w pos="NN" lemma="meeting">Meeting</w>
 		</tr>
 		<tr index="5">
 			<length>690</length>
-			<w pos="NN" lemma="epilogo">Epilogo</w>
+			<trans>Epilogo</trans>
+			<w pos="NN" lemma="epilogue">Epilogue</w>
 		</tr>
 	</al>
 </artist>

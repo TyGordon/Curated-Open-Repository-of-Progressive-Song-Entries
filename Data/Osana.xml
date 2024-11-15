@@ -1,50 +1,62 @@
-<artist name="Osana" genre="Rock Progressivo Italiano">
+<artist name="Osana" genre="Rock Progressivo Italiano" lang="it">
 	<al name ="L'Uomo" date="1971">
 		<length>2275</length>
 		<rating>3.66</rating>
 		<tr index="1">
 			<length>206</length>
-			<w pos="NN" lemma="introduzione">Introduzione</w>
+			<trans>Introduzione</trans>
+			<w pos="NN" lemma="introduction">Introduction</w>
 		</tr>
 		<tr index="2">
 			<length>214</length>
-			<w pos="NN" lemma="l'uomo">L'uomo</w>
+			<trans>L'uomo</trans>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NN" lemma="man">man</w>
 		</tr>
 		<tr index="3">
 			<length>296</length>
+			<trans>Mirror Train</trans>
 			<w pos="NN" lemma="mirror">Mirror</w>
 			<w pos="NN" lemma="train">Train</w>
 		</tr>
 		<tr index="4">
 			<length>360</length>
-			<w pos="NNP" lemma="non">Non</w>
-			<w pos="JJ" lemma="sei">sei</w>
-			<w pos="NN" lemma="vissuto">vissuto</w>
-			<w pos="NN" lemma="mai">mai</w>
+			<trans>Non sei vissuto mai</trans>
+			<w pos="PRP" lemma="you">You</w>
+			<w pos="VBP" lemma="have">have</w>
+			<w pos="RB" lemma="never">never</w>
+			<w pos="VBN" lemma="lived">lived</w>
 		</tr>
 		<tr index="5">
 			<length>195</length>
-			<w pos="NNP" lemma="vado">Vado</w>
-			<w pos="NN" lemma="verso">verso</w>
-			<w pos="NN" lemma="una">una</w>
-			<w pos="NN" lemma="meta">meta</w>
+			<trans>Vado verso una meta</trans>
+			<w pos="PRP" lemma="i">I</w>
+			<w pos="VBP" lemma="'m">'m</w>
+			<w pos="VBG" lemma="going">going</w>
+			<w pos="IN" lemma="towards">towards</w>
+			<w pos="DT" lemma="a">a</w>
+			<w pos="NN" lemma="goal">goal</w>
 		</tr>
 		<tr index="6">
 			<length>211</length>
+			<trans>In un vecchio cieco</trans>
 			<w pos="IN" lemma="in">In</w>
-			<w pos="JJ" lemma="un">un</w>
-			<w pos="NN" lemma="vecchio">vecchio</w>
-			<w pos="NN" lemma="cieco">cieco</w>
+			<w pos="DT" lemma="an">an</w>
+			<w pos="JJ" lemma="old">old</w>
+			<w pos="NN" lemma="blind">blind</w>
+			<w pos="NN" lemma="man">man</w>
 		</tr>
 		<tr index="7">
 			<length>373</length>
-			<w pos="RB" lemma="l'amore">L'amore</w>
-			<w pos="NN" lemma="vincera">vincera</w>
-			<w pos="NN" lemma="di">di</w>
-			<w pos="NN" lemma="nuovo">nuovo</w>
+			<trans>L'amore vincera di nuovo</trans>
+			<w pos="NNP" lemma="love">Love</w>
+			<w pos="MD" lemma="will">will</w>
+			<w pos="VB" lemma="win">win</w>
+			<w pos="RB" lemma="again">again</w>
 		</tr>
 		<tr index="8">
 			<length>184</length>
+			<trans>Everybody's Gonna See You Die</trans>
 			<w pos="NN" lemma="everybody">Everybody</w>
 			<w pos="POS" lemma="'s">'s</w>
 			<w pos="NNP" lemma="gon">Gon</w>
@@ -55,6 +67,7 @@
 		</tr>
 		<tr index="9">
 			<length>236</length>
+			<trans>Lady Power</trans>
 			<w pos="JJ" lemma="lady">Lady</w>
 			<w pos="NN" lemma="power">Power</w>
 		</tr>
@@ -64,19 +77,22 @@
 		<rating>4.24</rating>
 		<tr index="1">
 			<length>1110</length>
-			<w pos="NNP" lemma="oro">Oro</w>
-			<w pos="NNP" lemma="caldo">Caldo</w>
+			<trans>Oro Caldo</trans>
+			<w pos="NNP" lemma="hot">Hot</w>
+			<w pos="NNP" lemma="gold">Gold</w>
 		</tr>
 		<tr index="2">
 			<length>105</length>
-			<w pos="NNP" lemma="stanza">Stanza</w>
-			<w pos="NNP" lemma="citta">Citta</w>
+			<trans>Stanza Citta</trans>
+			<w pos="NNP" lemma="city">City</w>
+			<w pos="NNP" lemma="room">Room</w>
 		</tr>
 		<tr index="3">
 			<length>1296</length>
-			<w pos="NNP" lemma="animale">Animale</w>
-			<w pos="NNP" lemma="senza">Senza</w>
-			<w pos="NNP" lemma="respiro">Respiro</w>
+			<trans>Animale Senza Respiro</trans>
+			<w pos="NN" lemma="animal">Animal</w>
+			<w pos="IN" lemma="without">Without</w>
+			<w pos="NNP" lemma="breath">Breath</w>
 		</tr>
 	</al>
 </artist>

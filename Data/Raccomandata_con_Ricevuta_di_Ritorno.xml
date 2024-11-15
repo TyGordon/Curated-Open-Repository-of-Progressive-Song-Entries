@@ -1,0 +1,55 @@
+<artist name="Raccomandata con Ricevuta di Ritorno" genre="Rock Progressivo Italiano" lang="it">
+	<al name ="Per... Un Mondo Di Cristallo" date="1972">
+		<length>2231</length>
+		<rating>3.84</rating>
+		<tr index="1">
+			<length>64</length>
+			<trans>Nulla</trans>
+			<w pos="NN" lemma="nothing">Nothing</w>
+		</tr>
+		<tr index="2">
+			<length>313</length>
+			<trans>Su Una Rupe</trans>
+			<w pos="IN" lemma="on">On</w>
+			<w pos="DT" lemma="a">a</w>
+			<w pos="NN" lemma="cliff">Cliff</w>
+		</tr>
+		<tr index="3">
+			<length>407</length>
+			<trans>Il Mondo Cade (Su Di Me)</trans>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="world">World</w>
+			<w pos="NNP" lemma="fall">Falls</w>
+			<punc pos="(" lemma="(">(</punc>
+			<w pos="IN" lemma="on">On</w>
+			<w pos="NNP" lemma="me">Me</w>
+			<punc pos=")" lemma=")">)</punc>
+		</tr>
+		<tr index="4">
+			<length>232</length>
+			<trans>Nel Mio Quartiere</trans>
+			<w pos="IN" lemma="in">In</w>
+			<w pos="NNP" lemma="my">My</w>
+			<w pos="NN" lemma="neighborhood">Neighborhood</w>
+		</tr>
+		<tr index="5">
+			<length>217</length>
+			<trans>L'Ombra</trans>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="shadow">Shadow</w>
+		</tr>
+		<tr index="6">
+			<length>605</length>
+			<trans>Un Palco Di Marionette</trans>
+			<w pos="DT" lemma="a">A</w>
+			<w pos="NNP" lemma="puppet">Puppet</w>
+			<w pos="NN" lemma="stage">Stage</w>
+		</tr>
+		<tr index="7">
+			<length>393</length>
+			<trans>Sogni Di Cristallo</trans>
+			<w pos="JJ" lemma="crystal">Crystal</w>
+			<w pos="NNP" lemma="dream">Dreams</w>
+		</tr>
+	</al>
+</artist>

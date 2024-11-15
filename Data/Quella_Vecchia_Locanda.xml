@@ -1,40 +1,44 @@
-<artist name="Quella Vecchia Locanda" genre="Rock Progressivo Italiano">
+<artist name="Quella Vecchia Locanda" genre="Rock Progressivo Italiano" lang="it">
 	<al name ="Il Tempo della Gioia" date="1974">
 		<length>2024</length>
 		<rating>4.13</rating>
 		<tr index="1">
 			<length>327</length>
+			<trans>Villa Doria Pamphili</trans>
 			<w pos="NNP" lemma="villa">Villa</w>
 			<w pos="NNP" lemma="doria">Doria</w>
 			<w pos="NNP" lemma="pamphili">Pamphili</w>
 		</tr>
 		<tr index="2">
 			<length>247</length>
-			<w pos="DT" lemma="a">A</w>
-			<w pos="NNP" lemma="forma">Forma</w>
-			<w pos="NNP" lemma="di">Di</w>
+			<trans>A Forma Di</trans>
+			<w pos="VBN" lemma="shaped">Shaped</w>
 		</tr>
 		<tr index="3">
 			<length>375</length>
-			<w pos="NNP" lemma="il">Il</w>
-			<w pos="NNP" lemma="tempo">Tempo</w>
-			<w pos="NN" lemma="della">della</w>
-			<w pos="NNP" lemma="gioia">Gioia</w>
+			<trans>Il Tempo della Gioia</trans>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="time">Time</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="NNP" lemma="joy">Joy</w>
 		</tr>
 		<tr index="4">
 			<length>579</length>
-			<w pos="NNP" lemma="un">Un</w>
-			<w pos="NNP" lemma="giorno">Giorno</w>
+			<trans>Un Giorno, un Amico</trans>
+			<w pos="CD" lemma="one">One</w>
+			<w pos="NNP" lemma="day">Day</w>
 			<punc pos="," lemma=",">,</punc>
-			<w pos="JJ" lemma="un">un</w>
-			<w pos="NNP" lemma="amico">Amico</w>
+			<w pos="CD" lemma="one">One</w>
+			<w pos="NN" lemma="friend">Friend</w>
 		</tr>
 		<tr index="5">
 			<length>496</length>
-			<w pos="JJ" lemma="+">+</w>
-			<w pos="NNP" lemma="accaduto">Accaduto</w>
-			<w pos="NN" lemma="una">una</w>
-			<w pos="NNP" lemma="notte">Notte</w>
+			<trans>+ Accaduto una Notte</trans>
+			<w pos="VB" lemma="+">+</w>
+			<w pos="PRP" lemma="it">It</w>
+			<w pos="VBD" lemma="happened">Happened</w>
+			<w pos="CD" lemma="one">One</w>
+			<w pos="NNP" lemma="night">Night</w>
 		</tr>
 	</al>
 	<al name ="Quella Vecchia Locanda" date="1972">
@@ -42,45 +46,55 @@
 		<rating>4.14</rating>
 		<tr index="1">
 			<length>299</length>
-			<w pos="NN" lemma="prologo">Prologo</w>
+			<trans>Prologo</trans>
+			<w pos="NN" lemma="prologue">Prologue</w>
 		</tr>
 		<tr index="2">
 			<length>234</length>
-			<w pos="NNP" lemma="un">Un</w>
-			<w pos="NNP" lemma="villaggio">Villaggio</w>
+			<trans>Un Villaggio,Un'illsione</trans>
+			<w pos="DT" lemma="a">A</w>
+			<w pos="NNP" lemma="village">Village</w>
 			<punc pos="," lemma=",">,</punc>
-			<w pos="NNP" lemma="un'illsione">Un'illsione</w>
+			<w pos="DT" lemma="an">An</w>
+			<w pos="NN" lemma="illusion">Illusion</w>
 		</tr>
 		<tr index="3">
 			<length>253</length>
-			<w pos="NN" lemma="realta">Realta</w>
+			<trans>Realta</trans>
+			<w pos="NN" lemma="reality">Reality</w>
 		</tr>
 		<tr index="4">
 			<length>179</length>
-			<w pos="NNP" lemma="immagini">Immagini</w>
-			<w pos="NNP" lemma="sfuocate">Sfuocate</w>
+			<trans>Immagini Sfuocate</trans>
+			<w pos="VBN" lemma="blurred">Blurred</w>
+			<w pos="NNS" lemma="image">Images</w>
 		</tr>
 		<tr index="5">
 			<length>251</length>
-			<w pos="NNP" lemma="il">Il</w>
-			<w pos="NNP" lemma="cieco">Cieco</w>
+			<trans>Il Cieco</trans>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="blind">Blind</w>
+			<w pos="NN" lemma="man">Man</w>
 		</tr>
 		<tr index="6">
 			<length>221</length>
-			<w pos="NN" lemma="dialogo">Dialogo</w>
+			<trans>Dialogo</trans>
+			<w pos="NN" lemma="dialogue">Dialogue</w>
 		</tr>
 		<tr index="7">
 			<length>315</length>
-			<w pos="NNP" lemma="verso">Verso</w>
-			<w pos="NNP" lemma="la">La</w>
-			<w pos="NNP" lemma="locanda">Locanda</w>
+			<trans>Verso La Locanda</trans>
+			<w pos="IN" lemma="towards">Towards</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NNP" lemma="inn">Inn</w>
 		</tr>
 		<tr index="8">
 			<length>315</length>
-			<w pos="NNP" lemma="sogno">Sogno</w>
+			<trans>Sogno, Risveglio E...</trans>
+			<w pos="NN" lemma="dream">Dream</w>
 			<punc pos="," lemma=",">,</punc>
-			<w pos="NNP" lemma="risveglio">Risveglio</w>
-			<w pos="NNP" lemma="e">E</w>
+			<w pos="NNP" lemma="awakening">Awakening</w>
+			<w pos="CC" lemma="and">And</w>
 			<punc pos=":" lemma="...">...</punc>
 		</tr>
 	</al>

@@ -1,46 +1,56 @@
-<artist name="Area" genre="Rock Progressivo Italiano">
+<artist name="Area" genre="Rock Progressivo Italiano" lang="it">
 	<al name ="Arbeit Macht Frei" date="1973">
 		<length>2184</length>
 		<rating>4.26</rating>
 		<tr index="1">
 			<length>267</length>
-			<w pos="NNP" lemma="luglio">Luglio</w>
+			<trans>Luglio, Agosto, Settembre (Nero)</trans>
+			<w pos="NNP" lemma="july">July</w>
 			<punc pos="," lemma=",">,</punc>
-			<w pos="NNP" lemma="agosto">Agosto</w>
+			<w pos="NNP" lemma="august">August</w>
 			<punc pos="," lemma=",">,</punc>
-			<w pos="NNP" lemma="settembre">Settembre</w>
+			<w pos="NNP" lemma="september">September</w>
 			<punc pos="(" lemma="(">(</punc>
-			<w pos="NNP" lemma="nero">Nero</w>
+			<w pos="NNP" lemma="black">Black</w>
 			<punc pos=")" lemma=")">)</punc>
 		</tr>
 		<tr index="2">
 			<length>476</length>
-			<w pos="NNP" lemma="arbeit">Arbeit</w>
-			<w pos="NNP" lemma="macht">Macht</w>
-			<w pos="NNP" lemma="frei">Frei</w>
+			<trans>Arbeit Macht Frei</trans>
+			<w pos="NN" lemma="work">Work</w>
+			<w pos="MD" lemma="can">can</w>
+			<w pos="VB" lemma="be">be</w>
+			<w pos="VBN" lemma="done">done</w>
+			<w pos="RB" lemma="freely">freely</w>
 		</tr>
 		<tr index="3">
 			<length>366</length>
-			<w pos="NN" lemma="consapevolezza">Consapevolezza</w>
+			<trans>Consapevolezza</trans>
+			<w pos="NN" lemma="awareness">Awareness</w>
 		</tr>
 		<tr index="4">
 			<length>360</length>
-			<w pos="NNP" lemma="le">Le</w>
-			<w pos="NNP" lemma="labbra">Labbra</w>
-			<w pos="NNP" lemma="del">Del</w>
-			<w pos="NNP" lemma="tempo">Tempo</w>
+			<trans>Le Labbra Del Tempo</trans>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="lip">Lips</w>
+			<w pos="IN" lemma="of">Of</w>
+			<w pos="NNP" lemma="time">Time</w>
 		</tr>
 		<tr index="5">
 			<length>310</length>
+			<trans>240 Chilometri Da Smirne</trans>
 			<w pos="CD" lemma="240">240</w>
-			<w pos="NNP" lemma="chilometri">Chilometri</w>
-			<w pos="NNP" lemma="da">Da</w>
-			<w pos="NNP" lemma="smirne">Smirne</w>
+			<w pos="NNS" lemma="kilometer">Kilometers</w>
+			<w pos="IN" lemma="from">From</w>
+			<w pos="NNP" lemma="izmir">Izmir</w>
 		</tr>
 		<tr index="6">
 			<length>405</length>
-			<w pos="NNP" lemma="l'abbattimento">L'Abbattimento</w>
-			<w pos="NNP" lemma="dello">Dello</w>
+			<trans>L'Abbattimento Dello Zeppelin</trans>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="downing">Downing</w>
+			<w pos="IN" lemma="of">of</w>
+			<w pos="DT" lemma="the">the</w>
 			<w pos="NNP" lemma="zeppelin">Zeppelin</w>
 		</tr>
 	</al>
@@ -49,28 +59,33 @@
 		<rating>3.96</rating>
 		<tr index="1">
 			<length>240</length>
-			<w pos="NNP" lemma="cometa">Cometa</w>
-			<w pos="NNP" lemma="rossa">Rossa</w>
+			<trans>Cometa Rossa</trans>
+			<w pos="JJ" lemma="red">Red</w>
+			<w pos="NNP" lemma="comet">Comet</w>
 		</tr>
 		<tr index="2">
 			<length>327</length>
+			<trans>ZYG (Crescita Zero)</trans>
 			<w pos="NNP" lemma="zyg">ZYG</w>
 			<punc pos="(" lemma="(">(</punc>
-			<w pos="NNP" lemma="crescita">Crescita</w>
 			<w pos="NNP" lemma="zero">Zero</w>
+			<w pos="NNP" lemma="growth">Growth</w>
 			<punc pos=")" lemma=")">)</punc>
 		</tr>
 		<tr index="3">
 			<length>482</length>
+			<trans>Brujo</trans>
 			<w pos="NN" lemma="brujo">Brujo</w>
 		</tr>
 		<tr index="4">
 			<length>627</length>
+			<trans>Mirage</trans>
 			<w pos="NN" lemma="mirage">Mirage</w>
 		</tr>
 		<tr index="5">
 			<length>263</length>
-			<w pos="NN" lemma="lobotomia">Lobotomia</w>
+			<trans>Lobotomia</trans>
+			<w pos="NN" lemma="lobotomy">Lobotomy</w>
 		</tr>
 	</al>
 	<al name ="Crac!" date="1975">
@@ -78,37 +93,45 @@
 		<rating>4.24</rating>
 		<tr index="1">
 			<length>273</length>
-			<w pos="NNP" lemma="l'elefante">L'elefante</w>
-			<w pos="NNP" lemma="bianco">Bianco</w>
+			<trans>L'elefante Bianco</trans>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="white">White</w>
+			<w pos="NN" lemma="elephant">Elephant</w>
 		</tr>
 		<tr index="2">
 			<length>387</length>
-			<w pos="NNP" lemma="la">La</w>
-			<w pos="NNP" lemma="mela">Mela</w>
-			<w pos="NNP" lemma="di">Di</w>
+			<trans>La Mela Di Odessa</trans>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="apple">Apple</w>
+			<w pos="IN" lemma="of">of</w>
 			<w pos="NNP" lemma="odessa">Odessa</w>
 		</tr>
 		<tr index="3">
 			<length>473</length>
-			<w pos="NNS" lemma="megalopoli">Megalopoli</w>
+			<trans>Megalopoli</trans>
+			<w pos="NNS" lemma="megalopolis">Megalopolis</w>
 		</tr>
 		<tr index="4">
 			<length>395</length>
-			<w pos="NNP" lemma="nervi">Nervi</w>
-			<w pos="NNP" lemma="scoperti">Scoperti</w>
+			<trans>Nervi Scoperti</trans>
+			<w pos="JJ" lemma="exposed">Exposed</w>
+			<w pos="NNS" lemma="nerve">Nerves</w>
 		</tr>
 		<tr index="5">
 			<length>280</length>
-			<w pos="NNP" lemma="gioia">Gioia</w>
-			<w pos="NNP" lemma="e">E</w>
-			<w pos="NNP" lemma="rivoluzione">Rivoluzione</w>
+			<trans>Gioia E Rivoluzione</trans>
+			<w pos="NNP" lemma="joy">Joy</w>
+			<w pos="CC" lemma="and">and</w>
+			<w pos="NNP" lemma="revolution">Revolution</w>
 		</tr>
 		<tr index="6">
 			<length>300</length>
+			<trans>Implosion</trans>
 			<w pos="NN" lemma="implosion">Implosion</w>
 		</tr>
 		<tr index="7">
 			<length>129</length>
+			<trans>Area 5</trans>
 			<punc pos="$" lemma="area">Area</punc>
 			<w pos="CD" lemma="5">5</w>
 		</tr>
@@ -118,47 +141,53 @@
 		<rating>4.06</rating>
 		<tr index="1">
 			<length>105</length>
-			<w pos="NN" lemma="evaporazione">Evaporazione</w>
+			<trans>Evaporazione</trans>
+			<w pos="NN" lemma="evaporation">Evaporation</w>
 		</tr>
 		<tr index="2">
 			<length>378</length>
-			<w pos="NNP" lemma="diforisma">Diforisma</w>
-			<w pos="NNP" lemma="urbano">Urbano</w>
+			<trans>Diforisma Urbano</trans>
+			<w pos="JJ" lemma="urban">Urban</w>
+			<w pos="NN" lemma="diphorism">Diphorism</w>
 		</tr>
 		<tr index="3">
 			<length>450</length>
-			<w pos="NN" lemma="gerontocrazia">Gerontocrazia</w>
+			<trans>Gerontocrazia</trans>
+			<w pos="NN" lemma="gerontocracy">Gerontocracy</w>
 		</tr>
 		<tr index="4">
 			<length>390</length>
-			<w pos="NN" lemma="scum">Scum</w>
+			<trans>Scum</trans>
+			<w pos="NN" lemma="scum">scum</w>
 		</tr>
 		<tr index="5">
 			<length>140</length>
-			<w pos="NNP" lemma="il">Il</w>
-			<w pos="NNP" lemma="massacro">Massacro</w>
-			<w pos="NNP" lemma="di">Di</w>
-			<w pos="NNP" lemma="brandeburgo">Brandeburgo</w>
-			<w pos="NNP" lemma="numero">Numero</w>
-			<w pos="NNP" lemma="tre">Tre</w>
-			<w pos="IN" lemma="in">In</w>
-			<w pos="NNP" lemma="sol">Sol</w>
-			<w pos="NNP" lemma="maggiore">Maggiore</w>
+			<trans>Il Massacro Di Brandeburgo Numero Tre In Sol Maggiore</trans>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NNP" lemma="brandenburg">Brandenburg</w>
+			<w pos="NNP" lemma="massacre">Massacre</w>
+			<w pos="NNP" lemma="number">Number</w>
+			<w pos="NNP" lemma="three">Three</w>
+			<w pos="IN" lemma="in">in</w>
+			<w pos="NNP" lemma="g">G</w>
+			<w pos="NNP" lemma="major">Major</w>
 		</tr>
 		<tr index="6">
 			<length>355</length>
-			<w pos="NNP" lemma="giro">Giro</w>
+			<trans>Giro, Giro, Tondo</trans>
+			<w pos="NNP" lemma="round">Round</w>
 			<punc pos="," lemma=",">,</punc>
-			<w pos="NNP" lemma="giro">Giro</w>
+			<w pos="NNP" lemma="round">Round</w>
 			<punc pos="," lemma=",">,</punc>
-			<w pos="NNP" lemma="tondo">Tondo</w>
+			<w pos="NNP" lemma="round">Round</w>
 		</tr>
 		<tr index="7">
 			<length>540</length>
-			<w pos="NNP" lemma="caos">Caos</w>
+			<trans>Caos (Parte Seconda)</trans>
+			<w pos="NNP" lemma="chaos">Chaos</w>
 			<punc pos="(" lemma="(">(</punc>
-			<w pos="NNP" lemma="parte">Parte</w>
-			<w pos="NNP" lemma="seconda">Seconda</w>
+			<w pos="NNP" lemma="part">Part</w>
+			<w pos="CD" lemma="two">Two</w>
 			<punc pos=")" lemma=")">)</punc>
 		</tr>
 	</al>

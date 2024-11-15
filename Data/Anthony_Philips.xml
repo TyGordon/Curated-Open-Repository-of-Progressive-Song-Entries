@@ -1,4 +1,4 @@
-<artist name="Anthony Philips" genre="Symphonic Prog">
+<artist name="Anthony Philips" genre="Symphonic Prog" lang="en">
 	<al name ="1984" date="1981">
 		<length>2480</length>
 		<rating>3.76</rating>
@@ -434,7 +434,7 @@
 	</al>
 	<al name ="Wise After the Event" date="1978">
 		<length>3206</length>
-		<rating>3.79</rating>
+		<rating>generateReadOnlyStarbox('readOnlyRating_1_4106', 3.8);</rating>
 		<tr index="1">
 			<length>274</length>
 			<w pos="PRP" lemma="we">We</w>

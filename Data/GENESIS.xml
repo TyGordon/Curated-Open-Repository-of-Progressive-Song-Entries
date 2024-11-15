@@ -1,4 +1,4 @@
-<artist name="Genesis" genre="Symphonic Prog">
+<artist name="Genesis" genre="Symphonic Prog" lang="en">
 	<al name ="...And Then There Were Three..." date="1978">
 		<length>3187</length>
 		<rating>3.42</rating>
@@ -554,7 +554,7 @@
 			<w pos="NNP" lemma="salmacis">Salmacis</w>
 		</tr>
 	</al>
-	<al name ="Selling England by the Pound" date="1973">
+	<al name ="Selling enland by the Pound" date="1973">
 		<length>3220</length>
 		<rating>4.65</rating>
 		<tr index="1">

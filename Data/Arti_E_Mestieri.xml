@@ -1,0 +1,51 @@
+<artist name="Arti E Mestieri" genre="Jazz Rock/Fusion" lang="it">
+	<al name ="Tilt - Immagini Per Un Orecchio" date="1974">
+		<length>2194</length>
+		<rating>4.27</rating>
+		<tr index="1">
+			<length>245</length>
+			<trans>Gravita 9,81</trans>
+			<w pos="NN" lemma="gravity">Gravity</w>
+			<w pos="CD" lemma="9.81">9.81</w>
+		</tr>
+		<tr index="2">
+			<length>279</length>
+			<trans>Strips</trans>
+			<w pos="NNS" lemma="strip">Strips</w>
+		</tr>
+		<tr index="3">
+			<length>97</length>
+			<trans>Corrosione</trans>
+			<w pos="NN" lemma="corrosion">Corrosion</w>
+		</tr>
+		<tr index="4">
+			<length>209</length>
+			<trans>Positivo / Negativo</trans>
+			<w pos="JJ" lemma="positive">Positive</w>
+			<w pos="NNP" lemma="/">/</w>
+			<w pos="NNP" lemma="negative">Negative</w>
+		</tr>
+		<tr index="5">
+			<length>336</length>
+			<trans>In Cammino</trans>
+			<w pos="IN" lemma="on">On</w>
+			<w pos="DT" lemma="the">the</w>
+			<w pos="NN" lemma="way">way</w>
+		</tr>
+		<tr index="6">
+			<length>75</length>
+			<trans>Farenheit</trans>
+			<w pos="NN" lemma="farenheit">Farenheit</w>
+		</tr>
+		<tr index="7">
+			<length>804</length>
+			<trans>Articolazioni</trans>
+			<w pos="NNS" lemma="joint">Joints</w>
+		</tr>
+		<tr index="8">
+			<length>149</length>
+			<trans>Tilt</trans>
+			<w pos="NN" lemma="tilt">Tilt</w>
+		</tr>
+	</al>
+</artist>

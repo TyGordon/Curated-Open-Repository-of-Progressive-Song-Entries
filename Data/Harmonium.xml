@@ -1,54 +1,66 @@
-<artist name="Harmonium" genre="Prog Folk">
+<artist name="Harmonium" genre="Prog Folk" lang="fr">
 	<al name ="Si On Avait Besoin D'une Cinquième Saison" date="1975">
 		<length>2493</length>
-		<rating>4.34</rating>
+		<rating>4.35</rating>
 		<tr index="1">
 			<length>335</length>
-			<w pos="NN" lemma="vert">Vert</w>
+			<trans>Vert</trans>
+			<w pos="JJ" lemma="green">Green</w>
 		</tr>
 		<tr index="2">
 			<length>206</length>
+			<trans>Dixie</trans>
 			<w pos="NN" lemma="dixie">Dixie</w>
 		</tr>
 		<tr index="3">
 			<length>628</length>
-			<w pos="NNP" lemma="depuis">Depuis</w>
-			<w pos="NN" lemma="l'automne">l'automne</w>
+			<trans>Depuis l'automne</trans>
+			<w pos="IN" lemma="since">Since</w>
+			<w pos="NN" lemma="autumn">autumn</w>
 		</tr>
 		<tr index="4">
 			<length>291</length>
-			<w pos="NNP" lemma="en">En</w>
-			<w pos="NN" lemma="pleine">pleine</w>
+			<trans>En pleine face</trans>
+			<w pos="NNP" lemma="full">Full</w>
 			<w pos="NN" lemma="face">face</w>
 		</tr>
 		<tr index="5">
 			<length>1032</length>
-			<w pos="NNS" lemma="histoires">Histoires</w>
-			<w pos="NNS" lemma="sans">sans</w>
-			<w pos="NNS" lemma="parole">paroles</w>
+			<trans>Histoires sans paroles</trans>
+			<w pos="NNS" lemma="story">Stories</w>
+			<w pos="IN" lemma="without">without</w>
+			<w pos="NNS" lemma="word">words</w>
 		</tr>
 		<tr index="">
 			<length>0</length>
-			<w pos="NN" lemma="l'isolement">L'isolement</w>
+			<trans>L'isolement</trans>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NN" lemma="isolation">isolation</w>
 		</tr>
 		<tr index="">
 			<length>0</length>
-			<w pos="VB" lemma="l'appel">L'appel</w>
+			<trans>L'appel</trans>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NN" lemma="appeal">appeal</w>
 		</tr>
 		<tr index="">
 			<length>0</length>
-			<w pos="NNP" lemma="la">La</w>
-			<w pos="NN" lemma="rencontre">rencontre</w>
+			<trans>La rencontre</trans>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NN" lemma="meeting">meeting</w>
 		</tr>
 		<tr index="">
 			<length>0</length>
-			<w pos="NN" lemma="l'union">L'union</w>
+			<trans>L'union</trans>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="NN" lemma="union">union</w>
 		</tr>
 		<tr index="">
 			<length>0</length>
-			<w pos="NNP" lemma="le">Le</w>
-			<w pos="JJ" lemma="grand">grand</w>
-			<w pos="NN" lemma="bal">bal</w>
+			<trans>Le grand bal</trans>
+			<w pos="DT" lemma="the">The</w>
+			<w pos="JJ" lemma="big">big</w>
+			<w pos="NN" lemma="ball">ball</w>
 		</tr>
 	</al>
 </artist>

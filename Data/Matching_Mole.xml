@@ -1,4 +1,4 @@
-<artist name="Matching Mole" genre="Canterbury Scene">
+<artist name="Matching Mole" genre="Canterbury Scene" lang="en">
 	<al name ="Little Red Record" date="1972">
 		<length>2574</length>
 		<rating>3.91</rating>
@@ -64,7 +64,7 @@
 		</tr>
 	</al>
 	<al name ="Maching Mole" date="1972">
-		<length>1</length>
+		<length>2403</length>
 		<rating>3.65</rating>
 		<tr index="1">
 			<length>306</length>

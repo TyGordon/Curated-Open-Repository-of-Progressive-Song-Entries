@@ -1,4 +1,4 @@
-<artist name="Styx" genre="Prog Related">
+<artist name="Styx" genre="Prog Related" lang="en">
 	<al name ="Cornerstone" date="1979">
 		<length>2297</length>
 		<rating>2.74</rating>
@@ -398,11 +398,6 @@
 			<w pos="NNS" lemma="piece">Pieces</w>
 			<w pos="IN" lemma="of">of</w>
 			<w pos="NNP" lemma="eight">Eight</w>
-		</tr>
-		<tr index="10">
-			<length>177</length>
-			<w pos="NNP" lemma="aku">Aku</w>
-			<w pos="NNP" lemma="aku">Aku</w>
 		</tr>
 	</al>
 	<al name ="Styx" date="1972">
