@@ -368,17 +368,6 @@
 			<w pos="NNP" lemma="professor">Professor</w>
 			<w pos="NNP" lemma="fether">Fether</w>
 		</tr>
-		<tr index="">
-			<length>0</length>
-			<w pos="DT" lemma="the">The</w>
-			<w pos="NN" lemma="fall">Fall</w>
-			<w pos="IN" lemma="of">of</w>
-			<w pos="DT" lemma="the">the</w>
-			<w pos="NNP" lemma="house">House</w>
-			<w pos="IN" lemma="of">of</w>
-			<w pos="NNP" lemma="usher">Usher</w>
-			<punc pos=":" lemma=":">:</punc>
-		</tr>
 		<tr index="6">
 			<length>423</length>
 			<w pos="PRP" lemma="i">I</w>
@@ -454,10 +443,6 @@
 			<w pos="DT" lemma="the">The</w>
 			<w pos="NNP" lemma="gold">Gold</w>
 			<w pos="NNP" lemma="bug">Bug</w>
-		</tr>
-		<tr index="The Turn of a Friendly Card (16:09 ">
-			<length>0</length>
-			<punc pos=":" lemma=":">:</punc>
 		</tr>
 		<tr index="6">
 			<length>159</length>
@@ -685,12 +670,6 @@
 	<al name ="Private Parts and Pieces" date="1978">
 		<length>3202</length>
 		<rating>3.32</rating>
-		<tr index="">
-			<length>0</length>
-			<w pos="NNP" lemma="home">Home</w>
-			<w pos="NN" lemma="side">Side</w>
-			<punc pos=":" lemma=":">:</punc>
-		</tr>
 		<tr index="1">
 			<length>249</length>
 			<w pos="NN" lemma="beauty">Beauty</w>
@@ -734,12 +713,6 @@
 			<w pos="NNP" lemma="tregenna">Tregenna</w>
 			<w pos="NNS" lemma="afternoon">Afternoons</w>
 		</tr>
-		<tr index="">
-			<length>0</length>
-			<w pos="RB" lemma="away">Away</w>
-			<w pos="NN" lemma="side">Side</w>
-			<punc pos=":" lemma=":">:</punc>
-		</tr>
 		<tr index="7">
 			<length>372</length>
 			<w pos="NN" lemma="reaper">Reaper</w>
@@ -771,28 +744,16 @@
 			<w pos="NNP" lemma="hurlingham">Hurlingham</w>
 			<w pos="NNP" lemma="suite">Suite</w>
 		</tr>
-		<tr index="II Frosted Windows (2:25 ">
+		<tr index="i">
 			<length>0</length>
-		</tr>
-		<tr index="III Bandido (2:46 ">
-			<length>0</length>
-		</tr>
-		<tr index="IV Church Bells At Sunset (1:20 ">
-			<length>0</length>
-		</tr>
-		<tr index="">
-			<length>0</length>
-			<w pos="PRP" lemma="i">I</w>
 			<w pos="VBP" lemma="whirlpool">Whirlpools</w>
 		</tr>
-		<tr index="">
+		<tr index="ii">
 			<length>0</length>
-			<w pos="NNP" lemma="ii">II</w>
 			<w pos="NNS" lemma="cobblestone">Cobblestones</w>
 		</tr>
-		<tr index="">
+		<tr index="iii">
 			<length>0</length>
-			<w pos="NNP" lemma="iii">III</w>
 			<w pos="NNP" lemma="catacomb">Catacombs</w>
 		</tr>
 		<tr index="4">
@@ -808,16 +769,12 @@
 	<al name ="Private Parts and Pieces II - Back to the Pavillion" date="1980">
 		<length>3418</length>
 		<rating>3.77</rating>
-		<tr index="N.O.R">
-			<length>0</length>
-			<w pos="NN" lemma="side">Side</w>
-		</tr>
 		<tr index="1">
 			<length>915</length>
 			<w pos="JJ" lemma="scottish">Scottish</w>
 			<w pos="NNP" lemma="suite">Suite</w>
 		</tr>
-		<tr index="i ">
+		<tr index="i">
 			<length>0</length>
 			<w pos="NNP" lemma="salmon">Salmon</w>
 			<w pos="NNP" lemma="leap">Leap</w>
@@ -825,12 +782,12 @@
 			<w pos="CD" lemma="2:46">2:46</w>
 			<punc pos=")" lemma=")">)</punc>
 		</tr>
-		<tr index="ii ">
+		<tr index="ii">
 			<length>0</length>
 			<w pos="VBG" lemma="parting">Parting</w>
 			<w pos="NNP" lemma="thistle">Thistle</w>
 		</tr>
-		<tr index="iii ">
+		<tr index="iii">
 			<length>0</length>
 			<w pos="NNP" lemma="electric">Electric</w>
 			<w pos="NNP" lemma="reaper">Reaper</w>
@@ -838,7 +795,7 @@
 			<w pos="CD" lemma="3:03">3:03</w>
 			<punc pos=")" lemma=")">)</punc>
 		</tr>
-		<tr index="iv ">
+		<tr index="iv">
 			<length>0</length>
 			<w pos="NNP" lemma="amorphous">Amorphous</w>
 			<punc pos="," lemma=",">,</punc>
@@ -846,7 +803,7 @@
 			<w pos="CC" lemma="and">And</w>
 			<w pos="NNP" lemma="nebulous">Nebulous</w>
 		</tr>
-		<tr index="v ">
+		<tr index="v">
 			<length>0</length>
 			<w pos="NNP" lemma="salmon">Salmon</w>
 			<w pos="POS" lemma="'s">'s</w>
@@ -869,10 +826,6 @@
 			<w pos="IN" lemma="of">Of</w>
 			<w pos="DT" lemma="the">The</w>
 			<w pos="NNP" lemma="season">Season</w>
-		</tr>
-		<tr index="S.O.R">
-			<length>0</length>
-			<w pos="NN" lemma="side">Side</w>
 		</tr>
 		<tr index="5">
 			<length>262</length>
@@ -1162,7 +1115,7 @@
 			<trans>Prima Realta / Frammentaria Rivolta</trans>
 			<w pos="NNP" lemma="first">First</w>
 			<w pos="NNP" lemma="reality">Reality</w>
-			<w pos="NNP" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="NNP" lemma="fragmentary">Fragmentary</w>
 			<w pos="NNP" lemma="revolt">Revolt</w>
 		</tr>
@@ -1172,12 +1125,12 @@
 			<w pos="DT" lemma="the">The</w>
 			<w pos="NNP" lemma="great">Great</w>
 			<w pos="NNP" lemma="inhuman">Inhuman</w>
-			<w pos="NNP" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="NNP" lemma="oratorio">Oratorio</w>
 			<punc pos="(" lemma="(">(</punc>
 			<w pos="NNP" lemma="chorale">Chorale</w>
 			<punc pos=")" lemma=")">)</punc>
-			<w pos="VBD" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="VBG" lemma="waiting">Waiting</w>
 		</tr>
 		<tr index="4">
@@ -1411,7 +1364,7 @@
 			<length>209</length>
 			<trans>Positivo / Negativo</trans>
 			<w pos="JJ" lemma="positive">Positive</w>
-			<w pos="NNP" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="NNP" lemma="negative">Negative</w>
 		</tr>
 		<tr index="5">
@@ -1562,7 +1515,7 @@
 			<w pos="CD" lemma="750,000">750,000</w>
 			<w pos="NNS" lemma="year">Years</w>
 			<w pos="NNP" lemma="ago">Ago</w>
-			<w pos="NN" lemma="..">..</w>
+			<punc pos=":" lemma="...">...</punc>
 			<punc pos="," lemma=",">,</punc>
 			<w pos="NNP" lemma="love">Love</w>
 			<punc pos="." lemma="?">?</punc>
@@ -1614,7 +1567,7 @@
 			<length>595</length>
 			<trans>Dopo.., Niente + Pi� Lo Stesso</trans>
 			<w pos="IN" lemma="after">After</w>
-			<w pos="NNP" lemma="..">..</w>
+			<punc pos=":" lemma="...">...</punc>
 			<punc pos="," lemma=",">,</punc>
 			<w pos="NNP" lemma="nothing">Nothing</w>
 			<w pos="JJR" lemma="more">More</w>
@@ -2243,10 +2196,10 @@
 		<tr index="3">
 			<length>552</length>
 			<w pos="NNP" lemma="nimrodel">Nimrodel</w>
-			<w pos="VBZ" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="DT" lemma="the">The</w>
 			<w pos="NNP" lemma="procession">Procession</w>
-			<w pos="VBD" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="DT" lemma="the">The</w>
 			<w pos="NNP" lemma="white">White</w>
 			<w pos="NN" lemma="rider">Rider</w>
@@ -3056,7 +3009,7 @@
 			<length>395</length>
 			<w pos="VB" lemma="be">Be</w>
 			<w pos="NNP" lemma="alright">Alright</w>
-			<w pos="NNP" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="NNP" lemma="chance">Chance</w>
 			<w pos="IN" lemma="of">of</w>
 			<w pos="DT" lemma="a">a</w>
@@ -3067,21 +3020,21 @@
 			<w pos="NNP" lemma="l'auberge">L'auberge</w>
 			<w pos="VBZ" lemma="du">du</w>
 			<w pos="NNP" lemma="sanglier">Sanglier</w>
-			<w pos="NNP" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="NNP" lemma="a">A</w>
 			<w pos="NNP" lemma="hunting">Hunting</w>
 			<w pos="PRP" lemma="we">We</w>
 			<w pos="NNP" lemma="shall">Shall</w>
 			<w pos="NNP" lemma="go">Go</w>
-			<w pos="NNP" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="NNP" lemma="pengola">Pengola</w>
-			<w pos="NNP" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="NNP" lemma="backwards">Backwards</w>
-			<w pos="VBZ" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="NNP" lemma="a">A</w>
 			<w pos="NNP" lemma="hunting">Hunting</w>
 			<w pos="PRP" lemma="we">We</w>
-			<w pos="VBP" lemma="..">..</w>
+			<punc pos=":" lemma="...">...</punc>
 			<punc pos="," lemma=",">,</punc>
 			<punc pos="(" lemma="(">(</punc>
 			<w pos="NN" lemma="reprise">reprise</w>
@@ -3143,12 +3096,12 @@
 			<w pos="MD" lemma="can">Can</w>
 			<w pos="VB" lemma="make">Make</w>
 			<w pos="PRP" lemma="it">It</w>
-			<w pos="JJ" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="JJ" lemma="martinian">Martinian</w>
-			<w pos="NNP" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="NNP" lemma="only">Only</w>
 			<w pos="NNP" lemma="cox">Cox</w>
-			<w pos="NNP" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="NNP" lemma="reprise">Reprise</w>
 		</tr>
 		<tr index="5">
@@ -3168,12 +3121,12 @@
 			<w pos="NNP" lemma="be">Be</w>
 			<w pos="RB" lemma="long">Long</w>
 			<w pos="RB" lemma="now">Now</w>
-			<w pos="VBP" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="NNP" lemma="frantoise">Frantoise</w>
-			<w pos="NNP" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="IN" lemma="for">For</w>
 			<w pos="NNP" lemma="richard">Richard</w>
-			<w pos="NNP" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="NNP" lemma="warlock">Warlock</w>
 		</tr>
 		<tr index="8">
@@ -3224,27 +3177,27 @@
 			<w pos="NNP" lemma="foot">Feet</w>
 			<w pos="NNP" lemma="underground">Underground</w>
 		</tr>
-		<tr index="">
+		<tr index="a">
 			<length>0</length>
 			<w pos="NNP" lemma="nigel">Nigel</w>
 			<w pos="VBZ" lemma="blow">Blows</w>
 			<w pos="DT" lemma="a">a</w>
 			<w pos="NN" lemma="tune">Tune</w>
 		</tr>
-		<tr index="">
+		<tr index="b">
 			<length>0</length>
 			<w pos="NNP" lemma="love">Love</w>
 			<w pos="POS" lemma="'s">'s</w>
 			<w pos="DT" lemma="a">a</w>
 			<w pos="NN" lemma="friend">Friend</w>
 		</tr>
-		<tr index="">
+		<tr index="c">
 			<length>0</length>
 			<w pos="VB" lemma="make">Make</w>
 			<w pos="PRP" lemma="it">It</w>
 			<w pos="CD" lemma="76">76</w>
 		</tr>
-		<tr index="">
+		<tr index="d">
 			<length>0</length>
 			<w pos="NN" lemma="dance">Dance</w>
 			<w pos="IN" lemma="of">of</w>
@@ -3253,7 +3206,7 @@
 			<w pos="NNP" lemma="paper">Paper</w>
 			<w pos="NNP" lemma="hanky">Hankies</w>
 		</tr>
-		<tr index="">
+		<tr index="e">
 			<length>0</length>
 			<w pos="NNP" lemma="hold">Hold</w>
 			<w pos="NNP" lemma="grandad">Grandad</w>
@@ -3261,18 +3214,18 @@
 			<w pos="DT" lemma="the">the</w>
 			<w pos="NNP" lemma="nose">Nose</w>
 		</tr>
-		<tr index="">
+		<tr index="f">
 			<length>0</length>
 			<w pos="NNP" lemma="honest">Honest</w>
 			<w pos="PRP" lemma="i">I</w>
 			<w pos="VBP" lemma="did">Did</w>
 			<punc pos="." lemma="!">!</punc>
 		</tr>
-		<tr index="">
+		<tr index="g">
 			<length>0</length>
 			<w pos="NN" lemma="disassociation">Disassociation</w>
 		</tr>
-		<tr index="">
+		<tr index="h">
 			<length>0</length>
 			<w pos="CD" lemma="100">100</w>
 			<w pos="NN" lemma="%">%</w>
@@ -3292,12 +3245,12 @@
 			<w pos="NN" lemma="nothing">Nothing</w>
 			<w pos="IN" lemma="at">at</w>
 			<w pos="DT" lemma="all">All</w>
-			<w pos="VBP" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="PRP" lemma="it">It</w>
 			<w pos="VBZ" lemma="'s">'s</w>
 			<w pos="VBG" lemma="coming">Coming</w>
 			<w pos="NNP" lemma="soon">Soon</w>
-			<w pos="NNP" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="NNP" lemma="nothing">Nothing</w>
 			<w pos="IN" lemma="at">at</w>
 			<w pos="NNP" lemma="all">All</w>
@@ -3322,17 +3275,17 @@
 			<w pos="IN" lemma="in">in</w>
 			<w pos="NNP" lemma="your">Your</w>
 			<w pos="NNP" lemma="eye">Eye</w>
-			<w pos="NNP" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="TO" lemma="to">To</w>
 			<w pos="VB" lemma="catch">Catch</w>
 			<w pos="NNP" lemma="me">Me</w>
 			<w pos="DT" lemma="a">a</w>
 			<w pos="NNP" lemma="brother">Brother</w>
-			<w pos="NN" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="NNP" lemma="subsultus">Subsultus</w>
-			<w pos="NNP" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="NNP" lemma="debouchement">Debouchement</w>
-			<w pos="NNP" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="NNP" lemma="tilbury">Tilbury</w>
 			<w pos="NNP" lemma="kecks">Kecks</w>
 		</tr>
@@ -4098,7 +4051,7 @@
 			<w pos="NN" lemma="prelude">Prelude</w>
 			<punc pos=":" lemma=":">:</punc>
 			<w pos="NNP" lemma="happiness">Happiness</w>
-			<w pos="NNP" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="PRP" lemma="i">I</w>
 			<w pos="VBP" lemma="'m">'m</w>
 			<w pos="RB" lemma="so">So</w>
@@ -4224,7 +4177,7 @@
 		<tr index="4">
 			<length>427</length>
 			<w pos="NN" lemma="exposition">Exposition</w>
-			<w pos="IN" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="PRP" lemma="we">We</w>
 			<w pos="MD" lemma="can">Can</w>
 			<w pos="VB" lemma="work">Work</w>
@@ -4302,54 +4255,32 @@
 		</tr>
 	</al>
 </artist>
-<artist name="East" genre="Neo-Prog" lang="hu">
+<artist name="East" genre="Neo-Prog" lang="en">
 	<al name ="Huseg" date="1982">
 		<length>2655</length>
 		<rating>3.82</rating>
 		<tr index="1">
 			<length>223</length>
-			<trans>HnsTg - Faith</trans>
-			<w pos="NNP" lemma="hnstg">HnsTg</w>
-			<punc pos=":" lemma="-">-</punc>
 			<w pos="NN" lemma="faith">Faith</w>
 		</tr>
 		<tr index="2">
 			<length>263</length>
-			<trans>Keresd )nmagad - Search Yourself</trans>
-			<w pos="NNP" lemma="keresd">Keresd</w>
-			<punc pos=")" lemma=")">)</punc>
-			<w pos="SYM" lemma="nmagad">nmagad</w>
-			<punc pos=":" lemma="-">-</punc>
 			<w pos="NN" lemma="search">Search</w>
 			<w pos="PRP" lemma="yourself">Yourself</w>
 		</tr>
 		<tr index="3">
 			<length>175</length>
-			<trans>M�gikus er= - Magical Power</trans>
-			<w pos="NNP" lemma="m�gikus">M�gikus</w>
-			<w pos="SYM" lemma="er=">er=</w>
-			<punc pos=":" lemma="-">-</punc>
 			<w pos="JJ" lemma="magical">Magical</w>
 			<w pos="NN" lemma="power">Power</w>
 		</tr>
 		<tr index="4">
 			<length>356</length>
-			<trans>+n voltam - It Was Me</trans>
-			<w pos="NN" lemma="+n">+n</w>
-			<w pos="SYM" lemma="voltam">voltam</w>
-			<punc pos=":" lemma="-">-</punc>
 			<w pos="PRP" lemma="it">It</w>
 			<w pos="VBD" lemma="wa">Was</w>
 			<w pos="NNP" lemma="me">Me</w>
 		</tr>
 		<tr index="5">
 			<length>98</length>
-			<trans>A vTgtelen tTr �r�me - The Happiness of the Endless Space</trans>
-			<w pos="DT" lemma="a">A</w>
-			<w pos="JJ" lemma="vtgtelen">vTgtelen</w>
-			<w pos="NN" lemma="ttr">tTr</w>
-			<w pos="SYM" lemma="�r�me">�r�me</w>
-			<punc pos=":" lemma="-">-</punc>
 			<w pos="DT" lemma="the">The</w>
 			<w pos="NNP" lemma="happiness">Happiness</w>
 			<w pos="IN" lemma="of">of</w>
@@ -4359,32 +4290,19 @@
 		</tr>
 		<tr index="6">
 			<length>220</length>
-			<trans>_jj�sznletTs - Born Again</trans>
-			<w pos="SYM" lemma="_jj�sznletts">_jj�sznletTs</w>
-			<punc pos=":" lemma="-">-</punc>
 			<w pos="NNP" lemma="born">Born</w>
 			<w pos="NNP" lemma="again">Again</w>
 		</tr>
 		<tr index="7">
 			<length>344</length>
-			<trans>Ablakok - Windows</trans>
-			<w pos="NNP" lemma="ablakok">Ablakok</w>
-			<punc pos=":" lemma="-">-</punc>
 			<w pos="NNS" lemma="window">Windows</w>
 		</tr>
 		<tr index="8">
 			<length>224</length>
-			<trans>Vesztesek - Losers</trans>
-			<w pos="NNP" lemma="vesztesek">Vesztesek</w>
-			<punc pos=":" lemma="-">-</punc>
 			<w pos="NNS" lemma="loser">Losers</w>
 		</tr>
 		<tr index="9">
 			<length>262</length>
-			<trans>Felh=k=n sTt�lva - Walkin' on the Clouds</trans>
-			<w pos="NNP" lemma="felh=k=n">Felh=k=n</w>
-			<w pos="SYM" lemma="stt�lva">sTt�lva</w>
-			<punc pos=":" lemma="-">-</punc>
 			<w pos="NNP" lemma="walkin">Walkin</w>
 			<w pos="''" lemma="'">'</w>
 			<w pos="IN" lemma="on">on</w>
@@ -4393,19 +4311,12 @@
 		</tr>
 		<tr index="10">
 			<length>356</length>
-			<trans>V�rni kell - You Must Wait</trans>
-			<w pos="NNP" lemma="v�rni">V�rni</w>
-			<w pos="NNP" lemma="kell">kell</w>
-			<punc pos=":" lemma="-">-</punc>
 			<w pos="PRP" lemma="you">You</w>
 			<w pos="VBP" lemma="must">Must</w>
 			<w pos="VB" lemma="wait">Wait</w>
 		</tr>
 		<tr index="11">
 			<length>134</length>
-			<trans>MerengTs - Meditation</trans>
-			<w pos="NNP" lemma="merengts">MerengTs</w>
-			<punc pos=":" lemma="-">-</punc>
 			<w pos="NN" lemma="meditation">Meditation</w>
 		</tr>
 	</al>
@@ -4514,7 +4425,7 @@
 			<punc pos="(" lemma="(">(</punc>
 			<w pos="CD" lemma="3:11">3:11</w>
 			<punc pos=")" lemma=")">)</punc>
-			<w pos="NN" lemma="*">*</w>
+			
 		</tr>
 		<tr index="e">
 			<length>0</length>
@@ -4723,13 +4634,13 @@
 			<length>235</length>
 			<w pos="NN" lemma="finale">Finale</w>
 		</tr>
-		<tr index="(a ">
+		<tr index="(a">
 			<length>0</length>
 			<w pos="NNP" lemma="music">Music</w>
 			<w pos="IN" lemma="for">for</w>
 			<w pos="NN" lemma="mind">mind</w>
 		</tr>
-		<tr index="(b ">
+		<tr index="(b">
 			<length>0</length>
 			<w pos="NNP" lemma="theme">Theme</w>
 			<w pos="NNP" lemma="julia">Julia</w>
@@ -4872,14 +4783,14 @@
 			<w pos="NNP" lemma="a">A</w>
 			<w pos="NN" lemma="minor">minor</w>
 		</tr>
-		<tr index="a ">
+		<tr index="a">
 			<length>0</length>
 			<w pos="NN" lemma="part">Part</w>
 			<w pos="CD" lemma="one">one</w>
 			<punc pos=":" lemma=":">:</punc>
 			<w pos="NN" lemma="passacaglia">Passacaglia</w>
 		</tr>
-		<tr index="b ">
+		<tr index="b">
 			<length>0</length>
 			<w pos="NN" lemma="part">Part</w>
 			<w pos="CD" lemma="two">two</w>
@@ -4937,7 +4848,7 @@
 			<length>543</length>
 			<w pos="IN" lemma="for">For</w>
 			<w pos="NNP" lemma="example">Example</w>
-			<w pos="NNP" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="IN" lemma="for">For</w>
 			<w pos="NNP" lemma="sure">Sure</w>
 		</tr>
@@ -5103,10 +5014,6 @@
 			<length>162</length>
 			<w pos="VBG" lemma="awakening">Awakening</w>
 		</tr>
-		<tr index="Between the Times (6:08 ">
-			<length>0</length>
-			<punc pos=":" lemma=":">:</punc>
-		</tr>
 		<tr index="2">
 			<length>110</length>
 			<w pos="IN" lemma="between">Between</w>
@@ -5163,7 +5070,7 @@
 			<length>487</length>
 			<w pos="DT" lemma="the">The</w>
 			<w pos="NNP" lemma="midnight-fight">Midnight-Fight</w>
-			<w pos="NNP" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="DT" lemma="the">The</w>
 			<w pos="NNP" lemma="victory">Victory</w>
 			<w pos="IN" lemma="of">of</w>
@@ -5184,7 +5091,7 @@
 			<w pos="VBZ" lemma="rtveil">rTveil</w>
 			<w pos="JJ" lemma="du">du</w>
 			<w pos="NN" lemma="soleil">soleil</w>
-			<w pos="VBD" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="DT" lemma="the">The</w>
 			<w pos="NN" lemma="dawn">Dawn</w>
 		</tr>
@@ -5463,7 +5370,7 @@
 			<w pos="DT" lemma="the">The</w>
 			<w pos="NNP" lemma="apocalypse">Apocalypse</w>
 		</tr>
-		<tr index="a ">
+		<tr index="a">
 			<length>0</length>
 			<w pos="JJ" lemma="silent">Silent</w>
 			<w pos="NNP" lemma="cry">Cries</w>
@@ -5471,13 +5378,13 @@
 			<w pos="DT" lemma="the">the</w>
 			<w pos="NNP" lemma="night">Night</w>
 		</tr>
-		<tr index="b ">
+		<tr index="b">
 			<length>0</length>
 			<w pos="DT" lemma="the">The</w>
 			<w pos="NNP" lemma="vision">Vision</w>
 			<w pos="NNP" lemma="burning">Burning</w>
 		</tr>
-		<tr index="c ">
+		<tr index="c">
 			<length>0</length>
 			<w pos="NN" lemma="force">Force</w>
 			<w pos="NN" lemma="majeure">Majeure</w>
@@ -5567,7 +5474,7 @@
 		<tr index="3">
 			<length>173</length>
 			<w pos="RB" lemma="still">Still</w>
-			<w pos="NNP" lemma="..">..</w>
+			<punc pos=":" lemma="...">...</punc>
 			<punc pos="," lemma=",">,</punc>
 			<w pos="PRP" lemma="you">You</w>
 			<w pos="VBP" lemma="turn">Turn</w>
@@ -6383,7 +6290,7 @@
 			<w pos="NN" lemma="someone">Someone</w>
 			<w pos="POS" lemma="'s">'s</w>
 			<w pos="NNP" lemma="cry">Crying</w>
-			<w pos="NN" lemma="..">..</w>
+			<punc pos=":" lemma="...">...</punc>
 			<punc pos="," lemma=",">,</punc>
 			<w pos="WP" lemma="what">What</w>
 			<punc pos="." lemma="!">!</punc>
@@ -6392,7 +6299,7 @@
 			<length>222</length>
 			<w pos="DT" lemma="all">All</w>
 			<w pos="NNP" lemma="together">Together</w>
-			<w pos="NNP" lemma="..">..</w>
+			<punc pos=":" lemma="...">...</punc>
 			<punc pos="," lemma=",">,</punc>
 			<w pos="NNP" lemma="oh">Oh</w>
 			<w pos="IN" lemma="that">That</w>
@@ -6980,10 +6887,6 @@
 	<al name ="Absolutely Free" date="1967">
 		<length>2289</length>
 		<rating>4.01</rating>
-		<tr index="Absolutely Free 	(19:34 ">
-			<length>0</length>
-			<punc pos=":" lemma=":">:</punc>
-		</tr>
 		<tr index="1">
 			<length>220</length>
 			<w pos="JJ" lemma="plastic">Plastic</w>
@@ -7036,15 +6939,6 @@
 			<w pos="NNP" lemma="side">Side</w>
 			<punc pos="#" lemma="#">#</punc>
 			<w pos="CD" lemma="1">1</w>
-		</tr>
-		<tr index=" The M.O.I">
-			<length>0</length>
-			<w pos="NNP" lemma="american">American</w>
-			<w pos="NNP" lemma="pageant">Pageant</w>
-			<punc pos="(" lemma="(">(</punc>
-			<w pos="CD" lemma="18:35">18:35</w>
-			<punc pos=")" lemma=")">)</punc>
-			<punc pos=":" lemma=":">:</punc>
 		</tr>
 		<tr index="8">
 			<length>112</length>
@@ -7307,7 +7201,7 @@
 			<w pos="NNP" lemma="music">Music</w>
 			<punc pos="(" lemma="(">(</punc>
 			<w pos="JJ" lemma="live">live</w>
-			<w pos="NN" lemma="*">*</w>
+			
 			<punc pos=")" lemma=")">)</punc>
 		</tr>
 		<tr index="5">
@@ -7457,7 +7351,7 @@
 			<w pos="NNP" lemma="every">Every</w>
 			<w pos="NNP" lemma="day">Day</w>
 		</tr>
-		<tr index="">
+		<tr index="a">
 			<length>0</length>
 			<w pos="CD" lemma="1st">1st</w>
 			<w pos="NN" lemma="movement">Movement</w>
@@ -7467,7 +7361,7 @@
 			<w pos="NNP" lemma="tap">Tap</w>
 			<w pos="NNP" lemma="dance">Dance</w>
 		</tr>
-		<tr index="">
+		<tr index="b">
 			<length>0</length>
 			<w pos="CD" lemma="2nd">2nd</w>
 			<w pos="NN" lemma="movement">Movement</w>
@@ -7478,7 +7372,7 @@
 			<w pos="NNP" lemma="edgar">Edgar</w>
 			<w pos="NNP" lemma="varese">Varese</w>
 		</tr>
-		<tr index="">
+		<tr index="c">
 			<length>0</length>
 			<w pos="CD" lemma="3rd">3rd</w>
 			<w pos="NN" lemma="movement">Movement</w>
@@ -7791,7 +7685,7 @@
 			<w pos="NNP" lemma="road">Roads</w>
 			<punc pos="(" lemma="(">(</punc>
 			<w pos="JJ" lemma="live">live</w>
-			<w pos="NN" lemma="*">*</w>
+			
 			<punc pos=")" lemma=")">)</punc>
 		</tr>
 		<tr index="2">
@@ -7820,7 +7714,7 @@
 			<w pos="NNP" lemma="pogen">Pogen</w>
 			<punc pos="(" lemma="(">(</punc>
 			<w pos="JJ" lemma="live">live</w>
-			<w pos="NN" lemma="*">*</w>
+			
 			<punc pos=")" lemma=")">)</punc>
 		</tr>
 		<tr index="6">
@@ -8061,18 +7955,18 @@
 			<w pos="VBN" lemma="been">Been</w>
 			<w pos="IN" lemma="in">in</w>
 			<w pos="PRP" lemma="you">You</w>
-			<w pos="VBP" lemma="[">[</w>
+			<punc pos="(" lemma="(">(</punc>
 			<w pos="JJ" lemma="live">Live</w>
-			<w pos="NN" lemma="*">*</w>
-			<w pos="NN" lemma="]">]</w>
+			
+			<punc pos=")" lemma=")">)</punc>
 		</tr>
 		<tr index="2">
 			<length>401</length>
 			<w pos="NNS" lemma="flake">Flakes</w>
-			<w pos="VBP" lemma="[">[</w>
+			<punc pos="(" lemma="(">(</punc>
 			<w pos="NNP" lemma="live">Live</w>
-			<w pos="NNP" lemma="*">*</w>
-			<w pos="NN" lemma="]">]</w>
+			
+			<punc pos=")" lemma=")">)</punc>
 		</tr>
 		<tr index="3">
 			<length>222</length>
@@ -8081,10 +7975,10 @@
 			<w pos="VBP" lemma="are">Are</w>
 			<w pos="IN" lemma="for">for</w>
 			<w pos="NNP" lemma="asshole">Assholes</w>
-			<w pos="NNP" lemma="[">[</w>
+			<punc pos="(" lemma="(">(</punc>
 			<w pos="NNP" lemma="live">Live</w>
-			<w pos="NNP" lemma="*">*</w>
-			<w pos="NN" lemma="]">]</w>
+			
+			<punc pos=")" lemma=")">)</punc>
 		</tr>
 		<tr index="4">
 			<length>189</length>
@@ -8092,21 +7986,21 @@
 			<w pos="VBP" lemma="'m">'m</w>
 			<w pos="RB" lemma="so">So</w>
 			<w pos="JJ" lemma="cute">Cute</w>
-			<w pos="NNP" lemma="[">[</w>
+			<punc pos="(" lemma="(">(</punc>
 			<w pos="NNP" lemma="live">Live</w>
 			<punc pos=":" lemma="-">-</punc>
 			<w pos="NN" lemma="soundcheck">soundcheck</w>
-			<w pos="NN" lemma="*">*</w>
-			<w pos="NN" lemma="]">]</w>
+			
+			<punc pos=")" lemma=")">)</punc>
 		</tr>
 		<tr index="5">
 			<length>169</length>
 			<w pos="NNP" lemma="jones">Jones</w>
 			<w pos="NNP" lemma="crusher">Crusher</w>
-			<w pos="NNP" lemma="[">[</w>
+			<punc pos="(" lemma="(">(</punc>
 			<w pos="NNP" lemma="live">Live</w>
 			<punc pos="$" lemma="$">$</punc>
-			<w pos="NN" lemma="]">]</w>
+			<punc pos=")" lemma=")">)</punc>
 		</tr>
 		<tr index="6">
 			<length>33</length>
@@ -8125,10 +8019,10 @@
 			<length>315</length>
 			<w pos="NNP" lemma="rat">Rat</w>
 			<w pos="NNP" lemma="tomago">Tomago</w>
-			<w pos="NNP" lemma="[">[</w>
+			<punc pos="(" lemma="(">(</punc>
 			<w pos="NNP" lemma="live">Live</w>
 			<w pos="NN" lemma="%">%</w>
-			<w pos="NN" lemma="]">]</w>
+			<punc pos=")" lemma=")">)</punc>
 		</tr>
 		<tr index="8">
 			<length>33</length>
@@ -8142,10 +8036,10 @@
 			<w pos="NNP" lemma="brown">Brown</w>
 			<w pos="NNP" lemma="go">Goes</w>
 			<w pos="NNP" lemma="down">Down</w>
-			<w pos="NNP" lemma="[">[</w>
+			<punc pos="(" lemma="(">(</punc>
 			<w pos="NNP" lemma="live">Live</w>
-			<w pos="NNP" lemma="*">*</w>
-			<w pos="NN" lemma="]">]</w>
+			
+			<punc pos=")" lemma=")">)</punc>
 		</tr>
 		<tr index="10">
 			<length>165</length>
@@ -8158,19 +8052,19 @@
 			<w pos="NNP" lemma="sheik">Sheik</w>
 			<w pos="NNP" lemma="yerbouti">Yerbouti</w>
 			<w pos="NNP" lemma="tango">Tango</w>
-			<w pos="NNP" lemma="[">[</w>
+			<punc pos="(" lemma="(">(</punc>
 			<w pos="NNP" lemma="live">Live</w>
 			<w pos="NN" lemma="%">%</w>
-			<w pos="NN" lemma="]">]</w>
+			<punc pos=")" lemma=")">)</punc>
 		</tr>
 		<tr index="12">
 			<length>110</length>
 			<w pos="NNP" lemma="baby">Baby</w>
 			<w pos="NNP" lemma="snake">Snakes</w>
-			<w pos="NNP" lemma="[">[</w>
+			<punc pos="(" lemma="(">(</punc>
 			<w pos="NNP" lemma="live">Live</w>
-			<w pos="NNP" lemma="*">*</w>
-			<w pos="NN" lemma="]">]</w>
+			
+			<punc pos=")" lemma=")">)</punc>
 		</tr>
 		<tr index="13">
 			<length>211</length>
@@ -8180,10 +8074,10 @@
 			<w pos="VB" lemma="grow">Grow</w>
 			<w pos="DT" lemma="a">a</w>
 			<w pos="NNP" lemma="chin">Chin</w>
-			<w pos="NNP" lemma="[">[</w>
+			<punc pos="(" lemma="(">(</punc>
 			<w pos="NNP" lemma="live">Live</w>
-			<w pos="NNP" lemma="*">*</w>
-			<w pos="NN" lemma="]">]</w>
+			
+			<punc pos=")" lemma=")">)</punc>
 		</tr>
 		<tr index="14">
 			<length>332</length>
@@ -8191,48 +8085,48 @@
 			<w pos="IN" lemma="of">of</w>
 			<w pos="NNP" lemma="tiny">Tiny</w>
 			<w pos="NNP" lemma="lites">Lites</w>
-			<w pos="NNP" lemma="[">[</w>
+			<punc pos="(" lemma="(">(</punc>
 			<w pos="NNP" lemma="live">Live</w>
-			<w pos="NNP" lemma="*">*</w>
-			<w pos="NN" lemma="]">]</w>
+			
+			<punc pos=")" lemma=")">)</punc>
 		</tr>
 		<tr index="15">
 			<length>223</length>
 			<w pos="NNP" lemma="dancin">Dancin</w>
 			<w pos="POS" lemma="'">'</w>
 			<w pos="NNP" lemma="fool">Fool</w>
-			<w pos="NNP" lemma="[">[</w>
+			<punc pos="(" lemma="(">(</punc>
 			<w pos="NNP" lemma="live">Live</w>
-			<w pos="NNP" lemma="*">*</w>
-			<w pos="NN" lemma="]">]</w>
+			
+			<punc pos=")" lemma=")">)</punc>
 		</tr>
 		<tr index="16">
 			<length>196</length>
 			<w pos="JJ" lemma="jewish">Jewish</w>
 			<w pos="NNP" lemma="princess">Princess</w>
-			<w pos="NNP" lemma="[">[</w>
+			<punc pos="(" lemma="(">(</punc>
 			<w pos="NNP" lemma="live">Live</w>
 			<punc pos="$" lemma="$">$</punc>
-			<w pos="NN" lemma="]">]</w>
+			<punc pos=")" lemma=")">)</punc>
 		</tr>
 		<tr index="17">
 			<length>249</length>
 			<w pos="JJ" lemma="wild">Wild</w>
 			<w pos="NNP" lemma="love">Love</w>
-			<w pos="NNP" lemma="[">[</w>
+			<punc pos="(" lemma="(">(</punc>
 			<w pos="NNP" lemma="live">Live</w>
-			<w pos="NNP" lemma="*">*</w>
-			<w pos="NN" lemma="]">]</w>
+			
+			<punc pos=")" lemma=")">)</punc>
 		</tr>
 		<tr index="18">
 			<length>756</length>
 			<w pos="NNP" lemma="yo">Yo</w>
 			<w pos="POS" lemma="'">'</w>
 			<w pos="NNP" lemma="mama">Mama</w>
-			<w pos="NNP" lemma="[">[</w>
+			<punc pos="(" lemma="(">(</punc>
 			<w pos="NNP" lemma="live">Live</w>
-			<w pos="NNP" lemma="*">*</w>
-			<w pos="NN" lemma="]">]</w>
+			
+			<punc pos=")" lemma=")">)</punc>
 		</tr>
 	</al>
 	<al name ="Ship Arriving Too Late to Save a Drowning Witch" date="1982">
@@ -8448,9 +8342,9 @@
 			<w pos="CC" lemma="and">and</w>
 			<w pos="NNP" lemma="low-budget">Low-Budget</w>
 			<w pos="NNP" lemma="orchestra">Orchestra</w>
-			<w pos="NNP" lemma="[">[</w>
+			<punc pos="(" lemma="(">(</punc>
 			<w pos="JJ" lemma="instrumental">instrumental</w>
-			<w pos="NN" lemma="]">]</w>
+			<punc pos=")" lemma=")">)</punc>
 		</tr>
 		<tr index="4">
 			<length>496</length>
@@ -8806,45 +8700,45 @@
 			<w pos="VBG" lemma="king">King</w>
 			<w pos="NNP" lemma="kong">Kong</w>
 			<w pos="NNP" lemma="itself">Itself</w>
-			<w pos="NNP" lemma="[">[</w>
+			<punc pos="(" lemma="(">(</punc>
 			<w pos="NNP" lemma="played">Played</w>
 			<w pos="IN" lemma="by">by</w>
 			<w pos="DT" lemma="the">the</w>
 			<w pos="NNS" lemma="mother">Mothers</w>
-			<w pos="VBP" lemma="]">]</w>
+			<punc pos=")" lemma=")">)</punc>
 		</tr>
 		<tr index="27">
 			<length>81</length>
 			<w pos="VBG" lemma="king">King</w>
 			<w pos="NNP" lemma="kong">Kong</w>
 			<w pos="NNP" lemma="ii">II</w>
-			<w pos="NNP" lemma="[">[</w>
+			<punc pos="(" lemma="(">(</punc>
 			<w pos="NNP" lemma="interpreted">Interpreted</w>
 			<w pos="IN" lemma="by">by</w>
 			<w pos="NNP" lemma="tom">Tom</w>
 			<w pos="NNP" lemma="dewild">Dewild</w>
-			<w pos="NN" lemma="]">]</w>
+			<punc pos=")" lemma=")">)</punc>
 		</tr>
 		<tr index="28">
 			<length>104</length>
 			<w pos="VBG" lemma="king">King</w>
 			<w pos="NNP" lemma="kong">Kong</w>
 			<w pos="NNP" lemma="iii">III</w>
-			<w pos="NNP" lemma="[">[</w>
+			<punc pos="(" lemma="(">(</punc>
 			<w pos="NNP" lemma="motorhead">Motorhead</w>
 			<w pos="VBZ" lemma="explains">Explains</w>
 			<w pos="PRP" lemma="it">It</w>
-			<w pos="RP" lemma="]">]</w>
+			<punc pos=")" lemma=")">)</punc>
 		</tr>
 		<tr index="29">
 			<length>377</length>
 			<w pos="VBG" lemma="king">King</w>
 			<w pos="NNP" lemma="kong">Kong</w>
 			<w pos="NNP" lemma="iv">IV</w>
-			<w pos="NNP" lemma="[">[</w>
+			<punc pos="(" lemma="(">(</punc>
 			<w pos="NNP" lemma="gardner">Gardner</w>
 			<w pos="NNP" lemma="variety">Varieties</w>
-			<w pos="NNP" lemma="]">]</w>
+			<punc pos=")" lemma=")">)</punc>
 		</tr>
 		<tr index="30">
 			<length>34</length>
@@ -8857,13 +8751,13 @@
 			<w pos="VBG" lemma="king">King</w>
 			<w pos="NNP" lemma="kong">Kong</w>
 			<w pos="NNP" lemma="vi">VI</w>
-			<w pos="NNP" lemma="[">[</w>
+			<punc pos="(" lemma="(">(</punc>
 			<w pos="NNP" lemma="live">Live</w>
 			<w pos="IN" lemma="at">at</w>
 			<w pos="NNP" lemma="miami">Miami</w>
 			<w pos="NNP" lemma="pop">Pop</w>
 			<w pos="NNP" lemma="festival">Festival</w>
-			<w pos="NN" lemma="]">]</w>
+			<punc pos=")" lemma=")">)</punc>
 		</tr>
 	</al>
 	<al name ="Waka - Jawaka" date="1972">
@@ -8892,7 +8786,7 @@
 		<tr index="4">
 			<length>678</length>
 			<w pos="NNP" lemma="waka">Waka</w>
-			<w pos="NNP" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="NNP" lemma="jawaka">Jawaka</w>
 		</tr>
 	</al>
@@ -9332,7 +9226,7 @@
 			<w pos="NNP" lemma="page">Page</w>
 			<w pos="NNP" lemma="drum">Drum</w>
 			<w pos="NNP" lemma="solo">Solo</w>
-			<w pos="NNP" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="NNP" lemma="black">Black</w>
 			<w pos="NNP" lemma="page">Page</w>
 			<punc pos="#" lemma="#">#</punc>
@@ -9367,7 +9261,7 @@
 			<w pos="DT" lemma="the">The</w>
 			<w pos="NNP" lemma="purple">Purple</w>
 			<w pos="NNP" lemma="lagoon">Lagoon</w>
-			<w pos="NNP" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="NNP" lemma="approximate">Approximate</w>
 		</tr>
 	</al>
@@ -9390,7 +9284,7 @@
 			<w pos="NNP" lemma="napkin">Napkins</w>
 			<punc pos="(" lemma="(">(</punc>
 			<w pos="NNP" lemma="live">Live</w>
-			<w pos="NNP" lemma="*">*</w>
+			
 			<punc pos=")" lemma=")">)</punc>
 		</tr>
 		<tr index="3">
@@ -9651,7 +9545,7 @@
 		<tr index="5">
 			<length>448</length>
 			<w pos="NNP" lemma="dodo">Dodo</w>
-			<w pos="NNP" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="NNP" lemma="lurker">Lurker</w>
 		</tr>
 		<tr index="6">
@@ -11117,42 +11011,6 @@
 			<w pos="NNP" lemma="mireille">Mireille</w>
 		</tr>
 	</al>
-	<al name ="Magick Brother" date="1969">
-		<length>2665</length>
-		<rating>3.40</rating>
-		<tr index="">
-			<length>0</length>
-			<w pos="RB" lemma="early">Early</w>
-			<w pos="NNP" lemma="morning">Morning</w>
-			<punc pos=":" lemma="-">-</punc>
-		</tr>
-		<tr index="2">
-			<length>250</length>
-			<w pos="VB" lemma="change">Change</w>
-			<w pos="DT" lemma="the">the</w>
-			<w pos="NNP" lemma="world">World</w>
-			<punc pos="(" lemma="(">(</punc>
-			<w pos="JJ" lemma="aka">aka</w>
-			<w pos="NNP" lemma="rational">Rational</w>
-			<w pos="NNP" lemma="anthem">Anthem</w>
-			<punc pos=")" lemma=")">)</punc>
-		</tr>
-		<tr index="3">
-			<length>215</length>
-			<w pos="NNP" lemma="glad">Glad</w>
-			<w pos="TO" lemma="to">To</w>
-			<w pos="VB" lemma="sad">Sad</w>
-			<w pos="TO" lemma="to">To</w>
-			<w pos="VB" lemma="say">Say</w>
-		</tr>
-		<tr index="">
-			<length>0</length>
-			<w pos="DT" lemma="the">The</w>
-			<w pos="NNP" lemma="late">Late</w>
-			<w pos="NNP" lemma="night">Night</w>
-			<punc pos=":" lemma="-">-</punc>
-		</tr>
-	</al>
 	<al name ="Radio Gnome Invisible Part 1 - Flying Teapot" date="1973">
 		<length>2207</length>
 		<rating>3.95</rating>
@@ -11661,31 +11519,31 @@
 			<w pos="IN" lemma="without">without</w>
 			<w pos="NNS" lemma="word">words</w>
 		</tr>
-		<tr index="">
+		<tr index="a">
 			<length>0</length>
 			<trans>L'isolement</trans>
 			<w pos="DT" lemma="the">The</w>
 			<w pos="NN" lemma="isolation">isolation</w>
 		</tr>
-		<tr index="">
+		<tr index="b">
 			<length>0</length>
 			<trans>L'appel</trans>
 			<w pos="DT" lemma="the">The</w>
 			<w pos="NN" lemma="appeal">appeal</w>
 		</tr>
-		<tr index="">
+		<tr index="c">
 			<length>0</length>
 			<trans>La rencontre</trans>
 			<w pos="DT" lemma="the">The</w>
 			<w pos="NN" lemma="meeting">meeting</w>
 		</tr>
-		<tr index="">
+		<tr index="d">
 			<length>0</length>
 			<trans>L'union</trans>
 			<w pos="DT" lemma="the">The</w>
 			<w pos="NN" lemma="union">union</w>
 		</tr>
-		<tr index="">
+		<tr index="e">
 			<length>0</length>
 			<trans>Le grand bal</trans>
 			<w pos="DT" lemma="the">The</w>
@@ -11876,7 +11734,7 @@
 			<length>1206</length>
 			<w pos="NNS" lemma="mumps">Mumps</w>
 		</tr>
-		<tr index="a ">
+		<tr index="a">
 			<length>0</length>
 			<w pos="PRP$" lemma="your">Your</w>
 			<w pos="NNP" lemma="majesty">Majesty</w>
@@ -11892,21 +11750,21 @@
 			<w pos="CD" lemma="1:59">1:59</w>
 			<punc pos=")" lemma=")">)</punc>
 		</tr>
-		<tr index="b ">
+		<tr index="b">
 			<length>0</length>
 			<w pos="NNP" lemma="lump">Lumps</w>
 			<punc pos="(" lemma="(">(</punc>
 			<w pos="CD" lemma="12:35">12:35</w>
 			<punc pos=")" lemma=")">)</punc>
 		</tr>
-		<tr index="c ">
+		<tr index="c">
 			<length>0</length>
 			<w pos="NNP" lemma="prenut">Prenut</w>
 			<punc pos="(" lemma="(">(</punc>
 			<w pos="CD" lemma="3:55">3:55</w>
 			<punc pos=")" lemma=")">)</punc>
 		</tr>
-		<tr index="d ">
+		<tr index="d">
 			<length>0</length>
 			<w pos="PRP$" lemma="your">Your</w>
 			<w pos="NNP" lemma="majesty">Majesty</w>
@@ -12009,7 +11867,7 @@
 			<w pos="PRP" lemma="it">It</w>
 			<punc pos="(" lemma="(">(</punc>
 			<w pos="JJ" lemma="live">live</w>
-			<w pos="NN" lemma="*">*</w>
+			
 			<punc pos=")" lemma=")">)</punc>
 		</tr>
 		<tr index="6">
@@ -12035,7 +11893,7 @@
 			<w pos="NNP" lemma="paradox">Paradox</w>
 			<punc pos="(" lemma="(">(</punc>
 			<w pos="JJ" lemma="live">live</w>
-			<w pos="NN" lemma="*">*</w>
+			
 			<punc pos=")" lemma=")">)</punc>
 		</tr>
 	</al>
@@ -12383,7 +12241,7 @@
 			<w pos="VBD" lemma="woke">Woke</w>
 			<w pos="NNP" lemma="up">Up</w>
 			<w pos="CC" lemma="and">And</w>
-			<w pos="NNP" lemma="..">..</w>
+			<punc pos=":" lemma="...">...</punc>
 			<punc pos="," lemma=",">,</punc>
 			<w pos="PRP" lemma="i">I</w>
 			<w pos="VBD" lemma="closed">Closed</w>
@@ -12535,7 +12393,7 @@
 			<w pos="NNP" lemma="herold">Herold</w>
 			<w pos="CC" lemma="and">and</w>
 			<w pos="NNP" lemma="king">King</w>
-			<w pos="NNP" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="NNP" lemma="dloreh">Dloreh</w>
 		</tr>
 		<tr index="5">
@@ -12695,11 +12553,6 @@
 	<al name ="Benefit" date="1970">
 		<length>2477</length>
 		<rating>3.91</rating>
-		<tr index="">
-			<length>0</length>
-			<w pos="NNP" lemma="uk">UK</w>
-			<w pos="NNP" lemma="edition">Edition</w>
-		</tr>
 		<tr index="1">
 			<length>365</length>
 			<w pos="IN" lemma="with">With</w>
@@ -12856,7 +12709,7 @@
 			<w pos="CD" lemma="one">One</w>
 			<w pos="NNP" lemma="white">White</w>
 			<w pos="NNP" lemma="duck">Duck</w>
-			<w pos="VBD" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="CD" lemma="0^10">0^10</w>
 			<w pos="NN" lemma="=">=</w>
 			<w pos="NN" lemma="nothing">Nothing</w>
@@ -13084,15 +12937,6 @@
 	<al name ="The Broadsword and the Beast" date="1982">
 		<length>2329</length>
 		<rating>3.29</rating>
-		<tr index="">
-			<length>0</length>
-			<w pos="NNP" lemma="beastie">Beastie</w>
-			<punc pos="(" lemma="(">(</punc>
-			<w pos="NNP" lemma="lp">LP</w>
-			<w pos="RB" lemma="side">side</w>
-			<w pos="CD" lemma="1">1</w>
-			<punc pos=")" lemma=")">)</punc>
-		</tr>
 		<tr index="1">
 			<length>238</length>
 			<w pos="NNP" lemma="beastie">Beastie</w>
@@ -13118,15 +12962,6 @@
 			<w pos="JJ" lemma="slow">Slow</w>
 			<w pos="NNP" lemma="marching">Marching</w>
 			<w pos="NNP" lemma="band">Band</w>
-		</tr>
-		<tr index="">
-			<length>0</length>
-			<w pos="NNP" lemma="boadsword">Boadsword</w>
-			<punc pos="(" lemma="(">(</punc>
-			<w pos="NNP" lemma="lp">LP</w>
-			<w pos="RB" lemma="side">side</w>
-			<w pos="CD" lemma="2">2</w>
-			<punc pos=")" lemma=")">)</punc>
 		</tr>
 		<tr index="6">
 			<length>303</length>
@@ -14309,17 +14144,17 @@
 			<w pos="NNP" lemma="glass">Glass</w>
 			<w pos="NNP" lemma="tear">Tears</w>
 		</tr>
-		<tr index="i ">
+		<tr index="i">
 			<length>0</length>
 			<w pos="NN" lemma="dawn">Dawn</w>
 			<w pos="NN" lemma="song">Song</w>
 		</tr>
-		<tr index="ii ">
+		<tr index="ii">
 			<length>0</length>
 			<w pos="JJ" lemma="last">Last</w>
 			<w pos="JJ" lemma="skirmish">Skirmish</w>
 		</tr>
-		<tr index="iii ">
+		<tr index="iii">
 			<length>0</length>
 			<w pos="NNP" lemma="prince">Prince</w>
 			<w pos="NNP" lemma="rupert">Rupert</w>
@@ -14423,14 +14258,6 @@
 	<al name ="Three of a Perfect Pair" date="1984">
 		<length>2459</length>
 		<rating>3.27</rating>
-		<tr index="">
-			<length>0</length>
-			<w pos="``" lemma="``">``</w>
-			<w pos="VBD" lemma="left">Left</w>
-			<w pos="NNP" lemma="side">Side</w>
-			<w pos="''" lemma="''">''</w>
-			<punc pos=":" lemma="-">-</punc>
-		</tr>
 		<tr index="1">
 			<length>251</length>
 			<w pos="CD" lemma="three">Three</w>
@@ -14469,14 +14296,6 @@
 			<w pos="NNP" lemma="cloud">Clouds</w>
 			<punc pos=")" lemma=")">)</punc>
 		</tr>
-		<tr index="">
-			<length>0</length>
-			<w pos="``" lemma="``">``</w>
-			<w pos="JJ" lemma="right">Right</w>
-			<w pos="NN" lemma="side">Side</w>
-			<w pos="''" lemma="''">''</w>
-			<punc pos=":" lemma="-">-</punc>
-		</tr>
 		<tr index="6">
 			<length>442</length>
 			<w pos="NN" lemma="industry">Industry</w>
@@ -14508,54 +14327,54 @@
 	<al name ="Mirage" date="1977">
 		<length>3452</length>
 		<rating>4.26</rating>
-		<tr index="a ">
+		<tr index="a">
 			<length>0</length>
 			<w pos="CD" lemma="1984">1984</w>
 		</tr>
-		<tr index="b ">
+		<tr index="b">
 			<length>0</length>
 			<w pos="NN" lemma="aeronef">Aeronef</w>
 		</tr>
-		<tr index="c ">
+		<tr index="c">
 			<length>0</length>
 			<w pos="NN" lemma="eclipse">Eclipse</w>
 		</tr>
-		<tr index="d ">
+		<tr index="d">
 			<length>0</length>
 			<w pos="NN" lemma="exvasion">Exvasion</w>
 		</tr>
-		<tr index="e ">
+		<tr index="e">
 			<length>0</length>
 			<w pos="NNP" lemma="lucid">Lucid</w>
 			<w pos="NNP" lemma="interspace">Interspace</w>
 		</tr>
-		<tr index="f ">
+		<tr index="f">
 			<length>0</length>
 			<w pos="NNP" lemma="destination">Destination</w>
 			<w pos="NNP" lemma="vold">Vold</w>
 		</tr>
-		<tr index="a ">
+		<tr index="a">
 			<length>0</length>
 			<w pos="NNS" lemma="xylotones">Xylotones</w>
 		</tr>
-		<tr index="b ">
+		<tr index="b">
 			<length>0</length>
 			<w pos="VB" lemma="chromwave">Chromwave</w>
 		</tr>
-		<tr index="c ">
+		<tr index="c">
 			<length>0</length>
 			<w pos="NNS" lemma="willowdreams">Willowdreams</w>
 		</tr>
-		<tr index="d ">
+		<tr index="d">
 			<length>0</length>
 			<w pos="JJ" lemma="liquid">Liquid</w>
 			<w pos="NNS" lemma="mirror">Mirrors</w>
 		</tr>
-		<tr index="e ">
+		<tr index="e">
 			<length>0</length>
 			<w pos="NN" lemma="springdance">Springdance</w>
 		</tr>
-		<tr index="f ">
+		<tr index="f">
 			<length>0</length>
 			<w pos="DT" lemma="a">A</w>
 			<w pos="NNP" lemma="bientot">Bientot</w>
@@ -14564,6 +14383,10 @@
 	<al name ="Moondawn" date="1976">
 		<length>3157</length>
 		<rating>3.78</rating>
+		<tr index="1">
+			<length>1635</length>
+			<w pos="VBG" lemma="floating">Floating</w>
+		</tr>
 		<tr index="2">
 			<length>1522</length>
 			<w pos="NN" lemma="mindphaser">Mindphaser</w>
@@ -16313,10 +16136,6 @@
 	<al name ="Smallcreep's Day" date="1980">
 		<length>3088</length>
 		<rating>3.71</rating>
-		<tr index="Smallcreep's Day (24:41 ">
-			<length>0</length>
-			<punc pos=":" lemma=":">:</punc>
-		</tr>
 		<tr index="1">
 			<length>239</length>
 			<w pos="IN" lemma="between">Between</w>
@@ -16561,7 +16380,7 @@
 			<punc pos=":" lemma="-">-</punc>
 			<w pos="JJ" lemma="north">North</w>
 			<w pos="NNP" lemma="star">Star</w>
-			<w pos="NNP" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="NNP" lemma="platinum">Platinum</w>
 			<w pos="NNP" lemma="finale">Finale</w>
 		</tr>
@@ -16652,18 +16471,18 @@
 			<length>1057</length>
 			<trans>Antartide / Metamorfosi / Pathos / Senza Un PerchT / Nessuna Scelta / Murple Rock</trans>
 			<w pos="NNP" lemma="antarctica">Antarctica</w>
-			<w pos="NNP" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="NNP" lemma="metamorphosis">Metamorphosis</w>
-			<w pos="NNP" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="NNP" lemma="pathos">Pathos</w>
-			<w pos="NNP" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="IN" lemma="without">Without</w>
 			<w pos="DT" lemma="a">a</w>
 			<w pos="WRB" lemma="why">Why</w>
-			<w pos="JJ" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="DT" lemma="no">No</w>
 			<w pos="NNP" lemma="choice">Choice</w>
-			<w pos="NNP" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="NNP" lemma="murple">Murple</w>
 			<w pos="NNP" lemma="rock">Rock</w>
 		</tr>
@@ -16673,21 +16492,21 @@
 			<w pos="NNP" lemma="prelude">Prelude</w>
 			<w pos="CC" lemma="and">And</w>
 			<w pos="NNP" lemma="scherzo">Scherzo</w>
-			<w pos="NNP" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="NNP" lemma="between">Between</w>
 			<w pos="DT" lemma="the">The</w>
 			<w pos="NNP" lemma="wire">Wires</w>
-			<w pos="NNP" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="NNP" lemma="variation">Variations</w>
 			<w pos="IN" lemma="in">In</w>
 			<w pos="CD" lemma="6/8">6/8</w>
-			<w pos="NN" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="NNP" lemma="brother">Brother</w>
-			<w pos="VBZ" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="NNP" lemma="a">A</w>
 			<w pos="NNP" lemma="cos8">Cos8</w>
 			<w pos="NNP" lemma="world">World</w>
-			<w pos="NNP" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="NNP" lemma="antarplastic">Antarplastic</w>
 		</tr>
 	</al>
@@ -16957,7 +16776,7 @@
 			<length>493</length>
 			<w pos="NNP" lemma="desolation">Desolation</w>
 			<w pos="NNP" lemma="valley">Valley</w>
-			<w pos="NNP" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="NNS" lemma="wave">Waves</w>
 		</tr>
 		<tr index="3">
@@ -17118,14 +16937,6 @@
 	<al name ="Recycled" date="1975">
 		<length>2215</length>
 		<rating>3.85</rating>
-		<tr index="">
-			<length>0</length>
-			<w pos="VBN" lemma="recycled">Recycled</w>
-			<punc pos="," lemma=",">,</punc>
-			<w pos="NNP" lemma="part">Part</w>
-			<w pos="CD" lemma="1">1</w>
-			<punc pos=":" lemma=":">:</punc>
-		</tr>
 		<tr index="1">
 			<length>167</length>
 			<w pos="NN" lemma="recycle">Recycle</w>
@@ -17161,17 +16972,9 @@
 			<w pos="NNP" lemma="imagination">Imagination</w>
 			<punc pos="." lemma="?">?</punc>
 		</tr>
-		<tr index="">
-			<length>0</length>
-			<w pos="VBN" lemma="recycled">Recycled</w>
-			<punc pos="," lemma=",">,</punc>
-			<w pos="NNP" lemma="part">Part</w>
-			<w pos="CD" lemma="2">2</w>
-			<punc pos=":" lemma=":">:</punc>
-		</tr>
 		<tr index="8">
 			<length>185</length>
-			<w pos="NNP" lemma="spo">Spo</w>
+			<w pos="NNP" lemma="sao">Spo</w>
 			<w pos="NNP" lemma="paulo">Paulo</w>
 			<w pos="NNP" lemma="sunrise">Sunrise</w>
 		</tr>
@@ -17206,26 +17009,26 @@
 			<w pos="NN" lemma="part">Part</w>
 			<w pos="PRP" lemma="i">I</w>
 		</tr>
-		<tr index="a ">
+		<tr index="a">
 			<length>0</length>
 			<w pos="NNS" lemma="image">Images</w>
 			<w pos="IN" lemma="of">of</w>
 			<w pos="DT" lemma="the">the</w>
 			<w pos="NNP" lemma="past">Past</w>
 		</tr>
-		<tr index="b ">
+		<tr index="b">
 			<length>0</length>
 			<w pos="NNP" lemma="wheel">Wheel</w>
 			<w pos="IN" lemma="of">of</w>
 			<w pos="NNP" lemma="time">Time</w>
 		</tr>
-		<tr index="c ">
+		<tr index="c">
 			<length>0</length>
 			<w pos="VB" lemma="remember">Remember</w>
 			<w pos="DT" lemma="the">the</w>
 			<w pos="NN" lemma="future">Future</w>
 		</tr>
-		<tr index="d ">
+		<tr index="d">
 			<length>0</length>
 			<w pos="NN" lemma="confusion/">Confusion/</w>
 		</tr>
@@ -17238,34 +17041,34 @@
 			<w pos="NN" lemma="part">Part</w>
 			<w pos="NNP" lemma="ii">II</w>
 		</tr>
-		<tr index="e ">
+		<tr index="e">
 			<length>0</length>
 			<w pos="VBG" lemma="returning">Returning</w>
 			<w pos="NNP" lemma="light">Light</w>
 		</tr>
-		<tr index="f ">
+		<tr index="f">
 			<length>0</length>
 			<w pos="NNS" lemma="question">Questions</w>
 			<w pos="CC" lemma="and">and</w>
 			<w pos="NNS" lemma="answer">Answers</w>
 		</tr>
-		<tr index="g ">
+		<tr index="g">
 			<length>0</length>
 			<w pos="NNP" lemma="tomorrow">Tomorrow</w>
 			<w pos="NNP" lemma="never">Never</w>
 			<w pos="NNP" lemma="come">Comes</w>
 		</tr>
-		<tr index="h ">
+		<tr index="h">
 			<length>0</length>
 			<w pos="NN" lemma="path">Path</w>
 			<w pos="IN" lemma="of">of</w>
 			<w pos="NNP" lemma="light">Light</w>
 		</tr>
-		<tr index="i ">
+		<tr index="i">
 			<length>0</length>
 			<w pos="NN" lemma="recognition">Recognition</w>
 		</tr>
-		<tr index="J ">
+		<tr index="J">
 			<length>0</length>
 			<w pos="VB" lemma="let">Let</w>
 			<w pos="PRP" lemma="it">It</w>
@@ -17294,13 +17097,6 @@
 			<trans>Weissensee</trans>
 			<w pos="NN" lemma="weissensee">Weissensee</w>
 		</tr>
-		<tr index="">
-			<length>0</length>
-			<trans>Jahresnberblick :</trans>
-			<w pos="RB" lemma="yearly">Yearly</w>
-			<w pos="NN" lemma="view">view</w>
-			<punc pos=":" lemma=":">:</punc>
-		</tr>
 		<tr index="4">
 			<length>412</length>
 			<trans>Im Glnck</trans>
@@ -17325,12 +17121,6 @@
 	<al name ="Concerto Grosso No 2" date="1976">
 		<length>2022</length>
 		<rating>3.00</rating>
-		<tr index="">
-			<length>0</length>
-			<trans>Concerto Grosso N� 2 :</trans>
-			<w pos="CD" lemma="2">2</w>
-			<punc pos=":" lemma=":">:</punc>
-		</tr>
 		<tr index="1">
 			<length>284</length>
 			<trans>1� tempo: Vivace</trans>
@@ -17404,17 +17194,6 @@
 	<al name ="Concerto Grosso Per I New Trolls" date="1971">
 		<length>2237</length>
 		<rating>3.75</rating>
-		<tr index="">
-			<length>0</length>
-			<trans> 	Concerto Grosso Per I New Trolls :</trans>
-			<w pos="NNP" lemma="concerto">Concerto</w>
-			<w pos="NNP" lemma="grosso">Grosso</w>
-			<w pos="IN" lemma="for">For</w>
-			<w pos="DT" lemma="the">The</w>
-			<w pos="NNP" lemma="new">New</w>
-			<w pos="NNP" lemma="troll">Trolls</w>
-			<punc pos=":" lemma=":">:</punc>
-		</tr>
 		<tr index="1">
 			<length>135</length>
 			<trans>1� Tempo: Allegro</trans>
@@ -18003,7 +17782,7 @@
 			<punc pos=")" lemma=")">)</punc>
 			<w pos="NNP" lemma="black">Black</w>
 			<w pos="NNP" lemma="room">Room</w>
-			<w pos="NNP" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="NNP" lemma="tower">Tower</w>
 		</tr>
 		<tr index="i">
@@ -18352,17 +18131,17 @@
 			<trans>Seppia</trans>
 			<w pos="NN" lemma="seppia">Seppia</w>
 		</tr>
-		<tr index="a ">
+		<tr index="a">
 			<length>0</length>
 			<trans>Sottotitolo</trans>
 			<w pos="NN" lemma="subtitle">Subtitle</w>
 		</tr>
-		<tr index="b ">
+		<tr index="b">
 			<length>0</length>
 			<trans>Frescofresco</trans>
 			<w pos="NN" lemma="freshfresh">Freshfresh</w>
 		</tr>
-		<tr index="c ">
+		<tr index="c">
 			<length>0</length>
 			<trans>Rusf</trans>
 			<w pos="NN" lemma="rusf">Rusf</w>
@@ -18450,35 +18229,35 @@
 			<w pos="NNP" lemma="heart">Heart</w>
 			<w pos="NNP" lemma="mother">Mother</w>
 		</tr>
-		<tr index="a ">
+		<tr index="a">
 			<length>0</length>
 			<w pos="NNP" lemma="father">Father</w>
 			<w pos="POS" lemma="'s">'s</w>
 			<w pos="NN" lemma="shout">Shout</w>
 		</tr>
-		<tr index="b ">
+		<tr index="b">
 			<length>0</length>
 			<w pos="NNP" lemma="breast">Breast</w>
 			<w pos="NNP" lemma="milky">Milky</w>
 		</tr>
-		<tr index="c ">
+		<tr index="c">
 			<length>0</length>
 			<w pos="NNP" lemma="mother">Mother</w>
 			<w pos="NNP" lemma="fore">Fore</w>
 		</tr>
-		<tr index="d ">
+		<tr index="d">
 			<length>0</length>
 			<w pos="NNP" lemma="funky">Funky</w>
 			<w pos="NNP" lemma="dung">Dung</w>
 		</tr>
-		<tr index="e ">
+		<tr index="e">
 			<length>0</length>
 			<w pos="IN" lemma="mind">Mind</w>
 			<w pos="PRP$" lemma="your">Your</w>
 			<w pos="NNS" lemma="throat">Throats</w>
 			<w pos="VB" lemma="please">Please</w>
 		</tr>
-		<tr index="f ">
+		<tr index="f">
 			<length>0</length>
 			<w pos="NN" lemma="remergence">Remergence</w>
 		</tr>
@@ -18504,19 +18283,19 @@
 			<w pos="NNP" lemma="psychedelic">Psychedelic</w>
 			<w pos="NNP" lemma="breakfast">Breakfast</w>
 		</tr>
-		<tr index="a ">
+		<tr index="a">
 			<length>0</length>
 			<w pos="NN" lemma="rise">Rise</w>
 			<w pos="CC" lemma="and">and</w>
 			<w pos="NN" lemma="shine">Shine</w>
 		</tr>
-		<tr index="b ">
+		<tr index="b">
 			<length>0</length>
 			<w pos="NNP" lemma="sunny">Sunny</w>
 			<w pos="NNP" lemma="side">Side</w>
 			<w pos="NNP" lemma="up">Up</w>
 		</tr>
-		<tr index="c ">
+		<tr index="c">
 			<length>0</length>
 			<w pos="VBG" lemma="morning">Morning</w>
 			<w pos="NN" lemma="glory">Glory</w>
@@ -18646,7 +18425,7 @@
 			<length>309</length>
 			<w pos="NNP" lemma="wot">Wot</w>
 			<w pos="POS" lemma="'s">'s</w>
-			<w pos="NN" lemma="..">..</w>
+			<punc pos=":" lemma="...">...</punc>
 			<punc pos="," lemma=",">,</punc>
 			<w pos="NNP" lemma="uh">Uh</w>
 			<w pos="DT" lemma="the">the</w>
@@ -18699,7 +18478,7 @@
 		<tr index="4">
 			<length>426</length>
 			<w pos="NNP" lemma="time">Time</w>
-			<w pos="VBZ" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="NNP" lemma="breathe">Breathe</w>
 			<punc pos="(" lemma="(">(</punc>
 			<w pos="NN" lemma="reprise">reprise</w>
@@ -19346,10 +19125,10 @@
 			<length>248</length>
 			<trans>Dove.., Quando.., (Parte I)</trans>
 			<w pos="WRB" lemma="where">Where</w>
-			<w pos="NN" lemma="..">..</w>
+			<punc pos=":" lemma="...">...</punc>
 			<punc pos="," lemma=",">,</punc>
 			<w pos="WRB" lemma="when">When</w>
-			<w pos="NN" lemma="..">..</w>
+			<punc pos=":" lemma="...">...</punc>
 			<punc pos="," lemma=",">,</punc>
 			<punc pos="(" lemma="(">(</punc>
 			<w pos="NNP" lemma="part">Part</w>
@@ -19360,10 +19139,10 @@
 			<length>360</length>
 			<trans>Dove.., Quando.., (Parte II)</trans>
 			<w pos="WRB" lemma="where">Where</w>
-			<w pos="NN" lemma="..">..</w>
+			<punc pos=":" lemma="...">...</punc>
 			<punc pos="," lemma=",">,</punc>
 			<w pos="WRB" lemma="when">When</w>
-			<w pos="NN" lemma="..">..</w>
+			<punc pos=":" lemma="...">...</punc>
 			<punc pos="," lemma=",">,</punc>
 			<punc pos="(" lemma="(">(</punc>
 			<w pos="NNP" lemma="part">Part</w>
@@ -19966,26 +19745,26 @@
 			<w pos="IN" lemma="of">of</w>
 			<w pos="NN" lemma="scheherazade">Scheherazade</w>
 		</tr>
-		<tr index="a ">
+		<tr index="a">
 			<length>0</length>
 			<w pos="NN" lemma="fanfare">Fanfare</w>
 		</tr>
-		<tr index="b ">
+		<tr index="b">
 			<length>0</length>
 			<w pos="DT" lemma="the">The</w>
 			<w pos="NNP" lemma="betrayal">Betrayal</w>
 		</tr>
-		<tr index="c ">
+		<tr index="c">
 			<length>0</length>
 			<w pos="DT" lemma="the">The</w>
 			<w pos="NNP" lemma="sultan">Sultan</w>
 		</tr>
-		<tr index="d ">
+		<tr index="d">
 			<length>0</length>
 			<w pos="VB" lemma="love">Love</w>
 			<w pos="NN" lemma="theme">Theme</w>
 		</tr>
-		<tr index="e ">
+		<tr index="e">
 			<length>0</length>
 			<w pos="DT" lemma="the">The</w>
 			<w pos="NNP" lemma="young">Young</w>
@@ -19997,24 +19776,24 @@
 			<w pos="IN" lemma="by">by</w>
 			<w pos="NNP" lemma="scheherazade">Scheherazade</w>
 		</tr>
-		<tr index="f ">
+		<tr index="f">
 			<length>0</length>
 			<w pos="JJ" lemma="festival">Festival</w>
 			<w pos="NNS" lemma="preparation">Preparations</w>
 		</tr>
-		<tr index="g ">
+		<tr index="g">
 			<length>0</length>
 			<w pos="NN" lemma="fugue">Fugue</w>
 			<w pos="IN" lemma="for">for</w>
 			<w pos="DT" lemma="the">the</w>
 			<w pos="NNP" lemma="sultan">Sultan</w>
 		</tr>
-		<tr index="h ">
+		<tr index="h">
 			<length>0</length>
 			<w pos="DT" lemma="the">The</w>
 			<w pos="NN" lemma="festival">Festival</w>
 		</tr>
-		<tr index="i ">
+		<tr index="i">
 			<length>0</length>
 			<w pos="NN" lemma="finale">Finale</w>
 		</tr>
@@ -20205,37 +19984,37 @@
 			<length>1231</length>
 			<w pos="CD" lemma="2112">2112</w>
 		</tr>
-		<tr index="i ">
+		<tr index="i">
 			<length>0</length>
 			<w pos="NN" lemma="overture">Overture</w>
 		</tr>
-		<tr index="ii ">
+		<tr index="ii">
 			<length>0</length>
 			<w pos="DT" lemma="the">The</w>
 			<w pos="NNP" lemma="temple">Temples</w>
 			<w pos="IN" lemma="of">of</w>
 			<w pos="NNP" lemma="syrinx">Syrinx</w>
 		</tr>
-		<tr index="iii ">
+		<tr index="iii">
 			<length>0</length>
 			<w pos="NN" lemma="discovery">Discovery</w>
 		</tr>
-		<tr index="iv ">
+		<tr index="iv">
 			<length>0</length>
 			<w pos="NN" lemma="presentation">Presentation</w>
 		</tr>
-		<tr index="v ">
+		<tr index="v">
 			<length>0</length>
 			<w pos="NN" lemma="oracle">Oracle</w>
 			<punc pos=":" lemma=":">:</punc>
 			<w pos="DT" lemma="the">The</w>
 			<w pos="NN" lemma="dream">Dream</w>
 		</tr>
-		<tr index="vi ">
+		<tr index="vi">
 			<length>0</length>
 			<w pos="NN" lemma="soliloquy">Soliloquy</w>
 		</tr>
-		<tr index="vii ">
+		<tr index="vii">
 			<length>0</length>
 			<w pos="DT" lemma="the">The</w>
 			<w pos="NNP" lemma="grand">Grand</w>
@@ -20443,23 +20222,23 @@
 			<w pos="NNP" lemma="battle">Battle</w>
 			<punc pos=":" lemma=":">:</punc>
 		</tr>
-		<tr index="iiia">
+		<tr index="iii">
 			<length>0</length>
 			<w pos="NNP" lemma="challenge">Challenge</w>
 			<w pos="CC" lemma="and">and</w>
 			<w pos="NNP" lemma="defiance">Defiance</w>
 		</tr>
-		<tr index="iiib">
+		<tr index="iii">
 			<length>0</length>
 			<w pos="CD" lemma="7/4">7/4</w>
 			<w pos="NNP" lemma="war">War</w>
 			<w pos="NNP" lemma="furor">Furor</w>
 		</tr>
-		<tr index="iiic">
+		<tr index="iii">
 			<length>0</length>
 			<w pos="NN" lemma="aftermath">Aftermath</w>
 		</tr>
-		<tr index="iiid">
+		<tr index="iii">
 			<length>0</length>
 			<w pos="NNP" lemma="hymn">Hymn</w>
 			<w pos="IN" lemma="of">of</w>
@@ -20509,7 +20288,7 @@
 		<tr index="ii">
 			<length>0</length>
 			<w pos="NNP" lemma="apollo">Apollo</w>
-			<w pos="NNP" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="NNP" lemma="iii">III</w>
 			<w pos="NNP" lemma="dionysus">Dionysus</w>
 		</tr>
@@ -20541,7 +20320,7 @@
 			<w pos="NNP" lemma="villa">Villa</w>
 			<w pos="NNP" lemma="strangiato">Strangiato</w>
 		</tr>
-		<tr index="">
+		<tr index="a">
 			<length>0</length>
 			<w pos="NNP" lemma="buenos">Buenos</w>
 			<w pos="NNP" lemma="nochas">Nochas</w>
@@ -20550,7 +20329,7 @@
 			<w pos="VBZ" lemma="froinds">Froinds</w>
 			<punc pos="." lemma="!">!</punc>
 		</tr>
-		<tr index="">
+		<tr index="b">
 			<length>0</length>
 			<w pos="TO" lemma="to">To</w>
 			<w pos="NNP" lemma="sleep">Sleep</w>
@@ -20560,24 +20339,24 @@
 			<w pos="NNP" lemma="dream">Dream</w>
 			<punc pos=":" lemma="...">...</punc>
 		</tr>
-		<tr index="">
+		<tr index="c">
 			<length>0</length>
 			<w pos="NNP" lemma="strangiato">Strangiato</w>
 			<w pos="NNP" lemma="theme">Theme</w>
 		</tr>
-		<tr index="">
+		<tr index="d">
 			<length>0</length>
 			<w pos="DT" lemma="a">A</w>
 			<w pos="NNP" lemma="lerxst">Lerxst</w>
 			<w pos="IN" lemma="in">in</w>
 			<w pos="NNP" lemma="wonderland">Wonderland</w>
 		</tr>
-		<tr index="">
+		<tr index="e">
 			<length>0</length>
 			<w pos="NNS" lemma="monster">Monsters</w>
 			<punc pos="." lemma="!">!</punc>
 		</tr>
-		<tr index="">
+		<tr index="f">
 			<length>0</length>
 			<w pos="DT" lemma="the">The</w>
 			<w pos="NNP" lemma="ghost">Ghost</w>
@@ -20585,13 +20364,13 @@
 			<w pos="DT" lemma="the">the</w>
 			<w pos="NNP" lemma="aragon">Aragon</w>
 		</tr>
-		<tr index="">
+		<tr index="g">
 			<length>0</length>
 			<w pos="NNP" lemma="danforth">Danforth</w>
 			<w pos="CC" lemma="and">and</w>
 			<w pos="NNP" lemma="pape">Pape</w>
 		</tr>
-		<tr index="">
+		<tr index="h">
 			<length>0</length>
 			<w pos="DT" lemma="the">The</w>
 			<w pos="NNP" lemma="waltz">Waltz</w>
@@ -20599,7 +20378,7 @@
 			<w pos="DT" lemma="the">the</w>
 			<w pos="NNS" lemma="shreves">Shreves</w>
 		</tr>
-		<tr index="">
+		<tr index="i">
 			<length>0</length>
 			<w pos="RB" lemma="never">Never</w>
 			<w pos="NNP" lemma="turn">Turn</w>
@@ -20609,13 +20388,13 @@
 			<w pos="DT" lemma="a">a</w>
 			<w pos="NN" lemma="monster">Monster</w>
 		</tr>
-		<tr index="">
+		<tr index="j">
 			<length>0</length>
 			<punc pos="(" lemma="(">(</punc>
 			<w pos="NN" lemma="reprise">reprise</w>
 			<punc pos=")" lemma=")">)</punc>
 		</tr>
-		<tr index="">
+		<tr index="k">
 			<length>0</length>
 			<w pos="JJ" lemma="strangiato">Strangiato</w>
 			<w pos="NNP" lemma="theme">Theme</w>
@@ -20623,7 +20402,7 @@
 			<w pos="NN" lemma="reprise">reprise</w>
 			<punc pos=")" lemma=")">)</punc>
 		</tr>
-		<tr index="">
+		<tr index="l">
 			<length>0</length>
 			<w pos="DT" lemma="a">A</w>
 			<w pos="NNP" lemma="farewell">Farewell</w>
@@ -21373,31 +21152,6 @@
 			<w pos="DT" lemma="the">the</w>
 			<w pos="NNP" lemma="time">Time</w>
 		</tr>
-		<tr index="">
-			<length>0</length>
-			<w pos="RB" lemma="slightly">Slightly</w>
-			<w pos="PDT" lemma="all">All</w>
-			<w pos="DT" lemma="the">the</w>
-			<w pos="NNP" lemma="time">Time</w>
-		</tr>
-		<tr index="">
-			<length>0</length>
-			<w pos="NN" lemma="noisette">Noisette</w>
-		</tr>
-		<tr index="">
-			<length>0</length>
-			<w pos="NNS" lemma="backwards">Backwards</w>
-		</tr>
-		<tr index="">
-			<length>0</length>
-			<w pos="RB" lemma="slightly">Slightly</w>
-			<w pos="PDT" lemma="all">All</w>
-			<w pos="DT" lemma="the">the</w>
-			<w pos="NNP" lemma="time">Time</w>
-			<punc pos="(" lemma="(">(</punc>
-			<w pos="NN" lemma="reprise">reprise</w>
-			<punc pos=")" lemma=")">)</punc>
-		</tr>
 		<tr index="3">
 			<length>1158</length>
 			<w pos="NNP" lemma="moon">Moon</w>
@@ -21915,7 +21669,7 @@
 			<w pos="NNP" lemma="suite">Suite</w>
 			<punc pos=":" lemma=":">:</punc>
 		</tr>
-		<tr index="a ">
+		<tr index="a">
 			<length>0</length>
 			<w pos="NNP" lemma="sun">Sun</w>
 			<w pos="NNP" lemma="song">Song</w>
@@ -21927,12 +21681,12 @@
 			<w pos="NNP" lemma="mystery">Mystery</w>
 			<punc pos=")" lemma=")">)</punc>
 		</tr>
-		<tr index="b ">
+		<tr index="b">
 			<length>0</length>
 			<w pos="NNP" lemma="canterbury">Canterbury</w>
 			<w pos="NNP" lemma="sunrise">Sunrise</w>
 		</tr>
-		<tr index="c ">
+		<tr index="c">
 			<length>0</length>
 			<w pos="NNP" lemma="hiram">Hiram</w>
 			<w pos="NNP" lemma="afterglid">Afterglid</w>
@@ -21940,7 +21694,7 @@
 			<w pos="DT" lemma="the">the</w>
 			<w pos="NN" lemma="dervish">Dervish</w>
 		</tr>
-		<tr index="d ">
+		<tr index="d">
 			<length>0</length>
 			<w pos="NNP" lemma="sun">Sun</w>
 			<w pos="NNP" lemma="song">Song</w>
@@ -21966,26 +21720,26 @@
 			<w pos="NN" lemma="song">Song</w>
 			<punc pos=":" lemma=":">:</punc>
 		</tr>
-		<tr index="a ">
+		<tr index="a">
 			<length>0</length>
 			<w pos="NNP" lemma="salmon">Salmon</w>
 			<w pos="NNP" lemma="pool">Pool</w>
 		</tr>
-		<tr index="b ">
+		<tr index="b">
 			<length>0</length>
 			<w pos="NNP" lemma="solomon">Solomon</w>
 			<w pos="POS" lemma="'s">'s</w>
 			<w pos="NNP" lemma="atlantis">Atlantis</w>
 			<w pos="NNP" lemma="salmon">Salmon</w>
 		</tr>
-		<tr index="c ">
+		<tr index="c">
 			<length>0</length>
 			<w pos="VBG" lemma="swimming">Swimming</w>
 			<w pos="IN" lemma="with">with</w>
 			<w pos="DT" lemma="the">the</w>
 			<w pos="NNP" lemma="salmon">Salmon</w>
 		</tr>
-		<tr index="d ">
+		<tr index="d">
 			<length>0</length>
 			<w pos="NNP" lemma="king">King</w>
 			<w pos="IN" lemma="of">of</w>
@@ -21997,13 +21751,13 @@
 			<w pos="NNS" lemma="aftaglid">Aftaglid</w>
 			<punc pos=":" lemma=":">:</punc>
 		</tr>
-		<tr index="a ">
+		<tr index="a">
 			<length>0</length>
 			<w pos="NNP" lemma="sun">Sun</w>
 			<w pos="NNP" lemma="moon">Moon</w>
 			<w pos="VBG" lemma="surfing">Surfing</w>
 		</tr>
-		<tr index="b ">
+		<tr index="b">
 			<length>0</length>
 			<w pos="DT" lemma="the">The</w>
 			<w pos="NNP" lemma="great">Great</w>
@@ -22014,34 +21768,34 @@
 			<w pos="IN" lemma="of">of</w>
 			<w pos="NNP" lemma="hermes">Hermes</w>
 		</tr>
-		<tr index="c ">
+		<tr index="c">
 			<length>0</length>
 			<w pos="DT" lemma="the">The</w>
 			<w pos="NNP" lemma="silver">Silver</w>
 			<w pos="NNP" lemma="ladder">Ladder</w>
 		</tr>
-		<tr index="d ">
+		<tr index="d">
 			<length>0</length>
 			<w pos="JJ" lemma="astral">Astral</w>
 			<w pos="NNP" lemma="meadow">Meadows</w>
 		</tr>
-		<tr index="e ">
+		<tr index="e">
 			<length>0</length>
 			<w pos="DT" lemma="the">The</w>
 			<w pos="NNP" lemma="lafta">Lafta</w>
 			<w pos="NNP" lemma="yoga">Yoga</w>
 			<w pos="NNP" lemma="song">Song</w>
 		</tr>
-		<tr index="f ">
+		<tr index="f">
 			<length>0</length>
 			<w pos="VBG" lemma="glidding">Glidding</w>
 		</tr>
-		<tr index="g ">
+		<tr index="g">
 			<length>0</length>
 			<w pos="DT" lemma="the">The</w>
 			<w pos="NNP" lemma="golden">Golden</w>
 			<w pos="NNP" lemma="vibe">Vibe</w>
-			<w pos="NNP" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="NNP" lemma="outglib">Outglib</w>
 		</tr>
 	</al>
@@ -22054,17 +21808,17 @@
 			<length>513</length>
 			<w pos="NNS" lemma="ghost">Ghosts</w>
 		</tr>
-		<tr index="a ">
+		<tr index="a">
 			<length>0</length>
 			<w pos="JJ" lemma="sweet">Sweet</w>
 			<w pos="NNP" lemma="dream">Dreams</w>
 		</tr>
-		<tr index="b ">
+		<tr index="b">
 			<length>0</length>
 			<w pos="NNP" lemma="night">Night</w>
 			<w pos="NNP" lemma="light">Light</w>
 		</tr>
-		<tr index="c ">
+		<tr index="c">
 			<length>0</length>
 			<w pos="JJ" lemma="guardian">Guardian</w>
 			<w pos="NNP" lemma="angel">Angel</w>
@@ -22077,7 +21831,7 @@
 		<tr index="3">
 			<length>315</length>
 			<w pos="NNP" lemma="starshine">Starshine</w>
-			<w pos="NNP" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="NNP" lemma="angel">Angel</w>
 			<w pos="NNP" lemma="wine">Wine</w>
 		</tr>
@@ -22104,7 +21858,7 @@
 			<w pos="NNP" lemma="life">Life</w>
 			<w pos="NNP" lemma="auction">Auction</w>
 		</tr>
-		<tr index="a ">
+		<tr index="a">
 			<length>0</length>
 			<w pos="NNS" lemma="impression">Impressions</w>
 			<w pos="IN" lemma="of">of</w>
@@ -22113,7 +21867,7 @@
 			<w pos="DT" lemma="the">the</w>
 			<w pos="NN" lemma="train">Train</w>
 		</tr>
-		<tr index="b ">
+		<tr index="b">
 			<length>0</length>
 			<w pos="DT" lemma="the">The</w>
 			<w pos="NN" lemma="auction">Auction</w>
@@ -22317,7 +22071,7 @@
 			<w pos="NNP" lemma="clair">Clair</w>
 			<w pos="FW" lemma="de">de</w>
 			<w pos="NNP" lemma="lune">Lune</w>
-			<w pos="NNP" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="NNP" lemma="ballerina">Ballerina</w>
 		</tr>
 	</al>
@@ -22641,19 +22395,19 @@
 			<w pos="NNP" lemma="common">Common</w>
 			<w pos="NN" lemma="man">Man</w>
 		</tr>
-		<tr index="a ">
+		<tr index="a">
 			<length>0</length>
 			<w pos="NNP" lemma="child">Children</w>
 			<w pos="IN" lemma="of">of</w>
 			<w pos="DT" lemma="the">the</w>
 			<w pos="NNP" lemma="land">Land</w>
 		</tr>
-		<tr index="b ">
+		<tr index="b">
 			<length>0</length>
 			<w pos="NNP" lemma="street">Street</w>
 			<w pos="NNP" lemma="collage">Collage</w>
 		</tr>
-		<tr index="c ">
+		<tr index="c">
 			<length>0</length>
 			<w pos="NN" lemma="fanfare">Fanfare</w>
 			<w pos="IN" lemma="for">for</w>
@@ -22661,7 +22415,7 @@
 			<w pos="NNP" lemma="common">Common</w>
 			<w pos="NN" lemma="man">Man</w>
 		</tr>
-		<tr index="d ">
+		<tr index="d">
 			<length>0</length>
 			<w pos="NNP" lemma="mother">Mother</w>
 			<w pos="NNP" lemma="nature">Nature</w>
@@ -23508,8 +23262,8 @@
 			<w pos="NNP" lemma="listening">Listening</w>
 			<w pos="TO" lemma="to">To</w>
 			<w pos="PRP" lemma="you">You</w>
-			<w pos="VB" lemma="*">*</w>
-			<w pos="JJ" lemma="[">[</w>
+			
+			<punc pos="(" lemma="(">(</punc>
 			<w pos="NNP" lemma="deluxe">Deluxe</w>
 			<w pos="NN" lemma="edition">Edition</w>
 			<punc pos=":" lemma=":">:</punc>
@@ -23517,7 +23271,7 @@
 			<w pos="IN" lemma="from">From</w>
 			<w pos="NNP" lemma="track">Track</w>
 			<w pos="CD" lemma="24">24</w>
-			<w pos="NN" lemma="]">]</w>
+			<punc pos=")" lemma=")">)</punc>
 		</tr>
 	</al>
 	<al name ="Who's Next" date="1971">
@@ -23774,19 +23528,19 @@
 			<w pos="DT" lemma="a">a</w>
 			<w pos="NN" lemma="life">Life</w>
 		</tr>
-		<tr index="a ">
+		<tr index="a">
 			<length>0</length>
 			<w pos="NNP" lemma="uranus">Uranus</w>
 			<w pos="POS" lemma="'">'</w>
 			<w pos="NN" lemma="dawn">Dawn</w>
 		</tr>
-		<tr index="b ">
+		<tr index="b">
 			<length>0</length>
 			<w pos="NNS" lemma="pisces">Pisces</w>
 			<w pos="IN" lemma="at">at</w>
 			<w pos="NNP" lemma="noon">Noon</w>
 		</tr>
-		<tr index="c ">
+		<tr index="c">
 			<length>0</length>
 			<w pos="NNP" lemma="panorama">Panorama</w>
 			<w pos="NNP" lemma="dusk">Dusk</w>
@@ -24073,18 +23827,6 @@
 	<al name ="UK" date="1978">
 		<length>2788</length>
 		<rating>4.11</rating>
-		<tr index="">
-			<length>0</length>
-			<w pos="IN" lemma="in">In</w>
-			<w pos="DT" lemma="the">the</w>
-			<w pos="NNP" lemma="dead">Dead</w>
-			<w pos="IN" lemma="of">of</w>
-			<w pos="NNP" lemma="night">Night</w>
-			<punc pos="(" lemma="(">(</punc>
-			<w pos="NNP" lemma="suite">Suite</w>
-			<punc pos=")" lemma=")">)</punc>
-			<punc pos=":" lemma=":">:</punc>
-		</tr>
 		<tr index="1">
 			<length>335</length>
 			<w pos="IN" lemma="in">In</w>
@@ -24533,7 +24275,7 @@
 		<tr index="ii">
 			<length>0</length>
 			<w pos="NNS" lemma="picture">Pictures</w>
-			<w pos="VBP" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="NNP" lemma="lighthouse">Lighthouse</w>
 		</tr>
 		<tr index="iii">
@@ -24733,18 +24475,6 @@
 	<al name ="The Quiet Zone - The Pleasure Dome" date="1977">
 		<length>2600</length>
 		<rating>3.63</rating>
-		<tr index="">
-			<length>0</length>
-			<w pos="DT" lemma="the">The</w>
-			<w pos="NNP" lemma="quiet">Quiet</w>
-			<w pos="NNP" lemma="zone">Zone</w>
-			<punc pos="(" lemma="(">(</punc>
-			<w pos="NNP" lemma="lp">LP</w>
-			<w pos="RB" lemma="side">side</w>
-			<w pos="CD" lemma="1">1</w>
-			<punc pos=")" lemma=")">)</punc>
-			<punc pos=":" lemma=":">:</punc>
-		</tr>
 		<tr index="1">
 			<length>269</length>
 			<w pos="NNP" lemma="lizard">Lizard</w>
@@ -24770,18 +24500,6 @@
 			<w pos="JJ" lemma="last">Last</w>
 			<w pos="NN" lemma="frame">Frame</w>
 		</tr>
-		<tr index="">
-			<length>0</length>
-			<w pos="DT" lemma="the">The</w>
-			<w pos="NNP" lemma="pleasure">Pleasure</w>
-			<w pos="NNP" lemma="dome">Dome</w>
-			<punc pos="(" lemma="(">(</punc>
-			<w pos="NNP" lemma="lp">LP</w>
-			<w pos="RB" lemma="side">side</w>
-			<w pos="CD" lemma="2">2</w>
-			<punc pos=")" lemma=")">)</punc>
-			<punc pos=":" lemma=":">:</punc>
-		</tr>
 		<tr index="5">
 			<length>194</length>
 			<w pos="DT" lemma="the">The</w>
@@ -24792,7 +24510,7 @@
 			<w pos="NNP" lemma="cat">Cat</w>
 			<w pos="POS" lemma="'s">'s</w>
 			<w pos="NNP" lemma="eye">Eye</w>
-			<w pos="NNP" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="NNP" lemma="yellow">Yellow</w>
 			<w pos="NNP" lemma="fever">Fever</w>
 			<punc pos="(" lemma="(">(</punc>
@@ -25524,7 +25242,7 @@
 			<length>405</length>
 			<w pos="NNP" lemma="future">Future</w>
 			<w pos="NNP" lemma="time">Times</w>
-			<w pos="NNP" lemma="/">/</w>
+			<w pos="CC" lemma="/">/</w>
 			<w pos="NNP" lemma="rejoice">Rejoice</w>
 		</tr>
 		<tr index="2">

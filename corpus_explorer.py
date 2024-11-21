@@ -1,5 +1,7 @@
 import sys
+import copy
 import xml.etree.ElementTree as ET
+from lxml import etree
 from PyQt6.QtWidgets import QApplication, QLabel, QWidget, QMainWindow, QTextEdit
 from PyQt6.QtGui import QFont
 from PyQt6.uic import loadUi
@@ -8,6 +10,7 @@ from PyQt6.QtCore import QObject, QThread, pyqtSignal
 class SearchWorker(QObject):
     progress = pyqtSignal(int)
     finished = pyqtSignal(int, str)
+    chain = pyqtSignal(list)
 
     def __init__(self, root, query_params):
         super().__init__()
@@ -259,15 +262,19 @@ class SearchWorker(QObject):
                                 _progress_count += 1
                                 continue # Track word count "<" required, but not matched. Skip
 
+                    _null_query_index = 1
+
                     ### Match by word tags
                     for word in track.findall("w"):
 
                         path = ".//artist[@name=\"" + artist.get("name") + "\"]/al[@name=\"" + album.get("name") + "\"]/tr[@index=\"" + track.get("index") + "\"]"
 
-                        if str(self.params["query_value"]) != "":
+                        if str(self.params["query_value"]) != "": # There is an entry
                             # Filter by word part of speech
-                            #if self.tag_search_pos != "---" and word.get("pos") != str(self.posBox.currentText()):
-                            #    continue
+                            
+                            if str(self.params["pos_value"]) != "---" and word.get("pos") != str(self.params["pos_value"]):
+                                continue
+                            print("Entry POS: " + word.get("pos") + " POS Query: " + str(self.params["pos_value"]))
 
                             word_index = 1
 
@@ -285,14 +292,12 @@ class SearchWorker(QObject):
                                             break
                                         word_index += 1
 
-
                                 if self.params["word_index_search"]:
                                     if word_index != int(self.params["word_index_value"]):
                                         # print("Word Index: " + str(word_index) + " Search Index: " + self.params["word_index_value"])
                                         _progress_count += 1
                                         continue
-                                
-                            else:
+                            else:   # Null-entry search
                                 if str(word.text) != str(self.params["query_value"]):
                                     _progress_count += 1
                                     continue
@@ -310,6 +315,19 @@ class SearchWorker(QObject):
                                         _progress_count += 1
                                         continue
                         else:
+                            if str(self.params["pos_value"]) != "---" and word.get("pos") != str(self.params["pos_value"]):
+                                _null_query_index += 1
+                                continue
+
+                            if self.params["word_index_search"]:
+                                    if _null_query_index != int(self.params["word_index_value"]):
+                                        # print("Word Index: " + str(word_index) + " Search Index: " + self.params["word_index_value"])
+                                        _progress_count += 1
+                                        _null_query_index += 1
+                                        continue
+                                    else:
+                                        print(str(_null_query_index) + " " + word.text)
+
                             title_list.append("")
 
                         if str(word.text) not in non_lemmas:
@@ -319,15 +337,13 @@ class SearchWorker(QObject):
                         #query_results.append((artist.get("name"), album.get("name"), track.get("index"), word.text))
                         
                         query_results.append((path, artist.get("name"), album.get("name")))
-                        # print (path)
-
-                        #.//artist[@name="Alan Parsons Project"]/al[@name="Tales of Mystery and Imagination"]/tr[@index="1"]
                         _progress_count += 1
+                        _null_query_index += 1
 
             # Update progress
             if _progress_count % 10 == 0:
                 self.progress.emit(int((_progress_count / _total_items) * 100))
-                print("Progress: " + str(int((_progress_count / _total_items) * 100)))
+                #print("Progress: " + str(int((_progress_count / _total_items) * 100)))
                 if _progress_count % 100 == 0:  # Throttle QApplication events to every 100 items
                     QApplication.processEvents()
 
@@ -342,32 +358,38 @@ class SearchWorker(QObject):
             ar_title = ""
             plain_title = ""
             artist_change = False
-            for w in tr.findall("w"):
-                if w.text[0] == '\'' or w.text == "n't":
-                    title = title[0:-1]
+                
+            for w in tr.findall(".//*"):
+                if w.tag in {"w", "punc"}:
+                    if w.text[0] == '\'' or w.text == "n't":
+                        title = title[0:-1]
+                        
+                    if previous_artist != r[1]:
+                        artist_change = True
+                        previous_artist = r[1]
+                        artist_string = "- = - " + r[1] + " - = -"
+                        ar_title += "<br><b>" + artist_string + "</b><br>"
+                        title_list.append(artist_string)
                     
-                if previous_artist != r[1]:
-                    artist_change = True
-                    previous_artist = r[1]
-                    artist_string = "- = - " + r[1] + " - = -"
-                    ar_title += "<br><b>" + artist_string + "</b><br>"
-                    title_list.append(artist_string)
-                
-                is_word = False
-                for i in non_lemmas:
-                    if w.text == i:
-                        is_word = True
+                    is_word = False
+                    for i in non_lemmas:
+                        if w.text == i:
+                            is_word = True
 
-                if is_word:
-                    title += "<b>" + w.text + "</b> "
-                else:
-                    title += w.text + " "
-                
-                plain_title += w.text + " "
+                    if is_word:
+                        title += "<b>" + w.text + "</b> "
+                    else:
+                        title += w.text + " "
+                    
+                    plain_title += w.text + " "
 
-                title_list.append(plain_title + " (" + r[2] + ")")
+                    title_list.append(plain_title + " [" + r[2] + "]")
 
             current_title = title + " (" + r[2] + ")<br>"
+
+            trans = tr.find("trans")  # Find the translation tag
+            if trans is not None:  # Check if it exists
+                current_title = current_title + "<em>    ==> " + trans.text + "</em><br>"
 
             if artist_change:
                 full_title = ar_title + current_title
@@ -391,15 +413,21 @@ class SearchWorker(QObject):
 
         line_count = 0
         for line in concordance_array:
-            if "- = -" not in line or line != "":
+            if "- = -" not in line and "==>" not in line and line != "":
                 line_count += 1
         
-        percentage = (lemma_count / self.params["total_words"]) * 100
-        percentage = round(percentage, 2)
+        lemma_percentage = (lemma_count / self.params["total_words"]) * 100
+        lemma_percentage = round(lemma_percentage, 2)
+
+        titles_percentage = (line_count / self.params["total_titles"]) * 100
+        titles_percentage = round(titles_percentage, 2)
         
-        html_concordance = ("<b>" + str(lemma_count) + " hits</b><br>" + "<b> Frequency: "
-                             + str(lemma_count) + " / " + str(self.params["total_words"])
-                             + " | " + str(percentage) + "%</b>" + concordance) #+ "</p>"
+
+        html_concordance = ("<b>" + str(line_count) + " hits</b><br>" + "<b> Lemma Frequency: "
+                            + str(lemma_count) + " / " + str(self.params["total_words"])
+                            + " | " + str(lemma_percentage) + "%</b>><br>" + "<b> Title Frequency: "
+                            + str(line_count) + " / " + str(self.params["total_titles"])
+                            + " | " + str(titles_percentage) + "%</b>" + concordance) #+ "</p>"
 
         if max_char_len == 0:
             result_text = centered_format + "<br><b>No matches found</b><br>"
@@ -409,15 +437,16 @@ class SearchWorker(QObject):
         print("Query: " + self.params["query_value"])
 
         # Emit signal with concordance results
+        self.chain.emit(query_results)
         self.finished.emit(max_char_len, result_text)
+        
 
     def stop(self):
         self.interrupted = True
 
 class MainUI(QMainWindow):
-
-    tree = ET.parse("full_corpus.xml")
-    root = tree.getroot()
+    #tree = ET.parse("full_corpus.xml")
+    #root = tree.getroot()
 
     # Build the query dynamically
     query_results = []
@@ -432,6 +461,7 @@ class MainUI(QMainWindow):
         self.root = self.tree.getroot()
 
         self.total_words = sum(1 for _ in self.tree.iter("w"))
+        self.total_titles = sum(1 for _ in self.tree.iter("tr"))
 
         self.lemma_dict = {}
 
@@ -458,7 +488,6 @@ class MainUI(QMainWindow):
 
         self.concordance.setText(self.corpus_stats)
 
-        self.tag_search_pos = str(self.posBox.currentText())
         self.searchProgressBar.setValue(0)
         self.searchProgressBar.hide()
 
@@ -477,6 +506,7 @@ class MainUI(QMainWindow):
         "tree": self.tree,
         "root": self.root,
         "total_words": self.total_words,
+        "total_titles": self.total_titles,
 
         "query_value": self.queryLine.text(),
         "lemma_checked": self.lemmaCheckBox.isChecked(),
@@ -546,6 +576,7 @@ class MainUI(QMainWindow):
         self.worker.progress.connect(self.update_progress)
         self.worker.finished.connect(self.search_finished)
         self.worker.finished.connect(self.thread.quit)
+        self.worker.chain.connect(self.save_subset)
         self.thread.finished.connect(self.thread.deleteLater)
 
         # Start the thread
@@ -572,12 +603,67 @@ class MainUI(QMainWindow):
 
         self.searchProgressBar.hide()
         self.concordance.setText(result_text)
+        #self.save_subset(query_results)
+
         #QMessageBox.information(self, "Search Complete", result_text)
 
     def closeEvent(self, event):
         if hasattr(self, 'worker'):
             self.worker.stop()
         event.accept()
+
+    # DEBUG
+    def save_subset(self, query_results):
+        # Create a new XML tree with root <corpus>
+        subset_root = etree.Element("corpus")
+        output_file = "subset_corpus.xml"
+
+        # Parse the full corpus using lxml
+        full_corpus_tree = etree.parse("full_corpus.xml")
+        root = full_corpus_tree.getroot()
+
+        # A dictionary to store already-added artists and albums
+        artist_map = {}
+
+        for result in query_results:
+            path = result[0]
+            matching_elements = root.xpath(path)
+
+            for element in matching_elements:
+                # Find the ancestor artist and album elements
+                artist = element.xpath("ancestor::artist")[0]
+                album = element.xpath("ancestor::al")[0]
+
+                # Ensure artist exists in the subset
+                artist_name = artist.get("name")
+                if artist_name not in artist_map:
+                    # Deep copy the artist and add it to the root
+                    copied_artist = etree.Element("artist", attrib=artist.attrib)
+                    subset_root.append(copied_artist)
+                    artist_map[artist_name] = copied_artist
+                else:
+                    # Use the existing artist node in the subset
+                    copied_artist = artist_map[artist_name]
+
+                # Ensure album exists under this artist
+                album_name = album.get("name")
+                existing_album = copied_artist.xpath(f"./al[@name='{album_name}']")
+                if not existing_album:
+                    # Copy the album and add it under the artist
+                    copied_album = etree.Element("al", attrib=album.attrib)
+                    copied_artist.append(copied_album)
+                else:
+                    # Use the existing album node
+                    copied_album = existing_album[0]
+
+                # Append the matching element under the album
+                copied_album.append(copy.deepcopy(element))
+
+        # Write the new XML tree to a file
+        with open(output_file, "wb") as file:
+            file.write(etree.tostring(subset_root, pretty_print=True, encoding="UTF-8", xml_declaration=True))
+        print(f"Subset saved to {output_file}")
+
 
     def on_clear(self):
         self.queryLine.setText("")

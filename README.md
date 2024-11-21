@@ -100,6 +100,25 @@
         Private Parts and Pieces III - Anthony Philips
             => No period after numerals
 
+### Sub-Genres Included
+
++ Symphonic Prog
++ Eclectic Prog
++ Heavy Prog
++ Psychedelic/Space Rock
++ Progressive Electronic
++ Prog Folk
++ Jazz Rock/Fusion
++ Canterbury Scene
++ Rock Progressivo Italiano
++ Krautrock
++ Zeuhl
++ RIO/Avant-Prog
++ Crossover Prog
++ Proto-Prog
++ Neo-Prog
++ Prog Related
+
 ## ARTIST LIST
 
 ### The "Big Seven"

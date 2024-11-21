@@ -9,3 +9,17 @@ Given: '<pstyle="padding-left:5px;">1.BabaO'Riley(5.08)<br>2.Bargain(5.32)<br>3.
 
 INVALID TIME FORMAT, REQUIRES NN:NN
 Given: '(39:00)'
+
+
+
+To fix:
+
+Zappa - Freak Out!, Joe's Garage Act 1
+Pink Floyd - More
+PFM - Per un Amico
+Supertramp - Breakfast in America
+The Who - Who's Next
+Anthony Philips - Private Parts and Pieces 3
+Gong - Magick Brother
+Klaus Schultz - Moondawn (FIXED)
+East - Jatekok
