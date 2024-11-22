@@ -23,9 +23,18 @@
 ## OVERVIEW
 
 ### What Is This?
-    This is the Curated Open Repository of Progressive Song Entries (CORPSE), which is a project developed for the University of Kentucky Corpus Linguistics course LIN-510. At its core, CORPSE is a collection of XML formatted song titles sourced from progarchives.com within the years 1966 to 1984. It comes with an Explorer utility, which is a Graphical User Interface (GUI) designed to allow any user the ability to search the database in a simple manner (unlike CQP). 
+    This is the Curated Open Repository of Progressive Song Entries (CORPSE), which is a project developed for the
+    University of Kentucky Corpus Linguistics course LIN-510. At its core, CORPSE is a collection of XML 
+    formatted song titles sourced from progarchives.com within the years 1966 to 1984. It comes with an Explorer 
+    utility, which is a Graphical User Interface (GUI) designed to allow any user the ability to search the 
+    database in a simple manner (unlike CQP). 
 
-    Progressive Rock is a term used to describe a genre of music that was prevalent in the late 60s, to the early 80s. It is usually described as a more complicated and eclectic form of popular music with many influences from genres such as Jazz, Classical, Blues, Folk Baroque, Soul, R&B, Electronic, Experimental, and Rock. This corpus only includes the "classic" era of Progressive Rock, and deliberatly excludes newer forms passed 1984 such as Progressive Metal, Neo-Prog, etc. Progressive Rock itself can be described with various sub-genres. The following links may be helpful for understanding the genre.
+    Progressive Rock is a term used to describe a genre of music that was prevalent in the late 60s, to the early 
+    80s. It is usually described as a more complicated and eclectic form of popular music with many influences 
+    from genres such as Jazz, Classical, Blues, Folk Baroque, Soul, R&B, Electronic, Experimental, and Rock. This 
+    corpus only includes the "classic" era of Progressive Rock, and deliberatly excludes newer forms passed 1984 
+    such as Progressive Metal, Neo-Prog, etc. Progressive Rock itself can be described with various sub-genres. 
+    The following links may be helpful for understanding the genre.
 
 [Prog Archives Home](https://www.progarchives.com/)
 
@@ -34,13 +43,15 @@
 [Top 100 Prog Albums 1966-1984](https://www.progarchives.com/top-prog-albums.asp?ssubgenres=&salbumtypes=1&syears=1984&syears=1983&syears=1982&syears=1981&syears=1980&syears=1979&syears=1978&syears=1977&syears=1976&syears=1975&syears=1974&syears=1973&syears=1972&syears=1971&syears=1970&syears=1969&syears=1968&syears=1967&syears=1966&scountries=&sminratings=0&smaxratings=0&sminavgratings=0&smaxresults=100&x=55&y=7#list)
 
 ### What's Included
-    The CORPSE Corpus consists of two main tools and the data that makes up the corpus (both raw html and formatted xml files). The tools CORPSE Maker and CORPSE Explorer are made up of the following subcomponents:
+    The CORPSE Corpus consists of two main tools and the data that makes up the corpus (both raw html and 
+    formatted xml files). The tools CORPSE Maker and CORPSE Explorer are made up of the following subcomponents:
 
     CORPSE MAKER
     1. README.md (This file) - To be used as the source of the URLs.
     2. curl_maker.py - A python program that builds a series of curl commands to fetch web data.
     3. corpus_curl.ps1 - The powershell script output from curl_maker.py. When run it executes the curl commands. 
-    4. track_listing_scraper.py - A python program that takes the HTML pages from curl and converts it to formatted XML files to be used in the corpus.
+    4. track_listing_scraper.py - A python program that takes the HTML pages from curl and converts it to 
+        formatted XML files to be used in the corpus.
     5. /Albums - A folder of all of the HTML pages used for the corpus.
     6. /Data - A folder of each album represented in an XML format.
     7. /Images - A folder with some images used for the GUI and its development.
@@ -52,7 +63,8 @@
     3. reasources.qrc- a qrc file used by QT to load images, etc.
 
     OTHER
-    1. 250_finder.py - A python program that finds all of the artists from the list of the top 250 albums from prog archives.
+    1. 250_finder.py - A python program that finds all of the artists from the list of the top 250 albums from 
+        prog archives.
     2. top-250.html and top-250.txt - The input and output of 250_finder.py.
 
 ### What's Needed
@@ -75,7 +87,13 @@
     - XML does not like the '&' character, so all instances were replaced with "and"
     - CURL does not like some characters such as '/', which had to be replaced with '-'
     - Many special characters (such as those of the cyrillic variety, or those with uncommon accent markers) had to be latinized
-    - The format of the souced HTML pages can change, and did in-fact change upon the second corpus compilation on Nov 15th. The spacing in the source code for HTML elements may change over time as was the case here. New features could also have been added to the website, which could change what lines are needed for data extraction.
+    - The format of the souced HTML pages can change, and did in-fact change upon the second corpus compilation on
+    Nov 15th. The spacing in the source code for HTML elements may change over time as was the case here. New 
+    features could also have been added to the website, which could change what lines are needed for data extraction.
+    - Albums with multiple sub-tracks of the same index may show the wrong track since they share indexes.
+        => To be fixed
+    - Upon compilation, the corpus may have some ratings and/or indexes set to a string (since the data is 
+    inconsistent). This results in a crash when using the explorer. These have to be manually corrected for now. 
     
     Design Flaws:
     - Many albums are excluded for the following reasons:
@@ -88,17 +106,21 @@
         > The respective group is nieche or borderline prog and only gets one album, with the rest omitted.
             Ex. Return to Forever's albums that are not "Romantic Warrior"
         > The group was not discovered/known about at corpus compiling time.
-    - Tracks from foreign groups have to be hand translated in order to be represented. Hand Translation is an art (or at least an imprecise science) and has subjective implications on the corpus data.
-    - The automatic XML generation makes any sub-track listed with an index of "-" have no proper index. THESE NEED TO BE FIXED MANUALLY.
+    - Tracks from foreign groups have to be hand translated in order to be represented. Hand Translation is an art 
+    (or at least an imprecise science) and has subjective implications on the corpus data.
+    - The automatic XML generation makes any sub-track listed with an index of "-" have no proper index. 
+        THESE NEED TO BE FIXED MANUALLY.
     - Some album entries do not follow the common format and are problematic. Some examples are:
         Joe's Garage Act, I - Frank Zappa
             => Has no track times
-        Roxy & Elsewhere - Frank Zappa ✓
+        Roxy & Elsewhere - Frank Zappa
             => Misspelt "Total Time"
         Who's Next - The Who
             => No "Total Time"
         Private Parts and Pieces III - Anthony Philips
             => No period after numerals
+    - Cyrillic characters do not work with the translation step currently, so entries from Aftograf are excluded
+    - The POS tagger, lemmatizer, and translator may make (many) mistakes. These are usually not corrected (yet).
 
 ### Sub-Genres Included
 
