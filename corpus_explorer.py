@@ -14,7 +14,7 @@ class SearchWorker(QObject):
 
     def __init__(self, root, query_params):
         super().__init__()
-        self.root = root
+        self.root = query_params["root"]
         self.params = query_params
         self.interrupted = False
 
@@ -274,7 +274,7 @@ class SearchWorker(QObject):
                             
                             if str(self.params["pos_value"]) != "---" and word.get("pos") != str(self.params["pos_value"]):
                                 continue
-                            print("Entry POS: " + word.get("pos") + " POS Query: " + str(self.params["pos_value"]))
+                            #print("Entry POS: " + word.get("pos") + " POS Query: " + str(self.params["pos_value"]))
 
                             word_index = 1
 
@@ -437,7 +437,10 @@ class SearchWorker(QObject):
         print("Query: " + self.params["query_value"])
 
         # Emit signal with concordance results
-        self.chain.emit(query_results)
+
+        # -=-=-=-=-=-=-=-=-=-=-=-=-=-=-= CHAIN ON/OFF -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+        #self.chain.emit(query_results)
         self.finished.emit(max_char_len, result_text)
         
 
@@ -459,6 +462,8 @@ class MainUI(QMainWindow):
 
         self.tree = ET.parse("full_corpus.xml")
         self.root = self.tree.getroot()
+        self.prev_chain = False
+        self.amberIndicator.hide()
 
         self.total_words = sum(1 for _ in self.tree.iter("w"))
         self.total_titles = sum(1 for _ in self.tree.iter("tr"))
@@ -493,18 +498,37 @@ class MainUI(QMainWindow):
 
         # Update Functions:
         #self.searchButton.clicked.connect(self.on_search)
-        self.searchButton.clicked.connect(self.start_search)
+        self.searchButton.clicked.connect(lambda: self.start_search(False))
+        self.chainButton.clicked.connect(lambda: self.start_search(True))
         self.clearButton.clicked.connect(self.on_clear)
         self.statsButton.clicked.connect(self.on_stats)
         self.dateAll.clicked.connect(self.on_date_all)
         self.dateNone.clicked.connect(self.on_date_none)
- 
+
         #self.clearButton.clicked.connect(self.on_clear)
 
-    def start_search(self):
+    def start_search(self, is_chain):
+
+        _tree = self.tree
+        _root = self.root
+
+        if is_chain:
+            if self.prev_chain:
+                pass
+                #_tree = ET.parse("subset_corpus.xml")
+                #_root = _tree.getroot()
+            
+            self.prev_chain = True
+            self.amberIndicator.show()
+            self.redIndicator.hide()
+        else:
+            self.prev_chain = False
+            self.amberIndicator.hide()
+            self.redIndicator.show()
+
         query_params = {
-        "tree": self.tree,
-        "root": self.root,
+        "tree": _tree,
+        "root": _root,
         "total_words": self.total_words,
         "total_titles": self.total_titles,
 
@@ -638,7 +662,7 @@ class MainUI(QMainWindow):
                 artist_name = artist.get("name")
                 if artist_name not in artist_map:
                     # Deep copy the artist and add it to the root
-                    copied_artist = etree.Element("artist", attrib=artist.attrib)
+                    copied_artist = copy.deepcopy(artist)
                     subset_root.append(copied_artist)
                     artist_map[artist_name] = copied_artist
                 else:
@@ -647,10 +671,11 @@ class MainUI(QMainWindow):
 
                 # Ensure album exists under this artist
                 album_name = album.get("name")
-                existing_album = copied_artist.xpath(f"./al[@name='{album_name}']")
+                # Use XPath with parameters for safety
+                existing_album = copied_artist.xpath(f"./al[@name=$name]", name=album_name)
                 if not existing_album:
-                    # Copy the album and add it under the artist
-                    copied_album = etree.Element("al", attrib=album.attrib)
+                    # Deep copy the album and add it under the artist
+                    copied_album = copy.deepcopy(album)
                     copied_artist.append(copied_album)
                 else:
                     # Use the existing album node
@@ -663,7 +688,6 @@ class MainUI(QMainWindow):
         with open(output_file, "wb") as file:
             file.write(etree.tostring(subset_root, pretty_print=True, encoding="UTF-8", xml_declaration=True))
         print(f"Subset saved to {output_file}")
-
 
     def on_clear(self):
         self.queryLine.setText("")
