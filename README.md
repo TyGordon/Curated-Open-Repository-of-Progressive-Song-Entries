@@ -775,13 +775,15 @@ East [hu] (2)
         Name of the artist.
     sub-genre
         Prog archives sub-genre.
+    language
+        Main language of the artist
 
 ### Album Tags
     album-name
         - Name of the album.
     album-rating
         - Prog archives cumulative user rating.
-    album-lenth
+    album-length
         - Duration of the album.
 
 ### Track Tags
@@ -797,7 +799,7 @@ East [hu] (2)
         - part-track
         - compound-track
 
-    Manual Tags:
+    Manual Tags:    (To Add Later)
         has-pun="true"
         made-up="true"
         poorly-formed="true"
@@ -815,127 +817,3 @@ East [hu] (2)
     lemma
         - The lemmatized form of the word (ie. Dogs, doggies, dog, dawg -> lemma="dog").
     
-
-## Manual Tagging Procedure
-
-Before tagging, wget the page, translate (if applicable), pass through track_listing_scraper.py, then tag as follows:
-
-1. Correct glaring mistakes, determine style, check if title-track and proper-noun 
-2. Do manual POS tagging (Godspeed)
-3. Check if part-track, sub-track, hidden-track
-4. Do the other tags
-5. Profit?
-
-## Potential Tags:
-
-    nounless-word
-        - "If"
-    nounless-phrase
-        - "Why Not"
-    single-word
-        - "Echoes", "Alucard"
-    dual-word
-        - "Funny Ways", "Black Napkins"
-    single-phrase
-        - "Thick as a Brick", "A Plague of Lighthouse Keepers"
-    full-sentence
-        - "Bobby Brown Goes Down"
-    compound-phrase
-        - "Several Species of Small Furry Animals Gathered Together in a Cave and Grooving with a Pict"
-    list-phrase
-        - "The House, The Street, The Room"
-    single-acronym
-        - "RDNZL"
-    medley
-        - "Nimrodel / The Procession / The White Rider"
-    other
-        - "P-Qb4"
-
-
-    REFERENCES:
-        > contemporary-reference
-            "Punky's Whips"
-        > classics-reference
-            "The Fountain of Salmacis"
-    NATURE:
-        * > humorous
-            - "The Adventures of Greggory Peccory"   
-        > has-pun
-            - "Bossa Nochance"
-        > made-up
-            - "Arubaluba", "Zoot Allures"
-        > eclectic
-            - "Lobster in Cleavage Probe"
-        > poorly-formed
-            - "H to He who am the Only One"
-        > non-semantic
-            - "RDNZL"
-    GRAMMAR:
-        > leading-prep
-            - "In the Wake of Posideon"
-        > leading-part
-            - "Burning Bridges"
-        > imperaive
-            - "Speak to Me"
-        > question
-            - "Isn't It Quiet and Cold?"
-        > quote
-            - "Ed Ora Io Domando Tempo Al Tempo Ed Egli Mi Risponde ... Non Ne Ho!"
-        > parenthetical
-            - "Let's Eat (Real Soon)"
-        > proper-noun
-            - "Darwin!"
-        > different-language
-            - "Io Sono Nato Libero"
-        > non-precise
-            - "La Conquista Della Posizione Eretta" > "The Conquest of the Upright Position"
-    META:
-        > title-track
-            - "In the Land of Grey and Pink"
-        > compound-track
-            - "The Three Fates"
-        > part-track
-            - "Another Brick in the Wall, Part 1"
-        > sub-track
-            - "a. Clotho (Royal Festival Hall organ)"
-        ** > overlaps
-            - "Harlequin"
-        ** > ends-cold
-            - "I Want You (She's So Heavy)"
-        > hidden-track
-            - "In a Glass House"
-        * > single
-            - "Sylvia"
-    MISC:
-        > suggestive
-            - "Friendly Little Finger"
-        > crass
-            - "Going Up to People and Tinkling"
-        > explicit
-            - "Broken Hearts are for Assholes"
-
-## MISC
-
-### Misc Code
-    wget -c https://www.progarchives.com/album.asp?id=1433 -O [PINK_FLOYD]_piper_at_the_gates_of_dawn.html
-    wget -c https://www.progarchives.com/album.asp?id=1434 -O [PINK_FLOYD]_a_saucerful_of_secrets.html
-    wget -c https://www.progarchives.com/album.asp?id=1435 -O [PINK_FLOYD]_more.html
-    wget -c https://www.progarchives.com/album.asp?id=1436 -O [PINK_FLOYD]_ummagumma.html
-    wget -c https://www.progarchives.com/album.asp?id=1437 -O [PINK_FLOYD]_atom_heart_mother.html
-    wget -c https://www.progarchives.com/album.asp?id=1438 -O [PINK_FLOYD]_meddle.html
-    wget -c https://www.progarchives.com/album.asp?id=1439 -O [PINK_FLOYD]_obscured_by_clouds.html
-    wget -c https://www.progarchives.com/album.asp?id=1440 -O [PINK_FLOYD]_the_dark_side_of_the_moon.html
-    wget -c https://www.progarchives.com/album.asp?id=1441 -O [PINK_FLOYD]_wish_you_were_here.html
-    wget -c https://www.progarchives.com/album.asp?id=1442 -O [PINK_FLOYD]_animals.html
-    wget -c https://www.progarchives.com/album.asp?id=1443 -O [PINK_FLOYD]_the_wall.html
-    wget -c https://www.progarchives.com/album.asp?id=1444 -O [PINK_FLOYD]_the_final_cut.html
-
-### Helpful Links
-[POS Tagging - geeksforgeeks](https://www.geeksforgeeks.org/part-speech-tagging-stop-words-using-nltk-python/)
-
-[Xpath tips](http://www.whitebeam.org/library/guide/TechNotes/xpath.rhtm)
-
-[Xpath parser](http://xpather.com/)
-
-### Xpath Code
-    //artist/al[rating>0.0][lenth>0][@date]/tr[w/@lemma][lenth>0]
