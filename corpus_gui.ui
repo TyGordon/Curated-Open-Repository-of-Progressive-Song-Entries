@@ -556,6 +556,13 @@
          </widget>
         </item>
         <item>
+         <widget class="QCheckBox" name="caseCheckBox">
+          <property name="text">
+           <string>Case</string>
+          </property>
+         </widget>
+        </item>
+        <item>
          <widget class="QCheckBox" name="lemmaCheckBox">
           <property name="font">
            <font>
@@ -647,7 +654,7 @@
              </font>
             </property>
             <property name="text">
-             <string>Dates (1968 - 1984)</string>
+             <string>Dates (1966 - 1984)</string>
             </property>
            </widget>
           </item>
@@ -690,7 +697,7 @@
           <item>
            <widget class="QCheckBox" name="date1967">
             <property name="text">
-             <string>1967</string>
+             <string>1966 - 1957</string>
             </property>
             <property name="checked">
              <bool>true</bool>
@@ -1648,7 +1655,7 @@
           <item>
            <layout class="QHBoxLayout" name="horizontalLayout_6">
             <item>
-             <widget class="QCheckBox" name="checkBox_5">
+             <widget class="QCheckBox" name="searchTrackType">
               <property name="minimumSize">
                <size>
                 <width>0</width>
@@ -1683,7 +1690,7 @@
              </spacer>
             </item>
             <item>
-             <widget class="QComboBox" name="comboBox_4">
+             <widget class="QComboBox" name="valueTrackType">
               <property name="sizePolicy">
                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                 <horstretch>60</horstretch>

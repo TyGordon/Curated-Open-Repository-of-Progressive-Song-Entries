@@ -1,11 +1,12 @@
 import sys
 import copy
+import re
 import xml.etree.ElementTree as ET
 from lxml import etree
-from PyQt6.QtWidgets import QApplication, QLabel, QWidget, QMainWindow, QTextEdit
-from PyQt6.QtGui import QFont
+from PyQt6.QtWidgets import QApplication, QLabel, QWidget, QSplashScreen, QMainWindow, QTextEdit
+from PyQt6.QtGui import QFont, QPixmap
 from PyQt6.uic import loadUi
-from PyQt6.QtCore import QObject, QThread, pyqtSignal
+from PyQt6.QtCore import Qt, QObject, QRect, QTimer, QThread, pyqtSignal
 
 class SearchWorker(QObject):
     progress = pyqtSignal(int)
@@ -18,6 +19,42 @@ class SearchWorker(QObject):
         self.params = query_params
         self.interrupted = False
 
+    # Converts time strings in the format NN:NN to seconds (int type)
+    def to_seconds(self, input_string: str) -> str:
+        TIME_REGEX = '^([0-9]*?):([0-9]*?)$'
+        HOUR_REGEX = '^([0-9]*?):([0-9]*?):([0-9]*?)$'
+        SECONDS_IN_MINUTE = 60
+        SECONDS_IN_HOUR = 3600
+
+        input_string = str(input_string)
+
+        print("input: " + input_string)
+
+        #input_string = input_string.replace(" ", "").replace("(", "").replace(")", "")
+
+        if not re.match(TIME_REGEX, input_string):
+            if re.match(HOUR_REGEX, input_string):  # Handle strings with hours
+                r = re.compile(HOUR_REGEX)
+                hours = int(re.sub(r, r'\1', input_string))
+                minutes = int(re.sub(r, r'\2', input_string))
+                seconds = int(re.sub(r, r'\3', input_string))
+                output = ((hours * SECONDS_IN_HOUR) + (minutes * SECONDS_IN_MINUTE) + seconds)
+                return output
+                
+            print ("INVALID TIME FORMAT, REQUIRES NN:NN")
+            print ("Given: \'" + input_string + "\'")
+            return "1"
+
+        r = re.compile(TIME_REGEX)
+        minutes = re.sub(r, r'\1', input_string)
+        seconds = re.sub(r, r'\2', input_string)
+        
+        output = str((int(minutes) * SECONDS_IN_MINUTE) + int(seconds))
+
+        print("output: " + output)
+
+        return output
+
     def run(self):
         # Emit 0% progress at start
         self.progress.emit(0)
@@ -28,6 +65,50 @@ class SearchWorker(QObject):
         non_lemmas = []
 
         lemma_count = sum(1 for w in self.params["tree"].iter("w") if w.get("lemma") == self.params["query_value"])
+
+        TIME_REGEX = '^([0-9]*?):([0-9]*?)$'
+        HOUR_REGEX = '^([0-9]*?):([0-9]*?):([0-9]*?)$'
+
+        # Handle ill-formed input
+
+        # Pre-process the track/album lengths
+        if self.params["album_length_search"]:
+            if re.match(TIME_REGEX, self.params["album_length_value"]) or re.match(HOUR_REGEX, self.params["album_length_value"]):
+                self.params["album_length_value"] = self.to_seconds(self.params["album_length_value"])
+                print(self.to_seconds(self.params["album_length_value"]))
+                #print(self.params["album_length_value"])
+            elif not self.params["album_length_value"].isnumeric(): # Handle invalid format
+                self.finished.emit(20, "Invalid Search, Album Length Non-Numeric")
+                return
+
+        if self.params["track_length_search"]:
+            if re.match(TIME_REGEX, self.params["track_length_value"]) or re.match(HOUR_REGEX, self.params["track_length_value"]):
+                self.params["track_length_value"] = self.to_seconds(self.params["track_length_value"])
+                print(self.params["track_length_value"])
+            elif not self.params["track_length_value"].isnumeric(): # Handle invalid format
+                self.finished.emit(20, "Invalid Search, Track Length Non-Numeric")
+                return
+
+        if self.params["album_rating_search"]:
+            if not self.params["album_rating_value"].isnumeric(): # Handle invalid format
+                self.finished.emit(20, "Invalid Search, Album Rating Non-Numeric")
+                return
+            
+        if self.params["track_index_search"]:
+            if not self.params["track_index_value"].isnumeric(): # Handle invalid format
+                self.finished.emit(20, "Invalid Search, Track Index Non-Numeric")
+                return
+            
+        if self.params["track_wordcount_search"]:
+            if not self.params["track_wordcount_value"].isnumeric(): # Handle invalid format
+                self.finished.emit(20, "Invalid Search, Track Word Count Non-Numeric")
+                return
+        
+        if self.params["word_index_search"]:
+            if not self.params["word_index_value"].isnumeric(): # Handle invalid format
+                self.finished.emit(20, "Invalid Search, Word Index Non-Numeric")
+                return
+
 
         _progress_count = 0
         for artist in self.params["root"].findall("artist"):
@@ -209,6 +290,10 @@ class SearchWorker(QObject):
                                 _track_index = 9
                             case "x":
                                 _track_index = 10
+                            case "xi":
+                                _track_index = 11
+                            case "xii":
+                                _track_index = 12
                             case _:
                                 _track_index = -1
 
@@ -270,7 +355,7 @@ class SearchWorker(QObject):
                         path = ".//artist[@name=\"" + artist.get("name") + "\"]/al[@name=\"" + album.get("name") + "\"]/tr[@index=\"" + track.get("index") + "\"]"
 
                         if str(self.params["query_value"]) != "": # There is an entry
-                            # Filter by word part of speech
+                            # Filter by part of speech
                             
                             if str(self.params["pos_value"]) != "---" and word.get("pos") != str(self.params["pos_value"]):
                                 continue
@@ -297,24 +382,36 @@ class SearchWorker(QObject):
                                         # print("Word Index: " + str(word_index) + " Search Index: " + self.params["word_index_value"])
                                         _progress_count += 1
                                         continue
-                            else:   # Null-entry search
-                                if str(word.text) != str(self.params["query_value"]):
-                                    _progress_count += 1
-                                    continue
-                                else:
-                                    # Iterate over each <w> element in the current track
-                                    for w in track.findall("w"):
-                                        # print(w.text)
-                                        if w.text == self.params["query_value"]:
-                                            break
-                                        word_index += 1
+                            else:   # Filter by match
+                                if self.params["case_checked"]:     # Case sensitive
+                                    if str(word.text) != str(self.params["query_value"]):
+                                        _progress_count += 1
+                                        continue
+                                    else:
+                                        # Iterate over each <w> element in the current track
+                                        for w in track.findall("w"):
+                                            # print(w.text)
+                                            if w.text == self.params["query_value"]:
+                                                break
+                                            word_index += 1
+                                else:   # Case insensitive
+                                    if str(word.text).lower() != str(self.params["query_value"]).lower():
+                                        _progress_count += 1
+                                        continue
+                                    else:
+                                        # Iterate over each <w> element in the current track
+                                        for w in track.findall("w"):
+                                            # print(w.text)
+                                            if w.text.lower() == self.params["query_value"].lower():
+                                                break
+                                            word_index += 1
 
                                 if self.params["word_index_search"]:
                                     if word_index != int(self.params["word_index_value"]):
                                         # print("Word Index: " + str(word_index) + " Search Index: " + self.params["word_index_value"])
                                         _progress_count += 1
                                         continue
-                        else:
+                        else:   # Null-entry search
                             if str(self.params["pos_value"]) != "---" and word.get("pos") != str(self.params["pos_value"]):
                                 _null_query_index += 1
                                 continue
@@ -448,12 +545,8 @@ class SearchWorker(QObject):
         self.interrupted = True
 
 class MainUI(QMainWindow):
-    #tree = ET.parse("full_corpus.xml")
-    #root = tree.getroot()
-
     # Build the query dynamically
     query_results = []
-
 
     def __init__(self):
         super(MainUI, self).__init__()
@@ -464,6 +557,19 @@ class MainUI(QMainWindow):
         self.root = self.tree.getroot()
         self.prev_chain = False
         self.amberIndicator.hide()
+
+        # Hide unimplemented features
+        self.HIDE_TYPE_SEARCH = True
+        self.HIDE_CHAIN_SEARCH = True
+
+        if self.HIDE_CHAIN_SEARCH:
+            self.redIndicator.hide()
+            self.chainIcon.hide()
+            self.chainButton.hide()
+
+        if self.HIDE_TYPE_SEARCH:
+            self.searchTrackType.hide()
+            self.valueTrackType.hide()
 
         self.total_words = sum(1 for _ in self.tree.iter("w"))
         self.total_titles = sum(1 for _ in self.tree.iter("tr"))
@@ -512,19 +618,20 @@ class MainUI(QMainWindow):
         _tree = self.tree
         _root = self.root
 
-        if is_chain:
-            if self.prev_chain:
-                pass
-                #_tree = ET.parse("subset_corpus.xml")
-                #_root = _tree.getroot()
-            
-            self.prev_chain = True
-            self.amberIndicator.show()
-            self.redIndicator.hide()
-        else:
-            self.prev_chain = False
-            self.amberIndicator.hide()
-            self.redIndicator.show()
+        if not self.HIDE_CHAIN_SEARCH:
+            if is_chain: # <-- Should always be False if left unimplemented
+                if self.prev_chain:
+                    pass
+                    #_tree = ET.parse("subset_corpus.xml")
+                    #_root = _tree.getroot()
+                
+                self.prev_chain = True
+                self.amberIndicator.show()
+                self.redIndicator.hide()
+            else:
+                self.prev_chain = False
+                self.amberIndicator.hide()
+                self.redIndicator.show()
 
         query_params = {
         "tree": _tree,
@@ -533,6 +640,7 @@ class MainUI(QMainWindow):
         "total_titles": self.total_titles,
 
         "query_value": self.queryLine.text(),
+        "case_checked": self.caseCheckBox.isChecked(),
         "lemma_checked": self.lemmaCheckBox.isChecked(),
         "word_index_search": self.searchWordIndex.isChecked(),
         "word_index_value": self.valueWordIndex.text(),
@@ -629,15 +737,16 @@ class MainUI(QMainWindow):
         self.concordance.setText(result_text)
         #self.save_subset(query_results)
 
-        #QMessageBox.information(self, "Search Complete", result_text)
-
     def closeEvent(self, event):
         if hasattr(self, 'worker'):
             self.worker.stop()
         event.accept()
 
     # DEBUG
-    def save_subset(self, query_results):
+    def save_subset(self, query_results):   # Only called via chain-search
+
+        # THIS FUNCTION IS AI-GENERATED AND DOES NOT WORK AS INTENDED
+
         # Create a new XML tree with root <corpus>
         subset_root = etree.Element("corpus")
         output_file = "subset_corpus.xml"
@@ -737,6 +846,20 @@ class MainUI(QMainWindow):
 # Main Function / Driver
 if __name__ == "__main__":
     app = QApplication(sys.argv)
-    ui = MainUI()
-    ui.show()
+
+    # Create splash screen
+    pixmap = QPixmap("Images/splash_image.png")
+    splash = QSplashScreen(pixmap)
+    #text_rect = QRect(0, pixmap.height() - 50, pixmap.width(), 30)
+    splash.showMessage("Loading Corpus...", alignment=Qt.AlignmentFlag.AlignBottom | Qt.AlignmentFlag.AlignCenter, color=Qt.GlobalColor.darkBlue)
+    splash.setStyleSheet("color: white; font-size: 16px;")
+    #splash.setGeometry(text_rect)
+    splash.show()
+
+    def show_main_window():
+        ui = MainUI()
+        ui.show()
+
+    QTimer.singleShot(3000, lambda: (splash.close(), show_main_window()))
+
     app.exec()

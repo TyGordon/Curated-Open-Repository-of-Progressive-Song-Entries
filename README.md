@@ -1,13 +1,34 @@
 # Curated Open Repository of Progressive Song Entries (CORPSE)
 
 ### This document covers many components of the CORPSE project including:
-1. Information about the project, what is included and how to use it
-2. Which bands and albums are used (Roughly 415 Albums)
-3. How the entries are tagged
+1. Information about the project, what is included and how to compile it
+2. How to use the CORPSE Explorer
+3. Which bands and albums are included (Roughly 415 Albums)
+4. How the entries are tagged
+
+#### CORPSE Author
+    Ty Gordon
+
+#### Most Recent Update
+    12/5/2024
+
+#### Number of Artists Included:
+    99
+
+#### Number of Albums Included:
+    418
+
+#### Number of Tracks Included:
+    3,653
+
+#### Number of Words Included:
+    11,269
+
 
 ### Table of Contents
 1. [Overview](#overview)
-2. [Artist List](#artist-list)
+2. [Usage Guide](#usage-guide)
+3. [Artist List](#artist-list)
     - [The Big Seven](#the-big-seven)
     - [Secondary Bands](#secondary-bands)
     - [Solo Artists](#solo-artists)
@@ -17,8 +38,7 @@
     - [RPI](#rock-progressivo-italiano-rpi)
     - [International](#international)
     - [Artists to Include](#artists-to-include)
-3. [Track Tags](#tagging)
-4. [Misc](#misc)
+4. [Tagging](#tagging)
 
 ## OVERVIEW
 
@@ -76,38 +96,44 @@
     - deep-translator (use pip) (used for translation)
     - QT and pyqt (use pip) (used for GUI)
 
-    Otherwise, just running the CORPSE_Explorer.exe should work with no added software (full_corpus.xml is still needed)
-
-### How To Use This Project
-    1. Open the .exe
+    Otherwise, just running the CORPSE_Explorer.exe should work with no added software 
+        (full_corpus.xml is still needed)
 
 ### Limitations
     Known Bugs:
-    - Track names with a period followed by a space do not play nicely with the POS tagger: the tagger tends to eat them.
+    - Track names with a period followed by a space do not play nicely with the POS tagger: the tagger tends to 
+    eat them.
     - XML does not like the '&' character, so all instances were replaced with "and"
     - CURL does not like some characters such as '/', which had to be replaced with '-'
-    - Many special characters (such as those of the cyrillic variety, or those with uncommon accent markers) had to be latinized
+    - Many special characters (such as those of the cyrillic variety, or those with uncommon accent markers) are  
+    not compatible with the character encoding used. They are either left unchanged, or hand-corrected.
     - The format of the souced HTML pages can change, and did in-fact change upon the second corpus compilation on
     Nov 15th. The spacing in the source code for HTML elements may change over time as was the case here. New 
-    features could also have been added to the website, which could change what lines are needed for data extraction.
+    features could also have been added to the website, which could change what lines are needed for data 
+    extraction.
     - Albums with multiple sub-tracks of the same index may show the wrong track since they share indexes.
         => To be fixed
     - Upon compilation, the corpus may have some ratings and/or indexes set to a string (since the data is 
     inconsistent). This results in a crash when using the explorer. These have to be manually corrected for now. 
-    
+    - Some tracks may have an asterisk to indicate additional information. Sometimes these tracks get filtered 
+    out such as "Incantations Part 3*" from Mike Oldfield on the album "Incantations".
+    - Albums with more than 12 sub-tracks under one main track are not supported. a-l and i-xii are the only sub-track alphabet index characters that are converted into a numeric index.
+
     Design Flaws:
     - Many albums are excluded for the following reasons:
         > They do not fit within the time frame (1966-1984).
             Ex. "Invisible Touch" by Genesis
         > They are under a different name.
             Ex. Magma's "Tristan et Iseult" ("Wurdah Itah")
-        > The album has a very poor relative rating AND is at the end of the groups "golden era".
+        > The album has a very poor relative rating AND is at the end of the group's "golden era".
+          (This is done because many groups tended to switch genres away from Prog rock, so these
+          albums are typically not representative of the genre this corpus encompasses)
             Ex. Jethro Tull's "Under Wraps"
         > The respective group is nieche or borderline prog and only gets one album, with the rest omitted.
             Ex. Return to Forever's albums that are not "Romantic Warrior"
         > The group was not discovered/known about at corpus compiling time.
-    - Tracks from foreign groups have to be hand translated in order to be represented. Hand Translation is an art 
-    (or at least an imprecise science) and has subjective implications on the corpus data.
+    - Tracks from foreign groups may need to be translated by the auto-translator. This is prone to mistakes and 
+    may influence the style of foreign titles (ie. romance languages adding a surplus of the word "of", etc).
     - The automatic XML generation makes any sub-track listed with an index of "-" have no proper index. 
         THESE NEED TO BE FIXED MANUALLY.
     - Some album entries do not follow the common format and are problematic. Some examples are:
@@ -121,6 +147,141 @@
             => No period after numerals
     - Cyrillic characters do not work with the translation step currently, so entries from Aftograf are excluded
     - The POS tagger, lemmatizer, and translator may make (many) mistakes. These are usually not corrected (yet).
+    - The "chain-search" feature
+
+
+    THE FOLLOWING ALBUMS ARE PROBLEMATIC AND NEED TO BE HAND-CORRECTED UPON CORPUS COMPILATION:
+    (List Format: [Album Title] - [Artist], '\n' '\t' '\t' => [Notes on why the title is an issue])
+
+    - Joe's Garage Act, I - Frank Zappa
+        => Tracks lack numbers
+    - Roxy & Elsewhere - Frank Zappa
+        => Misspelt "Total Time"
+    - Who's Next - The Who
+        => No "Total Time"
+    - Private Parts and Pieces III - Anthony Philips
+        => No period after numerals
+    - More - Pink Floyd
+        => Unknown failure
+    - Per Un Amico - Premiata Forneria Marconi
+        => Unknown failure
+    - Magick Brother - Gong
+        => Side names may be the issue
+    - Klaus Schultz - Moondawn
+        => Unkown failure
+    - Jatekok - East
+        => Non-Latin characters, translation provided
+    - Huseg - East
+        => Non-Latin characters, translation provided
+    - Avtograf - 1
+        => Cyrillic characters, translation provided
+        => MANUALLY CHANGE DATE TO 1982 FOR ACCURACY
+    - Avtograf - 2
+        => No Prog archives entry. Use the youtube link
+        => This album was released informally as a "magnito-album" <<Магнитоальбом>> with an imprecise  
+        track-listing. The Youtube version will be used as the source for the data.
+    - Magma
+        => This group invented a con-lang in order to foil my corpus plans. Flawed titles will be Latinized as    
+        punishment, and tagged as foreign words
+
+### Lessons Learned
+    A lot had to be learned to make this project what it is since many unfimiliar tools were needed. Here is a list of the skills gained and practiced during development:
+
+    - Python Programming
+        => Reading Files
+        => Writing to Files
+        => Using 3rd party libraries such as:
+            NLTK
+            Deep Translator
+            Element Tree
+            lxml
+            Pyqt 6
+    - QT 6
+        => Designing a functional GUI
+        => Implementing a GUI in QT
+        => Connecting GUI elements to python functions
+        => Using QT signals
+    - Web Scraping
+        => Using Wget and Curl to fetch webpages
+        => Using (lots of) RegEx to clean the html data
+    - XML Formatting
+        => Designing an XML database
+        => Formatting input into XML tags
+    - XML Querying
+        => Building Xpath expressions
+        => Using Xpath to find entries
+    - Programming Practices
+        => Implementing parallel processing
+        => Building and querying databases
+        => Documenting a project
+        => Using version control (Git)
+        => Using Gen AI resources to help implement a solution
+        => Coming up with great names and acronyms
+    - Corpus Creation
+        => Designing a corpus
+        => Lemmatization 
+        => PoS tagging
+    - Corpus Investigation
+        => Making informative queries
+        => Using statistics to analyze patterns
+
+### Further Work
+    This project is by no means complete. Several features and ideas are left incomplete, non-functional or 
+    untouched. Even the functionality provided is inherently flawed, and could be reworked for a better product.
+    Here are some features that were planned to be added if develpment were to continue:
+
+    - Chain-Search
+        ==> Almost implemented, but scrapped due to time and implementation difficulty. Would allow the user to 
+        "chain" or "stack" queries whereby the results of one query would be stored as a "subset-corpus" and be 
+        fed as the input for a subsequent query.
+    - Multi-Word Search
+        ==> Instead of, or alongside the "chained-search" feature, support for searching multiple consecutive 
+        words would be a great feature to have.
+    - Track-Type Tag
+        ==> Some implementation (GUI). Would allow the user to sort by tracks that are sub-tracks or parts of a    
+        larger track. Or lets them filter them out if undesired. These tags are not present in full_corpus.xml
+    - "Misc" Tags
+        ==> Tag the titles for extra meta information such as "has-pun", "comedic", "explicit language", 
+        "contains reference", "non-semantic phrase", etc.
+    - Semantic Tagging
+        ==> Add a semantic tagger to add these tags within the track scraper.
+    - Semantic Trees
+        ==> Add a system to store the titles as trees and visualize them in other windows.
+    - N-Gram Search
+        ==> Add a way to search N-Grams
+    - Multiple tabs
+        ==> Add multiple tabs within the application to allow the user to preserve old searchs and settings.
+    - Visual Graphs
+        ==> Allow the user to make graphs in a new window to visualize queries.
+    - Concordance
+        ==> Add a setting to visually line up the titles by a keyword.
+    - Super Corpus
+        ==> Crawl the entire Prog Archives website for all entries within established criteria and make a "Super 
+        Corpus" with much more data to use.
+    - Text Click
+        ==> Allow the user to click a word in the explorer to see tagging info.
+    - Album Covers
+        ==> Allow the user to see covers associated with a selected album/track.
+    - Query Optimizations
+        ==> Optimize the search functionality to be faster.
+    - GUI Overhaul
+        ==> Make a more appealing/functional GUI.
+    - Add/Remove Entries
+        ==> Add more entries to the corpus, and remove problematic ones
+
+
+### Generative Artificial Intelligence (Gen-AI) Usage Disclaimer
+    It can be assumed that Gen-AI was not used to generate neither prose, nor code related to this assignment with 
+    the following explicit exceptions in the file:
+
+    ==> corpus_explorer.py
+        Gen-AI tools (ChatGPT-4) were used for: 
+            - The design of the search functionality (only for the layout of tag filtering statments)
+            - Code and ideas for the loading bar and parallel processing (worker functions, etc)
+            - Pyqt signals related to the functionality listed above
+            - and the unmodified save_subset function (unused) for the umimplemented chain-search feature
+
+    Precicely no input from Gen-AI sources was used for any other files associate with this project.
 
 ### Sub-Genres Included
 
@@ -140,6 +301,130 @@
 + Proto-Prog
 + Neo-Prog
 + Prog Related
+
+## USAGE GUIDE
+
+### First Row
+
+- **Search Bar Text Field**
+
+    This is where you type the word to search for in the corpus. Multiple words are not supported.
+
+- **Stats Button**
+
+    This button changes the View Window to show word frequencies in a "Corpus Statistics" page.
+
+- **Part of Speech (POS) Dropdown**
+
+    This dropdown lets you select the POS tag to be searched that is assocciated with the word entered in the Search Bar. The tagset used is the NLTK tagset, which is a modified Penn tagset.
+
+### Second Row
+
+- **Search Button**
+
+    This button starts the search.
+
+- **Clear Button**
+
+    This button clears the Search Box and the View Window
+
+- **Case Checkbox**
+
+    This checkbox toggles Case-Sensitive searching. Checked means that the the search is Case-Sensitive
+
+- **Lemma Search Checkbox**
+
+    This checkbox toggles the Lemma Search functionality. Checked means that only lemmas are searched in the corpus. You must put a lower-case lemma in the Search Bar to use this feature.
+
+- **Word Index Checkbox**
+
+    This checkbox toggles the Word Index Search. It tells the explorer to only return results that match the Searched word at the specific number typed in the Word Index Text Field. Ex. In the sentence "The fox is hungry," the word "fox" is at index 2, and the word "hungry" is at index 4.
+
+- **Word Index Text Field**
+
+    This text field is where you enter the index for the Word Index Search.
+
+### Dates Tags
+
+- **"All" Button**
+
+    This button checks all date checkboxes
+
+- **"None" Button**
+
+    This button unchecks all date checkboxes
+
+- **Date Checkboxes**
+
+    These checkboxes allow you to search by the album release date.
+
+### Artist Tags
+
+- **Artist Name Search**
+
+    The checkbox toggles the search using the text field to the right. This line is for searching by Artist name (Not Case-Sensitive).
+
+- **Artist Sub-Genre Search**
+
+    The checkbox toggles the search using the dropdown to the right. This line is for searching by Sub-Genre (As appears on Prog Archives).
+
+### Album Tags
+
+- **Album Name Search**
+
+    The checkbox toggles the search using the text field to the right. This line is for searching by Album name (Not Case-Sensitive).
+
+- **Album Rating Search**
+
+    The checkbox toggles the search using the text field to the right. The operator dropdown allows searching using the symbols ">", "=", "<" whereby the ">" returns results greater than the input, and the "<" returns results less than the input. This line is for searching by Album rating (As appears on Prog Archives) in the form "X.XX" where each "X" is a digit from 0-9. The scale used only goes from 1.00 to 5.00, and most results lie in the 3.XX range or the 4.XX range.
+
+- **Album Length Search**
+
+    The checkbox toggles the search using the text field to the right. The operator dropdown allows searching using the symbols ">", "=", "<" whereby the ">" returns results greater than the input, and the "<" returns results less than the input. This line is for searching by Album length either in the form of seconds (integer) or in the styles "MM:SS", or "H:MM:SS" where H is the number of hours, MM is the number of minutes (2 digits), and SS is the number of seconds (2 digits).
+
+### Track Tags
+
+- **Track Index Search**
+
+    The checkbox toggles the search using the text field to the right. The operator dropdown allows searching using the symbols ">", "=", "<" whereby the ">" returns results greater than the input, and the "<" returns results less than the input. This line is for searching by a numeric Track index (integer). Tracks originally listed with positions "a-g" or "i-vii" are converted to numeric form automatically.
+
+- **Track Length Search**
+
+    The checkbox toggles the search using the text field to the right. The operator dropdown allows searching using the symbols ">", "=", "<" whereby the ">" returns results greater than the input, and the "<" returns results less than the input. This line is for searching by Track length either in the form of seconds (integer) or in the style "MM:SS" where MM is the number of minutes (2 digits), and SS is the number of seconds (2 digits).   
+
+- **Word Count Search**
+
+    The checkbox toggles the search using the text field to the right. The operator dropdown allows searching using the symbols ">", "=", "<" whereby the ">" returns results greater than the input, and the "<" returns results less than the input. This line is for searching by Track Word Count (integer). It tells the corpus to only return tracks that have the amount of words that satisfies the input. Some special punctuation cases are considered words (such as double-quotes).
+
+### View Window
+
+Upon a normal search, the following information may appear:
+
+
+- **"Hits"**
+
+    Indicates how many results (tracks) were matched.
+
+- **"Lemma Frequency"**
+
+    Indicates the frequency that the lemma of the searched word appears. 
+
+- **"Title Frequency"**
+
+    Indicates the number of titles (hits) that contain the searched word.
+
+- **Corpus Entry**
+
+#### The entries should appear in this format:
+
+    - = - Group Name - = -
+
+    Track **Title** (Album Name)
+
+    ==> *Original Text* If Translated
+    
+
+#### Words in bold match the searched word.
 
 ## ARTIST LIST
 
@@ -815,23 +1100,11 @@ East [hu] (2)
         - Duration of the track.
     w-count
         - Word count of the track.
-    *?tr-type (could be automated)
+    *?tr-type (could be automated, NOT IMPLEMENTED)
         - standard
         - main-track
         - part-track
         - compound-track
-
-    Manual Tags:    (To Add Later)
-        has-pun="true"
-        made-up="true"
-        poorly-formed="true"
-        non-semantic="true"
-        not-enlish="true"
-
-        imprecise-translation="true"
-        title-track="true"
-        hidden-track="true"
-        single="true"
 
 ### Word Tags
     pos
