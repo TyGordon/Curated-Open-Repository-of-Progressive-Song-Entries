@@ -55,10 +55,6 @@ def to_seconds(input_string: str) -> int:
 
     return output
 
-
-#dirname = os.path.dirname(__file__)
-#filename = os.path.join(dirname, 'relative/path/to/file/you/want')
-
 # Iterate over all files in "/Albums"
 for d in os.listdir("Albums"):
     
@@ -206,7 +202,6 @@ for d in os.listdir("Albums"):
                             + ("\t\t<length>" + album_len_string + "</length>\n")
                             + ("\t\t<rating>" + rating_string[0:-1] + "</rating>\n"))
                 
-
                 for i in formatted_array:
 
                     track_len_seconds = to_seconds(i[1])

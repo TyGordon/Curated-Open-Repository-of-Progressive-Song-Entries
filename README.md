@@ -153,25 +153,26 @@
     THE FOLLOWING ALBUMS ARE PROBLEMATIC AND NEED TO BE HAND-CORRECTED UPON CORPUS COMPILATION:
     (List Format: [Album Title] - [Artist], '\n' '\t' '\t' => [Notes on why the title is an issue])
 
-    - Joe's Garage Act, I - Frank Zappa
+    - Joe's Garage Act, I - Frank Zappa ✓
         => Tracks lack numbers
-    - Roxy & Elsewhere - Frank Zappa
+    - Roxy & Elsewhere - Frank Zappa ✓
         => Misspelt "Total Time"
-    - Who's Next - The Who
+    - Who's Next - The Who ✓
         => No "Total Time"
-    - Private Parts and Pieces III - Anthony Philips
+        => Track Times use a period, not a colon
+    - Private Parts and Pieces III - Anthony Philips ✓
         => No period after numerals
-    - More - Pink Floyd
+    - More - Pink Floyd ✓
         => Unknown failure
-    - Per Un Amico - Premiata Forneria Marconi
+    - Per Un Amico - Premiata Forneria Marconi ✓
         => Unknown failure
-    - Magick Brother - Gong
+    - Magick Brother - Gong ✓
         => Side names may be the issue
-    - Klaus Schultz - Moondawn
+    - Klaus Schultz - Moondawn ✓
         => Unkown failure
-    - Jatekok - East
+    - Jatekok - East ✓
         => Non-Latin characters, translation provided
-    - Huseg - East
+    - Huseg - East ✓
         => Non-Latin characters, translation provided
     - Avtograf - 1
         => Cyrillic characters, translation provided
@@ -240,6 +241,8 @@
     - Track-Type Tag
         ==> Some implementation (GUI). Would allow the user to sort by tracks that are sub-tracks or parts of a    
         larger track. Or lets them filter them out if undesired. These tags are not present in full_corpus.xml
+    - Search by Last Word
+        ==> Implement a way to search by the last index.
     - "Misc" Tags
         ==> Tag the titles for extra meta information such as "has-pun", "comedic", "explicit language", 
         "contains reference", "non-semantic phrase", etc.

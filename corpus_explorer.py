@@ -1,12 +1,16 @@
 import sys
+import ctypes
 import copy
 import re
 import xml.etree.ElementTree as ET
 from lxml import etree
 from PyQt6.QtWidgets import QApplication, QLabel, QWidget, QSplashScreen, QMainWindow, QTextEdit
-from PyQt6.QtGui import QFont, QPixmap
+from PyQt6.QtGui import QFont, QPixmap, QIcon
 from PyQt6.uic import loadUi
 from PyQt6.QtCore import Qt, QObject, QRect, QTimer, QThread, pyqtSignal
+
+myappid = u'UK.CORPSE.Explorer.1.01' # arbitrary string
+ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
 
 class SearchWorker(QObject):
     progress = pyqtSignal(int)
@@ -56,6 +60,7 @@ class SearchWorker(QObject):
         return output
 
     def run(self):
+        
         # Emit 0% progress at start
         self.progress.emit(0)
         _total_items = self.params["total_words"]
@@ -553,6 +558,9 @@ class MainUI(QMainWindow):
 
         loadUi("corpus_gui.ui", self)
 
+        #self.setWindowIcon(QIcon("uk_icon.ico"))
+        self.setWindowIcon(QIcon("Images/uk_image.png"))
+
         self.tree = ET.parse("full_corpus.xml")
         self.root = self.tree.getroot()
         self.prev_chain = False
@@ -571,8 +579,10 @@ class MainUI(QMainWindow):
             self.searchTrackType.hide()
             self.valueTrackType.hide()
 
+        ADJUSTMENT_CONSTANT = 5
+
         self.total_words = sum(1 for _ in self.tree.iter("w"))
-        self.total_titles = sum(1 for _ in self.tree.iter("tr"))
+        self.total_titles = sum(1 for _ in self.tree.iter("tr")) - ADJUSTMENT_CONSTANT
 
         self.lemma_dict = {}
 
@@ -740,6 +750,9 @@ class MainUI(QMainWindow):
     def closeEvent(self, event):
         if hasattr(self, 'worker'):
             self.worker.stop()
+            if hasattr(self, 'thread') and self.thread.isRunning():
+                self.thread.quit()
+                self.thread.wait()  # Ensure the thread exits cleanly before destroying it
         event.accept()
 
     # DEBUG

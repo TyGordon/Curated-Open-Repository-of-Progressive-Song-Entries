@@ -1,0 +1,797 @@
+1. 
+Central Scrutinizer 
+JJ central 
+NNP scrutinizer 207
+
+2. 
+Joe's Garage 
+NNP joe 
+POS 's 
+NN garage 370
+
+3. 
+Catholic Girls 
+JJ catholic 
+NNP girl 266
+
+4. 
+Crew Slut 
+NNP crew 
+NNP slut 351
+
+5. 
+Wet T-Shirt Night 
+NNP wet 
+NNP t-shirt 
+NNP night 326
+
+6. 
+Toad O Line 
+NNP toad 
+NNP o 
+NNP line 258
+
+7. 
+Why Does It Hurt When I Pee? 
+WRB why 
+VBZ doe 
+PRP it 
+NNP hurt 
+WRB when 
+PRP i 
+NNP pee 
+. ? 155
+
+8. 
+Lucille Has Messed My Mind Up 
+NNP lucille 
+NNP ha 
+VBN messed 
+PRP$ my 
+NNP mind 
+NNP up 437
+
+1. 
+Penguin in Bondage 
+NNP penguin 
+IN in 
+NNP bondage 408
+
+2. 
+Pygmy Twylyte 
+NNP pygmy 
+NNP twylyte 133
+
+3. 
+Dummy Up 
+NNP dummy 
+NNP up 362
+
+4. 
+Village of the Sun 
+NN village 
+IN of 
+DT the 
+NNP sun 257
+
+5. 
+Echidna's Arf (Of You) 
+NNP echidna 
+POS 's 
+NNP arf 
+( ( 
+IN of 
+PRP you 
+) ) 232
+
+6. 
+Don't You Ever Wash That Thing? 
+VBP do 
+RB n't 
+PRP you 
+VB ever 
+NNP wash 
+IN that 
+NNP thing 
+. ? 580
+
+7. 
+Cheepnis 
+NN cheepnis 393
+
+8. 
+Son of Orange County 
+NN son 
+IN of 
+NNP orange 
+NNP county 353
+
+9. 
+More Trouble Every Day 
+RBR more 
+JJ trouble 
+DT every 
+NN day 360
+
+10. 
+Be-Bop Tango (Of the Old Jazzmen's Church) 
+JJ be-bop 
+NNP tango 
+( ( 
+IN of 
+DT the 
+NNP old 
+NNP jazzman 
+POS 's 
+NN church 
+) ) 1001
+
+1. 
+Baba O'Riley 
+NNP baba 
+NNP o'riley 308
+
+2. 
+Bargain 
+NN bargain 332
+
+3. 
+Love Ain't For Keeping 
+NNP love 
+VBP ai 
+RB n't 
+IN for 
+VBG keeping 130
+
+4. 
+My Wife 
+PRP$ my 
+NN wife 220
+
+5. 
+The Song Is Over 
+DT the 
+NNP song 
+VBZ is 
+IN over 373
+
+6. 
+Getting In Tune 
+VBG getting 
+IN in 
+NNP tune 290
+
+7. 
+Going Mobile 
+VBG going 
+NNP mobile 222
+
+8. 
+Behind Blue Eyes 
+IN behind 
+NNP blue 
+NNP eye 221
+
+9. 
+Won't Get Fooled Again 
+MD wo 
+RB n't 
+VB get 
+NNP fooled 
+NNP again 512
+
+1. 
+Motherforest 
+JJS motherforest 115
+
+2. 
+Hurlingham Suite 
+NNP hurlingham 
+NNP suite 675
+
+3. 
+Suite In D Minor 
+NNP suite 
+IN in 
+NNP d 
+NNP minor 507
+
+4. 
+Danse Nude 
+NNP danse 
+NNP nude 91
+
+5. 
+Esperansa 
+NN esperansa 122
+
+6. 
+Elegy 
+NN elegy 208
+
+7. 
+Otto's Face 
+NNP otto 
+POS 's 
+NN face 263
+
+8. 
+Sand Dunes 
+NNP sand 
+NNS dune 504
+
+9. 
+Old Wives Tales 
+NNP old 
+VBZ wife 
+NNS tale 286
+
+1. 
+Cirrus Minor 
+NNP cirrus 
+NNP minor 318
+
+2. 
+Nile Song 
+NN nile 
+NN song 206
+
+3. 
+Crying Song 
+NN cry 
+NN song 213
+
+4. 
+Up the Khyber 
+IN up 
+DT the 
+NNP khyber 132
+
+5. 
+Green Is the Colour 
+NNP green 
+VBZ is 
+DT the 
+NN colour 178
+
+6. 
+Cymbaline 
+NN cymbaline 290
+
+7. 
+Party Sequence 
+NNP party 
+NNP sequence 67
+
+8. 
+Main Theme 
+NN main 
+NN theme 328
+
+9. 
+Ibiza Bar 
+NNP ibiza 
+NNP bar 199
+
+10. 
+More Blues 
+JJR more 
+NNS blue 132
+
+11. 
+Quicksilver 
+NN quicksilver 433
+
+12. 
+Spanish Piece 
+JJ spanish 
+NNP piece 65
+
+13. 
+Dramatic Theme 
+JJ dramatic 
+NN theme 135
+
+1. 
+Appena un Po' 
+NNP appena 
+JJ un 
+NNP po 
+POS ' 463
+
+2. 
+Generale 
+NN generale 258
+
+3. 
+Per un Amico 
+NNP per 
+NN un 
+NNP amico 323
+
+4. 
+Il Banchetto 
+NNP il 
+NNP banchetto 519
+
+5. 
+Geranio 
+NN geranio 483
+
+1. 
+Mystic Sister / Magick Brother 
+JJ mystic 
+NNP sister 
+NNP / 
+NNP magick 
+NNP brother 284
+
+2. 
+Change the World (aka Rational Anthem) 
+VB change 
+DT the 
+NNP world 
+( ( 
+JJ aka 
+NNP rational 
+NNP anthem 
+) ) 250
+
+3. 
+Glad To Sad To Say 
+NNP glad 
+TO to 
+VB sad 
+TO to 
+VB say 215
+
+4. 
+Chainstore Chant / Pretty Miss Titty 
+NNP chainstore 
+NNP chant 
+NNP / 
+NNP pretty 
+NNP miss 
+NNP titty 278
+
+5. 
+Fredfish / Hope You Feel OK 
+JJ fredfish 
+NNP / 
+NNP hope 
+PRP you 
+VBP feel 
+JJ ok 198
+
+6. 
+Ego 
+NN ego 235
+
+7. 
+Gongsong 
+NNP gongsong 245
+
+8. 
+Princess Dreaming 
+NN princess 
+VBG dreaming 175
+
+9. 
+5 & 20 Schoolgirls 
+CD 5 
+CC & 
+CD 20 
+NN schoolgirl 263
+
+10. 
+Cos You Got Green Hair 
+NNP co 
+PRP you 
+NNP got 
+NNP green 
+NNP hair 298
+
+1. 
+Nyitány ~ Overture 
+NNP nyitány 
+NNP ~ 
+NNP overture 205
+
+2. 
+Messze a felhõkkel ~ Far away with the clouds 
+NNP messze 
+DT a 
+NN felhõkkel 
+NN ~ 
+NNP far 
+RB away 
+IN with 
+DT the 
+NNS cloud 343
+
+3. 
+Szállj most fel ~ Fly up now 
+NNP szállj 
+JJS most 
+JJ fel 
+NN ~ 
+NNP fly 
+RB up 
+RB now 330
+
+4. 
+Kék-fekete látomás ~ Blue-black vision 
+NNP kék-fekete 
+JJ látomás 
+NNP ~ 
+NNP blue-black 
+NN vision 136
+
+5. 
+Gyémántmadár ~ Diamond bird 
+NNP gyémántmadár 
+NNP ~ 
+NNP diamond 
+NN bird 240
+
+6. 
+Lélegzet ~ Breath 
+NNP lélegzet 
+NNP ~ 
+NNP breath 190
+
+7. 
+Nézz rám ~ Look at me 
+NNP nézz 
+NN rám 
+NNP ~ 
+NNP look 
+IN at 
+PRP me 248
+
+8. 
+Üzenet ~ Message 
+NN üzenet 
+CD ~ 
+NN message 258
+
+9. 
+Epilóg ~ Epilogue 
+NNP epilóg 
+NNP ~ 
+NNP epilogue 148
+
+10. 
+Remény ~ Expectation 
+NNP remény 
+NNP ~ 
+NNP expectation 273
+
+1. 
+Hüség - Faith 
+NNP hüség 
+: - 
+NN faith 223
+
+2. 
+Keresd õnmagad - Search Yourself 
+NNP keresd 
+NNP õnmagad 
+: - 
+NN search 
+PRP yourself 263
+
+3. 
+Mágikus eró - Magical Power 
+NNP mágikus 
+SYM eró 
+: - 
+JJ magical 
+NN power 175
+
+4. 
+Én voltam - It Was Me 
+NN én 
+SYM voltam 
+: - 
+PRP it 
+VBD wa 
+NNP me 356
+
+5. 
+A végtelen tér öröme - The Happiness of the Endless Space 
+DT a 
+JJ végtelen 
+NN tér 
+SYM öröme 
+: - 
+DT the 
+NNP happiness 
+IN of 
+DT the 
+NNP endless 
+NNP space 98
+
+6. 
+Üjjászületés - Born Again 
+SYM üjjászületés 
+: - 
+NNP born 
+NNP again 220
+
+7. 
+Ablakok - Windows 
+NNP ablakok 
+: - 
+NNS window 344
+
+8. 
+Vesztesek - Losers 
+NNP vesztesek 
+: - 
+NNS loser 224
+
+9. 
+Felhókón sétálva - Walkin' on the Clouds 
+NNP felhókón 
+SYM sétálva 
+: - 
+NNP walkin 
+'' ' 
+IN on 
+DT the 
+NNP cloud 262
+
+10. 
+Várni kell - You Must Wait 
+NNP várni 
+NNP kell 
+: - 
+PRP you 
+VBP must 
+VB wait 356
+
+11. 
+Merengés - Meditation 
+NNP merengés 
+: - 
+NN meditation 134
+
+1. 
+Пристегните Ремни Безопасности / Fasten Seat Belts 
+JJ пристегните 
+NNP ремни 
+NNP безопасности 
+NNP / 
+NNP fasten 
+NNP seat 
+NNP belt 198
+
+2. 
+Ливень / The Rainstorm 
+NN ливень 
+VBZ / 
+DT the 
+NN rainstorm 392
+
+3. 
+2000 Лет / 2000 Years 
+CD 2000 
+NN лет 
+JJ / 
+CD 2000 
+NNS year 414
+
+4. 
+Цепочка Дней / A Trail Of Days 
+JJ цепочка 
+NNP дней 
+VBZ / 
+NNP a 
+NNP trail 
+IN of 
+NNP day 269
+
+5. 
+Ирландия, Ольстер / Ireland, Ulster 
+NN ирландия 
+, , 
+NNP ольстер 
+NNP / 
+NNP ireland 
+, , 
+NNP ulster 245
+
+6. 
+Вчерашний День / Yesterday 
+JJ вчерашний 
+NNP день 
+NN / 
+NN yesterday 240
+
+7. 
+День И Ночь / Day And Night 
+JJ день 
+NNP и 
+NNP ночь 
+NNP / 
+NNP day 
+CC and 
+NNP night 328
+
+8. 
+Монолог / Monologue 
+JJ монолог 
+NNP / 
+NNP monologue 278
+
+9. 
+Марсианские Хроники I / Martian Chronicles, Pt I 
+JJ марсианские 
+NN хроники 
+PRP i 
+VBP / 
+JJ martian 
+NNP chronicle 
+, , 
+NNP pt 
+PRP i 537
+
+10. 
+Возвращение II / Martian Chronicles, Pt II - The Return 
+JJ возвращение 
+NNP ii 
+NNP / 
+NNP martian 
+NNP chronicle 
+, , 
+NNP pt 
+NNP ii 
+: - 
+DT the 
+NN return 235
+
+11. 
+Блюз "Каприз" / Blues 'Caprice' 
+NN блюз 
+`` `` 
+JJ каприз 
+'' '' 
+NN / 
+NNP blue 
+NNP 'caprice 
+POS ' 266
+
+12. 
+Старинная Баллада / An Old Ballad 
+JJ старинная 
+NNP баллада 
+NNP / 
+DT an 
+NNP old 
+NNP ballad 406
+
+13. 
+Корабль / The Ship 
+NN корабль 
+VBZ / 
+DT the 
+NN ship 374
+
+1. 
+Истина (Кто ты, человек) - The Truth (Who are you, person) - 
+NN истина 
+( ( 
+JJ кто 
+NN ты 
+, , 
+NN человек 
+) ) 
+: - 
+NN truth 
+( ( 
+WP who 
+VBP are 
+PRP you 
+, , 
+NN person 
+) ) 
+: - 302
+
+2. 
+Мода - Fashion - 
+SYM мода 
+: - 
+NN fashion 
+: - 360
+
+3. 
+Старый город - Old Town - 
+NN старый 
+SYM город 
+: - 
+NNP old 
+NNP town 
+: - 265
+
+4. 
+В мастерской - In the Workshop - 
+NN в 
+SYM мастерской 
+: - 
+IN in 
+DT the 
+NNP workshop 
+: - 369
+
+5. 
+Длинная дистанция - Long Distance - 
+NN длинная 
+SYM дистанция 
+: - 
+JJ long 
+NNP distance 
+: - 249
+
+6. 
+Старинная баллада - Ancient Ballad - 
+NN старинная 
+SYM баллада 
+: - 
+NN ancient 
+NNP ballad 
+: - 427
+
+7. 
+Театр (Размышление) - Theater (Reflection) - 
+NN театр 
+( ( 
+NNP размышление 
+) ) 
+: - 
+NN theater 
+( ( 
+NNP reflection 
+) ) 
+: - 356
+
+8. 
+Электронные часы - Electronic Watches - 
+NN электронные 
+SYM часы 
+: - 
+JJ electronic 
+NNP watch 
+: - 295
+
+9. 
+Реквием (памяти Джона Леннона) - Requiem (In Memory of John Lennon) - 
+NN реквием 
+( ( 
+JJ памяти 
+NNP джона 
+NNP леннона 
+) ) 
+: - 
+NN requiem 
+( ( 
+IN in 
+NN memory 
+IN of 
+NNP john 
+NNP lennon 
+) ) 
+: - 517
+
+10. Время, вперёд! 
+NN время 
+, , 
+NN вперёд 
+. ! - Time, Forward! 
+: - 
+NN time 
+, , 
+RB forward 
+. ! - 
+: - 265
+
