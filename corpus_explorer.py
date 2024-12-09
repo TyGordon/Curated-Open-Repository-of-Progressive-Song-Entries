@@ -5,9 +5,11 @@ import re
 import xml.etree.ElementTree as ET
 from lxml import etree
 from PyQt6.QtWidgets import QApplication, QLabel, QWidget, QSplashScreen, QMainWindow, QTextEdit
+#from PyQt6.QtWidgets import QApplication, QMainWindow, QTextEdit
 from PyQt6.QtGui import QFont, QPixmap, QIcon
 from PyQt6.uic import loadUi
 from PyQt6.QtCore import Qt, QObject, QRect, QTimer, QThread, pyqtSignal
+#from PyQt6.QtCore import QObject, QThread, pyqtSignal
 
 myappid = u'UK.CORPSE.Explorer.1.01' # arbitrary string
 ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
@@ -139,60 +141,6 @@ class SearchWorker(QObject):
                 if not self.params[str(_album_year)]:
                     _progress_count += 1
                     continue  # Skip if the year is unchecked
-
-                # Skip if the year found is not required
-                '''match _album_year:
-                    case 1968:
-                        if not self.date1968.isChecked():
-                            continue
-                    case 1969:
-                        if not self.date1969.isChecked():
-                            continue
-                    case 1970:
-                        if not self.date1970.isChecked():
-                            continue
-                    case 1971:
-                        if not self.date1971.isChecked():
-                            continue
-                    case 1972:
-                        if not self.date1972.isChecked():
-                            continue
-                    case 1973:
-                        if not self.date1973.isChecked():
-                            continue
-                    case 1974:
-                        if not self.date1974.isChecked():
-                            continue
-                    case 1975:
-                        if not self.date1975.isChecked():
-                            continue
-                    case 1976:
-                        if not self.date1976.isChecked():
-                            continue
-                    case 1977:
-                        if not self.date1977.isChecked():
-                            continue
-                    case 1978:
-                        if not self.date1978.isChecked():
-                            continue
-                    case 1979:
-                        if not self.date1979.isChecked():
-                            continue
-                    case 1980:
-                        if not self.date1980.isChecked():
-                            continue
-                    case 1981:
-                        if not self.date1981.isChecked():
-                            continue
-                    case 1982:
-                        if not self.date1982.isChecked():
-                            continue
-                    case 1983:
-                        if not self.date1983.isChecked():
-                            continue
-                    case 1984:
-                        if not self.date1984.isChecked():
-                            continue'''
 
                 if self.params["album_name_search"] and album.get("name").lower() != self.params["album_name_value"].lower():
                     _progress_count += 1
@@ -710,6 +658,7 @@ class MainUI(QMainWindow):
 
         # Spin up thread and worker with the parameters
         self.thread = QThread()
+        self.thread.setParent(None)  # Detach the thread from the parent to prevent premature destruction
         self.worker = SearchWorker(self.root, query_params)
         self.worker.moveToThread(self.thread)
 
@@ -860,19 +809,16 @@ class MainUI(QMainWindow):
 if __name__ == "__main__":
     app = QApplication(sys.argv)
 
+    ui = MainUI()
+
     # Create splash screen
     pixmap = QPixmap("Images/splash_image.png")
     splash = QSplashScreen(pixmap)
-    #text_rect = QRect(0, pixmap.height() - 50, pixmap.width(), 30)
-    splash.showMessage("Loading Corpus...", alignment=Qt.AlignmentFlag.AlignBottom | Qt.AlignmentFlag.AlignCenter, color=Qt.GlobalColor.darkBlue)
-    splash.setStyleSheet("color: white; font-size: 16px;")
-    #splash.setGeometry(text_rect)
     splash.show()
 
-    def show_main_window():
-        ui = MainUI()
-        ui.show()
+    QApplication.processEvents()
 
-    QTimer.singleShot(3000, lambda: (splash.close(), show_main_window()))
+    # Close the splash screen and show GUI after 3 seconds
+    QTimer.singleShot(3000, lambda: (splash.close(), ui.show()))
 
     app.exec()

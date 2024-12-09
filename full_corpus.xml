@@ -1573,7 +1573,7 @@
 		<tr index="9">
 			<length>517</length>
 			<trans>Реквием (памяти Джона Леннона)</trans>
-			<w pos="NN" lemma="">Requiem</w>
+			<w pos="NN" lemma="requiem">Requiem</w>
 			<punc pos="(" lemma="(">(</punc>
 			<w pos="IN" lemma="in">In</w>
 			<w pos="NN" lemma="memory">Memory</w>
@@ -11138,7 +11138,7 @@
 			<w pos="DT" lemma="the">The</w>
 			<w pos="NN" lemma="world">World</w>
 			<punc pos="(" lemma="(">(</punc>
-			<w pos="JJ" lemma="">aka</w>
+			<w pos="JJ" lemma="aka">aka</w>
 			<w pos="JJ" lemma="rational">Rational</w>
 			<w pos="NN" lemma="anthem">Anthem</w>
 			<punc pos=")" lemma=")">)</punc>
