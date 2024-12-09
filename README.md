@@ -10,19 +10,19 @@
     Ty Gordon
 
 #### Most Recent Update
-    12/5/2024
+    12/9/2024
 
 #### Number of Artists Included:
-    99
+    101
 
 #### Number of Albums Included:
-    418
+    422
 
 #### Number of Tracks Included:
-    3,653
+    3,741
 
 #### Number of Words Included:
-    11,269
+    11,480
 
 
 ### Table of Contents
@@ -86,6 +86,11 @@
     1. 250_finder.py - A python program that finds all of the artists from the list of the top 250 albums from 
         prog archives.
     2. top-250.html and top-250.txt - The input and output of 250_finder.py.
+    3. manual_scraper.py - A script to convert manually typed albums into lemmas, POS, etc
+    4. manual_albums.txt - The output of the manual scraper
+    5. problematic_albums.txt - A list of problematic albums
+
+
 
 ### What's Needed
     These resources are nessessary for re-assembling the corpus:
@@ -95,9 +100,12 @@
     - NTLK (use pip) (used for POS tagging)
     - deep-translator (use pip) (used for translation)
     - QT and pyqt (use pip) (used for GUI)
+    - Pyinstaller for making .exe
+        ==> Use this command: 
+        pyinstaller.exe --onefile --add-data="full_corpus.xml:." --add-data="resources.qrc:." --add-data="corpus_gui.ui:." --add-data="Images:Images" --icon="Images/uk_icon.ico" corpus_explorer.py
 
-    Otherwise, just running the CORPSE_Explorer.exe should work with no added software 
-        (full_corpus.xml is still needed)
+    Otherwise, just running the CORPSE_Explorer.exe should work with no added software.
+        (full_corpus.xml, reasource.qrc, and corpus_gui.ui need to be in the same directory to work)
 
 ### Limitations
     Known Bugs:
@@ -1067,6 +1075,9 @@ Avtograf [ru] (Autograph) (2)
 - [Avtograf 1](https://www.progarchives.com/album.asp?id=10660) <-- Add cyrillic manually
 - [Avtograf 2](https://www.youtube.com/watch?v=HG4pLt8ZppI) <-- YouTube Link (Add Manually)
 
+Horizont [ru] (Horizon) (1)
++ [Summer in Town](https://www.progarchives.com/album.asp?id=4942)
+
 East [hu] (2)
 + [Jatekok](https://www.progarchives.com/album.asp?id=279)
 + [Huseg](https://www.progarchives.com/album.asp?id=280)
@@ -1077,6 +1088,7 @@ East [hu] (2)
         Shut up 'n play yer guitar 1, 2, 3 (NOT THE BOX SET)
     - Deep Purple ✓
     - Uriah Heep ✓
+    - Horizont ✓
 
 ## TAGGING
 

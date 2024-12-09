@@ -12410,6 +12410,44 @@
 		</tr>
 	</al>
 </artist>
+<artist name="Horizont" genre="Symphonic Prog" lang="ru">
+	<al name="Summer In Town" date="1984">
+	<length>2277</length>
+	<rating>3.82</rating>
+	<tr index="1">
+		<length>514</length>
+		<trans>Снежки</trans>
+		<w pos="NNS" lemma="snowball">Snowballs</w>
+	</tr>
+	<tr index="2">
+		<length>637</length>
+		<trans>Чакона</trans>
+		<w pos="NN" lemma="chaconne">Chaconne</w>
+	</tr>
+	<tr index="3">
+		<length>1126</length>
+		<trans>Летний город</trans>
+		<w pos="NN" lemma="summer">Summer</w>
+		<w pos="IN" lemma="in">In</w>
+		<w pos="NN" lemma="town">Town</w>
+	</tr>
+	<tr index="a">
+		<length>0</length>
+		<trans>Март </trans>
+		<w pos="NN" lemma="march">March</w>
+	</tr>
+	<tr index="b">
+		<length>0</length>
+		<trans>Менуэт</trans>
+		<w pos="NN" lemma="minuet">Minuet</w>
+	</tr>
+	<tr index="c">
+		<length>0</length>
+		<trans>Токката</trans>
+		<w pos="NN" lemma="toccata">Toccata</w>
+	</tr>
+	</al>
+</artist>
 <artist name="Il Balletto Di Bronzo" genre="Rock Progressivo Italiano" lang="it">
 	<al name ="Ys" date="1972">
 		<length>2267</length>
