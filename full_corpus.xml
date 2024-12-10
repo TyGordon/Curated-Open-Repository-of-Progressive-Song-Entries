@@ -12087,23 +12087,14 @@
 			<punc pos="(" lemma="(">(</punc>
 			<w pos="JJ" lemma="quiet">quiet</w>
 			<punc pos=")" lemma=")">)</punc>
-			<punc pos="(" lemma="(">(</punc>
-			<w pos="CD" lemma="1:59">1:59</w>
-			<punc pos=")" lemma=")">)</punc>
 		</tr>
 		<tr index="b">
 			<length>0</length>
 			<w pos="NNP" lemma="lump">Lumps</w>
-			<punc pos="(" lemma="(">(</punc>
-			<w pos="CD" lemma="12:35">12:35</w>
-			<punc pos=")" lemma=")">)</punc>
 		</tr>
 		<tr index="c">
 			<length>0</length>
 			<w pos="NNP" lemma="prenut">Prenut</w>
-			<punc pos="(" lemma="(">(</punc>
-			<w pos="CD" lemma="3:55">3:55</w>
-			<punc pos=")" lemma=")">)</punc>
 		</tr>
 		<tr index="d">
 			<length>0</length>
@@ -12116,9 +12107,6 @@
 			<w pos="NNP" lemma="donut">Donut</w>
 			<punc pos="(" lemma="(">(</punc>
 			<w pos="NN" lemma="loud">loud</w>
-			<punc pos=")" lemma=")">)</punc>
-			<punc pos="(" lemma="(">(</punc>
-			<w pos="CD" lemma="1:37">1:37</w>
 			<punc pos=")" lemma=")">)</punc>
 		</tr>
 	</al>

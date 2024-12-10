@@ -10,7 +10,7 @@
     Ty Gordon
 
 #### Most Recent Update
-    12/9/2024
+    12/10/2024
 
 #### Number of Artists Included:
     101
@@ -45,9 +45,9 @@
 ### What Is This?
     This is the Curated Open Repository of Progressive Song Entries (CORPSE), which is a project developed for the
     University of Kentucky Corpus Linguistics course LIN-510. At its core, CORPSE is a collection of XML 
-    formatted song titles sourced from progarchives.com within the years 1966 to 1984. It comes with an Explorer 
-    utility, which is a Graphical User Interface (GUI) designed to allow any user the ability to search the 
-    database in a simple manner (unlike CQP). 
+    formatted song titles sourced from progarchives.com within the years 1966 to 1984. It comes with an explorer 
+    utility, which amounts to a Graphical User Interface (GUI) designed to allow any user the ability to search 
+    the database in a simple manner (unlike CQP, RegEx, etc). 
 
     Progressive Rock is a term used to describe a genre of music that was prevalent in the late 60s, to the early 
     80s. It is usually described as a more complicated and eclectic form of popular music with many influences 
@@ -61,6 +61,15 @@
 [What is Progressive Rock?](http://www.progarchives.com/Progressive-rock.asp#definition)
 
 [Top 100 Prog Albums 1966-1984](https://www.progarchives.com/top-prog-albums.asp?ssubgenres=&salbumtypes=1&syears=1984&syears=1983&syears=1982&syears=1981&syears=1980&syears=1979&syears=1978&syears=1977&syears=1976&syears=1975&syears=1974&syears=1973&syears=1972&syears=1971&syears=1970&syears=1969&syears=1968&syears=1967&syears=1966&scountries=&sminratings=0&smaxratings=0&sminavgratings=0&smaxresults=100&x=55&y=7#list)
+
+### Purpose
+    The corpus was built to answer questions about the stylistic conventions of progressive rock titles. The 
+    contents of the CORPSE corpus are far too limited to make any generalizations about english or how english is 
+    generally used. It is, however, adequete for answering questions about progressive rock song titles since it 
+    encompasses a significant portion of all progressive rock titles from the classic era. The querying systems 
+    makes use of abundant meta-data to compensate for the lack of large sums of data, and accurate tagging. 
+    Questions such as "Do prog songs generally get shorter over time" or "Do long prog songs have shorter titles" 
+    are the kinds of questions that this corpus aspires to help answer.
 
 ### What's Included
     The CORPSE Corpus consists of two main tools and the data that makes up the corpus (both raw html and 
@@ -90,8 +99,6 @@
     4. manual_albums.txt - The output of the manual scraper
     5. problematic_albums.txt - A list of problematic albums
 
-
-
 ### What's Needed
     These resources are nessessary for re-assembling the corpus:
     - Microsoft Windows 10/11 OS (linux/mac are untested)
@@ -102,7 +109,7 @@
     - QT and pyqt (use pip) (used for GUI)
     - Pyinstaller for making .exe
         ==> Use this command: 
-        pyinstaller.exe --onefile --add-data="full_corpus.xml:." --add-data="resources.qrc:." --add-data="corpus_gui.ui:." --add-data="Images:Images" --icon="Images/uk_icon.ico" corpus_explorer.py
+        pyinstaller.exe --onefile --name="CORPSE Explorer" --add-data="full_corpus.xml:." --add-data="resources.qrc:." --add-data="corpus_gui.ui:." --add-data="Images:Images" --icon="Images/uk_icon.ico" corpus_explorer.py
 
     Otherwise, just running the CORPSE_Explorer.exe should work with no added software.
         (full_corpus.xml, reasource.qrc, and corpus_gui.ui need to be in the same directory to work)
@@ -117,16 +124,14 @@
     not compatible with the character encoding used. They are either left unchanged, or hand-corrected.
     - The format of the souced HTML pages can change, and did in-fact change upon the second corpus compilation on
     Nov 15th. The spacing in the source code for HTML elements may change over time as was the case here. New 
-    features could also have been added to the website, which could change what lines are needed for data 
-    extraction.
+    features could also have been added to the website, which could change what lines are needed for data extraction.
     - Albums with multiple sub-tracks of the same index may show the wrong track since they share indexes.
-        => To be fixed
     - Upon compilation, the corpus may have some ratings and/or indexes set to a string (since the data is 
     inconsistent). This results in a crash when using the explorer. These have to be manually corrected for now. 
     - Some tracks may have an asterisk to indicate additional information. Sometimes these tracks get filtered 
     out such as "Incantations Part 3*" from Mike Oldfield on the album "Incantations".
-    - Albums with more than 12 sub-tracks under one main track are not supported. a-l and i-xii are the only sub-track alphabet index characters that are converted into a numeric index.
-
+    - QT spews font errors for some reason. This does not impact the functionality of the program
+    
     Design Flaws:
     - Many albums are excluded for the following reasons:
         > They do not fit within the time frame (1966-1984).
@@ -142,6 +147,8 @@
         > The group was not discovered/known about at corpus compiling time.
     - Tracks from foreign groups may need to be translated by the auto-translator. This is prone to mistakes and 
     may influence the style of foreign titles (ie. romance languages adding a surplus of the word "of", etc).
+    - Albums with more than 12 sub-tracks under one main track are not supported. a-l and i-xii are the only 
+    sub-track alphabet index characters that are converted into a numeric index.
     - The automatic XML generation makes any sub-track listed with an index of "-" have no proper index. 
         THESE NEED TO BE FIXED MANUALLY.
     - Some album entries do not follow the common format and are problematic. Some examples are:
@@ -154,8 +161,16 @@
         Private Parts and Pieces III - Anthony Philips
             => No period after numerals
     - Cyrillic characters do not work with the translation step currently, so entries from Aftograf are excluded
-    - The POS tagger, lemmatizer, and translator may make (many) mistakes. These are usually not corrected (yet).
     - The "chain-search" feature
+
+    Flaws With 3rd Party Utilities:
+    - The lemmatizer used was either incorectly used or is generally bad. Many lemmas are wrong such as:
+        was -> wa
+        does -> doe
+        has -> ha
+       These are not corrected.
+    - The POS tagger is also often wrong. Most song titles are capitalized, and are thus tagged as NNS.
+    - The translator translates everything. This wasn't the original plan, but this is how it is.
 
 
     THE FOLLOWING ALBUMS ARE PROBLEMATIC AND NEED TO BE HAND-CORRECTED UPON CORPUS COMPILATION:
@@ -182,19 +197,20 @@
         => Non-Latin characters, translation provided
     - Huseg - East ✓
         => Non-Latin characters, translation provided
-    - Avtograf - 1
+    - Avtograf - 1 ✓
         => Cyrillic characters, translation provided
         => MANUALLY CHANGE DATE TO 1982 FOR ACCURACY
-    - Avtograf - 2
+    - Avtograf - 2 ✓
         => No Prog archives entry. Use the youtube link
         => This album was released informally as a "magnito-album" <<Магнитоальбом>> with an imprecise  
         track-listing. The Youtube version will be used as the source for the data.
     - Magma
-        => This group invented a con-lang in order to foil my corpus plans. Flawed titles will be Latinized as    
-        punishment, and tagged as foreign words
+        => This group invented a con-lang in order to foil my corpus plans. The special characters do not play 
+        nice with the scraping tools and thus may appear as unknown characters.
 
 ### Lessons Learned
-    A lot had to be learned to make this project what it is since many unfimiliar tools were needed. Here is a list of the skills gained and practiced during development:
+    A lot had to be learned to make this project what it is since many unfimiliar tools were needed. Here is a 
+    list of the skills gained and practiced during development:
 
     - Python Programming
         => Reading Files
@@ -247,7 +263,7 @@
         ==> Instead of, or alongside the "chained-search" feature, support for searching multiple consecutive 
         words would be a great feature to have.
     - Track-Type Tag
-        ==> Some implementation (GUI). Would allow the user to sort by tracks that are sub-tracks or parts of a    
+        ==> Some implementation (GUI). Would allow the user to sort by tracks that are sub-tracks or parts of a   
         larger track. Or lets them filter them out if undesired. These tags are not present in full_corpus.xml
     - Search by Last Word
         ==> Implement a way to search by the last index.
@@ -280,10 +296,9 @@
     - Add/Remove Entries
         ==> Add more entries to the corpus, and remove problematic ones
 
-
 ### Generative Artificial Intelligence (Gen-AI) Usage Disclaimer
-    It can be assumed that Gen-AI was not used to generate neither prose, nor code related to this assignment with 
-    the following explicit exceptions in the file:
+    It can be assumed that Gen-AI was not used to generate neither prose, nor code related to this assignment 
+    with the following explicit exceptions in the file:
 
     ==> corpus_explorer.py
         Gen-AI tools (ChatGPT-4) were used for: 
@@ -327,7 +342,8 @@
 
 - **Part of Speech (POS) Dropdown**
 
-    This dropdown lets you select the POS tag to be searched that is assocciated with the word entered in the Search Bar. The tagset used is the NLTK tagset, which is a modified Penn tagset.
+    This dropdown lets you select the POS tag to be searched that is assocciated with the word entered in the 
+    Search Bar. The tagset used is the NLTK tagset, which is a modified Penn tagset.
 
 ### Second Row
 
@@ -345,11 +361,14 @@
 
 - **Lemma Search Checkbox**
 
-    This checkbox toggles the Lemma Search functionality. Checked means that only lemmas are searched in the corpus. You must put a lower-case lemma in the Search Bar to use this feature.
+    This checkbox toggles the Lemma Search functionality. Checked means that only lemmas are searched in the 
+    corpus. You must put a lower-case lemma in the Search Bar to use this feature.
 
 - **Word Index Checkbox**
 
-    This checkbox toggles the Word Index Search. It tells the explorer to only return results that match the Searched word at the specific number typed in the Word Index Text Field. Ex. In the sentence "The fox is hungry," the word "fox" is at index 2, and the word "hungry" is at index 4.
+    This checkbox toggles the Word Index Search. It tells the explorer to only return results that match the 
+    Searched word at the specific number typed in the Word Index Text Field. Ex. In the sentence "The fox is 
+    hungry," the word "fox" is at index 2, and the word "hungry" is at index 4.
 
 - **Word Index Text Field**
 
@@ -373,44 +392,76 @@
 
 - **Artist Name Search**
 
-    The checkbox toggles the search using the text field to the right. This line is for searching by Artist name (Not Case-Sensitive).
+    The checkbox toggles the search using the text field to the right. This line is for searching by Artist name 
+    (Not Case-Sensitive).
 
 - **Artist Sub-Genre Search**
 
-    The checkbox toggles the search using the dropdown to the right. This line is for searching by Sub-Genre (As appears on Prog Archives).
+    The checkbox toggles the search using the dropdown to the right. This line is for searching by Sub-Genre (As 
+    appears on Prog Archives).
+
+- **Artist Language Search**
+
+    The checkbox toggles the search using the dropdown to the right. This line is for searching by language. In 
+    many cases the group may have a different native language than is listed within the corpus. The language 
+    option indicates the primary language used for the album, even if it isn't the native language of the artist.
 
 ### Album Tags
 
 - **Album Name Search**
 
-    The checkbox toggles the search using the text field to the right. This line is for searching by Album name (Not Case-Sensitive).
+    The checkbox toggles the search using the text field to the right. This line is for searching by Album name 
+    (Not Case-Sensitive).
 
 - **Album Rating Search**
 
-    The checkbox toggles the search using the text field to the right. The operator dropdown allows searching using the symbols ">", "=", "<" whereby the ">" returns results greater than the input, and the "<" returns results less than the input. This line is for searching by Album rating (As appears on Prog Archives) in the form "X.XX" where each "X" is a digit from 0-9. The scale used only goes from 1.00 to 5.00, and most results lie in the 3.XX range or the 4.XX range.
+    The checkbox toggles the search using the text field to the right. The operator dropdown allows searching 
+    using the symbols ">", "=", "<" whereby the ">" returns results greater than the input, and the "<" returns 
+    results less than the input. This line is for searching by Album rating (As appears on Prog Archives) in the 
+    form "X.XX" where each "X" is a digit from 0-9. The scale used only goes from 1.00 to 5.00, and most results 
+    lie in the 3.XX range or the 4.XX range.
 
 - **Album Length Search**
 
-    The checkbox toggles the search using the text field to the right. The operator dropdown allows searching using the symbols ">", "=", "<" whereby the ">" returns results greater than the input, and the "<" returns results less than the input. This line is for searching by Album length either in the form of seconds (integer) or in the styles "MM:SS", or "H:MM:SS" where H is the number of hours, MM is the number of minutes (2 digits), and SS is the number of seconds (2 digits).
+    The checkbox toggles the search using the text field to the right. The operator dropdown allows searching 
+    using the symbols ">", "=", "<" whereby the ">" returns results greater than the input, and the "<" returns 
+    results less than the input. This line is for searching by Album length either in the form of seconds 
+    (integer) or in the styles "MM:SS", or "H:MM:SS" where H is the number of hours, MM is the number of minutes 
+    (2 digits), and SS is the number of seconds (2 digits).
 
 ### Track Tags
 
 - **Track Index Search**
 
-    The checkbox toggles the search using the text field to the right. The operator dropdown allows searching using the symbols ">", "=", "<" whereby the ">" returns results greater than the input, and the "<" returns results less than the input. This line is for searching by a numeric Track index (integer). Tracks originally listed with positions "a-g" or "i-vii" are converted to numeric form automatically.
+    The checkbox toggles the search using the text field to the right. The operator dropdown allows searching 
+    using the symbols ">", "=", "<" whereby the ">" returns results greater than the input, and the "<" returns 
+    results less than the input. This line is for searching by a numeric Track index (integer). Tracks originally 
+    listed with positions "a-g" or "i-vii" are converted to numeric form automatically.
 
 - **Track Length Search**
 
-    The checkbox toggles the search using the text field to the right. The operator dropdown allows searching using the symbols ">", "=", "<" whereby the ">" returns results greater than the input, and the "<" returns results less than the input. This line is for searching by Track length either in the form of seconds (integer) or in the style "MM:SS" where MM is the number of minutes (2 digits), and SS is the number of seconds (2 digits).   
+    The checkbox toggles the search using the text field to the right. The operator dropdown allows searching 
+    using the symbols ">", "=", "<" whereby the ">" returns results greater than the input, and the "<" returns 
+    results less than the input. This line is for searching by Track length either in the form of seconds 
+    (integer) or in the style "MM:SS" where MM is the number of minutes (2 digits), and SS is the number of 
+    seconds (2 digits).   
 
 - **Word Count Search**
 
-    The checkbox toggles the search using the text field to the right. The operator dropdown allows searching using the symbols ">", "=", "<" whereby the ">" returns results greater than the input, and the "<" returns results less than the input. This line is for searching by Track Word Count (integer). It tells the corpus to only return tracks that have the amount of words that satisfies the input. Some special punctuation cases are considered words (such as double-quotes).
+    The checkbox toggles the search using the text field to the right. The operator dropdown allows searching 
+    using the symbols ">", "=", "<" whereby the ">" returns results greater than the input, and the "<" returns 
+    results less than the input. This line is for searching by Track Word Count (integer). It tells the corpus to 
+    only return tracks that have the amount of words that satisfies the input. Some special punctuation cases are 
+    considered words (such as double-quotes).
+
+- **Exclude Sub-Tracks**
+
+    When checked, filters out all sub-tracks in the corpus. This can be usefull when looking for tracks that are  
+    less than a given time, since sub-tracks have a length of zero and will show up, skewing results.
 
 ### View Window
 
 Upon a normal search, the following information may appear:
-
 
 - **"Hits"**
 

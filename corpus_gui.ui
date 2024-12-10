@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1199</width>
-    <height>887</height>
+    <height>914</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -1246,6 +1246,56 @@
            </layout>
           </item>
           <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_14">
+            <item>
+             <widget class="QCheckBox" name="searchArtistLanguage">
+              <property name="text">
+               <string>Language</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="valueArtistLanguage">
+              <item>
+               <property name="text">
+                <string>en</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>es</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>fr</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>it</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>de</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>ru</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>hu</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
            <widget class="QLabel" name="tagsTitle2">
             <property name="font">
              <font>
@@ -1744,6 +1794,13 @@
              </spacer>
             </item>
            </layout>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="subCheckbox">
+            <property name="text">
+             <string>Exclude Sub-Tracks</string>
+            </property>
+           </widget>
           </item>
           <item>
            <spacer name="verticalSpacer_3">

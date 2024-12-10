@@ -131,6 +131,11 @@ class SearchWorker(QObject):
                 _progress_count += 1
                 continue # Artist genre required, but not matched. Skip
 
+            # Filter by artist language
+            if self.params["artist_lang_search"] and artist.get("lang").lower() != self.params["artist_lang_value"].lower():
+                _progress_count += 1
+                continue # Artist language required, but not matched. Skip
+
             ### Match by album tags
             for album in artist.findall("al"):
 
@@ -185,8 +190,6 @@ class SearchWorker(QObject):
                 ### Match by track tags
                 for track in album.findall("tr"):
 
-                    #for word in track.findall("w"):
-                    #    print(word.text)
 
                     _track_index_str = track.get("index").replace(" ", "").lower()
                     _track_index = 0
@@ -195,7 +198,7 @@ class SearchWorker(QObject):
                         _track_index = int(_track_index_str)
                     elif _track_index_str == "":
                         _track_index = -1
-                    else:
+                    else: # Handle tracks with letters and roman numerals as indexes
                         match _track_index_str:
                             case 'a':
                                 _track_index = 1
@@ -252,6 +255,7 @@ class SearchWorker(QObject):
 
                     _previous_h = False
 
+                    # Filer by track index
                     match str(self.params["track_index_op"]):
                         case ">":
                             if self.params["track_index_search"] and not (_track_index > int(self.params["track_index_value"])):
@@ -268,6 +272,10 @@ class SearchWorker(QObject):
 
                     # Filter by track length
                     _track_length = int(track.findtext("length"))
+
+                    # Filter out sub-tracks
+                    if _track_length == 0 and self.params["sub_checked"]:
+                        continue # Track is a sub-track and needs to go
 
                     match str(self.params["track_length_op"]):
                         case ">":
@@ -312,7 +320,7 @@ class SearchWorker(QObject):
                             
                             if str(self.params["pos_value"]) != "---" and word.get("pos") != str(self.params["pos_value"]):
                                 continue
-                            #print("Entry POS: " + word.get("pos") + " POS Query: " + str(self.params["pos_value"]))
+                            #print("Entry POS: " + word.get("pos") + " POS Query: " + str(self.params["pos_value"])) # DEBUG
 
                             word_index = 1
 
@@ -569,8 +577,6 @@ class MainUI(QMainWindow):
         self.dateAll.clicked.connect(self.on_date_all)
         self.dateNone.clicked.connect(self.on_date_none)
 
-        #self.clearButton.clicked.connect(self.on_clear)
-
     def start_search(self, is_chain):
 
         _tree = self.tree
@@ -580,8 +586,8 @@ class MainUI(QMainWindow):
             if is_chain: # <-- Should always be False if left unimplemented
                 if self.prev_chain:
                     pass
-                    #_tree = ET.parse("subset_corpus.xml")
-                    #_root = _tree.getroot()
+                    _tree = ET.parse("subset_corpus.xml")
+                    _root = _tree.getroot()
                 
                 self.prev_chain = True
                 self.amberIndicator.show()
@@ -603,6 +609,7 @@ class MainUI(QMainWindow):
         "word_index_search": self.searchWordIndex.isChecked(),
         "word_index_value": self.valueWordIndex.text(),
         "pos_value": self.posBox.currentText(),
+        "sub_checked": self.subCheckbox.isChecked(),
 
         # Artist parameters
         "artist_name_search": self.searchArtistName.isChecked(),
@@ -610,6 +617,9 @@ class MainUI(QMainWindow):
 
         "artist_genre_search": self.searchArtistGenre.isChecked(),
         "artist_genre_value": self.valueArtistGenre.currentText(),
+
+        "artist_lang_search": self.searchArtistLanguage.isChecked(),
+        "artist_lang_value": self.valueArtistLanguage.currentText(),
         
         # Album parameters
         "1966": self.date1968.isChecked(),
@@ -809,6 +819,7 @@ class MainUI(QMainWindow):
 if __name__ == "__main__":
     app = QApplication(sys.argv)
 
+    # NEVER put this in a function
     ui = MainUI()
 
     # Create splash screen
