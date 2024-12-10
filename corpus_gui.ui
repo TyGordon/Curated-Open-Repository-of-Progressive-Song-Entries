@@ -695,16 +695,6 @@
            </layout>
           </item>
           <item>
-           <widget class="QCheckBox" name="date1967">
-            <property name="text">
-             <string>1966 - 1967</string>
-            </property>
-            <property name="checked">
-             <bool>true</bool>
-            </property>
-           </widget>
-          </item>
-          <item>
            <widget class="QCheckBox" name="date1968">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
@@ -719,7 +709,7 @@
              </size>
             </property>
             <property name="text">
-             <string>1968</string>
+             <string>1966 - 1968</string>
             </property>
             <property name="checked">
              <bool>true</bool>
