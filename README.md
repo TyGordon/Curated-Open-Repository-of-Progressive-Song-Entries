@@ -172,7 +172,6 @@
     - The POS tagger is also often wrong. Most song titles are capitalized, and are thus tagged as NNS.
     - The translator translates everything. This wasn't the original plan, but this is how it is.
 
-
     THE FOLLOWING ALBUMS ARE PROBLEMATIC AND NEED TO BE HAND-CORRECTED UPON CORPUS COMPILATION:
     (List Format: [Album Title] - [Artist], '\n' '\t' '\t' => [Notes on why the title is an issue])
 
@@ -227,6 +226,7 @@
         => Connecting GUI elements to python functions
         => Using QT signals
     - Web Scraping
+        => Navigating HTML code
         => Using Wget and Curl to fetch webpages
         => Using (lots of) RegEx to clean the html data
     - XML Formatting
@@ -235,22 +235,28 @@
     - XML Querying
         => Building Xpath expressions
         => Using Xpath to find entries
+        => Filtering by XML tags
     - Programming Practices
         => Implementing parallel processing
         => Building and querying databases
         => Documenting a project
+        => Using markdown
         => Using version control (Git)
         => Using Gen AI resources to help implement a solution
         => Coming up with great names and acronyms
     - Corpus Creation
         => Designing a corpus
+        => Metadata collection
+        => Translation
         => Lemmatization 
         => PoS tagging
     - Corpus Investigation
         => Making informative queries
         => Using statistics to analyze patterns
+        => Writing investigation reports
+    
 
-### Further Work
+### Future Work
     This project is by no means complete. Several features and ideas are left incomplete, non-functional or 
     untouched. Even the functionality provided is inherently flawed, and could be reworked for a better product.
     Here are some features that were planned to be added if develpment were to continue:
@@ -327,6 +333,7 @@
 + Proto-Prog
 + Neo-Prog
 + Prog Related
+
 
 ## USAGE GUIDE
 
@@ -485,8 +492,6 @@ Upon a normal search, the following information may appear:
 
     ==> *Original Text* If Translated
     
-
-#### Words in bold match the searched word.
 
 ## ARTIST LIST
 
